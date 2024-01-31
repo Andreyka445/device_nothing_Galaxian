@@ -1,0 +1,30 @@
+From 40d4c89fa1210dc2122162422d1cfa1d2df21ff0 Mon Sep 17 00:00:00 2001
+From: Erfan Abdi <erfangplus@gmail.com>
+Date: Wed, 31 Jan 2024 17:22:40 +0330
+Subject: [PATCH] ImsService: Switch to shared libs to mtk frameworks
+
+---
+ AndroidManifest.xml | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+diff --git a/AndroidManifest.xml b/AndroidManifest.xml
+index de746fd..922c5ec 100644
+--- a/AndroidManifest.xml
++++ b/AndroidManifest.xml
+@@ -51,6 +51,13 @@
+     <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:directBootAware="true" android:extractNativeLibs="false" android:label="ImsApp" android:name="com.mediatek.ims.ImsApp" android:persistent="true" android:usesNonSdkApi="true">
+         <uses-library android:name="com.mediatek.ims.oemplugin" android:required="false"/>
+         <uses-library android:name="com.mediatek.ims.plugin" android:required="false"/>
++        <uses-library android:name="mediatek-common" android:required="true"/>
++        <uses-library android:name="mediatek-framework" android:required="true"/>
++        <uses-library android:name="mediatek-ims-base" android:required="true"/>
++        <uses-library android:name="mediatek-ims-common" android:required="true"/>
++        <uses-library android:name="mediatek-telecom-common" android:required="true"/>
++        <uses-library android:name="mediatek-telephony-base" android:required="true"/>
++        <uses-library android:name="mediatek-telephony-common" android:required="true"/>
+         <service android:exported="true" android:name="com.mediatek.ims.MtkDynamicImsService" android:permission="android.permission.BIND_IMS_SERVICE">
+             <meta-data android:name="android.telephony.ims.RCS_FEATURE" android:value="true"/>
+             <meta-data android:name="android.telephony.ims.MMTEL_FEATURE" android:value="true"/>
+-- 
+2.43.0
+
