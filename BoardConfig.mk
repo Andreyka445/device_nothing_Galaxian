@@ -74,6 +74,7 @@ BOARD_KERNEL_CMDLINE += log_buf_len=1M
 BOARD_KERNEL_CMDLINE += sysctl.kernel.sched_pelt_multiplier=4
 BOARD_KERNEL_CMDLINE += androidboot.console=0
 BOARD_KERNEL_CMDLINE += kasan=off
+BOARD_KERNEL_CMDLINE += rcupdate.rcu_expedited=1 rcu_nocbs=all rcutree.enable_rcu_lazy
 
 # Kernel (prebuilt)
 TARGET_PREBUILT_KERNEL := $(KERNEL_PATH)/$(BOARD_KERNEL_IMAGE_NAME)
