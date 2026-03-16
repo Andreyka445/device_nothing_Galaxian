@@ -73,6 +73,8 @@ BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE += log_buf_len=1M
 BOARD_KERNEL_CMDLINE += sysctl.kernel.sched_pelt_multiplier=4
 BOARD_KERNEL_CMDLINE += androidboot.console=0
+BOARD_KERNEL_CMDLINE += kasan=off
+
 # Kernel (prebuilt)
 TARGET_PREBUILT_KERNEL := $(KERNEL_PATH)/$(BOARD_KERNEL_IMAGE_NAME)
 TARGET_PREBUILT_KERNEL_HEADERS := $(KERNEL_PATH)/kernel-uapi-headers.tar.gz
