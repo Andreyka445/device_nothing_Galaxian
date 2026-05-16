@@ -145,6 +145,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Platform
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_BOARD_PLATFORM := mt6878
 
 # Recovery
