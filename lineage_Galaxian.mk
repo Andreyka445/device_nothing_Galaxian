@@ -9,22 +9,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile.
-$(call inherit-product, device/nothing/Galaga/device.mk)
+$(call inherit-product, device/nothing/Galaxian/device.mk)
 
 # Inherit some common lineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := lineage_Galaga
-PRODUCT_DEVICE := Galaga
+PRODUCT_NAME := lineage_Galaxian
+PRODUCT_DEVICE := Galaxian
 PRODUCT_MANUFACTURER := Nothing
 PRODUCT_BRAND := Nothing
-PRODUCT_MODEL := A001
+PRODUCT_MODEL := A001T
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceName=Galaga \
-    BuildDesc="sys_mssi_64_64only_ww_armv82-user 16 BP2A.250605.031.A3 2602261122 release-keys" \
-    BuildFingerprint=Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2602261122:user/release-keys
+    DeviceName=Galaxian \
+    PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="sys_mssi_64_64only_ww_armv82-user 15 AP3A.240905.015.A2 2510291642 release-keys" \
+    BuildFingerprint=alps/sys_mssi_64_64only_ww_armv82/mssi_64_64only_ww_armv82:15/AP3A.240905.015.A2/2510291642:user/release-keys

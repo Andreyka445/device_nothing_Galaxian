@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/nothing/Galaga
+DEVICE_PATH := device/nothing/Galaxian
 
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
@@ -185,10 +185,10 @@ include $(DEVICE_PATH)/vendor_logtag.mk
 
 # NTF
 PRODUCT_PACKAGES += \
-    nt-fwk.Galaga
+    nt-fwk.Galaxian
 
 PRODUCT_BOOT_JARS += \
-    nt-fwk.Galaga
+    nt-fwk.Galaxian
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -198,16 +198,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
-    CarrierConfigResGalaga \
-    FrameworkResOverlayGalaga \
-    SettingsResOverlayGalaga \
-    SystemUIOverlayGalaga \
-    TelephonyResTargetGalaga \
-    WifiOverlayGalaga
+    CarrierConfigResGalaxian \
+    FrameworkResOverlayGalaxian \
+    SettingsResOverlayGalaxian \
+    SystemUIOverlayGalaxian \
+    TelephonyResTargetGalaxian \
+    WifiOverlayGalaxian
 
 PRODUCT_PACKAGES += \
-    LineageApertureOverlayGalaga \
-    LineageSDKResGalaga
+    LineageApertureOverlayGalaxian \
+    LineageSDKResGalaxian
 
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
@@ -322,7 +322,7 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator.service.galaga-richtap
+    android.hardware.vibrator.service.galaxian-richtap
 
 # WiFi
 PRODUCT_PACKAGES += \
@@ -336,4 +336,4 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/nothing/Galaga/Galaga-vendor.mk)
+$(call inherit-product, vendor/nothing/Galaxian/Galaxian-vendor.mk)

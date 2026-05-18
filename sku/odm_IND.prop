@@ -1,4 +1,4 @@
-ro.odm.build.fingerprint=Nothing/GalagaIND/Galaga:14/UP1A.231005.007/2602261122:user/release-keys
-ro.vendor.build.fingerprint=Nothing/GalagaIND/Galaga:14/UP1A.231005.007/2602261122:user/release-keys
-ro.product.odm.name=GalagaIND
-ro.product.vendor.name=GalagaIND
+ro.odm.build.fingerprint=Nothing/GalaxianIND/Galaxian:14/UP1A.231005.007/2510291642:user/release-keys
+ro.vendor.build.fingerprint=Nothing/GalaxianIND/Galaxian:14/UP1A.231005.007/2510291642:user/release-keys
+ro.product.odm.name=GalaxianIND
+ro.product.vendor.name=GalaxianIND

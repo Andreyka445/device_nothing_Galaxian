@@ -4,7 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiOverlayGalaga",
-    theme: "WifiOverlay",
-    vendor: true,
+    name: "TelephonyResTargetGalaxian",
+    device_specific: true,
 }

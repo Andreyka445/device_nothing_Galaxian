@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/nothing/Galaga
+DEVICE_PATH := device/nothing/Galaxian
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 # A/B
@@ -32,7 +32,7 @@ TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_VARIANT := cortex-a76
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Galaga
+TARGET_BOOTLOADER_BOARD_NAME := Galaxian
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -72,8 +72,7 @@ BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE += log_buf_len=1M
 BOARD_KERNEL_CMDLINE += sysctl.kernel.sched_pelt_multiplier=4
-BOARD_BOOTCONFIG += androidboot.serialconsole=0
-
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
 # Kernel (prebuilt)
 TARGET_PREBUILT_KERNEL := $(KERNEL_PATH)/$(BOARD_KERNEL_IMAGE_NAME)
 TARGET_PREBUILT_KERNEL_HEADERS := $(KERNEL_PATH)/kernel-uapi-headers.tar.gz
@@ -222,4 +221,4 @@ WIFI_FEATURE_HOSTAPD_11AX := true
 WIFI_FEATURE_SUPPLICANT_11AX := true
 
 # Inherit the proprietary files
-include vendor/nothing/Galaga/BoardConfigVendor.mk
+include vendor/nothing/Galaxian/BoardConfigVendor.mk

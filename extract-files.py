@@ -18,7 +18,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/nothing/Galaga',
+    'device/nothing/Galaxian',
     'hardware/mediatek',
 ]
 
@@ -122,7 +122,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'Galaga',
+    'Galaxian',
     'nothing',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,

@@ -4,6 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "TelephonyResTargetGalaga",
-    device_specific: true,
+    name: "CarrierConfigResGalaxian",
+    product_specific: true,
+    aaptflags: ["--keep-raw-values"]
 }

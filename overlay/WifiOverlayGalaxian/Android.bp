@@ -4,7 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "CarrierConfigResGalaga",
-    product_specific: true,
-    aaptflags: ["--keep-raw-values"]
+    name: "WifiOverlayGalaxian",
+    theme: "WifiOverlay",
+    vendor: true,
 }

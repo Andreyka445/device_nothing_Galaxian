@@ -4,9 +4,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.android.wifi.resources.galaga">
-    <overlay android:targetPackage="com.android.wifi.resources"
-             android:targetName="WifiCustomization"
+          package="lineageos.platform.overlay.lineage.galaxian">
+    <overlay android:targetPackage="lineageos.platform"
              android:isStatic="true"
-             android:priority="0" />
+             android:priority="350" />
 </manifest>
