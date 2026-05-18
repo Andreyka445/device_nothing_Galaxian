@@ -621,14 +621,12 @@ vendor/lib64/libmtkcam_grallocutils_aidlv1helper.so
 vendor/lib64/libmtkcam_hal_custom_state.so
 vendor/lib64/libmtkcam_hal_custom_utils.so
 vendor/lib64/libmtkcam_perfctrl_wrapper.so
-vendor/lib64/libmtkcam_thirdparty.vidhance.so
 vendor/lib64/libn3d_tuning.so
 vendor/lib64/libportrait_repair_apu.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libstmobile_rater.so
 vendor/lib64/libultrahdr_mtk.so
-vendor/lib64/libvidhance.so
 vendor/lib64/libwa_widelens_undistort.so
 vendor/lib64/libwa_widelens_undistort_impl.so
 vendor/lib64/vendor.mediatek.hardware.camera.aovservice-V2-ndk.so
@@ -654,7 +652,6 @@ vendor/etc/camera/Vega_Track_FaceRect20cls_2.2.0_fp16_arm64.model
 vendor/etc/camera/algo_policy.bin
 vendor/etc/camera/binary_cache
 vendor/etc/camera/bokeh_caldata_uw_golden.bin
-vendor/etc/camera/capture_model
 vendor/etc/camera/config.json
 vendor/etc/camera/dualcam_cali_golden_T_W_1.bin
 vendor/etc/camera/dualcam_cali_golden_W_UW_1.bin
@@ -667,6 +664,7 @@ vendor/etc/camera/param.bin
 vendor/etc/camera/vidhance.lic
 vendor/etc/camera/vidhance_calibration
 vendor/etc/default_pd_calibration.bin
+vendor/lib64/mt6878/libmorpho_video_stabilizer.so:vendor/lib64/mt6878/libmorpho_video_stabilizer.so
 
 # Camera firmware
 vendor/firmware/lib3a.ccu

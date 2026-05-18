@@ -26,6 +26,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=Galaxian \
-    PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="sys_mssi_64_64only_ww_armv82-user 15 AP3A.240905.015.A2 2510291642 release-keys" \
     BuildFingerprint=alps/sys_mssi_64_64only_ww_armv82/mssi_64_64only_ww_armv82:15/AP3A.240905.015.A2/2510291642:user/release-keys
