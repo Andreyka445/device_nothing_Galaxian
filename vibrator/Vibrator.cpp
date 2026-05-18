@@ -14,8 +14,8 @@
 #include "aac_vibra_function.h"
 
 #define RICHTAP_LIGHT_STRENGTH 77
-#define RICHTAP_MEDIUM_STRENGTH 88
-#define RICHTAP_STRONG_STRENGTH 99
+#define RICHTAP_MEDIUM_STRENGTH 97
+#define RICHTAP_STRONG_STRENGTH 100
 
 enum vibrationMode {
     MODE_NONE,
@@ -53,12 +53,7 @@ ndk::ScopedAStatus Vibrator::getCapabilities(int32_t* _aidl_return) {
 }
 
 ndk::ScopedAStatus Vibrator::off() {
-    bool ret = aac_vibra_looper_stopPerformHe();
-
-    if (ret)
-        ALOGW("No HE effects to stop!");
-
-    ret = aac_vibra_off();
+    int32_t ret = aac_vibra_off();
     if (ret) {
         ALOGE("AAC off failed: %d\n", ret);
         return ndk::ScopedAStatus(AStatus_fromExceptionCode(EX_SERVICE_SPECIFIC));

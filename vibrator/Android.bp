@@ -1,15 +1,15 @@
 cc_binary {
-    name: "android.hardware.vibrator.service.galaga-richtap",
+    name: "android.hardware.vibrator.service.galaxian-richtap",
     vendor: true,
     cflags: [
         "-Wall",
         "-Werror",
-        "-DLOG_TAG=\"android.hardware.vibrator.service.galaga-richtap\"",
+        "-DLOG_TAG=\"android.hardware.vibrator.service.galaxian-richtap\"",
     ],
     relative_install_path: "hw",
-    init_rc: ["android.hardware.vibrator.service.galaga-richtap.rc"],
+    init_rc: ["android.hardware.vibrator.service.galaxian-richtap.rc"],
     vintf_fragments: [
-        "android.hardware.vibrator.service.galaga-richtap.xml",
+        "android.hardware.vibrator.service.galaxian-richtap.xml",
     ],
     srcs: [
         "service.cpp",
