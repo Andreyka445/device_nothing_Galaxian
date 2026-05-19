@@ -1,4 +1,4 @@
-=on boot
+on boot
     chown system system /dev/aac_richtap
     chmod 0666 /dev/aac_richtap
 
