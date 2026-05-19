@@ -1,4 +1,4 @@
-# All proprietary files from this list are from Galaga_B4.0-260226-1122
+# All proprietary files from this list are from Galaxian_B4.1-260508-1508
 
 # AEE
 vendor/lib64/libaedv.so
@@ -664,7 +664,7 @@ vendor/etc/camera/param.bin
 vendor/etc/camera/vidhance.lic
 vendor/etc/camera/vidhance_calibration
 vendor/etc/default_pd_calibration.bin
-vendor/lib64/mt6878/libmorpho_video_stabilizer.so:vendor/lib64/mt6878/libmorpho_video_stabilizer.so
+vendor/lib64/mt6878/libmorpho_video_stabilizer.so:vendor/lib64/libmorpho_video_stabilizer.so
 
 # Camera firmware
 vendor/firmware/lib3a.ccu
