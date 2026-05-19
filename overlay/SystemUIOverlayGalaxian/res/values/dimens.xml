@@ -6,6 +6,10 @@
 <resources>
     <dimen name="keyguard_indication_margin_bottom">10dp</dimen>
 
+    <!-- Udfps animation -->
+    <dimen name="udfps_animation_offset">-12dp</dimen>
+    <dimen name="udfps_animation_size">150dp</dimen>
+
     <!-- Location on the screen of the center of the physical power button. This is a reasonable
     default that should be overridden by device-specific overlays. -->
     <dimen name="physical_power_button_center_screen_location_y">1030.0px</dimen>
