@@ -203,7 +203,8 @@ PRODUCT_PACKAGES += \
     SettingsResOverlayGalaxian \
     SystemUIOverlayGalaxian \
     TelephonyResTargetGalaxian \
-    WifiOverlayGalaxian
+    WifiOverlayGalaxian \
+    SettingsProviderOverlayGalaxian
 
 PRODUCT_PACKAGES += \
     LineageApertureOverlayGalaxian \
