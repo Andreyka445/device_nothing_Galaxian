@@ -1,6 +1,6 @@
 ### Device Tree for the Nothing Phone (3a) Lite [galaxian]
 
-The Nothing Phone (3a) Lite (codenamed _"Galaxian"_) is a mid-range smartphone from Nothing released in early 2025.
+The Nothing Phone (3a) Lite (codenamed _"Galaxian"_) is a mid-range smartphone from Nothing released in late 2025.
 
 ## Device specifications
 
