@@ -11,6 +11,7 @@ persist.vendor.overlay.fp_vendor    u:object_r:vendor_fingerprint_prop:s0
 # TEE
 ro.vendor.trustonic.ready u:object_r:vendor_trustonic_prop:s0 exact bool
 
+# Camera
 vendor.camera.           u:object_r:vendor_camera_prop:s0
 vendor.mtk.camera.       u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.   u:object_r:vendor_camera_prop:s0
