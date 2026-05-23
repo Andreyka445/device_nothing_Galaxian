@@ -14,6 +14,7 @@ Shipped Android Version | 15 (Currently tree based on NOS 4.1 v1508)
 Storage | 128 / 256 GB
 Battery | 5000 mAh
 Display | 1084 x 2392 pixels, 6.77 inches, 60/120 hz
+Local manifest | https://github.com/Andreyka445/local_manifest
 
 ![Nothing Phone (3a) Lite](https://4pda.to/forum/dl/post/34278358/Nothing_%283a%29_Lite_%2804%29.jpg)
 
