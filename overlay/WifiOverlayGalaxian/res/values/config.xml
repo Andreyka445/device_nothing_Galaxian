@@ -67,7 +67,7 @@
     <string name="config_wifi_tcp_buffers" translatable="false">1730560,3461120,6922240,524288,1048576,4525824</string>
 
     <!-- Do not translate. Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">CMF by Nothing Phone 2 Pro</string>
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Nothing Phone (3a) Lite</string>
 
     <!--
     Controls the mapping between RSSI and RSSI levels.
