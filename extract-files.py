@@ -133,3 +133,20 @@ module = ExtractUtilsModule(
 if __name__ == '__main__':
     utils = ExtractUtils.device(module)
     utils.run()
+
+    import os
+    mk_file = '../../../vendor/nothing/Galaxian/Galaxian-vendor.mk'
+    if os.path.exists(mk_file):
+        with open(mk_file, 'r') as f:
+            lines = f.readlines()
+        
+        nfc_targets = [
+            '7816-3-T1', 'thn31nfc', 'nxp_snxxx', 'tms-cos', 'tms-utils',
+            'nfc-service', 'libnfc', 'sn100u', 'tmsnfc_aidl'
+        ]
+        
+        with open(mk_file, 'w') as f:
+            for line in lines:
+                if any(target in line for target in nfc_targets):
+                    continue
+                f.write(line)
