@@ -1259,7 +1259,6 @@ vendor/lib64/tms-utils.so:vendor/lib64/tms-utils.so
 vendor/etc/init/nfc-service-nxp.rc:vendor/etc/init/nfc-service-nxp.rc
 vendor/etc/init/nfc-service-tms.rc:vendor/etc/init/nfc-service-tms.rc
 vendor/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
-vendor/lib64/vendor.tms.tmsnfc_aidl-V1-ndk.so
 
 # NFC configs
 system/etc/libnfc-nci.conf:system/etc/libnfc-nci.conf
