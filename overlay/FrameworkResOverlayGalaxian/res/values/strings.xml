@@ -7,7 +7,7 @@
     <!-- Array containing custom messages shown during fingerprint acquisision from vendor.  Vendor is expected to add and translate these strings -->
     <string-array name="fingerprint_acquired_vendor">
         <item>WAIT_FINGER_INPUT</item>
-        <item>FINGER_DOWN</item>
+        <item/>
         <item>FINGER_UP</item>
         <item>Lift your finger</item>
         <item>Adjust your finger\nAdjust your finger slightly to record a different side.</item>
