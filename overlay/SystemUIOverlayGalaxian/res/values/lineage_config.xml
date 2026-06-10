@@ -6,4 +6,7 @@
 <resources>
     <!-- Doze: does the long press sensor need a proximity check? -->
     <bool name="doze_long_press_proximity_check">true</bool>
+
+    <!-- Enable MediaTek global-HBM dim layer for optical UDFPS illumination -->
+    <bool name="config_udfpsMtkGhbmDimming">true</bool>
 </resources>
