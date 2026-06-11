@@ -573,4 +573,14 @@
     
     <!-- When true, udfps vote is ignored -->
     <bool name="config_ignoreUdfpsVote">true</bool>
+
+    <!-- Reduce haptic feedback intensity to prevent excessive vibration -->
+    <integer name="config_defaultHapticFeedbackIntensity">1</integer>
+
+    <!-- Custom vibration intensity scale factors to reduce excessive vibration -->
+    <string-array name="config_vibrationIntensityScaleFactors" translatable="false">
+        <item>0.25</item>
+        <item>0.45</item>
+        <item>0.65</item>
+    </string-array>
 </resources>
