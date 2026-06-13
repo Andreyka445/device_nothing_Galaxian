@@ -3,3 +3,6 @@ vendor.goodix.hardware.biometrics.fingerprint.IGoodixFingerprintDaemon/default  
 
 # Sensors
 vendor.noth.hardware.sensor.sensor_extension.ISensorExtension/default    u:object_r:hal_sensors_service:s0
+
+# NFC
+vendor.tms.tmsnfc_aidl.ITmsNfc/default    u:object_r:vendor_tms_nfc_service:s0

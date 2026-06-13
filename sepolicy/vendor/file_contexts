@@ -28,3 +28,8 @@
 # Vibrator
 /dev/aac_richtap                                                       u:object_r:aac_richtap_device:s0
 /vendor/bin/hw/android\.hardware\.vibrator\.service\.galaxian-richtap    u:object_r:hal_vibrator_default_exec:s0
+
+# NFC
+/vendor/bin/hw/android\.hardware\.nfc-service-tms    u:object_r:hal_nfc_default_exec:s0
+/dev/tms_nfc    u:object_r:vendor_tms_nfc_device:s0
+
