@@ -168,6 +168,18 @@
         <transport>hwbinder</transport>
         <fqname>@1.1::ITee/default</fqname>
     </hal>
+    <hal format="aidl">
+        <name>android.hardware.nfc</name>
+        <fqname>INfc/default</fqname>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.tms.tmsnfc_aidl</name>
+        <version>1</version>
+        <interface>
+            <name>ITmsNfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl">
         <name>vendor.trustonic.tee.tui</name>
         <transport>hwbinder</transport>
