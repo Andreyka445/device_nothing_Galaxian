@@ -59,6 +59,18 @@ on post-fs-data
     write /dev/cpuctl/background/cpu.uclamp.min 100
     write /dev/cpuctl/background/cpu.uclamp.latency_sensitive 1
 
+on boot
+    mkdir /dev/cpuset/surfaceflinger
+    write /dev/cpuset/surfaceflinger/cpus 2-5
+    write /dev/cpuset/surfaceflinger/mems 0
+    chown system system /dev/cpuset/surfaceflinger
+    chown system system /dev/cpuset/surfaceflinger/tasks
+    chown system system /dev/cpuset/surfaceflinger/cgroup.procs
+    # set surfaceflinger to 0775 so SurfaceFlinger can touch it
+    chmod 0775 /dev/cpuset/surfaceflinger
+    chmod 0664 /dev/cpuset/surfaceflinger/tasks
+    chmod 0664 /dev/cpuset/surfaceflinger/cgroup.procs
+
 on property:sys.boot_completed=1
     # end boot time fs tune
     write /sys/block/mmcblk0/queue/nr_requests 64
