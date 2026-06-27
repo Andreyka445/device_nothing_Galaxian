@@ -119,6 +119,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libsilkybrightnesscore.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'vendor/bin/mnld': blob_fixup()
+        .replace_needed('libmnl.so', 'libmnl-v33.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
