@@ -8,3 +8,20 @@ cc_library {
     srcs: ["camera_metadata.cpp"],
     vendor: true,
 }
+
+cc_library_shared {
+    name: "libaudiotrack_shim",
+    srcs: ["AudioTrackShim.cpp"],
+    shared_libs: [
+        "libaudioclient",
+        "libutils",
+        "liblog",
+    ],
+    header_libs: [
+        "libaudioclient_headers",
+        "libaudioutils_headers",
+        "libbase_headers",
+        "libmedia_headers",
+    ],
+    system_ext_specific: true,
+}

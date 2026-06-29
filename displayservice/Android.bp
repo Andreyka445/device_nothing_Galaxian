@@ -1,0 +1,16 @@
+cc_prebuilt_library_shared {
+    name: "android.frameworks.displayservice@1.0",
+    owner: "nothing",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: ["lib64/android.frameworks.displayservice@1.0.so"],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    vendor: true,
+    prefer: true,
+}

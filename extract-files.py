@@ -41,6 +41,8 @@ blob_fixups: blob_fixups_user_type = {
         .apktool_patch('ims-patches'),
     'system_ext/lib64/libimsma.so': blob_fixup()
         .replace_needed('libsink.so', 'libsink-mtk.so'),
+    'system_ext/lib64/libsink-mtk.so': blob_fixup()
+        .add_needed('libaudiotrack_shim.so'),
     'vendor/bin/hw/mt6878/camerahalserver': blob_fixup()
         .add_needed('libcamera_metadata_ntshim.so'),
     'vendor/lib64/hw/mt6878/vendor.mediatek.hardware.pq_aidl-impl.so': blob_fixup()
@@ -121,8 +123,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/bin/mnld': blob_fixup()
         .replace_needed('libmnl.so', 'libmnl-v33.so'),
-    'vendor/lib64/mt6878/libmtkcam_hal_android_app_cbadaptor.so': blob_fixup()
-        .remove_needed('android.frameworks.displayservice@1.0.so'),
     ('vendor/lib64/libcodec2_mtk_vdec.so', 'vendor/lib64/libcodec2_mtk_venc.so'): blob_fixup()
         .replace_needed('libformatter.so', 'libformatter-v33.so'),
 }  # fmt: skip
