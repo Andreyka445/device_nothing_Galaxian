@@ -202,10 +202,6 @@ vendor/lib64/libbt-vendor.so
 # Bluetooth (Firmware)
 vendor/firmware/BT_FW.cfg
 
-# Chipset info
-vendor/bin/chipinfo
-vendor/etc/init/chipinfo_init.rc
-
 # Connectivity
 vendor/bin/conninfra_loader
 vendor/firmware/connfem.cfg
