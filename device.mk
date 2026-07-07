@@ -331,7 +331,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     hardware/google/pixel \
     hardware/mediatek/libmtkperf_client \
-    hardware/mediatek/wlan/wifi_hal \
     hardware/google/interfaces \
     hardware/google/pixel/pixelstats \
     hardware/google/pixel/usb \
@@ -375,13 +374,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator.service.galaxian-richtap
 
-# WiFi
+# Wifi
+$(call soong_config_set_bool,mediatek_wifi_hal,use_pre_u_qpr2_struct,true)
+
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service-lazy \
     hostapd \
     wpa_supplicant \
     wlan_assistant
 
+
+PRODUCT_PACKAGES += \
+    libwifi-hal-wrapper
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.direct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.direct.xml \
