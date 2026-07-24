@@ -22,7 +22,7 @@ Required repos💫:
 
 Vendor tree: https://github.com/Andreyka445/vendor_nothing_galaxian
 
-kernel tree: https://github.com/Andreyka445/device_nothing_Galaxian-kernel
+kernel tree: https://github.com/Andreyka445/android_device_nothing_Galaxian-kernel
 
 hw/mtk: https://github.com/Andreyka445/hardware_mediatek
 
