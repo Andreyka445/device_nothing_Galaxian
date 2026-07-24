@@ -18,6 +18,17 @@ Local manifest | https://github.com/Andreyka445/local_manifest
 
 ![Nothing Phone (3a) Lite](https://4pda.to/forum/dl/post/34278358/Nothing_%283a%29_Lite_%2804%29.jpg)
 
+Required repos💫:
+
+Vendor tree: https://github.com/Andreyka445/vendor_nothing_galaxian
+
+kernel tree: https://github.com/Andreyka445/device_nothing_Galaxian-kernel
+
+hw/mtk: https://github.com/Andreyka445/hardware_mediatek
+
+sepolicy: https://github.com/Andreyka445/device_mediatek_sepolicy_vndr
+
+Happy Building🌜
 ```
 #
 # Copyright (C) The LineageOS Project
