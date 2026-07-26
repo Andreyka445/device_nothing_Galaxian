@@ -18,3 +18,5 @@ bluetooth.profile.sap.server.enabled=true
 
 # RKPD
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
+remote_provisioning.tee.rkp_only=1
+remote_provisioning.strongbox.rkp_only=1
