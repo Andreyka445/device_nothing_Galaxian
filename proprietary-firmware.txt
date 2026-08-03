@@ -1,4 +1,4 @@
-# All proprietary files from this list are from Galaga_B4.0-260226-1122
+# All proprietary files from this list are from Galaga_B4.1-260702-1815
 
 apusys.img;AB
 ccu.img;AB

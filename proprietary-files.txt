@@ -1,4 +1,4 @@
-# All proprietary files from this list are from Galaxian_B4.1-260508-1508
+# All proprietary files from this list are from Galaxian_B4.1-260702-1815
 
 # AEE
 vendor/lib64/libaedv.so
