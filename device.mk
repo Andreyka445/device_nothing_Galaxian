@@ -46,6 +46,9 @@ PRODUCT_PACKAGES += \
 # Audio
 $(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
 
+# Fenrir
+$(call soong_config_set_bool,fastbootd,bypass_lock_state,true)
+
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio@7.1-impl \
