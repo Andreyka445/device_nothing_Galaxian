@@ -59,6 +59,9 @@ PRODUCT_PACKAGES += \
 # Audio
 $(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
 
+#Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Fenrir
 $(call soong_config_set_bool,fastbootd,bypass_lock_state,true)
 
