@@ -136,6 +136,12 @@ on post-fs-data
     wait_for_prop vendor.all.modules.ready 1
     write /proc/bootprof "modprobe: Load_Module_DONE"
 
+    chown system system /proc/touchpanel/gesture_code
+    chown system system /sys/devices/platform/soc/11013000.spi3/spi_master/spi3/spi3.0/fts_gesture_single_tap_enabled
+    chown system system /sys/devices/platform/soc/11013000.spi3/spi_master/spi3/spi3.0/fts_gesture_single_tap_pressed
+    chown system system /sys/devices/platform/soc/11013000.spi3/spi_master/spi3/spi3.0/fts_fod_enabled
+    chown system system /sys/devices/platform/soc/11013000.spi3/spi_master/spi3/spi3.0/fts_fod_pressed
+
     chown system system /mnt/vendor/nvcfg
     chmod 0771 /mnt/vendor/nvcfg
     restorecon_recursive /mnt/vendor/nvcfg

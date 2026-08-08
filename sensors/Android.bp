@@ -30,6 +30,21 @@ cc_library_shared {
     ],
     cflags: [
         "-DLOG_TAG=\"sensors.nothing\"",
-    ],
+    ] + select(soong_config_variable("nothing_sensors", "tp_single_tap_path"), {
+        any @ flag_val: ["-DPANEL_SINGLE_TAP_PATH=\"" + flag_val + "\""],
+        default: ["-DPANEL_SINGLE_TAP_PATH=\"/sys/class/spi_master/spi0/spi0.0/fts_gesture_single_tap_pressed\""],
+    }) + select(soong_config_variable("nothing_sensors", "tp_single_tap_enabled_path"), {
+        any @ flag_val: ["-DPANEL_SINGLE_TAP_ENABLED_PATH=\"" + flag_val + "\""],
+        default: [],
+    }) + select(soong_config_variable("nothing_sensors", "tp_single_tap_coords_path"), {
+        any @ flag_val: ["-DPANEL_SINGLE_TAP_COORDS_PATH=\"" + flag_val + "\""],
+        default: [],
+    }) + select(soong_config_variable("nothing_sensors", "tp_udfps_path"), {
+        any @ flag_val: ["-DPANEL_UDFPS_PATH=\"" + flag_val + "\""],
+        default: ["-DPANEL_UDFPS_PATH=\"/sys/class/spi_master/spi0/spi0.0/fts_gesture_fod_pressed\""],
+    }) + select(soong_config_variable("nothing_sensors", "tp_udfps_enabled_path"), {
+        any @ flag_val: ["-DPANEL_UDFPS_ENABLED_PATH=\"" + flag_val + "\""],
+        default: [],
+    }),
     vendor: true,
 }

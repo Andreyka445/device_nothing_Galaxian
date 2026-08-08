@@ -22,6 +22,7 @@
 #include <unistd.h>
 
 #include <condition_variable>
+#include <fstream>
 #include <memory>
 #include <mutex>
 #include <thread>
@@ -49,6 +50,7 @@ class ISensorsEventCallback {
 class Sensor {
   public:
     Sensor(int32_t sensorHandle, ISensorsEventCallback* callback);
+    virtual bool opened() { return true; }
     virtual ~Sensor();
 
     const SensorInfo& getSensorInfo() const;
@@ -91,47 +93,75 @@ class OneShotSensor : public Sensor {
     virtual Result flush() override { return Result::BAD_VALUE; }
 };
 
-class UdfpsSensor : public OneShotSensor {
+class SysfsPollingOneShotSensor : public OneShotSensor {
   public:
-    UdfpsSensor(int32_t sensorHandle, ISensorsEventCallback* callback);
-    virtual ~UdfpsSensor() override;
+    SysfsPollingOneShotSensor(int32_t sensorHandle, ISensorsEventCallback* callback,
+                              const std::string& pollPath, 
+                              std::optional<std::string> enablePath,
+                              std::optional<std::string> coordinatePath,
+                              const std::string& name, const std::string& typeAsString,
+                              SensorType type);
+    virtual bool opened();
+    virtual ~SysfsPollingOneShotSensor() override;
 
     virtual void activate(bool enable) override;
+    virtual void activate(bool enable, bool notify, bool lock);
+    virtual void writeEnable(bool enable);
     virtual void setOperationMode(OperationMode mode) override;
+    virtual std::vector<Event> readEvents() override;
+    virtual void fillEventData(Event& event);
 
   protected:
     virtual void run() override;
-    virtual std::vector<Event> readEvents();
+
+    std::ofstream mEnableStream;
 
   private:
     void interruptPoll();
+    void readCoordinates(float* x, float* y);
+    std::optional<std::string> mCoordinatePath;
 
     struct pollfd mPolls[2];
     int mWaitPipeFd[2];
     int mPollFd;
 
-    int mScreenX;
-    int mScreenY;
+    bool handleEnable;
 };
 
-class SingleTapSensor : public OneShotSensor {
+constexpr int32_t SENSOR_TYPE_BASE = static_cast<int32_t>(SensorType::DEVICE_PRIVATE_BASE) + 100;
+
+class SingleTapSensor : public SysfsPollingOneShotSensor {
   public:
-    SingleTapSensor(int32_t sensorHandle, ISensorsEventCallback* callback);
-    virtual ~SingleTapSensor() override;
+    SingleTapSensor(int32_t sensorHandle, ISensorsEventCallback* callback)
+        : SysfsPollingOneShotSensor(
+              sensorHandle, callback, PANEL_SINGLE_TAP_PATH, 
+#ifdef PANEL_SINGLE_TAP_ENABLED_PATH
+              PANEL_SINGLE_TAP_ENABLED_PATH,
+#else 
+              std::nullopt,
+#endif
 
-    virtual void activate(bool enable) override;
-    virtual void setOperationMode(OperationMode mode) override;
+#ifdef PANEL_SINGLE_TAP_COORDS_PATH
+              PANEL_SINGLE_TAP_COORDS_PATH,
+#else 
+              std::nullopt,
+#endif
+              "Single Tap Sensor", "org.lineageos.sensor.single_tap",
+              static_cast<SensorType>(SENSOR_TYPE_BASE + 1)) {}
+};
 
-  protected:
-    virtual void run() override;
-    virtual std::vector<Event> readEvents();
-
-  private:
-    void interruptPoll();
-
-    struct pollfd mPolls[2];
-    int mWaitPipeFd[2];
-    int mPollFd;
+class UdfpsSensor : public SysfsPollingOneShotSensor {
+  public:
+    UdfpsSensor(int32_t sensorHandle, ISensorsEventCallback* callback)
+        : SysfsPollingOneShotSensor(
+              sensorHandle, callback, PANEL_UDFPS_PATH, 
+#ifdef PANEL_UDFPS_ENABLED_PATH
+              PANEL_UDFPS_ENABLED_PATH,
+#else
+              std::nullopt,
+#endif     
+              std::nullopt, "UDFPS Sensor", "org.lineageos.sensor.udfps",
+              static_cast<SensorType>(SENSOR_TYPE_BASE + 3)) {}
 };
 
 }  // namespace implementation
