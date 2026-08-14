@@ -1056,7 +1056,3 @@ on property:ro.boot.slot_suffix=_b
 # reset mdmode when modem crash happens in ATM
 on property:vendor.mtk.md1.status=reset
     setprop persist.vendor.atm.mdmode normal
-
-# Dt2w
-on property:vendor.touch.double_tap_to_wake=*
-    write /proc/touchpanel/gesture_mode ${vendor.touch.double_tap_to_wake}

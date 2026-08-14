@@ -1,4 +1,1 @@
 allow vendor_init proc_touchpanel:file { read write open };
-
-# dt2w
-get_prop(vendor_init, vendor_power_prop)
