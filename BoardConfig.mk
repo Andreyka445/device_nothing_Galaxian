@@ -168,6 +168,7 @@ include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
 # Verified boot
 BOARD_AVB_ENABLE := true
+BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
 
 BOARD_AVB_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
 BOARD_AVB_ALGORITHM := SHA256_RSA2048
