@@ -3,3 +3,5 @@ binder_call(hal_sensors_default, system_server)
 allow hal_sensors_default sysfs_panel_feature:file { read open };
 allow hal_sensors_default sysfs_fts_fod_mode:dir r_dir_perms;
 allow hal_sensors_default sysfs_fts_fod_mode:file rw_file_perms;
+allow hal_sensors_default proc_touchpanel:dir search;
+allow hal_sensors_default proc_touchpanel:file { read open getattr};
