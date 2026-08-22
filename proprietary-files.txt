@@ -1,8 +1,5 @@
 # All proprietary files from this list are from Galaxian_B4.1-260702-1815
 
-# AEE
-vendor/lib64/libaedv.so
-
 # AAL
 vendor/lib64/mt6878/libaal_cust_func.so;SYMLINK=vendor/lib64/libaal_cust_func.so
 vendor/lib64/mt6878/libaalservice.so;SYMLINK=vendor/lib64/libaalservice.so
@@ -848,7 +845,6 @@ vendor/lib64/libgralloc_metadata.so
 vendor/lib64/libgralloctypes_mtk.so
 vendor/lib64/libion_mtk.so
 vendor/lib64/libion_ulit.so
-vendor/lib64/libladder.so
 vendor/lib64/libsilkybrightnesscore.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
