@@ -45,6 +45,10 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libaudiotrack_shim.so'),
     'vendor/bin/hw/mt6878/camerahalserver': blob_fixup()
         .add_needed('libcamera_metadata_ntshim.so'),
+    'vendor/etc/wifi/p2p_supplicant_overlay.conf': blob_fixup()
+        .add_line_if_missing('p2p_go_vht=1'),
+    'vendor/etc/wifi/wpa_supplicant.conf': blob_fixup()
+        .add_line_if_missing('rsn_overriding=1'),
     'vendor/lib64/hw/mt6878/vendor.mediatek.hardware.pq_aidl-impl.so': blob_fixup()
         .add_needed('libui_shim.so')
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
