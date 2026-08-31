@@ -762,6 +762,8 @@ vendor/bin/mnld
 vendor/bin/mtk_agpsd
 vendor/bin/mtk_lbs_service
 vendor/etc/init/android.hardware.gnss-service.mediatek.rc
+vendor/etc/init/init.gps_pwr.rc
+vendor/etc/init/init.gps_scp.rc
 vendor/etc/init/mtk_agpsd_p.rc
 vendor/etc/init/mtk_gnss.rc
 vendor/etc/init/mtk_lbs_service.rc
