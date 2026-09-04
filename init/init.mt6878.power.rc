@@ -61,7 +61,7 @@ on post-fs-data
 
 on boot
     mkdir /dev/cpuset/surfaceflinger
-    write /dev/cpuset/surfaceflinger/cpus 2-5
+    write /dev/cpuset/surfaceflinger/cpus 4-7
     write /dev/cpuset/surfaceflinger/mems 0
     chown system system /dev/cpuset/surfaceflinger
     chown system system /dev/cpuset/surfaceflinger/tasks
