@@ -28,6 +28,8 @@ hw/mtk: https://github.com/Andreyka445/hardware_mediatek
 
 sepolicy: https://github.com/Andreyka445/device_mediatek_sepolicy_vndr
 
+Dolby: https://github.com/samakshkambxj/hardware_dolby
+
 Happy Building🌜
 
 ```
