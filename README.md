@@ -24,7 +24,7 @@ Vendor tree: https://github.com/Andreyka445/vendor_nothing_galaxian
 
 kernel tree: https://github.com/Andreyka445/android_device_nothing_Galaxian-kernel
 
-hw/mtk: https://github.com/Andreyka445/hardware_mediatek
+hw/mtk: https://github.com/LineageOS/android_hardware_mediatek
 
 sepolicy: https://github.com/Andreyka445/device_mediatek_sepolicy_vndr
 
