@@ -135,8 +135,7 @@ PRODUCT_COPY_FILES += \
 
 # FastbootD
 PRODUCT_PACKAGES += \
-    android.hardware.fastboot-service.example_recovery \
-    fastbootd
+    android.hardware.fastboot-service.example_recovery
 
 # Graphics
 PRODUCT_PACKAGES += \
