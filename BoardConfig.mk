@@ -96,10 +96,7 @@ BOARD_VENDOR_KERNEL_MODULES := $(addprefix $(BOARD_VENDOR_KERNEL_MODULE_DIR)/,$(
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(addprefix $(BOARD_VENDOR_KERNEL_MODULE_DIR)/,$(ALL_VENDOR_RAMDISK_MODULES))
 
 BOARD_VENDOR_KERNEL_MODULES += \
-    $(KERNEL_PATH)/vendor/cmdq-test.ko \
-    $(KERNEL_PATH)/vendor/emi-fake-eng.ko \
     $(KERNEL_PATH)/vendor/eph861.ko \
-    $(KERNEL_PATH)/vendor/fmradio_drv_connac2x.ko \
     $(KERNEL_PATH)/vendor/ft3683g.ko \
     $(KERNEL_PATH)/vendor/gps_pwr.ko \
     $(KERNEL_PATH)/vendor/gps_scp.ko \
