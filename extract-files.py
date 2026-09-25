@@ -20,6 +20,8 @@ from extract_utils.main import (
 namespace_imports = [
     'device/nothing/Galaxian',
     'hardware/mediatek',
+    'hardware/mediatek/libion_mtk',
+    'hardware/mediatek/libmtkperf_client'
 ]
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
