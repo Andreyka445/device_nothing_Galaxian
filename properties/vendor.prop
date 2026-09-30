@@ -21,8 +21,8 @@ ro.vendor.bt.connac3=no
 ro.vendor.bt.platform=6878
 
 # Camera
-camera.disable_zsl_mode=1
 persist.sys.fuse.passthrough.enable=true
+
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
 persist.vendor.camera3.pipeline.bufnum.base.lcso=4
 persist.vendor.camera3.pipeline.bufnum.base.rrzo=4
@@ -251,7 +251,6 @@ ro.vendor.mtk_config_max_dram_size=
 ro.vendor.mtk_external_sim_only_slots=0
 ro.vendor.mtk_fd_support=1
 ro.vendor.mtk_gwsd_capability=2
-ro.vendor.mtk_gwsd_support=1
 ro.vendor.mtk_lte_support=1
 ro.vendor.mtk_mcf_support=1
 ro.vendor.mtk_mipc_support=1
@@ -261,14 +260,12 @@ ro.vendor.mtk_ps1_rat=N/Lf/Lt/W/G
 ro.vendor.mtk_ril_mode=c6m_1rild
 ro.vendor.mtk_sim_card_onoff=3
 ro.vendor.mtk_sim_hot_swap_common_slot=1
-ro.vendor.mtk_telephony_add_on_policy=0
 ro.vendor.mtk_thin_md_telephony_support_mode=0
 ro.vendor.mtk_wappush_support=1
 ro.vendor.mtk_world_phone_policy=0
 ro.vendor.num_md_protocol=2
 ro.vendor.ril.set_sbp_place=0
 ro.vendor.sim_me_lock_mode=3
-ro.vendor.vodata_support=1
 ro.vendor.vt.mtk_thin_md_support_mode=0
 ro.vendor.vt_hevc_support=1
 telephony.active_modems.max_count=2
