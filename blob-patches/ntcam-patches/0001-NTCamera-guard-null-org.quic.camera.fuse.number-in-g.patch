@@ -1,0 +1,25 @@
+From 536d4cd715d0dd6384efca1c27c61c17171ca5cb Mon Sep 17 00:00:00 2001
+From: Sujan Bimali <sujanbimali999@gmail.com>
+Date: Fri, 2 Oct 2026 03:25:40 +0545
+Subject: [PATCH 1/2] NTCamera: guard null org.quic.camera.fuse.number in
+ getCalibrationData
+
+---
+ smali_classes4/com/nothing/camera/mode/NcfBokehMode.smali | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/smali_classes4/com/nothing/camera/mode/NcfBokehMode.smali b/smali_classes4/com/nothing/camera/mode/NcfBokehMode.smali
+index 3742a87..bf52673 100644
+--- a/smali_classes4/com/nothing/camera/mode/NcfBokehMode.smali
++++ b/smali_classes4/com/nothing/camera/mode/NcfBokehMode.smali
+@@ -2672,6 +2672,8 @@
+
+     check-cast p0, [B
+
++    if-eqz p0, :cond_2
++
+     .line 2241
+     new-instance v1, Ljava/lang/StringBuilder;
+
+--
+2.55.0

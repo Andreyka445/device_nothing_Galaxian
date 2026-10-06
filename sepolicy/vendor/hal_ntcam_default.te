@@ -1,0 +1,68 @@
+type hal_ntcam_default, domain;
+type hal_ntcam_default_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(hal_ntcam_default)
+
+binder_use(hal_ntcam_default)
+hwbinder_use(hal_ntcam_default)
+
+hal_server_domain(hal_ntcam_default, vendor_hal_nothing_camera)
+hal_server_domain(hal_ntcam_default, hal_graphics_allocator)
+hal_server_domain(hal_ntcam_default, hal_mtk_bgs)
+hal_server_domain(hal_ntcam_default, hal_mtk_isphal)
+
+typeattribute hal_ntcam_default hal_mtk_isphal_server;
+allow hal_mtk_isphal_server mtk_hal_isphal_service:service_manager { add find };
+allow hal_mtk_isphal_client mtk_hal_isphal_service:service_manager find;
+
+allow hal_ntcam_default mtk_hal_isphal_service:service_manager { add find };
+
+hal_attribute_service(vendor_hal_nothing_camera, hal_ntcam_aidl_service)
+
+binder_call(vendor_hal_nothing_camera_client, vendor_hal_nothing_camera_server)
+
+binder_call(hal_ntcam_default, cameraserver)
+binder_call(hal_ntcam_default, platform_app)
+binder_call(hal_ntcam_default, mtk_hal_camera)
+binder_call(hal_ntcam_default, system_suspend_server)
+
+allow hal_ntcam_default hal_graphics_allocator_default:binder call;
+allow hal_ntcam_default hal_graphics_allocator_default:fd use;
+
+allow hal_ntcam_default { cameraserver mtk_hal_camera }:fd use;
+allow { cameraserver mtk_hal_camera } hal_ntcam_default:fd use;
+
+allow hal_ntcam_default hal_system_suspend_service:service_manager find;
+allow hal_ntcam_default system_suspend_hwservice:hwservice_manager find;
+allow hal_ntcam_default fwk_camera_hwservice:hwservice_manager find;
+allow hal_ntcam_default fwk_camera_service:service_manager find;
+allow hal_ntcam_default hidl_token_hwservice:hwservice_manager find;
+allow hal_ntcam_default hidl_manager_hwservice:hwservice_manager find;
+allow hal_ntcam_default hal_graphics_mapper_hwservice:hwservice_manager find;
+allow hal_ntcam_default hal_graphics_allocator_hwservice:hwservice_manager find;
+get_prop(hal_ntcam_default, hwservicemanager_prop)
+get_prop(hal_ntcam_default, graphics_config_prop)
+get_prop(hal_ntcam_default, graphics_config_writable_prop)
+
+wakelock_use(hal_ntcam_default)
+
+
+allow hal_ntcam_default apusys_device:chr_file rw_file_perms;
+allow hal_ntcam_default hal_graphics_allocator_default_tmpfs:file { read write map };
+allow hal_ntcam_default vendor_data_file:dir create_dir_perms;
+allow hal_ntcam_default vendor_data_file:file create_file_perms;
+allow hal_ntcam_default kmsg_device:chr_file { read write getattr open };
+allow hal_ntcam_default proc_meminfo:file r_file_perms;
+
+get_prop(hal_ntcam_default, camera_config_prop)
+get_prop(hal_ntcam_default, vendor_nt_camera_prop)
+set_prop(hal_ntcam_default, vendor_nt_camera_prop)
+
+allow hal_ntcam_default proc_ged:file rw_file_perms;
+allowxperm hal_ntcam_default proc_ged:file ioctl { proc_ged_ioctls };
+
+#allow hal_ntcam_default gpu_device:chr_file rw_file_perms;
+#allow hal_ntcam_default gpu_device:dir search;
+#allow hal_ntcam_default dmabuf_system_heap_device:chr_file r_file_perms;
+#allow hal_ntcam_default dmabuf_system_secure_heap_device:chr_file r_file_perms;
+#allow hal_ntcam_default vendor_ntf_file:file r_file_perms;

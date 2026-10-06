@@ -1,0 +1,13 @@
+typeattribute platform_app vendor_hal_nothing_camera_client;
+typeattribute platform_app hal_mtk_isphal_client;
+
+allow platform_app mtk_hal_camera:fd use;
+allow mtk_hal_camera platform_app:fd use;
+
+allow platform_app apusys_device:chr_file { ioctl read write getattr lock append open };
+
+allow platform_app unlabeled:filesystem getattr;
+
+allow platform_app cgroup_v2:dir search;
+
+get_prop(platform_app, vendor_nt_camera_prop)

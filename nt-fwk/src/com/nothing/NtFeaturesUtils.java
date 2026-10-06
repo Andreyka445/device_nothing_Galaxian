@@ -13,6 +13,12 @@ import java.util.BitSet;
 
 public class NtFeaturesUtils {
 
+  public static final int NTF_QCOM = 59;
+  public static final int NTF_MTK = 60;
+  // TODO: replace with Galaxian stock NTF_* device id (Galaga uses 93).
+  // Decompile stock framework NtFeaturesUtils to confirm.
+  public static final int NTF_GALAXIAN = 93;
+
     private static final BitSet sFeatures;
 
     static {

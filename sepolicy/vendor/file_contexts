@@ -15,6 +15,46 @@
 /dev/ntfeature             u:object_r:vendor_ntf_file:s0
 /vendor/bin/ntf-service    u:object_r:vendor_ntf_exec:s0
 
+#NTCamera
+/vendor/lib64/libapu_mdw_batch\.so                              u:object_r:same_process_hal_file:s0
+vendor/lib64/7816-3-T1\.so                                      u:object_r:same_process_hal_file:s0
+/vendor/lib64/APUWareApusysAidlServer\.so                       u:object_r:same_process_hal_file:s0
+/vendor/lib64/APUWareUtilsAidlServer\.so                        u:object_r:same_process_hal_file:s0
+/vendor/lib64/libapu_mdw\.so                                    u:object_r:same_process_hal_file:s0
+/vendor/lib64/mt6878/libaidepth_tuning\.so                      u:object_r:same_process_hal_file:s0
+/vendor/bin/hw/vendor\.noth\.hardware\.camera-service           u:object_r:hal_ntcam_default_exec:s0
+/vendor/lib64/libstmobile_rater\.so                             u:object_r:same_process_hal_file:s0
+/vendor/lib64/libwa_rtdof\.so                                   u:object_r:same_process_hal_file:s0
+/vendor/lib64/libanc_scene\.so                                  u:object_r:same_process_hal_file:s0
+/vendor/lib64/libancbase-beauty\.so                             u:object_r:same_process_hal_file:s0
+/vendor/lib64/libAncHumanBeauty\.so                             u:object_r:same_process_hal_file:s0
+/vendor/lib64/libanc_objdetection\.so                           u:object_r:same_process_hal_file:s0
+/vendor/lib64/libanc_objdetection_impl\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib64/libanc_single_rt_bokeh\.so                        u:object_r:same_process_hal_file:s0
+/vendor/lib64/libanc_hdr_check_nothing\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib64/libcamxextension_algo\.so                         u:object_r:same_process_hal_file:s0
+/vendor/lib64/libcamxextension_night\.so                        u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_panorama\.so                           u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_watermark\.so                          u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_beautyshot\.so                         u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_hdr_detection\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_low_light_hdr\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_superportrait\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_scbokeh_image\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_scbokeh_preview\.so                    u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_super_night_raw\.so                    u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_singlecam_bokeh\.so                    u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_dark_vision_raw\.so                    u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_aiscenedetection\.so                   u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_high_dynamic_range\.so                 u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_high_dynamic_range_v5\.so              u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_mf_superresolution\.so                 u:object_r:same_process_hal_file:s0
+/vendor/lib64/libmouth_mask_detection.arcsoft\.so               u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_dualcam_refocus_image\.so              u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_dualcam_refocus_video\.so              u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_portrait_super_night_raw\.so           u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_portrait_distortion_correction\.so     u:object_r:same_process_hal_file:s0
+
 # Power
 /vendor/bin/hw/android\.hardware\.power-service\.pixel-libperfmgr    u:object_r:hal_power_default_exec:s0
 

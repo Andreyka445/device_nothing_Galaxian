@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <permission name="mediatek.permission.ACCESS_APU_SYS">
+        <group gid="camera" />
+    </permission>
+</permissions>

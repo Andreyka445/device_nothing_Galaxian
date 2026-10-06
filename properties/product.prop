@@ -16,6 +16,12 @@ bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 
+# Camera
+ro.com.google.lens.oem_camera_package=com.nothing.camera
+vendor.camera.aux.packagelist=com.mediatek.camera,com.nothing.ois.cal,com.nothing.camera,com.tools.cit
+ro.camerax.extensions.enabled=true
+# TODO: set Galaxian stock brand_device_name (Galaga uses "CMF by Nothing Phone 2 Pro")
+
 # RKPD
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
 remote_provisioning.tee.rkp_only=1

@@ -22,6 +22,7 @@ ro.vendor.bt.platform=6878
 
 # Camera
 camera.disable_zsl_mode=1
+persist.sys.fuse.passthrough.enable=true
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
 persist.vendor.camera3.pipeline.bufnum.base.lcso=4
 persist.vendor.camera3.pipeline.bufnum.base.rrzo=4
@@ -36,6 +37,8 @@ persist.vendor.camera3.pipeline.bufnum.min.low_ram.imgo=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.lcso=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.rrzo=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.rsso=6
+ro.camera.disableHeicUltraHDR=true
+ro.camera.notify_nfc=1
 ro.vendor.afbc.enable=3
 ro.vendor.camera.directfdyuv.support=1
 ro.vendor.camera.insensorzoom.support=1
@@ -45,6 +48,7 @@ ro.vendor.jpeg_decode_sw_opt=1
 ro.vendor.mtk_cam_security_support=1
 ro.vendor.mtk_camera_app_version=3
 ro.vendor.mtk_mvpu_support=0
+vendor.mtk.camera.app.fd.video=1
 
 # Connectivity
 persist.vendor.connsys.chipid=-1

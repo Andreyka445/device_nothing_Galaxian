@@ -1,0 +1,10 @@
+// MtkApuPermission/Android.bp
+android_app {
+    name: "MtkApuPermission",
+    manifest: "AndroidManifest.xml",
+    certificate: "platform",
+    system_ext_specific: true,
+    privileged: true,
+    sdk_version: "current",
+    dex_preopt: { enabled: false },
+}
