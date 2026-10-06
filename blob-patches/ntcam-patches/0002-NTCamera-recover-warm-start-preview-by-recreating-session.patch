@@ -10,6 +10,9 @@ it, leaving preview black until app data is cleared.
 
 Retry session creation once: by then the surface exists and the new
 session includes it (mirrors the cold-start close/reopen path).
+Close first: CameraContext refuses a new session while one is open
+(ALREADY_SESSION), so close the broken one and let the state machine
+reopen it.
 
 ---
  smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali | 11 ++++++++++-
@@ -55,7 +58,7 @@ index 0000000..0000000 100644
 +
 +    sput-boolean v3, Lcom/nothing/cameracore/context/module/ModuleContext;->sFinalizeRetry:Z
 +
-+    invoke-direct {p0}, Lcom/nothing/cameracore/context/module/ModuleContext;->createCameraSessionAsync()Z
++    invoke-direct {p0}, Lcom/nothing/cameracore/context/module/ModuleContext;->closeCameraAsync()V
 
      :cond_5
      return-void
