@@ -1378,8 +1378,6 @@ vendor/etc/camera/cache_front_main
 vendor/etc/camera/cache_rear_main
 vendor/etc/camera/cache_rear_tele
 vendor/etc/camera/cache_rear_uw
-vendor/etc/camera/capture_cache
-vendor/etc/camera/capture_policy
 vendor/etc/camera/dense_model.pack
 vendor/etc/camera/detect_model.pack
 vendor/etc/camera/dgain_mask_front_main.bin
