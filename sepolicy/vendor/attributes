@@ -2,7 +2,3 @@
 attribute vendor_hal_nothing_camera;
 attribute vendor_hal_nothing_camera_client;
 attribute vendor_hal_nothing_camera_server;
-
-attribute hal_mtk_isphal;
-attribute hal_mtk_isphal_client;
-attribute hal_mtk_isphal_server;
