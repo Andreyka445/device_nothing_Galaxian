@@ -5,48 +5,97 @@ Subject: [PATCH 2/2] NTCamera: recover warm-start preview by recreating session
 
 On warm start the session is created before the preview surface is
 ready, so finalizeOutputConfigurations() throws IllegalArgumentException
-("Deferred config is not part of this session"). The handler only logs
-it, leaving preview black until app data is cleared.
-
-Retry session creation once: by then the surface exists and the new
-session includes it (mirrors the cold-start close/reopen path).
-Close first: CameraContext refuses a new session while one is open
-(ALREADY_SESSION), so close the broken one and let the state machine
-reopen it.
+("Deferred config is not part of this session"). One call site only logs
+it (black preview until data cleared); another has no handler at all
+(fatal crash). Centralize recovery in configPreview: submit the
+close-camera-then-open-new command once, mirroring the cold-start path.
 
 ---
- smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali | 11 ++++++++++-
- 1 file changed, 9 insertions(+), 2 deletions(-)
-
 diff --git a/smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali b/smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali
 index 0000000..0000000 100644
 --- a/smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali
 +++ b/smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali
 @@ -170,6 +170,7 @@
  .field private mPreviewStart:J
-
+ 
  .field private volatile mReconfigTexturePreviewFlag:Z
 +.field private static sFinalizeRetry:Z
-
+ 
  .field private mRecordCaptureHandler:Landroid/os/Handler;
-
-@@ -2651,7 +2652,8 @@
-     invoke-direct {p0, p1, v2}, Lcom/nothing/cameracore/context/module/ModuleContext;->configPreview(Landroid/graphics/SurfaceTexture;Landroid/hardware/camera2/CaptureRequest$Builder;)V
-
+ 
+@@ -1591,6 +1592,7 @@
+     invoke-static {v1, v0}, Lcom/nothing/common/utils/LogUtil;->i(Ljava/lang/String;Ljava/lang/String;)V
+ 
+     .line 1035
++    :try_start_0
+     iget-object v0, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mSubMode:Lcom/nothing/cameracore/context/module/submode/SubModeInterface;
+ 
+     if-eqz v0, :cond_0
+@@ -1606,9 +1608,46 @@
+     iget-object p0, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mCaptureSession:Landroid/hardware/camera2/CameraCaptureSession;
+ 
+     invoke-interface {v0, p0, p2, v1, p1}, Lcom/nothing/cameracore/context/module/submode/SubModeInterface;->configPreview(Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest$Builder;Ljava/util/List;Landroid/graphics/SurfaceTexture;)V
++    :try_end_0
++    .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
++    .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
+ 
+     :cond_0
+     return-void
++    :catch_0
++    move-exception v1
++
++    const-string v0, "ModuleContext"
++
++    const-string p1, "configPreview finalize failed, close+reopen"
++
++    invoke-static {v0, p1, v1}, Lcom/nothing/common/utils/LogUtil;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
++
++    sget-boolean v1, Lcom/nothing/cameracore/context/module/ModuleContext;->sFinalizeRetry:Z
++
++    if-nez v1, :cond_0
++
++    const/4 v1, 0x1
++
++    sput-boolean v1, Lcom/nothing/cameracore/context/module/ModuleContext;->sFinalizeRetry:Z
++
++    iget-object v1, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mSettingProxy:Lcom/nothing/common/setting/SettingContextOutInterface;
++
++    if-eqz v1, :cond_0
++
++    invoke-interface {v1}, Lcom/nothing/common/setting/SettingContextOutInterface;->getCameraId()I
++
++    move-result v1
++
++    invoke-direct {p0, v1}, Lcom/nothing/cameracore/context/module/ModuleContext;->getCloseCameraThanOpenNewCommand(I)Lcom/nothing/common/executor/ParamsCommand;
++
++    move-result-object v1
++
++    iget-object v0, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mModuleExecutor:Lcom/nothing/common/executor/CommandExecutor;
++
++    invoke-virtual {v0, v1}, Lcom/nothing/common/executor/CommandExecutor;->submit(Lcom/nothing/common/executor/ParamsCommand;)V
++
++    goto :cond_0
+ .end method
+ 
+ .method private createCameraSessionAsync()Z
+@@ -2652,6 +2691,7 @@
+ 
      .line 1024
      iput-boolean v0, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mReconfigTexturePreviewFlag:Z
 +    sput-boolean v0, Lcom/nothing/cameracore/context/module/ModuleContext;->sFinalizeRetry:Z
-
+ 
      .line 1026
      :cond_4
-@@ -2665,10 +2667,32 @@
+@@ -2663,12 +2703,36 @@
+     return-void
+ 
      :catch_0
 -    move-exception p0
 +    move-exception v3
-
+ 
      .line 1028
      const-string p1, "onCameraCaptureSessionConfigured: "
-
+ 
 -    invoke-static {v1, p1, p0}, Lcom/nothing/common/utils/LogUtil;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 +    invoke-static {v1, p1, v3}, Lcom/nothing/common/utils/LogUtil;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 +
@@ -60,6 +109,8 @@ index 0000000..0000000 100644
 +
 +    iget-object v3, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mSettingProxy:Lcom/nothing/common/setting/SettingContextOutInterface;
 +
++    if-eqz v3, :cond_5
++
 +    invoke-interface {v3}, Lcom/nothing/common/setting/SettingContextOutInterface;->getCameraId()I
 +
 +    move-result v3
@@ -71,7 +122,7 @@ index 0000000..0000000 100644
 +    iget-object v3, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mModuleExecutor:Lcom/nothing/common/executor/CommandExecutor;
 +
 +    invoke-virtual {v3, v2}, Lcom/nothing/common/executor/CommandExecutor;->submit(Lcom/nothing/common/executor/ParamsCommand;)V
-
+ 
      :cond_5
      return-void
 --
