@@ -1,0 +1,63 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: OpenCode <opencode@localhost>
+Date: Tue, 7 Oct 2026 03:00:00 +0000
+Subject: [PATCH 2/2] NTCamera: recover warm-start preview by recreating session
+
+On warm start the session is created before the preview surface is
+ready, so finalizeOutputConfigurations() throws IllegalArgumentException
+("Deferred config is not part of this session"). The handler only logs
+it, leaving preview black until app data is cleared.
+
+Retry session creation once: by then the surface exists and the new
+session includes it (mirrors the cold-start close/reopen path).
+
+---
+ smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali | 11 ++++++++++-
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+diff --git a/smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali b/smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali
+index 0000000..0000000 100644
+--- a/smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali
++++ b/smali_classes5/com/nothing/cameracore/context/module/ModuleContext.smali
+@@ -170,6 +170,7 @@
+ .field private mPreviewStart:J
+
+ .field private volatile mReconfigTexturePreviewFlag:Z
++.field private static sFinalizeRetry:Z
+
+ .field private mRecordCaptureHandler:Landroid/os/Handler;
+
+@@ -2651,7 +2652,8 @@
+     invoke-direct {p0, p1, v2}, Lcom/nothing/cameracore/context/module/ModuleContext;->configPreview(Landroid/graphics/SurfaceTexture;Landroid/hardware/camera2/CaptureRequest$Builder;)V
+
+     .line 1024
+     iput-boolean v0, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mReconfigTexturePreviewFlag:Z
++    sput-boolean v0, Lcom/nothing/cameracore/context/module/ModuleContext;->sFinalizeRetry:Z
+
+     .line 1026
+     :cond_4
+@@ -2665,10 +2667,20 @@
+     :catch_0
+-    move-exception p0
++    move-exception v3
+
+     .line 1028
+     const-string p1, "onCameraCaptureSessionConfigured: "
+
+-    invoke-static {v1, p1, p0}, Lcom/nothing/common/utils/LogUtil;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
++    invoke-static {v1, p1, v3}, Lcom/nothing/common/utils/LogUtil;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
++
++    sget-boolean v3, Lcom/nothing/cameracore/context/module/ModuleContext;->sFinalizeRetry:Z
++
++    if-nez v3, :cond_5
++
++    const/4 v3, 0x1
++
++    sput-boolean v3, Lcom/nothing/cameracore/context/module/ModuleContext;->sFinalizeRetry:Z
++
++    invoke-direct {p0}, Lcom/nothing/cameracore/context/module/ModuleContext;->createCameraSessionAsync()Z
+
+     :cond_5
+     return-void
+--
+2.55.0
