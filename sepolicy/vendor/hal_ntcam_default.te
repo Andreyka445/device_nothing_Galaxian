@@ -23,6 +23,7 @@ binder_call(vendor_hal_nothing_camera_client, vendor_hal_nothing_camera_server)
 
 binder_call(hal_ntcam_default, cameraserver)
 binder_call(hal_ntcam_default, platform_app)
+binder_call(hal_ntcam_default, platform_app_36)
 binder_call(hal_ntcam_default, mtk_hal_camera)
 binder_call(hal_ntcam_default, system_suspend_server)
 
