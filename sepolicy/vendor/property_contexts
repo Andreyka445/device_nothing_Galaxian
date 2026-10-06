@@ -3,6 +3,7 @@ vendor.camera.mdp.  u:object_r:vendor_mtk_camera_prop:s0
 
 # NT Camera (must not overlap vendor.camera./persist.vendor.camera. prefixes above)
 vendor.picture.algo.policy.                 u:object_r:vendor_nt_camera_prop:s0
+ro.vendor.nothing.                          u:object_r:vendor_nt_camera_prop:s0
 
 # Fingerprint
 persist.vendor.goodix.dump_data     u:object_r:vendor_fingerprint_prop:s0
