@@ -39,7 +39,7 @@ index 0000000..0000000 100644
 
      .line 1026
      :cond_4
-@@ -2665,10 +2667,20 @@
+@@ -2665,10 +2667,32 @@
      :catch_0
 -    move-exception p0
 +    move-exception v3
@@ -58,7 +58,19 @@ index 0000000..0000000 100644
 +
 +    sput-boolean v3, Lcom/nothing/cameracore/context/module/ModuleContext;->sFinalizeRetry:Z
 +
-+    invoke-direct {p0}, Lcom/nothing/cameracore/context/module/ModuleContext;->closeCameraAsync()V
++    iget-object v3, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mSettingProxy:Lcom/nothing/common/setting/SettingContextOutInterface;
++
++    invoke-interface {v3}, Lcom/nothing/common/setting/SettingContextOutInterface;->getCameraId()I
++
++    move-result v3
++
++    invoke-direct {p0, v3}, Lcom/nothing/cameracore/context/module/ModuleContext;->getCloseCameraThanOpenNewCommand(I)Lcom/nothing/common/executor/ParamsCommand;
++
++    move-result-object v2
++
++    iget-object v3, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mModuleExecutor:Lcom/nothing/common/executor/CommandExecutor;
++
++    invoke-virtual {v3, v2}, Lcom/nothing/common/executor/CommandExecutor;->submit(Lcom/nothing/common/executor/ParamsCommand;)V
 
      :cond_5
      return-void
