@@ -23,15 +23,26 @@ index 0000000..0000000 100644
  
  .field private mRecordCaptureHandler:Landroid/os/Handler;
  
-@@ -1591,6 +1592,7 @@
+@@ -1569,7 +1570,7 @@
+ .end method
+ 
+ .method private configPreview(Landroid/graphics/SurfaceTexture;Landroid/hardware/camera2/CaptureRequest$Builder;)V
+-    .locals 2
++    .locals 3
+ 
+     .line 1034
+     new-instance v0, Ljava/lang/StringBuilder;
+@@ -1591,6 +1592,9 @@
      invoke-static {v1, v0}, Lcom/nothing/common/utils/LogUtil;->i(Ljava/lang/String;Ljava/lang/String;)V
  
      .line 1035
++    move-object v2, p0
++
 +    :try_start_0
      iget-object v0, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mSubMode:Lcom/nothing/cameracore/context/module/submode/SubModeInterface;
  
      if-eqz v0, :cond_0
-@@ -1606,9 +1608,46 @@
+@@ -1606,9 +1610,46 @@
      iget-object p0, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mCaptureSession:Landroid/hardware/camera2/CameraCaptureSession;
  
      invoke-interface {v0, p0, p2, v1, p1}, Lcom/nothing/cameracore/context/module/submode/SubModeInterface;->configPreview(Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest$Builder;Ljava/util/List;Landroid/graphics/SurfaceTexture;)V
@@ -58,7 +69,7 @@ index 0000000..0000000 100644
 +
 +    sput-boolean v1, Lcom/nothing/cameracore/context/module/ModuleContext;->sFinalizeRetry:Z
 +
-+    iget-object v1, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mSettingProxy:Lcom/nothing/common/setting/SettingContextOutInterface;
++    iget-object v1, v2, Lcom/nothing/cameracore/context/module/ModuleContext;->mSettingProxy:Lcom/nothing/common/setting/SettingContextOutInterface;
 +
 +    if-eqz v1, :cond_0
 +
@@ -66,11 +77,11 @@ index 0000000..0000000 100644
 +
 +    move-result v1
 +
-+    invoke-direct {p0, v1}, Lcom/nothing/cameracore/context/module/ModuleContext;->getCloseCameraThanOpenNewCommand(I)Lcom/nothing/common/executor/ParamsCommand;
++    invoke-direct {v2, v1}, Lcom/nothing/cameracore/context/module/ModuleContext;->getCloseCameraThanOpenNewCommand(I)Lcom/nothing/common/executor/ParamsCommand;
 +
 +    move-result-object v1
 +
-+    iget-object v0, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mModuleExecutor:Lcom/nothing/common/executor/CommandExecutor;
++    iget-object v0, v2, Lcom/nothing/cameracore/context/module/ModuleContext;->mModuleExecutor:Lcom/nothing/common/executor/CommandExecutor;
 +
 +    invoke-virtual {v0, v1}, Lcom/nothing/common/executor/CommandExecutor;->submit(Lcom/nothing/common/executor/ParamsCommand;)V
 +
@@ -78,7 +89,7 @@ index 0000000..0000000 100644
  .end method
  
  .method private createCameraSessionAsync()Z
-@@ -2652,6 +2691,7 @@
+@@ -2652,6 +2693,7 @@
  
      .line 1024
      iput-boolean v0, p0, Lcom/nothing/cameracore/context/module/ModuleContext;->mReconfigTexturePreviewFlag:Z
@@ -86,7 +97,7 @@ index 0000000..0000000 100644
  
      .line 1026
      :cond_4
-@@ -2663,12 +2703,36 @@
+@@ -2663,12 +2705,36 @@
      return-void
  
      :catch_0
