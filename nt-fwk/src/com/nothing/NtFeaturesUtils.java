@@ -178,9 +178,9 @@ public class NtFeaturesUtils {
     private static final BitSet sFeatures;
 
     static {
-        final String fullProp = SystemProperties.get("ro.build.nothing.feature.base", "0");
-        final String productDiffProp = SystemProperties.get("ro.build.nothing.feature.diff.product." + Build.PRODUCT, "0");
-        final String deviceDiffProp = SystemProperties.get("ro.build.nothing.feature.diff.device." + Build.DEVICE, "0");
+        final String fullProp = SystemProperties.get("ro.vendor.nothing.feature.base", "0");
+        final String productDiffProp = SystemProperties.get("ro.vendor.nothing.feature.diff.product." + Build.PRODUCT, "0");
+        final String deviceDiffProp = SystemProperties.get("ro.vendor.nothing.feature.diff.device." + Build.DEVICE, "0");
 
         int bitsetSize = maxLength(replace(fullProp),replace(productDiffProp),replace(deviceDiffProp)) * 4;
 
