@@ -17,7 +17,7 @@
 
 #NTCamera
 /vendor/lib64/libapu_mdw_batch\.so                              u:object_r:same_process_hal_file:s0
-vendor/lib64/7816-3-T1\.so                                      u:object_r:same_process_hal_file:s0
+/vendor/lib64/7816-3-T1\.so                                      u:object_r:same_process_hal_file:s0
 /vendor/lib64/APUWareApusysAidlServer\.so                       u:object_r:same_process_hal_file:s0
 /vendor/lib64/APUWareUtilsAidlServer\.so                        u:object_r:same_process_hal_file:s0
 /vendor/lib64/libapu_mdw\.so                                    u:object_r:same_process_hal_file:s0
