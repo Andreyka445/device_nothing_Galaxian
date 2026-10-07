@@ -982,25 +982,6 @@ vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so
 
-# NFC
-vendor/bin/hw/android.hardware.nfc-service-tms
-vendor/etc/init/nfc-service-tms.rc
-vendor/lib64/7816-3-T1.so
-vendor/lib64/nfc_nci.thn31nfc.tms.so
-vendor/lib64/tms-cos-dl-common.so
-vendor/lib64/tms-cos-dl-ree.so
-vendor/lib64/tms-utils.so
-vendor/lib64/vendor.tms.tmsnfc_aidl-V1-ndk.so
-
-# NFC (configs)
-vendor/etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
-vendor/etc/libnfc-tms.conf:vendor/etc/libnfc-tms.conf
-vendor/etc/libnfc-tms_RF.conf:vendor/etc/libnfc-tms_RF.conf
-vendor/etc/libnfc-tms_RF_EC2.conf:vendor/etc/libnfc-tms_RF_EC2.conf
-vendor/etc/libnfc-tms_RF_GB1.conf:vendor/etc/libnfc-tms_RF_GB1.conf
-vendor/etc/libese-tms.conf:vendor/etc/libese-tms.conf
-vendor/etc/SEC_THN31_FW_VTP.txt.bin:vendor/etc/SEC_THN31_FW_VTP.txt.bin
-
 # NTF
 vendor/bin/ntf-service
 vendor/etc/init/init.ntf.rc
@@ -1266,4 +1247,11 @@ vendor/etc/libnfc-tms_RF_EC2.conf:vendor/etc/libnfc-tms_RF_EC2.conf
 vendor/etc/libnfc-tms_RF_GB1.conf:vendor/etc/libnfc-tms_RF_GB1.conf
 vendor/etc/init/nfc-service-tms.rc:vendor/etc/init/nfc-service-tms.rc
 vendor/etc/libese-tms.conf:vendor/etc/libese-tms.conf
-vendor/etc/THN31_FW_VTP.txt:vendor/etc/THN31_FW_VTP.txt
+vendor/etc/SEC_THN31_FW_VTP.txt.bin:vendor/etc/SEC_THN31_FW_VTP.txt.bin
+vendor/etc/init/nfc-service-tms.rc
+vendor/lib64/7816-3-T1.so
+vendor/lib64/nfc_nci.thn31nfc.tms.so
+vendor/lib64/tms-cos-dl-common.so
+vendor/lib64/tms-cos-dl-ree.so
+vendor/lib64/tms-utils.so
+vendor/lib64/vendor.tms.tmsnfc_aidl-V1-ndk.so
