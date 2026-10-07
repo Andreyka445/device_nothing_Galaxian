@@ -1,4 +1,4 @@
-# All proprietary files from this list are from Galaxian_B4.1-260702-1815
+# All proprietary files from this list are from Galaxian_B4.1-260819-1839
 
 # AAL
 vendor/lib64/mt6878/libaal_cust_func.so;SYMLINK=vendor/lib64/libaal_cust_func.so
