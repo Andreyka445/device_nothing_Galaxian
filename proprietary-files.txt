@@ -555,8 +555,8 @@ vendor/lib64/mt6878/libmtkcm_ipc_dummy.so;SYMLINK=vendor/lib64/libmtkcm_ipc_dumm
 vendor/lib64/mt6878/libmtkltm.so;SYMLINK=vendor/lib64/libmtkltm.so
 vendor/lib64/mt6878/libpda_usdriver.so;SYMLINK=vendor/lib64/libpda_usdriver.so
 vendor/lib64/mt6878/libvega_common.so;SYMLINK=vendor/lib64/libvega_common.so
-vendor/lib64/mt6878/libwa_opticalzoomfactor.so;SYMLINK=vendor/lib64/libwa_opticalzoomfactor.so
-vendor/lib64/mt6878/libwa_sat.so;SYMLINK=vendor/lib64/libwa_sat.so
+vendor/lib64/mt6878/libwa_opticalzoomfactor.so:vendor/lib64/libwa_opticalzoomfactor.so
+vendor/lib64/mt6878/libwa_sat.so:vendor/lib64/libwa_sat.so
 vendor/lib64/mt6878/mtk000_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/mtk000_mipi_raw_IdxMgr.so
 vendor/lib64/mt6878/mtk000_mipi_raw_tuning.so;SYMLINK=vendor/lib64/mtk000_mipi_raw_tuning.so
 vendor/lib64/mt6878/ov50d40_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/ov50d40_mipi_raw_IdxMgr.so
@@ -986,6 +986,8 @@ vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so
 vendor/bin/ntf-service
 vendor/etc/init/init.ntf.rc
 vendor/lib64/libntf.so
+
+# NTFeature
 
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram-service
