@@ -1,0 +1,38 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Samaksh Kamboj <samakshk4@gmail.com>
+Date: Wed, 14 Oct 2026 03:00:00 +0000
+Subject: [PATCH 4/4] NTCamera: offer 60fps video on all cameras
+
+The 60fps option was gated on back-camera plus isQCOM and a
+Qualcomm-only QC_VIDEO_CONFIG vendor tag, so MTK builds only ever
+listed 30fps. Offer 60fps everywhere; recording sizes stay
+HAL-validated (Aperture proves 720p60).
+
+---
+diff --git a/smali_classes5/com/nothing/common/setting/SettingCharacteristics.smali b/smali_classes5/com/nothing/common/setting/SettingCharacteristics.smali
+index 0000000..0000000 100644
+--- a/smali_classes5/com/nothing/common/setting/SettingCharacteristics.smali
++++ b/smali_classes5/com/nothing/common/setting/SettingCharacteristics.smali
+@@ -12729,13 +12729,17 @@
+ 
+     move-result v3
+ 
+-    if-eqz v3, :cond_16
+-
+     .line 1242
+     :try_start_1
+     sget-boolean v3, Lcom/nothing/common/utils/ProductConfig;->isQCOM:Z
+ 
+-    if-eqz v3, :cond_16
++    if-nez v3, :cond_16
++
++    const-string v3, "60"
++
++    invoke-interface {v0, v3}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
++
++    goto :goto_8
+ 
+     .line 1243
+     sget-object v3, Lcom/nothing/common/setting/SettingCharacteristics;->QC_VIDEO_CONFIG:Landroid/hardware/camera2/CameraCharacteristics$Key;
+--
+2.55.0
