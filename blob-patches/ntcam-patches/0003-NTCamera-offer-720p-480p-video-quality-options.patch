@@ -1,0 +1,32 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Samaksh Kamboj <samakshk4@gmail.com>
+Date: Wed, 14 Oct 2026 03:00:00 +0000
+Subject: [PATCH 3/3] NTCamera: offer 720p/480p video quality options
+
+The HAL exposes 720p/480p recording sizes (Aperture uses them) and the
+filter logic already emits quality IDs 5/4 when supported; only the
+settings arrays lack the entries. Recording fps still comes from the
+separate 30/60 fps preference.
+
+---
+diff --git a/res/values/arrays.xml b/res/values/arrays.xml
+index 0000000..0000000 100644
+--- a/res/values/arrays.xml
++++ b/res/values/arrays.xml
+@@ -3019,10 +3019,14 @@
+     <string-array name="pref_video_quality_entries">
+         <item>@string/pref_video_quality_entry_fine</item>
+         <item>@string/pref_video_quality_entry_4k</item>
++        <item>@string/pref_video_quality_entry_high</item>
++        <item>@string/pref_video_quality_entry_medium</item>
+     </string-array>
+     <string-array name="pref_video_quality_entryvalues">
+         <item>6</item>
+         <item>8</item>
++        <item>5</item>
++        <item>4</item>
+     </string-array>
+     <string-array name="pref_video_record_red_light_entries">
+         <item>@string/pref_video_record_red_light_entry_off</item>
+--
+2.55.0
