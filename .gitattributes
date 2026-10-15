@@ -1,0 +1,5 @@
+# Preserve the exact SurfaceFlinger dump used by the frame parser tests.
+app/parts/tests/frames/fixtures/frametimeline-all.txt -whitespace
+
+# Patch context includes intentional leading and trailing whitespace.
+patches/**/*.patch -whitespace

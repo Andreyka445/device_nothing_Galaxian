@@ -1,0 +1,27 @@
+typeattribute galaxian_parts_app coredomain;
+typeattribute galaxian_parts_app mlstrustedsubject;
+app_domain(galaxian_parts_app)
+
+# Framework services used by the Settings UI, battery and process management.
+allow galaxian_parts_app {
+    activity_service
+    activity_task_service
+    audio_service
+    autofill_service
+    batteryproperties_service
+    clipboard_service
+    legacy_permission_service
+    # PhoneWindow dispatches hardware volume keys through MediaSessionManager.
+    media_session_service
+    # Adaptive foreground/proposal notifications use NotificationManager.
+    notification_service
+    sensitive_content_protection_service
+    uimode_service
+    vibrator_manager_service
+}:service_manager find;
+
+allow galaxian_parts_app system_app_data_file:dir create_dir_perms;
+allow galaxian_parts_app system_app_data_file:{ file lnk_file } create_file_perms;
+
+# Read-only compressed RAM statistics shown in the memory screen.
+r_dir_file(galaxian_parts_app, sysfs_zram)

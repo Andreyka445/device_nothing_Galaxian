@@ -1,0 +1,2 @@
+# Exposed to vendor policy for narrowly labelled device controls.
+type galaxian_parts_app, domain;

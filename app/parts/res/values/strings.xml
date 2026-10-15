@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="parts_title">Galaxian Parts</string>
+    <string name="parts_summary">CPU, GPU, adaptive control, temperatures, RAM and battery</string>
+    <string name="parts_cpu_title">CPU control</string>
+    <string name="parts_cpu_summary">Core frequencies, active cores and thermal throttling</string>
+    <string name="parts_memory_title">RAM management</string>
+    <string name="parts_memory_summary">Memory usage and background apps</string>
+    <string name="parts_battery_title">Battery status</string>
+    <string name="parts_battery_summary">Charge level, temperature and battery information</string>
+    <string name="parts_owner_only">These controls are available to the device owner.</string>
+    <string name="navigate_up">Navigate up</string>
+    <string name="parts_performance">Performance</string>
+    <string name="parts_device_status">Device status</string>
+    <string name="parts_device_name">Nothing Phone (3a) Lite</string>
+    <string name="parts_device_chip">Dimensity 7300 · 8 cores</string>
+    <string name="parts_adaptive_title">Adaptive control</string>
+    <string name="parts_adaptive_summary">Observe, adjust one limit and measure the result</string>
+    <string name="parts_temperature_title">Temperatures</string>
+    <string name="parts_temperature_summary">Live sensors, thermal status and temperature history</string>
+</resources>
