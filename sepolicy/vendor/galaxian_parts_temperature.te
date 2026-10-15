@@ -1,0 +1,3 @@
+# Real thermal zones supplement the HAL when individual hardware sensors are available.
+# Read-only: Parts cannot modify trip points, governors, cooling devices or thermal modes.
+r_dir_file(galaxian_parts_app, sysfs_therm)

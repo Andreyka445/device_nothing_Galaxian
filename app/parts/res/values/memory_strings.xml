@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="memory_title">Memory</string>
+    <string name="memory_total">Total RAM</string>
+    <string name="memory_available">Available RAM</string>
+    <string name="memory_used">Used RAM</string>
+    <string name="memory_swap">Swap</string>
+    <string name="memory_zram">zRAM</string>
+    <string name="memory_unavailable">Unavailable</string>
+    <string name="memory_disabled">Disabled</string>
+    <string name="memory_swap_summary">%1$s used of %2$s</string>
+    <string name="memory_zram_summary">Configured: %1$s\nStored data: %2$s\nRAM allocated: %3$s</string>
+    <string name="memory_about">About memory</string>
+    <string name="memory_about_summary">Available RAM includes memory Android can reclaim. Android manages cached apps automatically. Swap and zRAM details are shown only when readable.</string>
+    <string name="memory_background_apps">Cached background apps</string>
+    <string name="memory_clean">Stop background apps</string>
+    <string name="memory_clean_summary">Request that Android stop the cached apps listed below. Active apps, system apps, persistent apps and apps sharing a UID are excluded.</string>
+    <string name="memory_app_summary">%1$s\nTap to request stopping this app in the background</string>
+    <string name="memory_apps_unavailable">Background app management is unavailable</string>
+    <string name="memory_no_apps">No eligible cached apps</string>
+    <string name="memory_confirm_title">Stop background apps?</string>
+    <string name="memory_confirm_one">Request that Android stop %1$s in the background? Unsaved background work may be lost. The app can restart automatically. Apps that have become active will be skipped.</string>
+    <string name="memory_confirm_many">Request that Android stop %1$d cached apps? Unsaved background work may be lost. Apps can restart automatically. Apps that have become active will be skipped.</string>
+    <string name="memory_stop">Stop background apps</string>
+    <string name="memory_result">Last action</string>
+    <string name="memory_result_none">No stop requests sent</string>
+    <string name="memory_result_waiting">Sending requests and checking running apps…</string>
+    <string name="memory_result_interrupted">Monitoring stopped. Some requests may already have been sent; their result was not verified.</string>
+    <string name="memory_result_summary">Requests sent: %1$d\nNo longer observed: %2$d\nStill running or restarted: %3$d\nSkipped: %4$d · Failed: %5$d\nApps may restart automatically. This check does not measure freed RAM.</string>
+    <string name="memory_result_unverified">Requests sent: %1$d\nSkipped: %2$d · Failed: %3$d\nThe result could not be verified. Apps may still be running or may restart.</string>
+    <string name="memory_swap_section">Swap and compression</string>
+    <string name="memory_swap_used">Swap used</string>
+    <string name="memory_swap_total">Total swap</string>
+    <string name="memory_hero_summary">%1$s total · %2$s available</string>
+    <string name="memory_waiting">Memory readings are unavailable</string>
+    <string name="memory_stop_app">Stop %1$s in the background</string>
+</resources>

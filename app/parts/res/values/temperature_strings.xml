@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="temperature_title">Temperatures</string>
+    <string name="temperature_system_status">Android thermal status</string>
+    <string name="temperature_live">Live temperatures</string>
+    <string name="temperature_cpu_max">Maximum CPU temperature</string>
+    <string name="temperature_gpu_max">Maximum GPU temperature</string>
+    <string name="temperature_battery">Battery</string>
+    <string name="temperature_skin_max">Maximum casing temperature</string>
+    <string name="temperature_loading">Reading the available temperature sensors…</string>
+    <string name="temperature_no_sensors">No temperature readings are available. Missing sensors are never shown as zero.</string>
+    <string name="temperature_framework">Android thermal sensors</string>
+    <string name="temperature_hardware">Kernel thermal zones</string>
+    <string name="temperature_broadcast">Android battery measurement</string>
+    <string name="temperature_sources_title">About these readings</string>
+    <string name="temperature_sources_summary">Sensor names come from Android and the kernel. Galaxian’s HAL reports the same SoC maximum as CPU, GPU, NPU, TPU and SoC; these are not separate measurements. CPU and GPU cards prefer identified kernel zones when available. Android thermal status is the status reported by the system, not an independent safety check, and may not reflect overridden thermal controls.</string>
+    <string name="temperature_sensor_summary">%1$s · %2$s</string>
+    <string name="temperature_history_title">Recent CPU and battery temperatures</string>
+    <string name="temperature_history_range">Observed range: %1$.1f–%2$.1f °C</string>
+    <string name="temperature_history_waiting">Waiting for temperature samples.</string>
+    <string name="temperature_history_summary">Up to two minutes, sampled every two seconds while this page is visible. The chart scales to measured values; gaps indicate unavailable samples or a pause.</string>
+    <string name="temperature_celsius">%1$.1f °C</string>
+    <string name="temperature_unavailable">Unavailable</string>
+    <string name="temperature_severity_none">No throttling reported</string>
+    <string name="temperature_severity_light">Light thermal throttling</string>
+    <string name="temperature_severity_moderate">Moderate thermal throttling</string>
+    <string name="temperature_severity_severe">Severe thermal throttling</string>
+    <string name="temperature_severity_critical">Critical thermal status</string>
+    <string name="temperature_severity_emergency">Thermal emergency</string>
+    <string name="temperature_severity_shutdown">Thermal shutdown status</string>
+    <string name="temperature_type_cpu">CPU</string>
+    <string name="temperature_type_gpu">GPU</string>
+    <string name="temperature_type_skin">Phone casing</string>
+    <string name="temperature_type_usb">USB port</string>
+    <string name="temperature_type_radio">Radio power amplifier</string>
+    <string name="temperature_type_npu">NPU</string>
+    <string name="temperature_type_tpu">TPU</string>
+    <string name="temperature_type_display">Display</string>
+    <string name="temperature_type_modem">Modem</string>
+    <string name="temperature_type_soc">SoC</string>
+    <string name="temperature_type_wifi">Wi-Fi</string>
+    <string name="temperature_type_camera">Camera</string>
+    <string name="temperature_type_flash">Flash</string>
+    <string name="temperature_type_speaker">Speaker</string>
+    <string name="temperature_type_ambient">Ambient</string>
+    <string name="temperature_type_pogo">Accessory connector</string>
+    <string name="temperature_type_unknown">Unclassified thermal zone</string>
+</resources>
