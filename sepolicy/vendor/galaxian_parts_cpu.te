@@ -1,0 +1,14 @@
+# Only policy limits and per-core hotplug nodes are writable by Parts.
+type vendor_galaxian_cpu_control, fs_type, sysfs_type;
+allow galaxian_parts_app vendor_galaxian_cpu_control:file rw_file_perms;
+allow vendor_init vendor_galaxian_cpu_control:file setattr;
+
+# Preserve the existing CPU-node readers and Power HAL access after relabelling.
+allow { domain -isolated_app_all } vendor_galaxian_cpu_control:file r_file_perms;
+allow hal_power_default vendor_galaxian_cpu_control:file rw_file_perms;
+allow mtk_hal_power vendor_galaxian_cpu_control:file rw_file_perms;
+
+# Power HAL may submit ordinary QoS requests, but only Parts owns the lock.
+type vendor_galaxian_cpu_lock, fs_type, sysfs_type;
+allow galaxian_parts_app vendor_galaxian_cpu_lock:file rw_file_perms;
+allow vendor_init vendor_galaxian_cpu_lock:file setattr;

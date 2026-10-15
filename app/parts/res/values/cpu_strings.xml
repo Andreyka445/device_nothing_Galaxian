@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="cpu_settings_title">CPU control</string>
+    <string name="cpu_session_title">Temporary CPU settings</string>
+    <string name="cpu_session_summary">Changes are not reapplied at boot. Android and the power HAL can adjust the limits while you use the phone. Frequencies are read from this device’s kernel.</string>
+    <string name="cpu_operation_title">Last operation</string>
+    <string name="cpu_efficiency_cluster">Efficiency cores · Cortex-A55 (0–3)</string>
+    <string name="cpu_performance_cluster">Performance cores · Cortex-A78 (4–7)</string>
+    <string name="cpu_current_frequency">Current frequency</string>
+    <string name="cpu_minimum_frequency">Minimum frequency</string>
+    <string name="cpu_maximum_frequency">Maximum frequency</string>
+    <string name="cpu_loading">Reading CPU state…</string>
+    <string name="cpu_cores_title">CPU cores</string>
+    <string name="cpu_core_title">CPU %1$d</string>
+    <string name="cpu_controls_title">Controls</string>
+    <string name="cpu_restore_title">Restore initial CPU values</string>
+    <string name="cpu_restore_summary">Restore the frequency limits and online cores recorded when this app process first read them. The thermal switch is separate.</string>
+    <string name="cpu_applying">Applying and checking the change…</string>
+    <string name="cpu_policy_unavailable">This cluster is offline or its frequency controls cannot be read.</string>
+    <string name="cpu_unavailable">Unavailable</string>
+    <string name="cpu_policy_status">%1$s · CPUs %2$s</string>
+    <string name="cpu_core_required">Online · primary core stays enabled</string>
+    <string name="cpu_core_fixed">Online · this core cannot currently be disabled</string>
+    <string name="cpu_core_online">Online</string>
+    <string name="cpu_core_offline">Offline</string>
+    <string name="cpu_core_offline_unavailable">Offline · control unavailable</string>
+    <string name="cpu_frequency_read_only">%1$s · frequency control unavailable</string>
+    <string name="cpu_operation_success">Change applied and verified. The system may subsequently adjust these values.</string>
+    <string name="cpu_error_unavailable">The requested CPU control is unavailable. Refresh the screen and try again.</string>
+    <string name="cpu_error_frequency">The kernel no longer advertises that frequency. Choose one of the currently available values.</string>
+    <string name="cpu_error_range">The minimum cannot exceed the maximum. Adjust the other limit first.</string>
+    <string name="cpu_error_last_core">At least one core must remain online in each cluster.</string>
+    <string name="cpu_error_write">The kernel rejected the change. The app attempted to restore the previous values.</string>
+    <string name="cpu_error_readback">The requested values did not remain applied. Another system component may have changed them. The app attempted to restore the previous values.</string>
+    <string name="cpu_error_rollback">%1$s The previous values could not be fully restored. Check the values shown below or reboot.</string>
+    <string name="cpu_frequency_mhz">%1$d MHz</string>
+    <string name="cpu_little_short">Cortex-A55</string>
+    <string name="cpu_big_short">Cortex-A78</string>
+    <string name="cpu_lock_info_title">Keep your CPU limits</string>
+    <string name="cpu_lock_info">Applying a range locks it in the kernel when supported. Android cannot replace it until you release the lock. CPU thermal frequency caps can also be bypassed; hardware limits still apply. Reboot releases the locks.</string>
+    <string name="cpu_kernel_required">Updated kernel required</string>
+    <string name="cpu_kernel_required_summary">This kernel does not provide frequency locking. Install the kernel with Galaxian Parts support to force your limits. Changes here are temporary until then.</string>
+    <string name="cpu_range_title">Frequency range</string>
+    <string name="cpu_range_value">%1$s – %2$s</string>
+    <string name="cpu_force_title">Lock these limits</string>
+    <string name="cpu_force_active">Android cannot replace this range. Turn off to return control to the system.</string>
+    <string name="cpu_force_inactive">Android can adjust the limits. Turn on to hold the displayed range.</string>
+    <string name="cpu_apply_lock">Apply and lock</string>
+    <string name="cpu_apply_temporary">Apply temporarily</string>
+    <string name="cpu_apply_lock_summary">The selected CPU frequency range stays locked until you unlock it or restart the phone. This can override CPU frequency limits imposed by software temperature controls.</string>
+    <string name="cpu_apply_temporary_summary">Frequency locking is unavailable in this kernel. Android can replace a temporary range.</string>
+    <string name="cpu_verified">Change applied and verified.</string>
+    <string name="cpu_restore_action">Restore</string>
+</resources>
