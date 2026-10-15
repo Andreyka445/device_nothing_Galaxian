@@ -1,0 +1,60 @@
+// SPDX-License-Identifier: Apache-2.0
+android_app {
+    name: "GalaxianParts",
+    srcs: ["src/**/*.kt"],
+    resource_dirs: ["res"],
+    certificate: "platform",
+    platform_apis: true,
+    privileged: true,
+    system_ext_specific: true,
+    static_libs: [
+        "org.lineageos.settings.resources",
+        "androidx.core_core",
+        "androidx.core_core-ktx",
+        "androidx.compose.runtime_runtime",
+        "androidx.compose.runtime_runtime-saveable",
+        "androidx.compose.ui_ui",
+        "androidx.compose.ui_ui-graphics",
+        "androidx.compose.foundation_foundation",
+        "androidx.compose.foundation_foundation-layout",
+        "androidx.compose.animation_animation",
+        "androidx.compose.material3_material3",
+        "androidx.compose.material_material-icons-core",
+        "androidx.compose.material_material-icons-extended",
+        "com.google.android.material_material",
+        "androidx.activity_activity-compose",
+        "androidx.navigation_navigation-compose",
+        "androidx.lifecycle_lifecycle-runtime-compose",
+        "kotlinx_coroutines_android",
+        "androidx.preference_preference",
+        "SettingsLib",
+        "SpaLib",
+    ],
+    required: [
+        "privapp-permissions-org.lineageos.settings.galaxian.xml",
+        "init.galaxian_parts_cpu.rc",
+        "init.galaxian_parts_gpu.rc",
+        "galaxian_parts_thermal_control",
+    ],
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-org.lineageos.settings.galaxian.xml",
+    src: "permissions/privapp-permissions-org.lineageos.settings.galaxian.xml",
+    sub_dir: "permissions",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "init.galaxian_parts_cpu.rc",
+    src: "init.galaxian_parts_cpu.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.galaxian_parts_gpu.rc",
+    src: "init.galaxian_parts_gpu.rc",
+    sub_dir: "init",
+    vendor: true,
+}
