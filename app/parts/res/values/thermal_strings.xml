@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="thermal_title">Disable thermal throttling</string>
+    <string name="thermal_confirmation">Apply the MediaTek profile that disables software thermal performance limits? The phone can become much hotter, use more power and suffer damage. Emergency hardware protection remains enabled. This change resets after a reboot.</string>
+    <string name="thermal_disable">Disable throttling</string>
+    <string name="thermal_restore">Restore thermal profile</string>
+    <string name="thermal_enabled_summary">Thermal performance limits are active. Changes reset after a reboot.</string>
+    <string name="thermal_disabled_summary">MediaTek software no longer reduces performance when temperatures rise. Emergency hardware protection remains active.</string>
+    <string name="thermal_changing">Applying and verifying the thermal profile…</string>
+    <string name="thermal_error">The active profile could not be verified. Tap to restore the previous thermal profile.</string>
+    <string name="thermal_unavailable">The thermal control service is not available.</string>
+    <string name="thermal_timeout">The service did not confirm the change. Leave this page and reopen it to check the actual state.</string>
+    <string name="thermal_request_failed">The thermal profile could not be changed.</string>
+    <string name="thermal_section">Thermal control</string>
+    <string name="thermal_restore_summary">Reapply the previous profile and its thermal limits.</string>
+    <string name="thermal_active_profile">Active profile</string>
+    <string name="thermal_last_result">Last thermal operation</string>
+    <string name="thermal_no_ack">The service did not confirm this request. You can retry or restore the previous profile.</string>
+    <string name="thermal_unknown_retry">The active profile is unknown. Retry disabling or restore the previous profile below.</string>
+    <string name="thermal_problem_permission">Android denied access to the thermal control. The requested profile was not confirmed.</string>
+    <string name="thermal_problem_busy">The thermal service is updating its profile. Try again shortly.</string>
+    <string name="thermal_problem_service">The MediaTek thermal service is unavailable or has not finished starting.</string>
+    <string name="thermal_problem_status">The thermal service returned an unrecognized profile status.</string>
+    <string name="thermal_problem_profile">The throttling-disable profile is missing or incompatible with this device.</string>
+    <string name="thermal_problem_backup">The current thermal profile could not be saved for restoration.</string>
+    <string name="thermal_problem_socket">The thermal service could not receive the requested change.</string>
+    <string name="thermal_problem_apply">The thermal service did not confirm the selected profile.</string>
+    <string name="thermal_problem_restore">The previous thermal profile could not be restored.</string>
+    <string name="thermal_diagnostic_code">Diagnostic code: %1$s</string>
+</resources>

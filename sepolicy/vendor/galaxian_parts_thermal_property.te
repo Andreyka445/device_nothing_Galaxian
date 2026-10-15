@@ -1,0 +1,11 @@
+vendor_restricted_prop(vendor_galaxianparts_thermal_state_prop)
+
+get_prop(galaxian_parts_app, vendor_galaxianparts_thermal_state_prop)
+set_prop(vendor_init, galaxianparts_thermal_request_prop)
+set_prop(vendor_init, vendor_galaxianparts_thermal_state_prop)
+
+neverallow { domain -init -vendor_init -galaxian_parts_thermal } vendor_galaxianparts_thermal_state_prop:property_service set;
+
+# Required by IsActionableProperty when parsing the vendor RC on this release.
+get_prop(vendor_init, galaxianparts_thermal_daemon_prop)
+get_prop(galaxian_parts_thermal, galaxianparts_thermal_daemon_prop)

@@ -19,3 +19,9 @@ ro.vendor.trustonic.ready u:object_r:vendor_trustonic_prop:s0 exact bool
 vendor.camera.           u:object_r:vendor_camera_prop:s0
 vendor.mtk.camera.       u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.   u:object_r:vendor_camera_prop:s0
+# Galaxian Parts: opt-in thermal policy, reset by init at boot.
+vendor.galaxianparts.thermal_state    u:object_r:vendor_galaxianparts_thermal_state_prop:s0 exact enum enabled disabled changing error
+vendor.galaxianparts.thermal_error    u:object_r:vendor_galaxianparts_thermal_state_prop:s0 exact string
+vendor.galaxianparts.thermal_errno    u:object_r:vendor_galaxianparts_thermal_state_prop:s0 exact int
+vendor.galaxianparts.thermal_profile  u:object_r:vendor_galaxianparts_thermal_state_prop:s0 exact string
+vendor.galaxianparts.thermal_result_id u:object_r:vendor_galaxianparts_thermal_state_prop:s0 exact int

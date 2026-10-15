@@ -1,0 +1,2 @@
+sys.galaxianparts.thermal_disabled u:object_r:galaxianparts_thermal_request_prop:s0 exact bool
+init.svc.thermal_core u:object_r:galaxianparts_thermal_daemon_prop:s0 exact string

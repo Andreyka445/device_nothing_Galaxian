@@ -1,0 +1,21 @@
+# The app requests two fixed thermal modes; this vendor helper alone talks to MTK.
+type galaxian_parts_thermal, domain;
+type galaxian_parts_thermal_exec, exec_type, vendor_file_type, file_type;
+type galaxian_parts_thermal_data_file, file_type, data_file_type;
+init_daemon_domain(galaxian_parts_thermal)
+
+get_prop(galaxian_parts_thermal, galaxianparts_thermal_request_prop)
+set_prop(galaxian_parts_thermal, vendor_galaxianparts_thermal_state_prop)
+
+allow galaxian_parts_thermal thermal_socket:sock_file write;
+allow galaxian_parts_thermal thermal_core:unix_stream_socket connectto;
+allow galaxian_parts_thermal thermal_core_data_file:dir search;
+allow galaxian_parts_thermal thermal_core_data_file:file { open read getattr lock };
+allow galaxian_parts_thermal self:unix_stream_socket create_stream_socket_perms;
+allow galaxian_parts_thermal galaxian_parts_thermal_data_file:dir rw_dir_perms;
+allow galaxian_parts_thermal galaxian_parts_thermal_data_file:file create_file_perms;
+
+allow vendor_init galaxian_parts_thermal_data_file:dir create_dir_perms;
+allow vendor_init galaxian_parts_thermal_data_file:file { getattr unlink };
+
+# No thermal sysfs/proc writes, hardware shutdown controls, or app socket access.

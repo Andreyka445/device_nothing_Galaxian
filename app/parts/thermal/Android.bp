@@ -1,0 +1,9 @@
+// SPDX-License-Identifier: Apache-2.0
+cc_binary {
+    name: "galaxian_parts_thermal_control",
+    vendor: true,
+    srcs: ["ThermalControl.cpp"],
+    shared_libs: ["libbase"],
+    init_rc: ["galaxian-parts-thermal.rc"],
+    cflags: ["-Wall", "-Wextra", "-Werror"],
+}

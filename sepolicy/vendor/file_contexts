@@ -73,3 +73,6 @@
 /vendor/bin/hw/android\.hardware\.nfc-service-tms    u:object_r:hal_nfc_default_exec:s0
 /dev/tms_nfc    u:object_r:vendor_tms_nfc_device:s0
 
+# Galaxian Parts: vendor thermal policy bridge and boot-scoped restore point.
+/vendor/bin/galaxian_parts_thermal_control u:object_r:galaxian_parts_thermal_exec:s0
+/data/vendor/galaxianparts(/.*)?           u:object_r:galaxian_parts_thermal_data_file:s0

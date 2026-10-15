@@ -1,0 +1,5 @@
+set_prop(galaxian_parts_app, galaxianparts_thermal_request_prop)
+
+neverallow { domain -init -vendor_init -galaxian_parts_app } galaxianparts_thermal_request_prop:property_service set;
+
+neverallow { domain -init } galaxianparts_thermal_daemon_prop:property_service set;
