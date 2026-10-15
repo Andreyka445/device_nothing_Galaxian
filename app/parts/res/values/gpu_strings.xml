@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="gpu_settings_title">GPU control</string>
+    <string name="gpu_home_summary">GPU frequency, minimum and maximum limits, and automatic control.</string>
+    <string name="gpu_current_frequency">Current frequency</string>
+    <string name="gpu_requested_frequency">Fixed frequency setting</string>
+    <string name="gpu_loading">Reading GPU state…</string>
+    <string name="gpu_unavailable">Unavailable</string>
+    <string name="gpu_idle">Idle</string>
+    <string name="gpu_control_state">Frequency control</string>
+    <string name="gpu_mode_automatic">Automatic</string>
+    <string name="gpu_mode_fixed">Fixed frequency</string>
+    <string name="gpu_mode_unknown">Unknown</string>
+    <string name="gpu_control_unavailable">Frequency control is unavailable. Readings are shown when the driver provides them.</string>
+    <string name="gpu_supported_frequencies">Supported frequencies</string>
+    <string name="gpu_frequency_count">Frequency steps reported by the device: %1$d</string>
+    <string name="gpu_choose_frequency">Set a fixed frequency</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Choose a frequency reported by this device. Fixed mode can bypass software GPU thermal frequency limits. A fixed frequency can increase power use and temperature. The setting applies while the GPU is active; the GPU can still power down when idle.</string>
+    <string name="gpu_apply_fixed">Apply fixed frequency</string>
+    <string name="gpu_restore_automatic">Restore automatic control</string>
+    <string name="gpu_restore_summary">Release manual GPU frequency limits and fixed mode, and let the system choose the frequency again.</string>
+    <string name="gpu_restore_action">Restore</string>
+    <string name="gpu_session_title">Manual GPU settings</string>
+    <string name="gpu_session_summary">A restart restores automatic GPU control. These controls do not change CPU settings. Requested and effective frequency limits are shown separately; the current frequency comes from the driver.</string>
+    <string name="gpu_operation_title">Last operation</string>
+    <string name="gpu_applying">Applying and checking the change…</string>
+    <string name="gpu_verified">Change applied and verified.</string>
+    <string name="gpu_error_unavailable">The requested GPU control is unavailable. Reopen this page and try again.</string>
+    <string name="gpu_error_unsupported">This GPU driver does not support the requested control.</string>
+    <string name="gpu_error_frequency">That frequency is no longer reported by the device. Choose one of the currently available values.</string>
+    <string name="gpu_error_write">The GPU driver rejected the change. The app attempted to restore the previous setting.</string>
+    <string name="gpu_error_readback">The requested GPU setting could not be confirmed. The app attempted to restore the previous setting.</string>
+    <string name="gpu_error_rollback">%1$s The previous GPU setting could not be restored. Restore automatic control or restart the phone.</string>
+    <string name="gpu_minimum_frequency">Minimum frequency</string>
+    <string name="gpu_maximum_frequency">Maximum frequency</string>
+    <string name="gpu_requested_range">Requested frequency range</string>
+    <string name="gpu_effective_range">Effective frequency range</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Range limits</string>
+    <string name="gpu_choose_range">Set frequency range</string>
+    <string name="gpu_range_summary">Choose a minimum and maximum from the frequencies reported by this device. The GPU can scale within the effective range and power down when idle. A high minimum can override some software thermal limits and increase heat and power use.</string>
+    <string name="gpu_apply_range">Apply range</string>
+    <string name="gpu_error_range">The minimum frequency cannot exceed the maximum.</string>
+    <string name="gpu_error_conflict">Another controller changed the GPU settings. Its setting was left unchanged.</string>
+    <string name="gpu_effective_summary">Requested limits are your settings. Effective limits are the range currently applied by the driver after combining all controllers.</string>
+    <string name="gpu_legacy_fixed_summary">A fixed GPU frequency is active. Applying a range releases fixed mode and lets the GPU scale between the effective limits.</string>
+</resources>

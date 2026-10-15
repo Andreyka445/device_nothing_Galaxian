@@ -79,3 +79,8 @@ genfscon sysfs /devices/system/cpu/cpu6/online u:object_r:vendor_galaxian_cpu_co
 genfscon sysfs /devices/system/cpu/cpu7/online u:object_r:vendor_galaxian_cpu_control:s0
 genfscon sysfs /devices/system/cpu/cpufreq/policy0/scaling_locked_limits u:object_r:vendor_galaxian_cpu_lock:s0
 genfscon sysfs /devices/system/cpu/cpufreq/policy4/scaling_locked_limits u:object_r:vendor_galaxian_cpu_lock:s0
+genfscon proc /gpufreqv2/gpufreq_status u:object_r:vendor_galaxian_gpu_status:s0
+genfscon proc /gpufreqv2/gpu_working_opp_table u:object_r:vendor_galaxian_gpu_status:s0
+genfscon proc /gpufreqv2/fix_target_opp_index u:object_r:vendor_galaxian_gpu_control:s0
+genfscon proc /gpufreqv2/limit_table u:object_r:vendor_galaxian_gpu_range:s0
+genfscon sysfs /kernel/ged/hal/gpu_utilization u:object_r:vendor_galaxian_gpu_utilization:s0

@@ -1,0 +1,11 @@
+# GPU proc nodes appear when vendor_dlkm modules finish loading. Only expose
+# the existing range/OPP selectors and status files; never reapply settings at boot.
+on property:vendor.all.modules.ready=1
+    chown root system /proc/gpufreqv2/gpufreq_status
+    chmod 0660 /proc/gpufreqv2/gpufreq_status
+    chown root system /proc/gpufreqv2/gpu_working_opp_table
+    chmod 0660 /proc/gpufreqv2/gpu_working_opp_table
+    chown root system /proc/gpufreqv2/fix_target_opp_index
+    chmod 0660 /proc/gpufreqv2/fix_target_opp_index
+    chown root system /proc/gpufreqv2/limit_table
+    chmod 0660 /proc/gpufreqv2/limit_table

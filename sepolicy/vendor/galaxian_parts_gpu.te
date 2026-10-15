@@ -1,0 +1,27 @@
+# Galaxian Parts exposes the existing GPU range table and legacy OPP selector.
+# The app writes only the DEBUG row; no custom voltage or power switches.
+type vendor_galaxian_gpu_status, fs_type, proc_type;
+type vendor_galaxian_gpu_control, fs_type, proc_type;
+type vendor_galaxian_gpu_range, fs_type, proc_type;
+
+allow galaxian_parts_app proc_gpufreqv2:dir search;
+allow galaxian_parts_app vendor_galaxian_gpu_status:file { getattr open read };
+allow galaxian_parts_app vendor_galaxian_gpu_control:file { getattr open read write };
+allow galaxian_parts_app vendor_galaxian_gpu_range:file { getattr open read write };
+
+# Preserve the original exact proc_gpufreqv2 grants after relabelling these files.
+# Existing fs_type/proc_type attribute grants (including vendor_init setattr)
+# continue to apply without broadening the app domain.
+allow hal_power_default { vendor_galaxian_gpu_status vendor_galaxian_gpu_control vendor_galaxian_gpu_range }:file rw_file_perms;
+allow thermal_core { vendor_galaxian_gpu_status vendor_galaxian_gpu_control vendor_galaxian_gpu_range }:file r_file_perms;
+
+# gpu_utilization_show is KOBJ_ATTR_RO (0444), with no store callback.
+# Only traverse the parent and read this exact file for adaptive GPU telemetry.
+type vendor_galaxian_gpu_utilization, fs_type, sysfs_type;
+allow galaxian_parts_app sysfs_ged:dir search;
+allow galaxian_parts_app vendor_galaxian_gpu_utilization:file { getattr open read };
+
+# Preserve the pre-existing vendor grants when this one sysfs_ged file is relabelled.
+# (Upstream also keeps a magt daemon grant; Galaxian blobs ship no magt
+# daemon and this tree defines no such type, so it is omitted here.)
+allow { hal_power_default mtk_hal_power } vendor_galaxian_gpu_utilization:file rw_file_perms;
