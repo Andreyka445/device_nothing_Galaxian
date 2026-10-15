@@ -1,0 +1,2 @@
+# Read-only CPU load sampling for the opt-in adaptive controller.
+allow galaxian_parts_app proc_stat:file r_file_perms;

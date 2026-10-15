@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU load</string>
+    <string name="adaptive_gpu_temperature">GPU temperature</string>
+    <string name="adaptive_frames_title">Frame smoothness</string>
+    <string name="adaptive_frames_jank">Late or dropped frames</string>
+    <string name="adaptive_frames_dropped">Dropped frames</string>
+    <string name="adaptive_frames_count">%1$d frames observed</string>
+    <string name="adaptive_frames_timing">Target: %1$.0f FPS · Display: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Frame time (95th percentile)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Measures recent frames from the app in use. Sampling is partial. Network and input lag are not measured.</string>
+    <string name="adaptive_frames_waiting">Waiting for enough comparable frame measurements before proposing a change.</string>
+    <string name="adaptive_frames_changed">The app, rendering surface or frame timing changed. New measurements are needed.</string>
+    <string name="adaptive_frames_improved">Fewer late or dropped frames were measured within the trial limits.</string>
+    <string name="adaptive_frames_regressed">The trial did not meet the frame smoothness target.</string>
+    <string name="adaptive_frames_lower">Frame delivery is stable and the load is low. Try a lower maximum frequency.</string>
+    <string name="adaptive_frames_raise">Late or dropped frames were detected under high load. Try a higher maximum frequency.</string>
+    <string name="adaptive_gpu_boundaries">Only automatic GPU control can be adjusted. Manual CPU/GPU settings take priority.</string>
+    <string name="adaptive_trial_generic">Testing one supported frequency step.</string>
+    <string name="adaptive_gpu_missing">Waiting for usable GPU load and temperature readings.</string>
+</resources>

@@ -1,0 +1,88 @@
+Number of display frames : 2
+Display Frame 0 [*] 
+Prediction State : Valid
+Jank Type : SurfaceFlinger deadline missed (while in HWC)
+Present Metadata : Late
+Finish Metadata: Late
+Start Metadata: OnTime
+Vsync Period:   8.333333
+Present delta:   8.333333
+Present delta % refreshrate:   0.000000
+Jank Debug Metadata:   0.000000
+		    Start time		|    End time		|    Present time
+Expected	|	      0.00	|	      7.00	|	      8.33
+Actual  	|	      0.00	|	      8.00	|	     16.67
+----------------------------------------------------------------------------------------
+
+    Layer - SurfaceView[example.game/Main](BLAST)#52 [*] 
+    Token: 401
+    Is Buffer?: 1
+    Owner Pid : 4242
+    Scheduled rendering rate: 30 fps
+    Layer ID : 52
+    Present State : Presented
+    Prediction State : Valid
+    Jank Type : SurfaceFlinger deadline missed (while in HWC), App Deadline Missed
+    Present Metadata : Late
+    Finish Metadata: Late
+    Last latch time:   0.000000
+    Last expected present time:   0.000000
+    Present delta:   8.333333
+    		    Start time		|    End time		|    Present time
+    Expected	|	      0.00	|	      7.00	|	      8.33
+    Actual  	|	      0.00	|	      8.00	|	     16.67
+    ----------------------------------------------------------------------------------------
+    Layer - example.game/Main#51
+    Token: 400
+    Is Buffer?: 1
+    Owner Pid : 4242
+    Scheduled rendering rate: 0 fps
+    Layer ID : 51
+    Present State : Presented
+    Prediction State : Valid
+    Jank Type : None
+    Present Metadata : OnTime
+    Finish Metadata: OnTime
+    Last latch time:   0.000000
+    Last expected present time:   0.000000
+    Present delta:   0.000000
+    		    Start time		|    End time		|    Present time
+    Expected	|	      0.00	|	      7.00	|	      8.33
+    Actual  	|	      0.00	|	      7.00	|	     16.67
+    ----------------------------------------------------------------------------------------
+
+Display Frame 1
+Prediction State : Valid
+Jank Type : None
+Present Metadata : OnTime
+Finish Metadata: OnTime
+Start Metadata: OnTime
+Vsync Period:   8.333333
+Present delta:   0.000000
+Present delta % refreshrate:   0.000000
+Jank Debug Metadata:   0.000000
+		    Start time		|    End time		|    Present time
+Expected	|	     33.33	|	     40.00	|	     41.67
+Actual  	|	     33.33	|	     40.00	|	     41.67
+----------------------------------------------------------------------------------------
+
+    Layer - SurfaceView[example.game/Main](BLAST)#52 [*] 
+    Token: 402
+    Is Buffer?: 1
+    Owner Pid : 4242
+    Scheduled rendering rate: 30 fps
+    Layer ID : 52
+    Present State : Dropped
+    Drop time :  39.125000
+    Prediction State : Valid
+    Jank Type : Dropped Frame
+    Present Metadata : Late
+    Finish Metadata: OnTime
+    Last latch time:   0.000000
+    Last expected present time:   0.000000
+    Present delta:  41.666667
+    		    Start time		|    End time		|    Present time
+    Expected	|	     33.33	|	     40.00	|	     41.67
+    Actual  	|	     33.33	|	     38.00	|		N/A
+    ----------------------------------------------------------------------------------------
+
