@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">Kontrol ng GPU</string>
+    <string name="gpu_home_summary">GPU frequency, minimum at maximum na mga limitasyon, at awtomatikong kontrol.</string>
+    <string name="gpu_current_frequency">Kasalukuyang dalas</string>
+    <string name="gpu_requested_frequency">Setting ng nakapirming dalas</string>
+    <string name="gpu_loading">Binabasa ang kalagayan ng GPU…</string>
+    <string name="gpu_unavailable">"Hindi available"</string>
+    <string name="gpu_idle">Hindi aktibo</string>
+    <string name="gpu_control_state">Kontrol ng dalas</string>
+    <string name="gpu_mode_automatic">Awtomatiko</string>
+    <string name="gpu_mode_fixed">Nakapirming dalas</string>
+    <string name="gpu_mode_unknown">Hindi alam</string>
+    <string name="gpu_control_unavailable">Hindi available ang kontrol ng dalas. Ipinapakita ang mga reading kapag ibinibigay ng driver.</string>
+    <string name="gpu_supported_frequencies">Mga sinusuportahang dalas</string>
+    <string name="gpu_frequency_count">Mga antas ng dalas na iniulat ng device: %1$d</string>
+    <string name="gpu_choose_frequency">Magtakda ng nakapirming dalas</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Pumili ng dalas na iniulat ng device na ito. Maaaring lampasan ng nakapirming mode ang mga limitasyon ng dalas ng GPU na ipinapataw ng software batay sa temperatura. Maaaring tumaas ang paggamit ng kuryente at temperatura kapag nakapirmi ang dalas. Nalalapat ang setting habang aktibo ang GPU; maaari pa ring mawalan ng power ang GPU kapag hindi aktibo.</string>
+    <string name="gpu_apply_fixed">Ilapat ang nakapirming dalas</string>
+    <string name="gpu_restore_automatic">Ibalik ang awtomatikong kontrol</string>
+    <string name="gpu_restore_summary">Alisin ang mga manwal na limitasyon ng GPU frequency at ang nakapirming mode, at hayaang piliin muli ng system ang frequency.</string>
+    <string name="gpu_restore_action">"I-restore"</string>
+    <string name="gpu_session_title">Mga manual na setting ng GPU</string>
+    <string name="gpu_session_summary">Ibinabalik ng pag-restart ang awtomatikong kontrol ng GPU. Hindi binabago ng mga kontrol na ito ang mga setting ng CPU. Hiwalay na ipinapakita ang hiniling at aktuwal na mga limitasyon ng frequency; galing sa driver ang kasalukuyang frequency.</string>
+    <string name="gpu_operation_title">Huling operasyon</string>
+    <string name="gpu_applying">Inilalapat at sinusuri ang pagbabago…</string>
+    <string name="gpu_verified">Inilapat at na-verify ang pagbabago.</string>
+    <string name="gpu_error_unavailable">Hindi available ang hiniling na kontrol ng GPU. Buksan muli ang pahinang ito at subukan ulit.</string>
+    <string name="gpu_error_unsupported">Hindi sinusuportahan ng driver ng GPU na ito ang hiniling na kontrol.</string>
+    <string name="gpu_error_frequency">Hindi na iniuulat ng device ang dalas na iyon. Pumili ng isa sa mga kasalukuyang available na halaga.</string>
+    <string name="gpu_error_write">Tinanggihan ng driver ng GPU ang pagbabago. Sinubukan ng app na ibalik ang dating setting.</string>
+    <string name="gpu_error_readback">Hindi makumpirma ang hiniling na setting ng GPU. Sinubukan ng app na ibalik ang dating setting.</string>
+    <string name="gpu_error_rollback">%1$s Hindi maibalik ang dating setting ng GPU. Ibalik ang awtomatikong kontrol o i-restart ang telepono.</string>
+    <string name="gpu_requested_range">Hiniling na saklaw ng frequency</string>
+    <string name="gpu_effective_range">Aktuwal na saklaw ng frequency</string>
+    <string name="gpu_mode_range">Mga limitasyon ng frequency</string>
+    <string name="gpu_choose_range">Itakda ang saklaw ng frequency</string>
+    <string name="gpu_range_summary">Pumili ng minimum at maximum mula sa mga frequency na iniulat ng device na ito. Maaaring magbago ang frequency ng GPU sa loob ng aktuwal na saklaw at maaari itong mag-off kapag walang ginagawa. Maaaring mangibabaw ang mataas na minimum sa ilang limitasyon ng software kaugnay ng init at magpalakas ng init at konsumo ng kuryente.</string>
+    <string name="gpu_apply_range">Ilapat ang saklaw</string>
+    <string name="gpu_error_range">Hindi maaaring lumampas ang minimum frequency sa maximum.</string>
+    <string name="gpu_error_conflict">Binago ng ibang controller ang mga setting ng GPU. Hindi binago ang setting nito.</string>
+    <string name="gpu_effective_summary">Ang mga hiniling na limitasyon ay ang mga setting mo. Ang aktuwal na mga limitasyon ay ang saklaw na kasalukuyang inilalapat ng driver matapos pagsamahin ang mga hiling ng lahat ng controller.</string>
+    <string name="gpu_legacy_fixed_summary">Aktibo ang nakapirming GPU frequency. Inaalis ng paglalapat ng saklaw ang nakapirming mode at pinapayagan ang GPU na magbago ng frequency sa loob ng aktuwal na mga limitasyon.</string>
+    <string name="gpu_minimum_frequency">Pinakamababang frequency</string>
+    <string name="gpu_maximum_frequency">Pinakamataas na frequency</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

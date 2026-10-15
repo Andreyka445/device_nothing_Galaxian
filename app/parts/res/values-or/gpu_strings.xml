@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU ନିୟନ୍ତ୍ରଣ |</string>
+    <string name="gpu_home_summary">GPU ଆବୃତ୍ତି, ସର୍ବନିମ୍ନ ଓ ସର୍ବାଧିକ ସୀମା ଏବଂ ସ୍ୱୟଂଚାଳିତ ନିୟନ୍ତ୍ରଣ।</string>
+    <string name="gpu_current_frequency">ସାମ୍ପ୍ରତିକ ଫ୍ରିକ୍ୱେନ୍ସି |</string>
+    <string name="gpu_requested_frequency">ସ୍ଥିର ଫ୍ରିକ୍ୱେନ୍ସି ସେଟିଂ |</string>
+    <string name="gpu_loading">GPU ପ Reading ଼ିବା…</string>
+    <string name="gpu_unavailable">"ଅନୁପଲବ୍ଧ"</string>
+    <string name="gpu_idle">ନିଷ୍କ୍ରିୟ</string>
+    <string name="gpu_control_state">ଫ୍ରିକ୍ୱେନ୍ସି ନିୟନ୍ତ୍ରଣ |</string>
+    <string name="gpu_mode_automatic">ସ୍ୱୟଂଚାଳିତ |</string>
+    <string name="gpu_mode_fixed">ସ୍ଥିର ଫ୍ରିକ୍ୱେନ୍ସି |</string>
+    <string name="gpu_mode_unknown">ଅଜ୍ଞାତ</string>
+    <string name="gpu_control_unavailable">ଫ୍ରିକ୍ୱେନ୍ସି ନିୟନ୍ତ୍ରଣ ଉପଲବ୍ଧ ନାହିଁ | ଡ୍ରାଇଭର ସେମାନଙ୍କୁ ପ୍ରଦାନ କଲାବେଳେ ପଠନ ଦେଖାଯାଏ |</string>
+    <string name="gpu_supported_frequencies">ସମର୍ଥିତ ଫ୍ରିକ୍ୱେନ୍ସି |</string>
+    <string name="gpu_frequency_count">ଉପକରଣ ଦ୍ୱାରା ରିପୋର୍ଟ କରାଯାଇଥିବା ବାରମ୍ବାର ପଦକ୍ଷେପ: %1$d</string>
+    <string name="gpu_choose_frequency">ଏକ ସ୍ଥିର ଫ୍ରିକ୍ୱେନ୍ସି ସେଟ୍ କରନ୍ତୁ |</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">ଏହି ଡିଭାଇସ୍ ଦ୍ୱାରା ରିପୋର୍ଟ ହୋଇଥିବା ଏକ ଫ୍ରିକ୍ୱେନ୍ସି ବାଛନ୍ତୁ | ଏକ ସ୍ଥିର ଫ୍ରିକ୍ୱେନ୍ସି ଶକ୍ତି ବ୍ୟବହାର ଏବଂ ତାପମାତ୍ରା ବୃଦ୍ଧି କରିପାରିବ | GPU ସକ୍ରିୟ ଥିବାବେଳେ ସେଟିଂ ପ୍ରଯୁଜ୍ୟ; ନିଷ୍କ୍ରିୟ ହେଲେ GPU ତଥାପି ଶକ୍ତି ତଳକୁ କରିପାରେ | ସ୍ଥିର ମୋଡ୍ ସଫ୍ଟୱେର୍ ଦ୍ୱାରା ତାପମାତ୍ରା ଅନୁସାରେ ଲାଗୁ ହୋଇଥିବା GPU ଫ୍ରିକ୍ୱେନ୍ସି ସୀମାକୁ ଏଡ଼ାଇପାରେ।</string>
+    <string name="gpu_apply_fixed">ସ୍ଥିର ଫ୍ରିକ୍ୱେନ୍ସି ପ୍ରୟୋଗ କରନ୍ତୁ |</string>
+    <string name="gpu_restore_automatic">ସ୍ୱୟଂଚାଳିତ ନିୟନ୍ତ୍ରଣ ପୁନରୁଦ୍ଧାର କରନ୍ତୁ |</string>
+    <string name="gpu_restore_summary">GPU ଆବୃତ୍ତିର ମାନୁଆଲ୍ ସୀମା ଏବଂ ସ୍ଥିର ମୋଡ୍ ହଟାଇ ସିଷ୍ଟମ୍‌କୁ ପୁଣି ଆବୃତ୍ତି ବାଛିବାକୁ ଦିଅନ୍ତୁ।</string>
+    <string name="gpu_restore_action">"ରିଷ୍ଟୋର କରନ୍ତୁ"</string>
+    <string name="gpu_session_title">ମାନୁଆଲ୍ GPU ସେଟିଙ୍ଗ୍ |</string>
+    <string name="gpu_session_summary">ପୁନଃଆରମ୍ଭ କଲେ ସ୍ୱୟଂଚାଳିତ GPU ନିୟନ୍ତ୍ରଣ ପୁନଃସ୍ଥାପିତ ହୁଏ। ଏହି ନିୟନ୍ତ୍ରଣଗୁଡ଼ିକ CPU ସେଟିଂସ୍ ବଦଳାଏ ନାହିଁ। ଅନୁରୋଧ କରାଯାଇଥିବା ଏବଂ କାର୍ଯ୍ୟକାରୀ ଆବୃତ୍ତି ସୀମା ପୃଥକ ଦେଖାଯାଏ; ବର୍ତ୍ତମାନର ଆବୃତ୍ତି ଡ୍ରାଇଭର୍‌ରୁ ମିଳେ।</string>
+    <string name="gpu_operation_title">ଶେଷ ଅପରେସନ୍</string>
+    <string name="gpu_applying">ପରିବର୍ତ୍ତନ ପ୍ରୟୋଗ ଏବଂ ଯାଞ୍ଚ…</string>
+    <string name="gpu_verified">ପ୍ରୟୋଗ ପ୍ରୟୋଗ ଏବଂ ଯା ified ୍ଚ କରନ୍ତୁ |</string>
+    <string name="gpu_error_unavailable">ଅନୁରୋଧ କରାଯାଇଥିବା GPU ନିୟନ୍ତ୍ରଣ ଉପଲବ୍ଧ ନାହିଁ | ଏହି ପୃଷ୍ଠା ଖୋଲ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କର |</string>
+    <string name="gpu_error_unsupported">ଏହି GPU ଡ୍ରାଇଭର ଅନୁରୋଧ କରାଯାଇଥିବା ନିୟନ୍ତ୍ରଣକୁ ସମର୍ଥନ କରେନାହିଁ |</string>
+    <string name="gpu_error_frequency">ସେହି ଫ୍ରିକ୍ୱେନ୍ସି ଡିଭାଇସ୍ ଦ୍ୱାରା ଆଉ ରିପୋର୍ଟ ହୋଇନାହିଁ | ସମ୍ପ୍ରତି ଉପଲବ୍ଧ ମୂଲ୍ୟଗୁଡ଼ିକ ମଧ୍ୟରୁ ଗୋଟିଏ ବାଛନ୍ତୁ |</string>
+    <string name="gpu_error_write">GPU ଡ୍ରାଇଭର ପରିବର୍ତ୍ତନକୁ ପ୍ରତ୍ୟାଖ୍ୟାନ କଲା | ପୂର୍ବ ସେଟିଂକୁ ପୁନ restore ସ୍ଥାପନ କରିବାକୁ ଆପ୍ ଚେଷ୍ଟା କଲା |</string>
+    <string name="gpu_error_readback">ଅନୁରୋଧ କରାଯାଇଥିବା GPU ସେଟିଂ ନିଶ୍ଚିତ ହୋଇପାରିଲା ନାହିଁ | ପୂର୍ବ ସେଟିଂକୁ ପୁନ restore ସ୍ଥାପନ କରିବାକୁ ଆପ୍ ଚେଷ୍ଟା କଲା |</string>
+    <string name="gpu_error_rollback">%1$s ପୂର୍ବ GPU ସେଟିଂ ପୁନରୁଦ୍ଧାର ହୋଇପାରିଲା ନାହିଁ | ସ୍ୱୟଂଚାଳିତ ନିୟନ୍ତ୍ରଣ ପୁନରୁଦ୍ଧାର କରନ୍ତୁ କିମ୍ବା ଫୋନକୁ ପୁନ rest ଆରମ୍ଭ କରନ୍ତୁ |</string>
+    <string name="gpu_requested_range">ଅନୁରୋଧ କରାଯାଇଥିବା ଆବୃତ୍ତି ପରିସର</string>
+    <string name="gpu_effective_range">କାର୍ଯ୍ୟକାରୀ ଆବୃତ୍ତି ପରିସର</string>
+    <string name="gpu_mode_range">ଆବୃତ୍ତି ସୀମା</string>
+    <string name="gpu_choose_range">ଆବୃତ୍ତି ପରିସର ସେଟ୍ କରନ୍ତୁ</string>
+    <string name="gpu_range_summary">ଡିଭାଇସ୍ ଜଣାଇଥିବା ଆବୃତ୍ତିଗୁଡ଼ିକରୁ ସର୍ବନିମ୍ନ ଏବଂ ସର୍ବାଧିକ ବାଛନ୍ତୁ। GPU କାର୍ଯ୍ୟକାରୀ ପରିସର ମଧ୍ୟରେ ଆବୃତ୍ତି ବଦଳାଇପାରେ ଏବଂ ନିଷ୍କ୍ରିୟ ଥିଲେ ବନ୍ଦ ହୋଇପାରେ। ଉଚ୍ଚ ସର୍ବନିମ୍ନ ସୀମା କିଛି ସଫ୍ଟୱେର୍ ତାପୀୟ ସୀମା ଉପରେ ପ୍ରାଧାନ୍ୟ ପାଇ ତାପ ଓ ଶକ୍ତି ବ୍ୟବହାର ବଢ଼ାଇପାରେ।</string>
+    <string name="gpu_apply_range">ପରିସର ପ୍ରୟୋଗ କରନ୍ତୁ</string>
+    <string name="gpu_error_range">ସର୍ବନିମ୍ନ ଆବୃତ୍ତି ସର୍ବାଧିକଠାରୁ ଅଧିକ ହୋଇପାରିବ ନାହିଁ।</string>
+    <string name="gpu_error_conflict">ଅନ୍ୟ ଏକ ନିୟନ୍ତ୍ରକ GPU ସେଟିଂସ୍ ବଦଳାଇଛି। ତାହାର ସେଟିଂ ଅପରିବର୍ତ୍ତିତ ରଖାଯାଇଛି।</string>
+    <string name="gpu_effective_summary">ଅନୁରୋଧ କରାଯାଇଥିବା ସୀମା ହେଉଛି ଆପଣଙ୍କ ସେଟିଂସ୍। ସମସ୍ତ ନିୟନ୍ତ୍ରକଙ୍କ ଅନୁରୋଧ ଏକାଠି କରିବା ପରେ ଡ୍ରାଇଭର୍ ପ୍ରୟୋଗ କରୁଥିବା ପରିସର ହେଉଛି କାର୍ଯ୍ୟକାରୀ ସୀମା।</string>
+    <string name="gpu_legacy_fixed_summary">ସ୍ଥିର GPU ଆବୃତ୍ତି ସକ୍ରିୟ ଅଛି। ପରିସର ପ୍ରୟୋଗ କଲେ ସ୍ଥିର ମୋଡ୍ ବନ୍ଦ ହୁଏ ଏବଂ GPU କାର୍ଯ୍ୟକାରୀ ସୀମା ମଧ୍ୟରେ ଆବୃତ୍ତି ବଦଳାଇପାରେ।</string>
+    <string name="gpu_minimum_frequency">ସର୍ବନିମ୍ନ ଆବୃତ୍ତି</string>
+    <string name="gpu_maximum_frequency">ସର୍ବାଧିକ ଆବୃତ୍ତି</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

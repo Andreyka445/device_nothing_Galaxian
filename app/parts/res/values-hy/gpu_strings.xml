@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU հսկողություն</string>
+    <string name="gpu_home_summary">GPU հաճախականություն, նվազագույն և առավելագույն սահմաններ և ավտոմատ կառավարում։</string>
+    <string name="gpu_current_frequency">Ընթացիկ հաճախականություն</string>
+    <string name="gpu_requested_frequency">Հաստատուն հաճախականության կարգավորում</string>
+    <string name="gpu_loading">Կարդալու GPU վիճակ…</string>
+    <string name="gpu_unavailable">"Անհասանելի է"</string>
+    <string name="gpu_idle">Պարապ</string>
+    <string name="gpu_control_state">Հաճախականության վերահսկում</string>
+    <string name="gpu_mode_automatic">Ավտոմատ</string>
+    <string name="gpu_mode_fixed">Հաստատուն հաճախականություն</string>
+    <string name="gpu_mode_unknown">Անհայտ</string>
+    <string name="gpu_control_unavailable">Հաճախականության կառավարումն անհասանելի է: Ընթերցումները ցուցադրվում են, երբ վարորդը տրամադրում է դրանք:</string>
+    <string name="gpu_supported_frequencies">Աջակցվող հաճախականություններ</string>
+    <string name="gpu_frequency_count">Սարքի կողմից հաղորդված քայլերի հաճախականությունը՝ %1$d</string>
+    <string name="gpu_choose_frequency">Սահմանեք ֆիքսված հաճախականություն</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Ընտրեք այս սարքի կողմից հաղորդվող հաճախականությունը: Ֆիքսված հաճախականությունը կարող է մեծացնել էներգիայի օգտագործումը և ջերմաստիճանը: Կարգավորումը գործում է, քանի դեռ GPU ակտիվ է. GPU-ը դեռ կարող է անջատվել, երբ պարապ է: Ֆիքսված ռեժիմը կարող է շրջանցել GPU-ի հաճախականության ծրագրային ջերմային սահմանափակումները։</string>
+    <string name="gpu_apply_fixed">Կիրառել ֆիքսված հաճախականություն</string>
+    <string name="gpu_restore_automatic">Վերականգնել ավտոմատ կառավարումը</string>
+    <string name="gpu_restore_summary">Հեռացրեք GPU հաճախականության ձեռքով սահմանված սահմաններն ու ֆիքսված ռեժիմը և թույլ տվեք համակարգին կրկին ընտրել հաճախականությունը։</string>
+    <string name="gpu_restore_action">"Վերականգնել"</string>
+    <string name="gpu_session_title">Ձեռքով GPU կարգավորումներ</string>
+    <string name="gpu_session_summary">Վերագործարկումը վերականգնում է GPU ավտոմատ կառավարումը։ Այս գործիքները չեն փոխում CPU կարգավորումները։ Պահանջվող և գործող հաճախականության սահմանները ցուցադրվում են առանձին, իսկ ընթացիկ հաճախականությունը հաղորդում է վարորդը։</string>
+    <string name="gpu_operation_title">Վերջին վիրահատությունը</string>
+    <string name="gpu_applying">Փոփոխության կիրառում և ստուգում…</string>
+    <string name="gpu_verified">Փոփոխությունը կիրառվեց և հաստատվեց:</string>
+    <string name="gpu_error_unavailable">Պահանջվող GPU հսկողությունն անհասանելի է: Նորից բացեք այս էջը և նորից փորձեք:</string>
+    <string name="gpu_error_unsupported">Այս GPU վարորդը չի աջակցում պահանջվող կառավարումը:</string>
+    <string name="gpu_error_frequency">Այդ հաճախականությունը սարքն այլևս չի հայտնում: Ընտրեք ներկայումս առկա արժեքներից մեկը:</string>
+    <string name="gpu_error_write">GPU վարորդը մերժել է փոփոխությունը։ Հավելվածը փորձել է վերականգնել նախորդ կարգավորումը:</string>
+    <string name="gpu_error_readback">Պահանջվող GPU կարգավորումը չհաջողվեց հաստատել: Հավելվածը փորձել է վերականգնել նախորդ կարգավորումը:</string>
+    <string name="gpu_error_rollback">%1$s Նախորդ GPU կարգավորումը չհաջողվեց վերականգնել: Վերականգնել ավտոմատ կառավարումը կամ վերագործարկել հեռախոսը:</string>
+    <string name="gpu_requested_range">Պահանջվող հաճախականության միջակայք</string>
+    <string name="gpu_effective_range">Գործող հաճախականության միջակայք</string>
+    <string name="gpu_mode_range">Հաճախականության սահմաններ</string>
+    <string name="gpu_choose_range">Սահմանել հաճախականության միջակայքը</string>
+    <string name="gpu_range_summary">Ընտրեք նվազագույնն ու առավելագույնը սարքի հաղորդած հաճախականություններից։ GPU հաճախականությունը կարող է փոփոխվել գործող միջակայքում, իսկ պարապ վիճակում GPU-ն կարող է անջատվել։ Բարձր նվազագույնը կարող է գերակայել որոշ ծրագրային ջերմային սահմանափակումների նկատմամբ և ավելացնել տաքացումն ու էներգիայի սպառումը։</string>
+    <string name="gpu_apply_range">Կիրառել միջակայքը</string>
+    <string name="gpu_error_range">Նվազագույն հաճախականությունը չի կարող գերազանցել առավելագույնը։</string>
+    <string name="gpu_error_conflict">Մեկ այլ կարգավորիչ փոխել է GPU կարգավորումները։ Դրա կարգավորումը պահպանվել է անփոփոխ։</string>
+    <string name="gpu_effective_summary">Պահանջվող սահմանները ձեր կարգավորումներն են։ Գործող սահմաններն այն միջակայքն են, որը վարորդը կիրառում է բոլոր կարգավորիչների պահանջները համադրելուց հետո։</string>
+    <string name="gpu_legacy_fixed_summary">Գործում է GPU ֆիքսված հաճախականություն։ Միջակայք կիրառելն անջատում է ֆիքսված ռեժիմը և թույլ է տալիս GPU հաճախականությանը փոփոխվել գործող սահմանների միջև։</string>
+    <string name="gpu_minimum_frequency">Նվազագույն հաճախականություն</string>
+    <string name="gpu_maximum_frequency">Առավելագույն հաճախականություն</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

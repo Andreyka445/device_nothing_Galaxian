@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-belasting</string>
+    <string name="adaptive_gpu_temperature">GPU-temperatuur</string>
+    <string name="adaptive_frames_title">Vloeiendheid van frames</string>
+    <string name="adaptive_frames_jank">Te late of overgeslagen frames</string>
+    <string name="adaptive_frames_dropped">Overgeslagen frames</string>
+    <string name="adaptive_frames_count">%1$d frames waargenomen</string>
+    <string name="adaptive_frames_timing">Doel: %1$.0f FPS · Scherm: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Frametijd (95e percentiel)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Meet recente frames van de gebruikte app. De steekproef is onvolledig. Netwerk- en invoervertraging worden niet gemeten.</string>
+    <string name="adaptive_frames_waiting">Wachten op voldoende vergelijkbare framemetingen voordat een wijziging wordt voorgesteld.</string>
+    <string name="adaptive_frames_changed">De app, het renderoppervlak of de frametiming is veranderd. Nieuwe metingen zijn nodig.</string>
+    <string name="adaptive_frames_improved">Binnen de grenzen van de proef zijn minder te late of overgeslagen frames gemeten.</string>
+    <string name="adaptive_frames_regressed">De proef voldeed niet aan het doel voor vloeiende frames.</string>
+    <string name="adaptive_frames_lower">De frameweergave is stabiel en de belasting is laag. Probeer een lagere maximumfrequentie.</string>
+    <string name="adaptive_frames_raise">Bij hoge belasting zijn te late of overgeslagen frames waargenomen. Probeer een hogere maximumfrequentie.</string>
+    <string name="adaptive_gpu_boundaries">Alleen automatische GPU-regeling kan worden aangepast. Handmatige CPU/GPU-instellingen hebben voorrang.</string>
+    <string name="adaptive_trial_generic">Eén ondersteunde frequentiestap wordt getest.</string>
+    <string name="adaptive_gpu_missing">Wachten op bruikbare metingen van GPU-belasting en -temperatuur.</string>
+</resources>

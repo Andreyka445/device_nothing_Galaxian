@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU ачаалал</string>
+    <string name="adaptive_gpu_temperature">GPU температур</string>
+    <string name="adaptive_frames_title">Кадрын жигд байдал</string>
+    <string name="adaptive_frames_jank">Хоцорсон эсвэл алдагдсан кадр</string>
+    <string name="adaptive_frames_dropped">Алдагдсан кадр</string>
+    <string name="adaptive_frames_count">Ажигласан кадр: %1$d</string>
+    <string name="adaptive_frames_timing">Зорилтот: %1$.0f FPS · Дэлгэц: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Кадрын хугацаа (95-р перцентиль)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Ашиглаж буй аппын сүүлийн кадруудыг хэмжинэ. Түүвэрлэлт хэсэгчилсэн байна. Сүлжээ болон оролтын хоцролтыг хэмжихгүй.</string>
+    <string name="adaptive_frames_waiting">Өөрчлөлт санал болгохоос өмнө харьцуулж болох хангалттай кадрын хэмжилт хүлээж байна.</string>
+    <string name="adaptive_frames_changed">Апп, дүрслэх гадаргуу эсвэл кадрын цагийн тохиргоо өөрчлөгдсөн. Шинэ хэмжилт шаардлагатай.</string>
+    <string name="adaptive_frames_improved">Туршилтын хязгаар дотор хоцорсон эсвэл алдагдсан кадрын тоо багассан нь хэмжигдсэн.</string>
+    <string name="adaptive_frames_regressed">Туршилт кадрын жигд байдлын зорилгод хүрсэнгүй.</string>
+    <string name="adaptive_frames_lower">Кадрын гаралт тогтвортой, ачаалал бага байна. Хамгийн их давтамжийг багасгаж туршина уу.</string>
+    <string name="adaptive_frames_raise">Их ачааллын үед хоцорсон эсвэл алдагдсан кадр илэрсэн. Хамгийн их давтамжийг нэмэгдүүлж туршина уу.</string>
+    <string name="adaptive_gpu_boundaries">Зөвхөн автомат удирдлагатай GPU-г тохируулж болно. CPU/GPU-ийн гар тохиргоо давуу эрхтэй.</string>
+    <string name="adaptive_trial_generic">Дэмждэг давтамжийн нэг шатлалыг туршиж байна.</string>
+    <string name="adaptive_gpu_missing">GPU ачаалал болон температурын ашиглаж болох хэмжилт хүлээж байна.</string>
+</resources>

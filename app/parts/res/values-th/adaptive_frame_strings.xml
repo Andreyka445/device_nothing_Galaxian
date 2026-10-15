@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">โหลด GPU</string>
+    <string name="adaptive_gpu_temperature">อุณหภูมิ GPU</string>
+    <string name="adaptive_frames_title">ความลื่นไหลของเฟรม</string>
+    <string name="adaptive_frames_jank">เฟรมล่าช้าหรือหลุด</string>
+    <string name="adaptive_frames_dropped">เฟรมหลุด</string>
+    <string name="adaptive_frames_count">ตรวจวัดแล้ว %1$d เฟรม</string>
+    <string name="adaptive_frames_timing">เป้าหมาย: %1$.0f FPS · จอแสดงผล: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">เวลาเฟรม (เปอร์เซ็นไทล์ที่ 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">วัดเฟรมล่าสุดจากแอปที่กำลังใช้งาน เป็นการสุ่มตัวอย่างเพียงบางส่วน ไม่ได้วัดความหน่วงของเครือข่ายและการป้อนข้อมูล</string>
+    <string name="adaptive_frames_waiting">กำลังรอการวัดเฟรมที่เพียงพอและเปรียบเทียบกันได้ก่อนเสนอการเปลี่ยนแปลง</string>
+    <string name="adaptive_frames_changed">แอป พื้นผิวการเรนเดอร์ หรือจังหวะเวลาเฟรมเปลี่ยนไป ต้องวัดใหม่</string>
+    <string name="adaptive_frames_improved">ตรวจวัดพบเฟรมล่าช้าหรือหลุดน้อยลงภายในขีดจำกัดของการทดลอง</string>
+    <string name="adaptive_frames_regressed">การทดลองไม่บรรลุเป้าหมายความลื่นไหลของเฟรม</string>
+    <string name="adaptive_frames_lower">การแสดงเฟรมมีความสม่ำเสมอและโหลดต่ำ ลองลดความถี่สูงสุด</string>
+    <string name="adaptive_frames_raise">ตรวจพบเฟรมล่าช้าหรือหลุดขณะมีโหลดสูง ลองเพิ่มความถี่สูงสุด</string>
+    <string name="adaptive_gpu_boundaries">ปรับได้เฉพาะการควบคุม GPU แบบอัตโนมัติ การตั้งค่า CPU/GPU ด้วยตนเองมีความสำคัญก่อน</string>
+    <string name="adaptive_trial_generic">กำลังทดสอบความถี่ที่รองรับหนึ่งระดับ</string>
+    <string name="adaptive_gpu_missing">กำลังรอค่าโหลดและอุณหภูมิ GPU ที่ใช้ได้</string>
+</resources>

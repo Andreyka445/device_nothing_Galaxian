@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU 부하</string>
+    <string name="adaptive_gpu_temperature">GPU 온도</string>
+    <string name="adaptive_frames_title">프레임 부드러움</string>
+    <string name="adaptive_frames_jank">지연되거나 누락된 프레임</string>
+    <string name="adaptive_frames_dropped">누락된 프레임</string>
+    <string name="adaptive_frames_count">관측한 프레임 %1$d개</string>
+    <string name="adaptive_frames_timing">목표: %1$.0f FPS · 디스플레이: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">프레임 시간(95번째 백분위수)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">사용 중인 앱의 최근 프레임을 측정합니다. 일부 프레임만 표본으로 수집합니다. 네트워크 및 입력 지연은 측정하지 않습니다.</string>
+    <string name="adaptive_frames_waiting">변경을 제안하기 전에 비교할 수 있는 프레임 측정값이 충분히 모이기를 기다리는 중입니다.</string>
+    <string name="adaptive_frames_changed">앱, 렌더링 표면 또는 프레임 타이밍이 변경되었습니다. 새 측정값이 필요합니다.</string>
+    <string name="adaptive_frames_improved">시험의 제한을 지키면서 지연되거나 누락된 프레임이 줄어든 것으로 측정되었습니다.</string>
+    <string name="adaptive_frames_regressed">시험이 프레임 부드러움 목표를 달성하지 못했습니다.</string>
+    <string name="adaptive_frames_lower">프레임 출력이 안정적이고 부하가 낮습니다. 최대 주파수를 낮춰 보세요.</string>
+    <string name="adaptive_frames_raise">높은 부하에서 지연되거나 누락된 프레임이 감지되었습니다. 최대 주파수를 높여 보세요.</string>
+    <string name="adaptive_gpu_boundaries">GPU 제어가 자동일 때만 조정할 수 있습니다. 수동 CPU/GPU 설정이 우선합니다.</string>
+    <string name="adaptive_trial_generic">지원되는 주파수를 한 단계만 변경하여 시험하는 중입니다.</string>
+    <string name="adaptive_gpu_missing">사용할 수 있는 GPU 부하 및 온도 측정값을 기다리는 중입니다.</string>
+</resources>

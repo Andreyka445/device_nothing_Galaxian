@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU yuklanishi</string>
+    <string name="adaptive_gpu_temperature">GPU harorati</string>
+    <string name="adaptive_frames_title">Kadrlar ravonligi</string>
+    <string name="adaptive_frames_jank">Kechikkan yoki tushib qolgan kadrlar</string>
+    <string name="adaptive_frames_dropped">Tushib qolgan kadrlar</string>
+    <string name="adaptive_frames_count">%1$d ta kadr kuzatildi</string>
+    <string name="adaptive_frames_timing">Maqsad: %1$.0f FPS · Ekran: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Kadr vaqti (95-persentil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Ishlatilayotgan ilovaning so‘nggi kadrlarini o‘lchaydi. Namuna qisman olinadi. Tarmoq va kiritish kechikishi o‘lchanmaydi.</string>
+    <string name="adaptive_frames_waiting">O‘zgarish taklif qilishdan oldin yetarli taqqoslanadigan kadr o‘lchovlari kutilmoqda.</string>
+    <string name="adaptive_frames_changed">Ilova, tasvirlash yuzasi yoki kadr vaqtlari o‘zgardi. Yangi o‘lchovlar kerak.</string>
+    <string name="adaptive_frames_improved">Sinov chegaralari doirasida kamroq kechikkan yoki tushib qolgan kadrlar o‘lchandi.</string>
+    <string name="adaptive_frames_regressed">Sinov kadrlar ravonligi maqsadiga erishmadi.</string>
+    <string name="adaptive_frames_lower">Kadrlar uzatilishi barqaror va yuklanish past. Pastroq maksimal chastotani sinab ko‘ring.</string>
+    <string name="adaptive_frames_raise">Yuqori yuklanishda kechikkan yoki tushib qolgan kadrlar aniqlandi. Yuqoriroq maksimal chastotani sinab ko‘ring.</string>
+    <string name="adaptive_gpu_boundaries">Faqat avtomatik GPU boshqaruvini sozlash mumkin. Qo‘lda o‘rnatilgan CPU/GPU sozlamalari ustun turadi.</string>
+    <string name="adaptive_trial_generic">Qo‘llab-quvvatlanadigan chastotaning bitta pog‘onasi sinovdan o‘tkazilmoqda.</string>
+    <string name="adaptive_gpu_missing">GPU yuklanishi va haroratining yaroqli ko‘rsatkichlari kutilmoqda.</string>
+</resources>

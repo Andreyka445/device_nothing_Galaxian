@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">បន្ទុក GPU</string>
+    <string name="adaptive_gpu_temperature">សីតុណ្ហភាព GPU</string>
+    <string name="adaptive_frames_title">ភាពរលូននៃស៊ុម</string>
+    <string name="adaptive_frames_jank">ស៊ុមយឺត ឬបាត់បង់</string>
+    <string name="adaptive_frames_dropped">ស៊ុមបាត់បង់</string>
+    <string name="adaptive_frames_count">បានសង្កេត %1$d ស៊ុម</string>
+    <string name="adaptive_frames_timing">គោលដៅ៖ %1$.0f FPS · អេក្រង់៖ %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ពេលវេលាស៊ុម (ស៊ុម 95 ភាគរយមិនលើសតម្លៃនេះ)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">វាស់ស៊ុមថ្មីៗពីកម្មវិធីដែលកំពុងប្រើ។ ការយកគំរូមានតែមួយផ្នែកប៉ុណ្ណោះ។ មិនវាស់ភាពយឺតនៃបណ្តាញ និងការបញ្ចូលទេ។</string>
+    <string name="adaptive_frames_waiting">កំពុងរង់ចាំការវាស់ស៊ុមដែលគ្រប់គ្រាន់ និងអាចប្រៀបធៀបបាន មុននឹងស្នើការផ្លាស់ប្តូរ។</string>
+    <string name="adaptive_frames_changed">កម្មវិធី ផ្ទៃបង្ហាញរូបភាព ឬពេលវេលាស៊ុមបានផ្លាស់ប្តូរ។ ត្រូវការការវាស់ថ្មី។</string>
+    <string name="adaptive_frames_improved">បានវាស់ឃើញស៊ុមយឺត ឬបាត់បង់តិចជាងមុន ក្នុងដែនកំណត់នៃការសាកល្បង។</string>
+    <string name="adaptive_frames_regressed">ការសាកល្បងមិនបានសម្រេចគោលដៅភាពរលូននៃស៊ុមទេ។</string>
+    <string name="adaptive_frames_lower">ការបង្ហាញស៊ុមមានស្ថិរភាព ហើយបន្ទុកទាប។ សាកល្បងបន្ថយប្រេកង់អតិបរមា។</string>
+    <string name="adaptive_frames_raise">បានរកឃើញស៊ុមយឺត ឬបាត់បង់នៅពេលបន្ទុកខ្ពស់។ សាកល្បងបង្កើនប្រេកង់អតិបរមា។</string>
+    <string name="adaptive_gpu_boundaries">អាចកែតម្រូវបានតែការគ្រប់គ្រង GPU ដោយស្វ័យប្រវត្តិប៉ុណ្ណោះ។ ការកំណត់ CPU/GPU ដោយដៃមានអាទិភាព។</string>
+    <string name="adaptive_trial_generic">កំពុងសាកល្បងប្រេកង់ដែលគាំទ្រមួយកម្រិត។</string>
+    <string name="adaptive_gpu_missing">កំពុងរង់ចាំទិន្នន័យបន្ទុក និងសីតុណ្ហភាព GPU ដែលអាចប្រើបាន។</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">Tải GPU</string>
+    <string name="adaptive_gpu_temperature">Nhiệt độ GPU</string>
+    <string name="adaptive_frames_title">Độ mượt khung hình</string>
+    <string name="adaptive_frames_jank">Khung hình trễ hoặc bị bỏ</string>
+    <string name="adaptive_frames_dropped">Khung hình bị bỏ</string>
+    <string name="adaptive_frames_count">Đã quan sát %1$d khung hình</string>
+    <string name="adaptive_frames_timing">Mục tiêu: %1$.0f FPS · Màn hình: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Thời gian khung hình (phân vị thứ 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Đo các khung hình gần đây của ứng dụng đang dùng. Chỉ lấy mẫu một phần. Không đo độ trễ mạng và đầu vào.</string>
+    <string name="adaptive_frames_waiting">Đang chờ đủ số đo khung hình có thể so sánh trước khi đề xuất thay đổi.</string>
+    <string name="adaptive_frames_changed">Ứng dụng, bề mặt kết xuất hoặc thời điểm khung hình đã thay đổi. Cần đo lại.</string>
+    <string name="adaptive_frames_improved">Đã đo được ít khung hình trễ hoặc bị bỏ hơn trong giới hạn của thử nghiệm.</string>
+    <string name="adaptive_frames_regressed">Thử nghiệm không đạt mục tiêu về độ mượt khung hình.</string>
+    <string name="adaptive_frames_lower">Việc hiển thị khung hình ổn định và tải thấp. Hãy thử tần số tối đa thấp hơn.</string>
+    <string name="adaptive_frames_raise">Phát hiện khung hình trễ hoặc bị bỏ khi tải cao. Hãy thử tần số tối đa cao hơn.</string>
+    <string name="adaptive_gpu_boundaries">Chỉ có thể điều chỉnh khi GPU được điều khiển tự động. Cài đặt CPU/GPU thủ công được ưu tiên.</string>
+    <string name="adaptive_trial_generic">Đang thử một mức tần số được hỗ trợ.</string>
+    <string name="adaptive_gpu_missing">Đang chờ số đo tải và nhiệt độ GPU có thể sử dụng.</string>
+</resources>

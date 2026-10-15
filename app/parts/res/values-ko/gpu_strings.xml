@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU 제어</string>
+    <string name="gpu_home_summary">GPU 주파수, 최소 및 최대 한도, 자동 제어.</string>
+    <string name="gpu_current_frequency">현재 주파수</string>
+    <string name="gpu_requested_frequency">고정 주파수 설정</string>
+    <string name="gpu_loading">GPU 상태를 읽는 중…</string>
+    <string name="gpu_unavailable">"사용할 수 없음"</string>
+    <string name="gpu_idle">게으른</string>
+    <string name="gpu_control_state">주파수 제어</string>
+    <string name="gpu_mode_automatic">오토매틱</string>
+    <string name="gpu_mode_fixed">고정 주파수</string>
+    <string name="gpu_mode_unknown">알려지지 않은</string>
+    <string name="gpu_control_unavailable">주파수 제어가 불가능합니다. 운전자가 판독값을 제공하면 판독값이 표시됩니다.</string>
+    <string name="gpu_supported_frequencies">지원되는 주파수</string>
+    <string name="gpu_frequency_count">기기에서 보고된 주파수 단계: %1$d</string>
+    <string name="gpu_choose_frequency">고정 주파수 설정</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">이 장치에서 보고되는 빈도를 선택하세요. 고정된 주파수는 전력 사용량과 온도를 증가시킬 수 있습니다. GPU이 활성화된 동안 설정이 적용됩니다. GPU는 유휴 상태에서도 전원이 꺼질 수 있습니다. 고정 모드에서는 소프트웨어가 온도에 따라 적용하는 GPU 주파수 제한을 우회할 수 있습니다.</string>
+    <string name="gpu_apply_fixed">고정 주파수 적용</string>
+    <string name="gpu_restore_automatic">자동 제어 복원</string>
+    <string name="gpu_restore_summary">수동 GPU 주파수 한도와 고정 모드를 해제하고 시스템이 다시 주파수를 선택하도록 합니다.</string>
+    <string name="gpu_restore_action">"복원"</string>
+    <string name="gpu_session_title">수동 GPU 설정</string>
+    <string name="gpu_session_summary">재시작하면 자동 GPU 제어가 복원됩니다. 이 제어 기능은 CPU 설정을 변경하지 않습니다. 요청한 주파수 한도와 실제 적용된 한도는 별도로 표시되며, 현재 주파수는 드라이버에서 가져옵니다.</string>
+    <string name="gpu_operation_title">마지막 작업</string>
+    <string name="gpu_applying">변경사항 적용 및 확인 중…</string>
+    <string name="gpu_verified">변경사항이 적용되고 확인되었습니다.</string>
+    <string name="gpu_error_unavailable">요청한 GPU 제어를 사용할 수 없습니다. 이 페이지를 다시 열고 다시 시도하세요.</string>
+    <string name="gpu_error_unsupported">이 GPU 드라이버는 요청한 제어를 지원하지 않습니다.</string>
+    <string name="gpu_error_frequency">해당 빈도는 더 이상 장치에서 보고되지 않습니다. 현재 사용 가능한 값 중 하나를 선택합니다.</string>
+    <string name="gpu_error_write">GPU 운전자가 변경 사항을 거부했습니다. 앱이 이전 설정을 복원하려고 시도했습니다.</string>
+    <string name="gpu_error_readback">요청하신 GPU 설정을 확인할 수 없습니다. 앱이 이전 설정을 복원하려고 시도했습니다.</string>
+    <string name="gpu_error_rollback">%1$s 이전 GPU 설정을 복원할 수 없습니다. 자동 제어를 복원하거나 전화를 다시 시작하십시오.</string>
+    <string name="gpu_requested_range">요청한 주파수 범위</string>
+    <string name="gpu_effective_range">실제 적용된 주파수 범위</string>
+    <string name="gpu_mode_range">주파수 한도</string>
+    <string name="gpu_choose_range">주파수 범위 설정</string>
+    <string name="gpu_range_summary">이 기기에서 보고하는 주파수 중 최솟값과 최댓값을 선택하세요. GPU는 실제 적용된 범위 안에서 주파수를 조절하며 유휴 상태에서는 꺼질 수 있습니다. 최솟값이 높으면 일부 소프트웨어 발열 제한보다 우선하여 발열과 전력 소비가 증가할 수 있습니다.</string>
+    <string name="gpu_apply_range">범위 적용</string>
+    <string name="gpu_error_range">최소 주파수는 최대 주파수를 초과할 수 없습니다.</string>
+    <string name="gpu_error_conflict">다른 제어기가 GPU 설정을 변경했습니다. 해당 설정은 그대로 유지했습니다.</string>
+    <string name="gpu_effective_summary">요청한 한도는 사용자가 설정한 값입니다. 실제 적용된 한도는 모든 제어기의 요구를 종합한 후 드라이버가 현재 적용하는 범위입니다.</string>
+    <string name="gpu_legacy_fixed_summary">고정 GPU 주파수가 활성화되어 있습니다. 범위를 적용하면 고정 모드가 해제되고 GPU가 실제 적용된 한도 안에서 주파수를 조절할 수 있습니다.</string>
+    <string name="gpu_minimum_frequency">최소 주파수</string>
+    <string name="gpu_maximum_frequency">최대 주파수</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

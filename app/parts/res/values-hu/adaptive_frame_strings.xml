@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-terhelés</string>
+    <string name="adaptive_gpu_temperature">GPU-hőmérséklet</string>
+    <string name="adaptive_frames_title">Képkockák folyamatossága</string>
+    <string name="adaptive_frames_jank">Késő vagy eldobott képkockák</string>
+    <string name="adaptive_frames_dropped">Eldobott képkockák</string>
+    <string name="adaptive_frames_count">%1$d megfigyelt képkocka</string>
+    <string name="adaptive_frames_timing">Cél: %1$.0f FPS · Kijelző: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Képkockaidő (95. percentilis)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">A használt alkalmazás legutóbbi képkockáit méri. A mintavétel részleges. A hálózati és bemeneti késleltetést nem méri.</string>
+    <string name="adaptive_frames_waiting">Várakozás elegendő összehasonlítható képkockamérésre a módosítás javaslata előtt.</string>
+    <string name="adaptive_frames_changed">Megváltozott az alkalmazás, a renderelési felület vagy a képkockák időzítése. Új mérések szükségesek.</string>
+    <string name="adaptive_frames_improved">Kevesebb késő vagy eldobott képkockát mértünk a próba korlátain belül.</string>
+    <string name="adaptive_frames_regressed">A próba nem érte el a képkockák folyamatosságára kitűzött célt.</string>
+    <string name="adaptive_frames_lower">A képkockák megjelenítése egyenletes, a terhelés pedig alacsony. Próbáljon ki alacsonyabb maximális frekvenciát.</string>
+    <string name="adaptive_frames_raise">Magas terhelés mellett késő vagy eldobott képkockákat észleltünk. Próbáljon ki magasabb maximális frekvenciát.</string>
+    <string name="adaptive_gpu_boundaries">A GPU csak automatikus vezérlés mellett módosítható. A kézi CPU/GPU-beállítások elsőbbséget élveznek.</string>
+    <string name="adaptive_trial_generic">Egy támogatott frekvencialépcső tesztelése.</string>
+    <string name="adaptive_gpu_missing">Várakozás használható GPU-terhelési és hőmérsékleti adatokra.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">Charge du GPU</string>
+    <string name="adaptive_gpu_temperature">Température du GPU</string>
+    <string name="adaptive_frames_title">Fluidité des images</string>
+    <string name="adaptive_frames_jank">Images en retard ou perdues</string>
+    <string name="adaptive_frames_dropped">Images perdues</string>
+    <string name="adaptive_frames_count">%1$d images observées</string>
+    <string name="adaptive_frames_timing">Cible : %1$.0f FPS · Écran : %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Durée d’une image (95e centile)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mesure les images récentes de l’appli utilisée. L’échantillonnage est partiel. Les délais du réseau et des entrées ne sont pas mesurés.</string>
+    <string name="adaptive_frames_waiting">En attente de suffisamment de mesures d’images comparables avant de proposer un changement.</string>
+    <string name="adaptive_frames_changed">L’appli, la surface de rendu ou le rythme des images a changé. De nouvelles mesures sont nécessaires.</string>
+    <string name="adaptive_frames_improved">Moins d’images en retard ou perdues ont été mesurées dans les limites de l’essai.</string>
+    <string name="adaptive_frames_regressed">L’essai n’a pas atteint la cible de fluidité des images.</string>
+    <string name="adaptive_frames_lower">La livraison des images est stable et la charge est faible. Essayez une fréquence maximale plus basse.</string>
+    <string name="adaptive_frames_raise">Des images en retard ou perdues ont été détectées sous une charge élevée. Essayez une fréquence maximale plus haute.</string>
+    <string name="adaptive_gpu_boundaries">Seule la commande automatique du GPU peut être ajustée. Les réglages manuels CPU/GPU ont priorité.</string>
+    <string name="adaptive_trial_generic">Essai d’un seul palier de fréquence pris en charge.</string>
+    <string name="adaptive_gpu_missing">En attente de mesures utilisables de la charge et de la température du GPU.</string>
+</resources>

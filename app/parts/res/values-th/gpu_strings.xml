@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">การควบคุม GPU</string>
+    <string name="gpu_home_summary">ความถี่ GPU ขีดจำกัดต่ำสุดและสูงสุด และการควบคุมอัตโนมัติ</string>
+    <string name="gpu_current_frequency">ความถี่ปัจจุบัน</string>
+    <string name="gpu_requested_frequency">ค่าความถี่คงที่ที่ตั้งไว้</string>
+    <string name="gpu_loading">กำลังอ่านสถานะ GPU…</string>
+    <string name="gpu_unavailable">"ไม่พร้อมใช้งาน"</string>
+    <string name="gpu_idle">ไม่ได้ใช้งาน</string>
+    <string name="gpu_control_state">การควบคุมความถี่</string>
+    <string name="gpu_mode_automatic">อัตโนมัติ</string>
+    <string name="gpu_mode_fixed">ความถี่คงที่</string>
+    <string name="gpu_mode_unknown">ไม่ทราบ</string>
+    <string name="gpu_control_unavailable">ไม่สามารถควบคุมความถี่ได้ จะแสดงค่าที่อ่านได้เมื่อไดรเวอร์ให้ข้อมูล</string>
+    <string name="gpu_supported_frequencies">ความถี่ที่รองรับ</string>
+    <string name="gpu_frequency_count">จำนวนระดับความถี่ที่อุปกรณ์รายงาน: %1$d</string>
+    <string name="gpu_choose_frequency">ตั้งความถี่คงที่</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">เลือกความถี่ที่อุปกรณ์นี้รายงาน โหมดคงที่อาจข้ามข้อจำกัดความถี่ GPU ตามอุณหภูมิที่ซอฟต์แวร์กำหนด ความถี่คงที่อาจเพิ่มการใช้พลังงานและอุณหภูมิ การตั้งค่านี้มีผลขณะที่ GPU ทำงาน โดย GPU ยังสามารถปิดตัวลงเมื่อไม่ได้ใช้งานได้</string>
+    <string name="gpu_apply_fixed">ใช้ความถี่คงที่</string>
+    <string name="gpu_restore_automatic">คืนค่าการควบคุมอัตโนมัติ</string>
+    <string name="gpu_restore_summary">ปลดขีดจำกัดความถี่ GPU ที่ตั้งด้วยตนเองและโหมดคงที่ แล้วให้ระบบเลือกความถี่อีกครั้ง</string>
+    <string name="gpu_restore_action">"คืนค่า"</string>
+    <string name="gpu_session_title">การตั้งค่า GPU ด้วยตนเอง</string>
+    <string name="gpu_session_summary">การรีสตาร์ทจะคืนการควบคุม GPU เป็นแบบอัตโนมัติ การควบคุมเหล่านี้ไม่เปลี่ยนการตั้งค่า CPU ขีดจำกัดความถี่ที่ร้องขอและที่มีผลจริงจะแสดงแยกกัน ส่วนความถี่ปัจจุบันได้มาจากไดรเวอร์</string>
+    <string name="gpu_operation_title">การดำเนินการครั้งสุดท้าย</string>
+    <string name="gpu_applying">กำลังสมัครและตรวจสอบการเปลี่ยนแปลง...</string>
+    <string name="gpu_verified">ใช้การเปลี่ยนแปลงและยืนยันแล้ว</string>
+    <string name="gpu_error_unavailable">การควบคุม GPU ที่ร้องขอไม่พร้อมใช้งาน เปิดหน้านี้อีกครั้งแล้วลองใหม่</string>
+    <string name="gpu_error_unsupported">ไดรเวอร์ GPU นี้ไม่รองรับการควบคุมที่ร้องขอ</string>
+    <string name="gpu_error_frequency">อุปกรณ์ไม่รายงานความถี่นั้นแล้ว เลือกค่าที่มีอยู่ในขณะนี้</string>
+    <string name="gpu_error_write">ไดรเวอร์ GPU ปฏิเสธการเปลี่ยนแปลง แอปได้พยายามคืนค่าการตั้งค่าก่อนหน้าแล้ว</string>
+    <string name="gpu_error_readback">ไม่สามารถยืนยันการตั้งค่า GPU ที่ร้องขอได้ แอปได้พยายามคืนค่าการตั้งค่าก่อนหน้าแล้ว</string>
+    <string name="gpu_error_rollback">%1$s ไม่สามารถคืนค่าการตั้งค่า GPU ก่อนหน้าได้ ให้คืนค่าการควบคุมอัตโนมัติหรือรีสตาร์ทโทรศัพท์</string>
+    <string name="gpu_minimum_frequency">ความถี่ต่ำสุด</string>
+    <string name="gpu_maximum_frequency">ความถี่สูงสุด</string>
+    <string name="gpu_requested_range">ช่วงความถี่ที่ร้องขอ</string>
+    <string name="gpu_effective_range">ช่วงความถี่ที่มีผลจริง</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">ขีดจำกัดของช่วง</string>
+    <string name="gpu_choose_range">ตั้งค่าช่วงความถี่</string>
+    <string name="gpu_range_summary">เลือกค่าต่ำสุดและสูงสุดจากความถี่ที่อุปกรณ์นี้รายงาน GPU สามารถปรับความถี่ภายในช่วงที่มีผลจริงและปิดการจ่ายไฟเมื่อไม่มีงานได้ ค่าต่ำสุดที่สูงอาจมีผลเหนือขีดจำกัดความร้อนบางอย่างของซอฟต์แวร์ และเพิ่มความร้อนกับการใช้พลังงาน</string>
+    <string name="gpu_apply_range">ใช้ช่วงความถี่</string>
+    <string name="gpu_error_range">ความถี่ต่ำสุดต้องไม่เกินความถี่สูงสุด</string>
+    <string name="gpu_error_conflict">ตัวควบคุมอื่นเปลี่ยนการตั้งค่า GPU แล้ว ระบบคงการตั้งค่าของตัวควบคุมนั้นไว้โดยไม่เปลี่ยนแปลง</string>
+    <string name="gpu_effective_summary">ขีดจำกัดที่ร้องขอคือค่าที่คุณตั้ง ส่วนขีดจำกัดที่มีผลจริงคือช่วงที่ไดรเวอร์ใช้อยู่หลังรวมข้อกำหนดจากตัวควบคุมทั้งหมด</string>
+    <string name="gpu_legacy_fixed_summary">กำลังใช้ความถี่ GPU แบบคงที่ การใช้ช่วงความถี่จะปลดโหมดคงที่และให้ GPU ปรับความถี่ระหว่างขีดจำกัดที่มีผลจริงได้</string>
+</resources>

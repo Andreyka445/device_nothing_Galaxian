@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">עומס GPU</string>
+    <string name="adaptive_gpu_temperature">טמפרטורת GPU</string>
+    <string name="adaptive_frames_title">חלקות הפריימים</string>
+    <string name="adaptive_frames_jank">פריימים מאוחרים או שנשמטו</string>
+    <string name="adaptive_frames_dropped">פריימים שנשמטו</string>
+    <string name="adaptive_frames_count">נצפו %1$d פריימים</string>
+    <string name="adaptive_frames_timing">יעד: %1$.0f FPS · מסך: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">זמן פריים (אחוזון 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">נמדדים פריימים אחרונים מהאפליקציה שבשימוש. הדגימה חלקית. השהיות ברשת ובקלט אינן נמדדות.</string>
+    <string name="adaptive_frames_waiting">ממתינים למספיק מדידות פריימים שניתן להשוות לפני הצעת שינוי.</string>
+    <string name="adaptive_frames_changed">האפליקציה, משטח העיבוד או תזמון הפריימים השתנו. נדרשות מדידות חדשות.</string>
+    <string name="adaptive_frames_improved">נמדדו פחות פריימים מאוחרים או שנשמטו, תוך עמידה במגבלות הניסוי.</string>
+    <string name="adaptive_frames_regressed">הניסוי לא עמד ביעד חלקות הפריימים.</string>
+    <string name="adaptive_frames_lower">הצגת הפריימים יציבה והעומס נמוך. אפשר לנסות תדר מרבי נמוך יותר.</string>
+    <string name="adaptive_frames_raise">זוהו פריימים מאוחרים או שנשמטו בעומס גבוה. אפשר לנסות תדר מרבי גבוה יותר.</string>
+    <string name="adaptive_gpu_boundaries">ניתן להתאים רק בקרת GPU אוטומטית. להגדרות CPU/GPU ידניות יש עדיפות.</string>
+    <string name="adaptive_trial_generic">נבדקת מדרגת תדר נתמכת אחת.</string>
+    <string name="adaptive_gpu_missing">ממתינים לקריאות תקינות של עומס וטמפרטורת GPU.</string>
+</resources>

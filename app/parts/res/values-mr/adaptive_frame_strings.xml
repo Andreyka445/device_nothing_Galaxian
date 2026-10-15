@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU वरील भार</string>
+    <string name="adaptive_gpu_temperature">GPU तापमान</string>
+    <string name="adaptive_frames_title">फ्रेमची सुरळीतता</string>
+    <string name="adaptive_frames_jank">उशिरा आलेल्या किंवा वगळलेल्या फ्रेम</string>
+    <string name="adaptive_frames_dropped">वगळलेल्या फ्रेम</string>
+    <string name="adaptive_frames_count">%1$d फ्रेमचे निरीक्षण केले</string>
+    <string name="adaptive_frames_timing">लक्ष्य: %1$.0f FPS · स्क्रीन: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">फ्रेमचा वेळ (95वा पर्सेंटाइल)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">वापरात असलेल्या अॅपच्या अलीकडील फ्रेम मोजते. नमुने अंशतः घेतले जातात. नेटवर्क किंवा इनपुटचा विलंब मोजला जात नाही.</string>
+    <string name="adaptive_frames_waiting">बदल सुचवण्यापूर्वी फ्रेमची पुरेशी आणि तुलना करता येण्याजोगी मोजमापे मिळण्याची वाट पाहत आहे.</string>
+    <string name="adaptive_frames_changed">अॅप, रेंडरिंग पृष्ठभाग किंवा फ्रेमची वेळ बदलली आहे. नवीन मोजमापे आवश्यक आहेत.</string>
+    <string name="adaptive_frames_improved">चाचणीच्या मर्यादांमध्ये उशिरा आलेल्या किंवा वगळलेल्या फ्रेम कमी आढळल्या.</string>
+    <string name="adaptive_frames_regressed">चाचणी फ्रेमच्या सुरळीततेचे लक्ष्य गाठू शकली नाही.</string>
+    <string name="adaptive_frames_lower">फ्रेमचे प्रदर्शन स्थिर आहे आणि भार कमी आहे. कमी कमाल वारंवारता वापरून पाहा.</string>
+    <string name="adaptive_frames_raise">जास्त भार असताना उशिरा आलेल्या किंवा वगळलेल्या फ्रेम आढळल्या. अधिक कमाल वारंवारता वापरून पाहा.</string>
+    <string name="adaptive_gpu_boundaries">GPU केवळ स्वयंचलित नियंत्रणात असताना समायोजित करता येतो. CPU/GPU च्या व्यक्तिचलित सेटिंग्जना प्राधान्य असते.</string>
+    <string name="adaptive_trial_generic">समर्थित वारंवारतेची एक पायरी तपासली जात आहे.</string>
+    <string name="adaptive_gpu_missing">GPU वरील भार आणि तापमानाची वापरण्यायोग्य मोजमापे मिळण्याची वाट पाहत आहे.</string>
+</resources>

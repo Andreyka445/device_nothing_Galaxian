@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">የGPU ጭነት</string>
+    <string name="adaptive_gpu_temperature">የGPU ሙቀት</string>
+    <string name="adaptive_frames_title">የፍሬሞች ለስላሳ እንቅስቃሴ</string>
+    <string name="adaptive_frames_jank">የዘገዩ ወይም የተዘለሉ ፍሬሞች</string>
+    <string name="adaptive_frames_dropped">የተዘለሉ ፍሬሞች</string>
+    <string name="adaptive_frames_count">%1$d ፍሬሞች ታይተዋል</string>
+    <string name="adaptive_frames_timing">ዒላማ፦ %1$.0f FPS · ማሳያ፦ %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">የፍሬም ጊዜ (95ኛ ፐርሰንታይል)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">በአገልግሎት ላይ ካለው መተግበሪያ የቅርብ ጊዜ ፍሬሞችን ይለካል። ናሙናው ከፊል ብቻ ነው። የአውታረ መረብ እና የግቤት መዘግየት አይለካም።</string>
+    <string name="adaptive_frames_waiting">ለውጥ ከመጠቆሙ በፊት በቂ እና ሊነጻጸሩ የሚችሉ የፍሬም መለኪያዎችን በመጠበቅ ላይ።</string>
+    <string name="adaptive_frames_changed">መተግበሪያው፣ የምስል ማቅረቢያ ገጽታው ወይም የፍሬም ጊዜ አቀማመጡ ተቀይሯል። አዲስ መለኪያዎች ያስፈልጋሉ።</string>
+    <string name="adaptive_frames_improved">በሙከራው ገደቦች ውስጥ የዘገዩ ወይም የተዘለሉ ፍሬሞች ቁጥር መቀነሱ ተለክቷል።</string>
+    <string name="adaptive_frames_regressed">ሙከራው የፍሬሞች ለስላሳ እንቅስቃሴ ዒላማን አላሳካም።</string>
+    <string name="adaptive_frames_lower">የፍሬም አቀራረብ የተረጋጋ ሲሆን ጭነቱ ዝቅተኛ ነው። ዝቅ ያለ ከፍተኛ ድግግሞሽ ይሞክሩ።</string>
+    <string name="adaptive_frames_raise">ከፍተኛ ጭነት እያለ የዘገዩ ወይም የተዘለሉ ፍሬሞች ተገኝተዋል። ከፍ ያለ ከፍተኛ ድግግሞሽ ይሞክሩ።</string>
+    <string name="adaptive_gpu_boundaries">ማስተካከል የሚቻለው ራስ-ሰር የGPU ቁጥጥርን ብቻ ነው። የCPU/GPU በእጅ ቅንብሮች ቅድሚያ አላቸው።</string>
+    <string name="adaptive_trial_generic">አንድ የሚደገፍ የድግግሞሽ ደረጃ በመሞከር ላይ።</string>
+    <string name="adaptive_gpu_missing">ጥቅም ላይ የሚውሉ የGPU ጭነት እና ሙቀት ንባቦችን በመጠበቅ ላይ።</string>
+</resources>

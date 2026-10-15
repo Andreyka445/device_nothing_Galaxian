@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU smachd</string>
+    <string name="gpu_home_summary">Tricead GPU, crìochan as ìsle is as àirde, agus smachd fèin-obrachail.</string>
+    <string name="gpu_current_frequency">Tricead làithreach</string>
+    <string name="gpu_requested_frequency">Suidheachadh tricead stèidhichte</string>
+    <string name="gpu_loading">A’ leughadh GPU state…</string>
+    <string name="gpu_unavailable">Chan eil ri fhaighinn</string>
+    <string name="gpu_idle">dìomhanach</string>
+    <string name="gpu_control_state">Smachd tricead</string>
+    <string name="gpu_mode_automatic">fèin-ghluasadach</string>
+    <string name="gpu_mode_fixed">Tricead stèidhichte</string>
+    <string name="gpu_mode_unknown">Neo-aithnichte</string>
+    <string name="gpu_control_unavailable">Chan eil smachd tricead ri fhaighinn. Tha leughaidhean air an sealltainn nuair a bheir an dràibhear seachad iad.</string>
+    <string name="gpu_supported_frequencies">Tricead le taic</string>
+    <string name="gpu_frequency_count">Ceumannan tricead air an aithris leis an inneal: %1$d</string>
+    <string name="gpu_choose_frequency">Suidhich tricead stèidhichte</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Tagh tricead air aithris leis an inneal seo. Faodaidh tricead stèidhichte àrdachadh cleachdadh cumhachd agus teòthachd. Tha an suidheachadh a’ buntainn fhad ‘s a tha an GPU gnìomhach; faodaidh an GPU cumhachd sìos fhathast nuair a tha e leisg. Faodaidh am modh stèidhichte a dhol seachad air crìochan teirmeach tricead an GPU a chuireas am bathar-bog an sàs.</string>
+    <string name="gpu_apply_fixed">Cuir a-steach tricead stèidhichte</string>
+    <string name="gpu_restore_automatic">Thoir air ais smachd fèin-ghluasadach</string>
+    <string name="gpu_restore_summary">Leig às crìochan tricead làimhe GPU agus am modh stèidhichte, agus leig leis an t-siostam an tricead a thaghadh a-rithist.</string>
+    <string name="gpu_restore_action">Ath-bheothaich</string>
+    <string name="gpu_session_title">Suidheachaidhean làimhe GPU</string>
+    <string name="gpu_session_summary">Aisigidh ath-thòiseachadh smachd fèin-obrachail GPU. Cha atharraich na smachdan seo roghainnean CPU. Chì thu na crìochan tricead a chaidh iarraidh agus na crìochan èifeachdach fa leth; thig an tricead làithreach bhon draibhear.</string>
+    <string name="gpu_operation_title">Obrachadh mu dheireadh</string>
+    <string name="gpu_applying">A’ cur a-steach agus a’ sgrùdadh an atharrachaidh…</string>
+    <string name="gpu_verified">Atharrachadh air a chuir an sàs agus air a dhearbhadh.</string>
+    <string name="gpu_error_unavailable">Chan eil an smachd GPU a chaidh iarraidh ri fhaighinn. Fosgail an duilleag seo a-rithist is feuch ris a-rithist.</string>
+    <string name="gpu_error_unsupported">Chan eil an draibhear GPU seo a’ toirt taic don smachd a chaidh iarraidh.</string>
+    <string name="gpu_error_frequency">Chan eil an inneal ag aithris air an tricead sin tuilleadh. Tagh aon de na luachan a tha rim faighinn an-dràsta.</string>
+    <string name="gpu_error_write">Dhiùlt an draibhear GPU an t-atharrachadh. Dh’ fheuch an aplacaid ris an t-suidheachadh a bh’ ann roimhe a thoirt air ais.</string>
+    <string name="gpu_error_readback">Cha b’ urrainn dhuinn an suidheachadh GPU a chaidh iarraidh a dhearbhadh. Dh’ fheuch an aplacaid ris an t-suidheachadh a bh’ ann roimhe a thoirt air ais.</string>
+    <string name="gpu_error_rollback">%1$s Cha b’ urrainn dhuinn an suidheachadh GPU a bh’ ann roimhe a thoirt air ais. Thoir air ais smachd fèin-ghluasadach no ath-thòisich am fòn.</string>
+    <string name="gpu_requested_range">Raon tricead a chaidh iarraidh</string>
+    <string name="gpu_effective_range">Raon tricead èifeachdach</string>
+    <string name="gpu_mode_range">Crìochan tricead</string>
+    <string name="gpu_choose_range">Suidhich an raon tricead</string>
+    <string name="gpu_range_summary">Tagh an luach as ìsle agus as àirde às na triceadan a dh’aithris an t-inneal. Faodaidh an GPU atharrachadh taobh a-staigh an raoin èifeachdaich agus tionndadh dheth nuair nach eil e trang. Faodaidh luach as ìsle àrd cuid de chrìochan teasa bathar-bog a chur an dàrna taobh agus teas is caitheamh cumhachd àrdachadh.</string>
+    <string name="gpu_apply_range">Cuir an raon an sàs</string>
+    <string name="gpu_error_range">Chan fhaod an tricead as ìsle a bhith nas àirde na an tricead as àirde.</string>
+    <string name="gpu_error_conflict">Dh’atharraich rianadair eile roghainnean GPU. Cha deach an roghainn aige atharrachadh.</string>
+    <string name="gpu_effective_summary">Is iad na crìochan a chaidh iarraidh na roghainnean agad. Is iad na crìochan èifeachdach an raon a tha an draibhear a’ cur an sàs às dèidh iarrtasan gach rianadair a chur ri chèile.</string>
+    <string name="gpu_legacy_fixed_summary">Tha tricead stèidhichte GPU an gnìomh. Ma chuireas tu raon an sàs, thèid am modh stèidhichte a leigeil às agus faodaidh an GPU atharrachadh eadar na crìochan èifeachdach.</string>
+    <string name="gpu_minimum_frequency">Tricead as ìsle</string>
+    <string name="gpu_maximum_frequency">Tricead as àirde</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

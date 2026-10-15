@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPUaren karga</string>
+    <string name="adaptive_gpu_temperature">GPUaren tenperatura</string>
+    <string name="adaptive_frames_title">Fotogramen jariakortasuna</string>
+    <string name="adaptive_frames_jank">Berandu iritsitako edo galdutako fotogramak</string>
+    <string name="adaptive_frames_dropped">Galdutako fotogramak</string>
+    <string name="adaptive_frames_count">%1$d fotograma behatu dira</string>
+    <string name="adaptive_frames_timing">Helburua: %1$.0f FPS · Pantaila: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Fotogramaren denbora (95. pertzentila)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Erabiltzen ari den aplikazioaren azken fotogramak neurtzen ditu. Laginketa partziala da. Ez dira sarearen eta sarreraren atzerapenak neurtzen.</string>
+    <string name="adaptive_frames_waiting">Fotogramen neurketa alderagarri nahikoen zain, aldaketa bat proposatu aurretik.</string>
+    <string name="adaptive_frames_changed">Aplikazioa, errendatzeko azalera edo fotogramen denborak aldatu dira. Neurketa berriak behar dira.</string>
+    <string name="adaptive_frames_improved">Berandu iritsitako edo galdutako fotograma gutxiago neurtu dira probaren mugen barruan.</string>
+    <string name="adaptive_frames_regressed">Probak ez du fotogramen jariakortasunaren helburua bete.</string>
+    <string name="adaptive_frames_lower">Fotogramen entrega egonkorra da eta karga txikia da. Saiatu gehieneko maiztasun txikiagoarekin.</string>
+    <string name="adaptive_frames_raise">Berandu iritsitako edo galdutako fotogramak hauteman dira karga handiarekin. Saiatu gehieneko maiztasun handiagoarekin.</string>
+    <string name="adaptive_gpu_boundaries">GPUaren kontrol automatikoa soilik doi daiteke. CPU/GPUaren eskuzko ezarpenek lehentasuna dute.</string>
+    <string name="adaptive_trial_generic">Onartutako maiztasun-maila bakarra probatzen.</string>
+    <string name="adaptive_gpu_missing">GPUaren kargaren eta tenperaturaren irakurketa erabilgarrien zain.</string>
+</resources>

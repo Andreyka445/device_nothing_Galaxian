@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU 负载</string>
+    <string name="adaptive_gpu_temperature">GPU 温度</string>
+    <string name="adaptive_frames_title">帧流畅度</string>
+    <string name="adaptive_frames_jank">延迟或丢失的帧</string>
+    <string name="adaptive_frames_dropped">丢帧</string>
+    <string name="adaptive_frames_count">已观测 %1$d 帧</string>
+    <string name="adaptive_frames_timing">目标：%1$.0f FPS · 屏幕：%2$.0f Hz</string>
+    <string name="adaptive_frames_p95">帧耗时（第 95 百分位）</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">测量当前应用最近的帧。仅进行部分采样，不测量网络延迟和输入延迟。</string>
+    <string name="adaptive_frames_waiting">正在等待足够且可比较的帧测量数据，再提出调整建议。</string>
+    <string name="adaptive_frames_changed">应用、渲染表面或帧时序已发生变化，需要重新测量。</string>
+    <string name="adaptive_frames_improved">在试验限制范围内，测得的延迟或丢失帧有所减少。</string>
+    <string name="adaptive_frames_regressed">试验未达到帧流畅度目标。</string>
+    <string name="adaptive_frames_lower">帧显示稳定且负载较低。可尝试降低最高频率。</string>
+    <string name="adaptive_frames_raise">高负载下检测到延迟或丢帧。可尝试提高最高频率。</string>
+    <string name="adaptive_gpu_boundaries">仅可在自动控制模式下调整 GPU。CPU/GPU 手动设置优先。</string>
+    <string name="adaptive_trial_generic">正在试验一个受支持的频率档位。</string>
+    <string name="adaptive_gpu_missing">正在等待可用的 GPU 负载和温度读数。</string>
+</resources>

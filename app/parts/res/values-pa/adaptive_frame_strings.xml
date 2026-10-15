@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU ਲੋਡ</string>
+    <string name="adaptive_gpu_temperature">GPU ਤਾਪਮਾਨ</string>
+    <string name="adaptive_frames_title">ਫ੍ਰੇਮਾਂ ਦੀ ਸੁਚਾਰੂਤਾ</string>
+    <string name="adaptive_frames_jank">ਦੇਰੀ ਵਾਲੇ ਜਾਂ ਛੁੱਟੇ ਫ੍ਰੇਮ</string>
+    <string name="adaptive_frames_dropped">ਛੁੱਟੇ ਫ੍ਰੇਮ</string>
+    <string name="adaptive_frames_count">%1$d ਫ੍ਰੇਮ ਵੇਖੇ ਗਏ</string>
+    <string name="adaptive_frames_timing">ਟੀਚਾ: %1$.0f FPS · ਡਿਸਪਲੇ: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ਫ੍ਰੇਮ ਸਮਾਂ (95ਵਾਂ ਪਰਸੈਂਟਾਈਲ)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">ਵਰਤੋਂ ਵਿੱਚ ਮੌਜੂਦ ਐਪ ਦੇ ਹਾਲੀਆ ਫ੍ਰੇਮ ਮਾਪਦਾ ਹੈ। ਨਮੂਨੇ ਅੰਸ਼ਕ ਤੌਰ \'ਤੇ ਲਏ ਜਾਂਦੇ ਹਨ। ਨੈੱਟਵਰਕ ਅਤੇ ਇਨਪੁੱਟ ਦੀ ਦੇਰੀ ਨਹੀਂ ਮਾਪੀ ਜਾਂਦੀ।</string>
+    <string name="adaptive_frames_waiting">ਤਬਦੀਲੀ ਦਾ ਪ੍ਰਸਤਾਵ ਦੇਣ ਤੋਂ ਪਹਿਲਾਂ ਕਾਫ਼ੀ ਅਤੇ ਤੁਲਨਾਯੋਗ ਫ੍ਰੇਮ ਮਾਪਾਂ ਦੀ ਉਡੀਕ ਹੈ।</string>
+    <string name="adaptive_frames_changed">ਐਪ, ਰੈਂਡਰਿੰਗ ਸਤਹ ਜਾਂ ਫ੍ਰੇਮਾਂ ਦਾ ਸਮਾਂ ਬਦਲ ਗਿਆ ਹੈ। ਨਵੇਂ ਮਾਪਾਂ ਦੀ ਲੋੜ ਹੈ।</string>
+    <string name="adaptive_frames_improved">ਅਜ਼ਮਾਇਸ਼ ਦੀਆਂ ਹੱਦਾਂ ਅੰਦਰ ਘੱਟ ਦੇਰੀ ਵਾਲੇ ਜਾਂ ਛੁੱਟੇ ਫ੍ਰੇਮ ਮਾਪੇ ਗਏ।</string>
+    <string name="adaptive_frames_regressed">ਅਜ਼ਮਾਇਸ਼ ਫ੍ਰੇਮਾਂ ਦੀ ਸੁਚਾਰੂਤਾ ਦਾ ਟੀਚਾ ਪੂਰਾ ਨਹੀਂ ਕਰ ਸਕੀ।</string>
+    <string name="adaptive_frames_lower">ਫ੍ਰੇਮਾਂ ਦੀ ਪੇਸ਼ਕਾਰੀ ਸਥਿਰ ਹੈ ਅਤੇ ਲੋਡ ਘੱਟ ਹੈ। ਵੱਧ ਤੋਂ ਵੱਧ ਫ੍ਰੀਕੁਐਂਸੀ ਘਟਾ ਕੇ ਅਜ਼ਮਾਓ।</string>
+    <string name="adaptive_frames_raise">ਵੱਧ ਲੋਡ ਦੌਰਾਨ ਦੇਰੀ ਵਾਲੇ ਜਾਂ ਛੁੱਟੇ ਫ੍ਰੇਮ ਮਿਲੇ। ਵੱਧ ਤੋਂ ਵੱਧ ਫ੍ਰੀਕੁਐਂਸੀ ਵਧਾ ਕੇ ਅਜ਼ਮਾਓ।</string>
+    <string name="adaptive_gpu_boundaries">ਸਿਰਫ਼ ਆਟੋਮੈਟਿਕ GPU ਕੰਟਰੋਲ ਨੂੰ ਹੀ ਅਨੁਕੂਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। ਹੱਥੀਂ ਕੀਤੀਆਂ CPU/GPU ਸੈਟਿੰਗਾਂ ਨੂੰ ਤਰਜੀਹ ਮਿਲਦੀ ਹੈ।</string>
+    <string name="adaptive_trial_generic">ਇੱਕ ਸਮਰਥਿਤ ਫ੍ਰੀਕੁਐਂਸੀ ਪੱਧਰ ਅਜ਼ਮਾਇਆ ਜਾ ਰਿਹਾ ਹੈ।</string>
+    <string name="adaptive_gpu_missing">GPU ਲੋਡ ਅਤੇ ਤਾਪਮਾਨ ਦੀਆਂ ਵਰਤੋਂਯੋਗ ਰੀਡਿੰਗਾਂ ਦੀ ਉਡੀਕ ਹੈ।</string>
+</resources>

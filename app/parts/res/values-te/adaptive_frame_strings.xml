@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU లోడ్</string>
+    <string name="adaptive_gpu_temperature">GPU ఉష్ణోగ్రత</string>
+    <string name="adaptive_frames_title">ఫ్రేమ్‌ల సాఫీ ప్రదర్శన</string>
+    <string name="adaptive_frames_jank">ఆలస్యమైన లేదా జారిపోయిన ఫ్రేమ్‌లు</string>
+    <string name="adaptive_frames_dropped">జారిపోయిన ఫ్రేమ్‌లు</string>
+    <string name="adaptive_frames_count">%1$d ఫ్రేమ్‌లను గమనించారు</string>
+    <string name="adaptive_frames_timing">లక్ష్యం: %1$.0f FPS · డిస్‌ప్లే: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ఫ్రేమ్ సమయం (95వ పర్సెంటైల్)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">వాడుతున్న యాప్‌లోని ఇటీవలి ఫ్రేమ్‌లను కొలుస్తుంది. నమూనా సేకరణ పాక్షికంగా ఉంటుంది. నెట్‌వర్క్, ఇన్‌పుట్ జాప్యాలను కొలవదు.</string>
+    <string name="adaptive_frames_waiting">మార్పును ప్రతిపాదించే ముందు పోల్చదగిన ఫ్రేమ్ కొలతలు తగినన్ని రావడానికి వేచి ఉంది.</string>
+    <string name="adaptive_frames_changed">యాప్, రెండరింగ్ ఉపరితలం లేదా ఫ్రేమ్‌ల సమయ క్రమం మారింది. కొత్త కొలతలు అవసరం.</string>
+    <string name="adaptive_frames_improved">పరీక్ష పరిమితుల్లో ఆలస్యమైన లేదా జారిపోయిన ఫ్రేమ్‌లు తగ్గినట్లు కొలవబడింది.</string>
+    <string name="adaptive_frames_regressed">పరీక్ష ఫ్రేమ్‌ల సాఫీ ప్రదర్శన లక్ష్యాన్ని చేరుకోలేదు.</string>
+    <string name="adaptive_frames_lower">ఫ్రేమ్‌ల ప్రదర్శన స్థిరంగా ఉంది, లోడ్ తక్కువగా ఉంది. గరిష్ఠ ఫ్రీక్వెన్సీని తగ్గించి ప్రయత్నించండి.</string>
+    <string name="adaptive_frames_raise">అధిక లోడ్‌లో ఆలస్యమైన లేదా జారిపోయిన ఫ్రేమ్‌లు గుర్తించబడ్డాయి. గరిష్ఠ ఫ్రీక్వెన్సీని పెంచి ప్రయత్నించండి.</string>
+    <string name="adaptive_gpu_boundaries">ఆటోమేటిక్ GPU నియంత్రణను మాత్రమే సర్దుబాటు చేయవచ్చు. మాన్యువల్ CPU/GPU సెట్టింగ్‌లకు ప్రాధాన్యం ఉంటుంది.</string>
+    <string name="adaptive_trial_generic">మద్దతు ఉన్న ఫ్రీక్వెన్సీలో ఒక్క దశను పరీక్షిస్తోంది.</string>
+    <string name="adaptive_gpu_missing">వినియోగించదగిన GPU లోడ్, ఉష్ణోగ్రత రీడింగ్‌ల కోసం వేచి ఉంది.</string>
+</resources>

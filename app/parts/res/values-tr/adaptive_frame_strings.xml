@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU yükü</string>
+    <string name="adaptive_gpu_temperature">GPU sıcaklığı</string>
+    <string name="adaptive_frames_title">Kare akıcılığı</string>
+    <string name="adaptive_frames_jank">Geciken veya düşen kareler</string>
+    <string name="adaptive_frames_dropped">Düşen kareler</string>
+    <string name="adaptive_frames_count">%1$d kare gözlemlendi</string>
+    <string name="adaptive_frames_timing">Hedef: %1$.0f FPS · Ekran: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Kare süresi (95. yüzdelik dilim)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Kullanılan uygulamanın son karelerini ölçer. Örnekleme kısmidir. Ağ ve giriş gecikmesi ölçülmez.</string>
+    <string name="adaptive_frames_waiting">Bir değişiklik önermeden önce yeterli sayıda karşılaştırılabilir kare ölçümü bekleniyor.</string>
+    <string name="adaptive_frames_changed">Uygulama, çizim yüzeyi veya kare zamanlaması değişti. Yeni ölçümler gerekiyor.</string>
+    <string name="adaptive_frames_improved">Deneme sınırları içinde daha az geciken veya düşen kare ölçüldü.</string>
+    <string name="adaptive_frames_regressed">Deneme, kare akıcılığı hedefine ulaşmadı.</string>
+    <string name="adaptive_frames_lower">Kare sunumu kararlı ve yük düşük. Daha düşük bir maksimum frekans deneyin.</string>
+    <string name="adaptive_frames_raise">Yüksek yük altında geciken veya düşen kareler algılandı. Daha yüksek bir maksimum frekans deneyin.</string>
+    <string name="adaptive_gpu_boundaries">Yalnızca otomatik GPU denetimi ayarlanabilir. Manuel CPU/GPU ayarları önceliklidir.</string>
+    <string name="adaptive_trial_generic">Desteklenen tek bir frekans basamağı deneniyor.</string>
+    <string name="adaptive_gpu_missing">Kullanılabilir GPU yükü ve sıcaklık ölçümleri bekleniyor.</string>
+</resources>

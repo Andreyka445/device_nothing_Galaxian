@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU کۆنتڕۆڵکردن</string>
+    <string name="gpu_home_summary">فرێکوێنسی GPU، سنووری کەمترین و زۆرترین و کۆنترۆڵی ئۆتۆماتیکی.</string>
+    <string name="gpu_current_frequency">فرێکوێنسی ئێستا</string>
+    <string name="gpu_requested_frequency">ڕێکخستنی فرێکوێنسی جێگیر</string>
+    <string name="gpu_loading">خوێندنەوە GPU ویلایەتی...</string>
+    <string name="gpu_unavailable">بەردەست نییە</string>
+    <string name="gpu_idle">تاک</string>
+    <string name="gpu_control_state">کۆنترۆڵی فرێکوێنسی</string>
+    <string name="gpu_mode_automatic">ئۆتۆماتیکی</string>
+    <string name="gpu_mode_fixed">فرێکوێنسی جێگیر</string>
+    <string name="gpu_mode_unknown">نەزانراو</string>
+    <string name="gpu_control_unavailable">کۆنترۆڵی فرێکوێنسی بەردەست نییە. خوێندنەوەکان کاتێک نیشان دەدرێن کە شۆفێر دابینی دەکات.</string>
+    <string name="gpu_supported_frequencies">فرێکوێنسی پشتگیری کراو</string>
+    <string name="gpu_frequency_count">هەنگاوەکانی فرێکوێنسی کە لەلایەن ئامێرەکەوە ڕاپۆرت دەکرێن: %1$d</string>
+    <string name="gpu_choose_frequency">فرێکوێنسییەکی جێگیر دابنێ</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">فرێکوێنسییەک هەڵبژێرە کە لەلایەن ئەم ئامێرەوە ڕاپۆرت کراوە. فرێکوێنسی جێگیر دەتوانێت بەکارهێنانی هێز و پلەی گەرمی زیاد بکات. ڕێکخستنەکە لە کاتێکدا کارا دەبێت کە GPU چالاکە؛ GPU هێشتا دەتوانێت کارەبا دابەزێنێت کاتێک بێکارە. دۆخی جێگیر دەتوانێت سنوورە گەرمییەکانی فرێکوێنسی GPU کە نەرمەکاڵا دایانناون، تێپەڕێنێت.</string>
+    <string name="gpu_apply_fixed">فرێکوێنسی جێگیر بەکاربهێنە</string>
+    <string name="gpu_restore_automatic">گەڕاندنەوەی کۆنترۆڵی ئۆتۆماتیکی</string>
+    <string name="gpu_restore_summary">سنوورە دەستییەکانی فرێکوێنسی GPU و دۆخی جێگیر لاببە و ڕێگە بدە سیستەم جارێکی تر فرێکوێنسی هەڵبژێرێت.</string>
+    <string name="gpu_restore_action">گەڕاندنەوە</string>
+    <string name="gpu_session_title">ڕێکخستنەکانی دەستی GPU</string>
+    <string name="gpu_session_summary">دەستپێکردنەوە کۆنترۆڵی ئۆتۆماتیکی GPU دەگەڕێنێتەوە. ئەم کۆنترۆڵانە ڕێکخستنەکانی CPU ناگۆڕن. سنوورە داواکراو و جێبەجێکراوەکانی فرێکوێنسی جیا نیشان دەدرێن؛ فرێکوێنسی ئێستا لەلایەن درایڤەرەکەوە دابین دەکرێت.</string>
+    <string name="gpu_operation_title">دوا ئۆپەراسیۆن</string>
+    <string name="gpu_applying">داواکاری و پشکنینی گۆڕانکارییەکە...</string>
+    <string name="gpu_verified">گۆڕانکاری جێبەجێ کراوە و پشتڕاستکراوەتەوە.</string>
+    <string name="gpu_error_unavailable">کۆنتڕۆڵی داواکراوی GPU بەردەست نییە. دووبارە ئەم لاپەڕەیە بکەرەوە و دووبارە هەوڵبدەرەوە.</string>
+    <string name="gpu_error_unsupported">ئەم شۆفێرە GPU پشتگیری لە کۆنترۆڵی داواکراو ناکات.</string>
+    <string name="gpu_error_frequency">ئەو فرێکوێنسییە چیتر لەلایەن ئامێرەکەوە ڕاپۆرت ناکرێت. یەکێک لە بەهاکانی ئێستا هەڵبژێرە.</string>
+    <string name="gpu_error_write">شۆفێری GPU گۆڕانکارییەکەی ڕەتکردەوە. ئەپەکە هەوڵیدا ڕێکخستنی پێشووی بگەڕێنێتەوە.</string>
+    <string name="gpu_error_readback">ڕێکخستنی داواکراوی GPU نەتوانرا پشتڕاست بکرێتەوە. ئەپەکە هەوڵیدا ڕێکخستنی پێشووی بگەڕێنێتەوە.</string>
+    <string name="gpu_error_rollback">%1$s ڕێکخستنی پێشووی GPU نەتوانرا بگەڕێنرێتەوە. کۆنترۆڵی ئۆتۆماتیکی بگەڕێنەرەوە یان مۆبایلەکە دووبارە دابمەزرێنەرەوە.</string>
+    <string name="gpu_requested_range">مەودای فرێکوێنسی داواکراو</string>
+    <string name="gpu_effective_range">مەودای فرێکوێنسی جێبەجێکراو</string>
+    <string name="gpu_mode_range">سنوورەکانی فرێکوێنسی</string>
+    <string name="gpu_choose_range">دانانی مەودای فرێکوێنسی</string>
+    <string name="gpu_range_summary">کەمترین و زۆرترین لەو فرێکوێنسییانە هەڵبژێرە کە ئامێرەکە ڕایان دەگەیەنێت. GPU دەتوانێت لە مەودای جێبەجێکراودا بگۆڕێت و لە کاتی بێکاریدا بکوژێتەوە. کەمترینێکی بەرز دەتوانێت بەسەر هەندێک سنووری گەرمای نەرمەواڵەدا زاڵ بێت و گەرما و بەکارهێنانی وزە زیاد بکات.</string>
+    <string name="gpu_apply_range">جێبەجێکردنی مەودا</string>
+    <string name="gpu_error_range">کەمترین فرێکوێنسی ناتوانێت لە زۆرترین زیاتر بێت.</string>
+    <string name="gpu_error_conflict">کۆنترۆڵکەرێکی تر ڕێکخستنەکانی GPU گۆڕی. ڕێکخستنەکەی بەبێ گۆڕانکاری هێڵرایەوە.</string>
+    <string name="gpu_effective_summary">سنوورە داواکراوەکان ڕێکخستنەکانی تۆن. سنوورە جێبەجێکراوەکان ئەو مەودایەن کە درایڤەرەکە دوای کۆکردنەوەی داواکاریی هەموو کۆنترۆڵکەرەکان جێبەجێی دەکات.</string>
+    <string name="gpu_legacy_fixed_summary">فرێکوێنسییەکی جێگیری GPU چالاکە. جێبەجێکردنی مەودا دۆخی جێگیر ناچالاک دەکات و ڕێگە دەدات GPU لەنێوان سنوورە جێبەجێکراوەکاندا بگۆڕێت.</string>
+    <string name="gpu_minimum_frequency">کەمترین فرێکوێنسی</string>
+    <string name="gpu_maximum_frequency">زۆرترین فرێکوێنسی</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

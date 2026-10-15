@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-belastning</string>
+    <string name="adaptive_gpu_temperature">GPU-temperatur</string>
+    <string name="adaptive_frames_title">Billeders jævnhed</string>
+    <string name="adaptive_frames_jank">Forsinkede eller tabte billeder</string>
+    <string name="adaptive_frames_dropped">Tabte billeder</string>
+    <string name="adaptive_frames_count">%1$d billeder observeret</string>
+    <string name="adaptive_frames_timing">Mål: %1$.0f FPS · Skærm: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Billedtid (95. percentil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Måler nylige billeder fra den app, der bruges. Kun en del af billederne indsamles. Netværks- og inputforsinkelse måles ikke.</string>
+    <string name="adaptive_frames_waiting">Venter på tilstrækkelige sammenlignelige billedmålinger, før en ændring foreslås.</string>
+    <string name="adaptive_frames_changed">Appen, renderingsoverfladen eller billedtimingen er ændret. Nye målinger er nødvendige.</string>
+    <string name="adaptive_frames_improved">Der blev målt færre forsinkede eller tabte billeder inden for forsøgets grænser.</string>
+    <string name="adaptive_frames_regressed">Forsøget nåede ikke målet for jævn billedvisning.</string>
+    <string name="adaptive_frames_lower">Billedleveringen er stabil, og belastningen er lav. Prøv en lavere maksimal frekvens.</string>
+    <string name="adaptive_frames_raise">Der blev registreret forsinkede eller tabte billeder ved høj belastning. Prøv en højere maksimal frekvens.</string>
+    <string name="adaptive_gpu_boundaries">Kun automatisk GPU-styring kan justeres. Manuelle CPU/GPU-indstillinger har forrang.</string>
+    <string name="adaptive_trial_generic">Tester ét understøttet frekvenstrin.</string>
+    <string name="adaptive_gpu_missing">Venter på brugbare målinger af GPU-belastning og temperatur.</string>
+</resources>

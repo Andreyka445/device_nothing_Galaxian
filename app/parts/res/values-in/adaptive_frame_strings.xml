@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">Beban GPU</string>
+    <string name="adaptive_gpu_temperature">Suhu GPU</string>
+    <string name="adaptive_frames_title">Kelancaran frame</string>
+    <string name="adaptive_frames_jank">Frame terlambat atau terlewat</string>
+    <string name="adaptive_frames_dropped">Frame terlewat</string>
+    <string name="adaptive_frames_count">%1$d frame diamati</string>
+    <string name="adaptive_frames_timing">Target: %1$.0f FPS · Layar: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Waktu frame (persentil ke-95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mengukur frame terbaru dari aplikasi yang sedang digunakan. Pengambilan sampel bersifat parsial. Jeda jaringan dan masukan tidak diukur.</string>
+    <string name="adaptive_frames_waiting">Menunggu pengukuran frame yang cukup dan dapat dibandingkan sebelum mengusulkan perubahan.</string>
+    <string name="adaptive_frames_changed">Aplikasi, permukaan rendering, atau pengaturan waktu frame berubah. Diperlukan pengukuran baru.</string>
+    <string name="adaptive_frames_improved">Lebih sedikit frame terlambat atau terlewat terukur dalam batas uji coba.</string>
+    <string name="adaptive_frames_regressed">Uji coba tidak memenuhi target kelancaran frame.</string>
+    <string name="adaptive_frames_lower">Penyajian frame stabil dan bebannya rendah. Coba frekuensi maksimum yang lebih rendah.</string>
+    <string name="adaptive_frames_raise">Frame terlambat atau terlewat terdeteksi saat beban tinggi. Coba frekuensi maksimum yang lebih tinggi.</string>
+    <string name="adaptive_gpu_boundaries">Hanya kontrol GPU otomatis yang dapat disesuaikan. Setelan CPU/GPU manual diutamakan.</string>
+    <string name="adaptive_trial_generic">Menguji satu tingkat frekuensi yang didukung.</string>
+    <string name="adaptive_gpu_missing">Menunggu pembacaan beban dan suhu GPU yang dapat digunakan.</string>
+</resources>

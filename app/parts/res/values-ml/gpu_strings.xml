@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU നിയന്ത്രണം</string>
+    <string name="gpu_home_summary">GPU ആവൃത്തി, കുറഞ്ഞതും കൂടിയതുമായ പരിധികൾ, സ്വയമേവയുള്ള നിയന്ത്രണം.</string>
+    <string name="gpu_current_frequency">നിലവിലെ ആവൃത്തി</string>
+    <string name="gpu_requested_frequency">നിശ്ചിത ആവൃത്തി ക്രമീകരണം</string>
+    <string name="gpu_loading">GPU അവസ്ഥ വായിക്കുന്നു...</string>
+    <string name="gpu_unavailable">"ലഭ്യമല്ല"</string>
+    <string name="gpu_idle">നിഷ്ക്രിയ</string>
+    <string name="gpu_control_state">ഫ്രീക്വൻസി നിയന്ത്രണം</string>
+    <string name="gpu_mode_automatic">ഓട്ടോമാറ്റിക്</string>
+    <string name="gpu_mode_fixed">നിശ്ചിത ആവൃത്തി</string>
+    <string name="gpu_mode_unknown">അജ്ഞാതം</string>
+    <string name="gpu_control_unavailable">ഫ്രീക്വൻസി നിയന്ത്രണം ലഭ്യമല്ല. ഡ്രൈവർ അവ നൽകുമ്പോൾ റീഡിംഗുകൾ കാണിക്കുന്നു.</string>
+    <string name="gpu_supported_frequencies">പിന്തുണയ്ക്കുന്ന ആവൃത്തികൾ</string>
+    <string name="gpu_frequency_count">ഉപകരണം റിപ്പോർട്ട് ചെയ്ത ഫ്രീക്വൻസി ഘട്ടങ്ങൾ: %1$d</string>
+    <string name="gpu_choose_frequency">ഒരു നിശ്ചിത ആവൃത്തി സജ്ജമാക്കുക</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">ഈ ഉപകരണം റിപ്പോർട്ട് ചെയ്യുന്ന ഒരു ഫ്രീക്വൻസി തിരഞ്ഞെടുക്കുക. ഒരു നിശ്ചിത ആവൃത്തി വൈദ്യുതി ഉപയോഗവും താപനിലയും വർദ്ധിപ്പിക്കും. GPU സജീവമായിരിക്കുമ്പോൾ ക്രമീകരണം ബാധകമാണ്; നിഷ്‌ക്രിയമായിരിക്കുമ്പോഴും GPU-ന് പവർഡൗൺ ചെയ്യാൻ കഴിയും. സ്ഥിര മോഡിന് സോഫ്റ്റ്‌വെയർ ഏർപ്പെടുത്തുന്ന GPU ആവൃത്തിയുടെ താപനിലാധിഷ്ഠിത പരിധികൾ മറികടക്കാനാകും.</string>
+    <string name="gpu_apply_fixed">നിശ്ചിത ആവൃത്തി പ്രയോഗിക്കുക</string>
+    <string name="gpu_restore_automatic">യാന്ത്രിക നിയന്ത്രണം പുനഃസ്ഥാപിക്കുക</string>
+    <string name="gpu_restore_summary">GPU ആവൃത്തിയുടെ മാനുവൽ പരിധികളും സ്ഥിര മോഡും ഒഴിവാക്കി ആവൃത്തി വീണ്ടും തിരഞ്ഞെടുക്കാൻ സിസ്റ്റത്തെ അനുവദിക്കുക.</string>
+    <string name="gpu_restore_action">"പുനഃസ്ഥാപിക്കുക"</string>
+    <string name="gpu_session_title">മാനുവൽ GPU ക്രമീകരണങ്ങൾ</string>
+    <string name="gpu_session_summary">പുനരാരംഭിക്കുന്നത് സ്വയമേവയുള്ള GPU നിയന്ത്രണം പുനഃസ്ഥാപിക്കും. ഈ നിയന്ത്രണങ്ങൾ CPU ക്രമീകരണങ്ങൾ മാറ്റില്ല. ആവശ്യപ്പെട്ടതും പ്രാബല്യത്തിലുള്ളതുമായ ആവൃത്തി പരിധികൾ വേറിട്ട് കാണിക്കുന്നു; നിലവിലെ ആവൃത്തി ഡ്രൈവറിൽ നിന്നാണ് ലഭിക്കുന്നത്.</string>
+    <string name="gpu_operation_title">അവസാന പ്രവർത്തനം</string>
+    <string name="gpu_applying">അപേക്ഷിച്ച് മാറ്റം പരിശോധിക്കുന്നു...</string>
+    <string name="gpu_verified">മാറ്റം പ്രയോഗിക്കുകയും പരിശോധിച്ചുറപ്പിക്കുകയും ചെയ്തു.</string>
+    <string name="gpu_error_unavailable">അഭ്യർത്ഥിച്ച GPU നിയന്ത്രണം ലഭ്യമല്ല. ഈ പേജ് വീണ്ടും തുറന്ന് വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="gpu_error_unsupported">ഈ GPU ഡ്രൈവർ ആവശ്യപ്പെട്ട നിയന്ത്രണത്തെ പിന്തുണയ്ക്കുന്നില്ല.</string>
+    <string name="gpu_error_frequency">ആ ആവൃത്തി ഇനി ഉപകരണം റിപ്പോർട്ട് ചെയ്യില്ല. നിലവിൽ ലഭ്യമായ മൂല്യങ്ങളിൽ ഒന്ന് തിരഞ്ഞെടുക്കുക.</string>
+    <string name="gpu_error_write">GPU ഡ്രൈവർ മാറ്റം നിരസിച്ചു. മുമ്പത്തെ ക്രമീകരണം പുനഃസ്ഥാപിക്കാൻ ആപ്പ് ശ്രമിച്ചു.</string>
+    <string name="gpu_error_readback">അഭ്യർത്ഥിച്ച GPU ക്രമീകരണം സ്ഥിരീകരിക്കാൻ കഴിഞ്ഞില്ല. മുമ്പത്തെ ക്രമീകരണം പുനഃസ്ഥാപിക്കാൻ ആപ്പ് ശ്രമിച്ചു.</string>
+    <string name="gpu_error_rollback">%1$s മുമ്പത്തെ GPU ക്രമീകരണം പുനഃസ്ഥാപിക്കാനായില്ല. ഓട്ടോമാറ്റിക് നിയന്ത്രണം പുനഃസ്ഥാപിക്കുക അല്ലെങ്കിൽ ഫോൺ പുനരാരംഭിക്കുക.</string>
+    <string name="gpu_requested_range">ആവശ്യപ്പെട്ട ആവൃത്തി പരിധി</string>
+    <string name="gpu_effective_range">നിലവിൽ പ്രാബല്യത്തിലുള്ള ആവൃത്തി പരിധി</string>
+    <string name="gpu_mode_range">ആവൃത്തി പരിധികൾ</string>
+    <string name="gpu_choose_range">ആവൃത്തി പരിധി സജ്ജീകരിക്കുക</string>
+    <string name="gpu_range_summary">ഉപകരണം റിപ്പോർട്ട് ചെയ്യുന്ന ആവൃത്തികളിൽ നിന്ന് കുറഞ്ഞതും കൂടിയതുമായ മൂല്യങ്ങൾ തിരഞ്ഞെടുക്കുക. GPU-യ്ക്ക് പ്രാബല്യത്തിലുള്ള പരിധിക്കുള്ളിൽ ആവൃത്തി മാറ്റാനും നിഷ്‌ക്രിയമാകുമ്പോൾ ഓഫാകാനും കഴിയും. ഉയർന്ന കുറഞ്ഞ മൂല്യം ചില സോഫ്റ്റ്‌വെയർ താപപരിധികളെ മറികടന്ന് ചൂടും വൈദ്യുതി ഉപയോഗവും വർധിപ്പിച്ചേക്കാം.</string>
+    <string name="gpu_apply_range">പരിധി പ്രയോഗിക്കുക</string>
+    <string name="gpu_error_range">കുറഞ്ഞ ആവൃത്തി പരമാവധി ആവൃത്തിയെ കവിയരുത്.</string>
+    <string name="gpu_error_conflict">മറ്റൊരു കൺട്രോളർ GPU ക്രമീകരണങ്ങൾ മാറ്റി. അതിന്റെ ക്രമീകരണം മാറ്റാതെ നിലനിർത്തി.</string>
+    <string name="gpu_effective_summary">ആവശ്യപ്പെട്ട പരിധികൾ നിങ്ങളുടെ ക്രമീകരണങ്ങളാണ്. എല്ലാ കൺട്രോളറുകളുടെയും ആവശ്യങ്ങൾ സംയോജിപ്പിച്ചശേഷം ഡ്രൈവർ പ്രയോഗിക്കുന്ന പരിധികളാണ് പ്രാബല്യത്തിലുള്ളവ.</string>
+    <string name="gpu_legacy_fixed_summary">സ്ഥിരമായ GPU ആവൃത്തി സജീവമാണ്. ഒരു പരിധി പ്രയോഗിക്കുന്നത് സ്ഥിര മോഡ് ഒഴിവാക്കി GPU-യ്ക്ക് പ്രാബല്യത്തിലുള്ള പരിധികൾക്കിടയിൽ ആവൃത്തി മാറ്റാൻ അനുവദിക്കുന്നു.</string>
+    <string name="gpu_minimum_frequency">കുറഞ്ഞ ആവൃത്തി</string>
+    <string name="gpu_maximum_frequency">പരമാവധി ആവൃത്തി</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">Udhibiti wa GPU</string>
+    <string name="gpu_home_summary">Masafa ya GPU, vikomo vya chini na vya juu, na udhibiti wa kiotomatiki.</string>
+    <string name="gpu_current_frequency">Mzunguko wa sasa</string>
+    <string name="gpu_requested_frequency">Mpangilio wa masafa yasiyobadilika</string>
+    <string name="gpu_loading">Inasoma hali ya GPU…</string>
+    <string name="gpu_unavailable">"Hakipatikani"</string>
+    <string name="gpu_idle">Haifanyi kazi</string>
+    <string name="gpu_control_state">Udhibiti wa masafa</string>
+    <string name="gpu_mode_automatic">Kiotomatiki</string>
+    <string name="gpu_mode_fixed">Masafa yasiyobadilika</string>
+    <string name="gpu_mode_unknown">Haijulikani</string>
+    <string name="gpu_control_unavailable">Udhibiti wa masafa haupatikani. Vipimo huonyeshwa vinapotolewa na kiendeshi.</string>
+    <string name="gpu_supported_frequencies">Masafa yanayotumika</string>
+    <string name="gpu_frequency_count">Idadi ya viwango vya masafa vinavyoripotiwa na kifaa: %1$d</string>
+    <string name="gpu_choose_frequency">Weka masafa yasiyobadilika</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Chagua masafa yanayoripotiwa na kifaa hiki. Hali ya masafa yasiyobadilika inaweza kukwepa vizuizi vya masafa ya GPU vinavyowekwa na programu kutokana na joto. Masafa yasiyobadilika yanaweza kuongeza matumizi ya nishati na halijoto. Mpangilio huu hutumika GPU inapofanya kazi; GPU bado inaweza kuzima inapokuwa haitumiki.</string>
+    <string name="gpu_apply_fixed">Tumia masafa yasiyobadilika</string>
+    <string name="gpu_restore_automatic">Rejesha udhibiti wa kiotomatiki</string>
+    <string name="gpu_restore_summary">Ondoa vikomo vya masafa ya GPU vya kuweka mwenyewe na hali ya masafa yasiyobadilika, ili mfumo uchague masafa tena.</string>
+    <string name="gpu_restore_action">"Rejesha"</string>
+    <string name="gpu_session_title">Mipangilio ya GPU ya mwenyewe</string>
+    <string name="gpu_session_summary">Kuanzisha upya hurejesha udhibiti wa GPU wa kiotomatiki. Vidhibiti hivi havibadili mipangilio ya CPU. Vikomo vya masafa vilivyoombwa na vinavyotumika huonyeshwa kando; masafa ya sasa hupatikana kutoka kwa kiendeshi.</string>
+    <string name="gpu_operation_title">Operesheni ya mwisho</string>
+    <string name="gpu_applying">Inatuma na kuangalia mabadiliko...</string>
+    <string name="gpu_verified">Mabadiliko yametumika na kuthibitishwa.</string>
+    <string name="gpu_error_unavailable">Udhibiti wa GPU ulioombwa haupatikani. Fungua ukurasa huu tena na ujaribu upya.</string>
+    <string name="gpu_error_unsupported">Kiendeshi hiki cha GPU hakitumii udhibiti ulioombwa.</string>
+    <string name="gpu_error_frequency">Kifaa hakiripoti masafa hayo tena. Chagua mojawapo ya thamani zinazopatikana sasa.</string>
+    <string name="gpu_error_write">Kiendeshi cha GPU kimekataa mabadiliko. Programu imejaribu kurejesha mpangilio wa awali.</string>
+    <string name="gpu_error_readback">Mpangilio wa GPU ulioombwa haukuweza kuthibitishwa. Programu imejaribu kurejesha mpangilio wa awali.</string>
+    <string name="gpu_error_rollback">%1$s Mpangilio wa awali wa GPU haukuweza kurejeshwa. Rejesha udhibiti wa kiotomatiki au uanzishe simu upya.</string>
+    <string name="gpu_minimum_frequency">Masafa ya chini</string>
+    <string name="gpu_maximum_frequency">Masafa ya juu</string>
+    <string name="gpu_requested_range">Wigo wa masafa ulioombwa</string>
+    <string name="gpu_effective_range">Wigo wa masafa unaotumika</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Vikomo vya wigo</string>
+    <string name="gpu_choose_range">Weka wigo wa masafa</string>
+    <string name="gpu_range_summary">Chagua masafa ya chini na ya juu kutoka kwenye masafa yanayoripotiwa na kifaa hiki. GPU inaweza kubadili masafa ndani ya wigo unaotumika na kuzimika ikiwa haina kazi. Kikomo cha chini kilicho juu kinaweza kupita baadhi ya vikomo vya joto vya programu na kuongeza joto na matumizi ya nishati.</string>
+    <string name="gpu_apply_range">Tekeleza wigo</string>
+    <string name="gpu_error_range">Masafa ya chini hayawezi kuzidi masafa ya juu.</string>
+    <string name="gpu_error_conflict">Kidhibiti kingine kimebadili mipangilio ya GPU. Mpangilio wake umeachwa bila kubadilishwa.</string>
+    <string name="gpu_effective_summary">Vikomo vilivyoombwa ni mipangilio yako. Vikomo vinavyotumika ni wigo ambao kiendeshi hutekeleza sasa baada ya kuunganisha mahitaji ya vidhibiti vyote.</string>
+    <string name="gpu_legacy_fixed_summary">Masafa ya GPU yasiyobadilika yamewashwa. Kuweka wigo huondoa hali ya masafa yasiyobadilika na kuruhusu GPU kubadili masafa ndani ya vikomo vinavyotumika.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">Carga da GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatura da GPU</string>
+    <string name="adaptive_frames_title">Fluidez dos fotogramas</string>
+    <string name="adaptive_frames_jank">Fotogramas atrasados ou descartados</string>
+    <string name="adaptive_frames_dropped">Fotogramas descartados</string>
+    <string name="adaptive_frames_count">%1$d fotogramas observados</string>
+    <string name="adaptive_frames_timing">Obxectivo: %1$.0f FPS · Pantalla: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Tempo por fotograma (percentil 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mide os fotogramas recentes da aplicación en uso. A mostraxe é parcial. Non se miden os atrasos da rede nin da entrada.</string>
+    <string name="adaptive_frames_waiting">Agardando medicións de fotogramas suficientes e comparables antes de propor un cambio.</string>
+    <string name="adaptive_frames_changed">A aplicación, a superficie de renderización ou os tempos dos fotogramas cambiaron. Cómpre facer novas medicións.</string>
+    <string name="adaptive_frames_improved">Medíronse menos fotogramas atrasados ou descartados dentro dos límites da proba.</string>
+    <string name="adaptive_frames_regressed">A proba non acadou o obxectivo de fluidez dos fotogramas.</string>
+    <string name="adaptive_frames_lower">A entrega de fotogramas é estable e a carga é baixa. Proba unha frecuencia máxima menor.</string>
+    <string name="adaptive_frames_raise">Detectáronse fotogramas atrasados ou descartados cunha carga alta. Proba unha frecuencia máxima maior.</string>
+    <string name="adaptive_gpu_boundaries">Só se pode axustar o control automático da GPU. Os axustes manuais de CPU/GPU teñen prioridade.</string>
+    <string name="adaptive_trial_generic">Probando un só nivel de frecuencia compatible.</string>
+    <string name="adaptive_gpu_missing">Agardando lecturas utilizables da carga e da temperatura da GPU.</string>
+</resources>

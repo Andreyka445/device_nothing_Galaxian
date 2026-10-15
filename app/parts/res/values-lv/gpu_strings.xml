@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU kontrole</string>
+    <string name="gpu_home_summary">GPU frekvence, minimālā un maksimālā robeža un automātiska vadība.</string>
+    <string name="gpu_current_frequency">Pašreizējā frekvence</string>
+    <string name="gpu_requested_frequency">Fiksēta frekvences iestatījums</string>
+    <string name="gpu_loading">Nolasa GPU stāvokli…</string>
+    <string name="gpu_unavailable">"Nav pieejama"</string>
+    <string name="gpu_idle">Dīkstāvē</string>
+    <string name="gpu_control_state">Frekvences kontrole</string>
+    <string name="gpu_mode_automatic">Automātiski</string>
+    <string name="gpu_mode_fixed">Fiksēta frekvence</string>
+    <string name="gpu_mode_unknown">Nezināms</string>
+    <string name="gpu_control_unavailable">Frekvences vadība nav pieejama. Rādījumi tiek parādīti, kad vadītājs tos nodrošina.</string>
+    <string name="gpu_supported_frequencies">Atbalstītās frekvences</string>
+    <string name="gpu_frequency_count">Ierīces ziņotās biežuma darbības: %1$d</string>
+    <string name="gpu_choose_frequency">Iestatiet fiksētu frekvenci</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Izvēlieties frekvenci, par kuru ziņo šī ierīce. Fiksēta frekvence var palielināt enerģijas patēriņu un temperatūru. Iestatījums ir spēkā, kamēr GPU ir aktīvs; GPU joprojām var izslēgties dīkstāvē. Fiksētais režīms var apiet programmatūras noteiktos GPU frekvences temperatūras ierobežojumus.</string>
+    <string name="gpu_apply_fixed">Izmantojiet fiksētu frekvenci</string>
+    <string name="gpu_restore_automatic">Atjaunot automātisko vadību</string>
+    <string name="gpu_restore_summary">Atcelt manuālos GPU frekvences ierobežojumus un fiksēto režīmu, lai sistēma atkal izvēlētos frekvenci.</string>
+    <string name="gpu_restore_action">"Atjaunot"</string>
+    <string name="gpu_session_title">Manuālie GPU iestatījumi</string>
+    <string name="gpu_session_summary">Restartēšana atjauno automātisku GPU vadību. Šie vadības elementi nemaina CPU iestatījumus. Pieprasītās un faktiskās frekvences robežas tiek rādītas atsevišķi; pašreizējā frekvence tiek iegūta no draivera.</string>
+    <string name="gpu_operation_title">Pēdējā operācija</string>
+    <string name="gpu_applying">Notiek izmaiņu piemērošana un pārbaude…</string>
+    <string name="gpu_verified">Izmaiņas ir piemērotas un pārbaudītas.</string>
+    <string name="gpu_error_unavailable">Pieprasītā vadīkla GPU nav pieejama. Reopen this page and try again.</string>
+    <string name="gpu_error_unsupported">Šis GPU draiveris neatbalsta pieprasīto vadīklu.</string>
+    <string name="gpu_error_frequency">Ierīce vairs neziņo par šo frekvenci. Izvēlieties kādu no pašlaik pieejamajām vērtībām.</string>
+    <string name="gpu_error_write">GPU vadītājs noraidīja izmaiņas. Lietotne mēģināja atjaunot iepriekšējo iestatījumu.</string>
+    <string name="gpu_error_readback">Pieprasīto GPU iestatījumu nevarēja apstiprināt. Lietotne mēģināja atjaunot iepriekšējo iestatījumu.</string>
+    <string name="gpu_error_rollback">%1$s Nevarēja atjaunot iepriekšējo GPU iestatījumu. Atjaunojiet automātisko vadību vai restartējiet tālruni.</string>
+    <string name="gpu_minimum_frequency">Minimālā frekvence</string>
+    <string name="gpu_maximum_frequency">Maksimālā frekvence</string>
+    <string name="gpu_requested_range">Pieprasītais frekvenču diapazons</string>
+    <string name="gpu_effective_range">Faktiskais frekvenču diapazons</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Diapazona robežas</string>
+    <string name="gpu_choose_range">Iestatīt frekvenču diapazonu</string>
+    <string name="gpu_range_summary">Izvēlieties minimālo un maksimālo frekvenci no ierīces norādītajām frekvencēm. GPU var mainīt frekvenci faktiskajā diapazonā un izslēgties dīkstāvē. Augsta minimālā frekvence var būt prioritāra pār dažiem programmatūras temperatūras ierobežojumiem un palielināt siltuma izdalīšanos un enerģijas patēriņu.</string>
+    <string name="gpu_apply_range">Piemērot diapazonu</string>
+    <string name="gpu_error_range">Minimālā frekvence nedrīkst pārsniegt maksimālo.</string>
+    <string name="gpu_error_conflict">Cits kontrolieris mainīja GPU iestatījumus. Tā iestatījums netika mainīts.</string>
+    <string name="gpu_effective_summary">Pieprasītās robežas ir jūsu iestatījumi. Faktiskās robežas ir diapazons, ko draiveris pašlaik piemēro, apvienojot visu kontrolieru prasības.</string>
+    <string name="gpu_legacy_fixed_summary">Ir aktīva fiksēta GPU frekvence. Diapazona piemērošana izslēdz fiksēto režīmu un ļauj GPU mainīt frekvenci faktiskajās robežās.</string>
+</resources>

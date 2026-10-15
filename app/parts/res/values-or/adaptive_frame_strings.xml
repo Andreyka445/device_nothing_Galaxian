@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU ଲୋଡ୍</string>
+    <string name="adaptive_gpu_temperature">GPU ତାପମାତ୍ରା</string>
+    <string name="adaptive_frames_title">ଫ୍ରେମ୍‌ର ସୁଗମତା</string>
+    <string name="adaptive_frames_jank">ବିଳମ୍ବିତ କିମ୍ବା ଛାଡ଼ି ଦିଆଯାଇଥିବା ଫ୍ରେମ୍</string>
+    <string name="adaptive_frames_dropped">ଛାଡ଼ି ଦିଆଯାଇଥିବା ଫ୍ରେମ୍</string>
+    <string name="adaptive_frames_count">%1$dଟି ଫ୍ରେମ୍ ନିରୀକ୍ଷଣ କରାଯାଇଛି</string>
+    <string name="adaptive_frames_timing">ଲକ୍ଷ୍ୟ: %1$.0f FPS · ଡିସପ୍ଲେ: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ଫ୍ରେମ୍ ସମୟ (95ତମ ପର୍ସେଣ୍ଟାଇଲ୍)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">ବ୍ୟବହାର ହେଉଥିବା ଆପ୍‌ର ସାମ୍ପ୍ରତିକ ଫ୍ରେମ୍ ମାପେ। ନମୁନା ସଂଗ୍ରହ ଆଂଶିକ ଅଟେ। ନେଟୱର୍କ ଓ ଇନପୁଟ୍‌ର ବିଳମ୍ବ ମପାଯାଏ ନାହିଁ।</string>
+    <string name="adaptive_frames_waiting">ପରିବର୍ତ୍ତନ ପ୍ରସ୍ତାବ ଦେବା ପୂର୍ବରୁ ପର୍ଯ୍ୟାପ୍ତ ତୁଳନାଯୋଗ୍ୟ ଫ୍ରେମ୍ ମାପ ପାଇଁ ଅପେକ୍ଷା କରୁଛି।</string>
+    <string name="adaptive_frames_changed">ଆପ୍, ରେଣ୍ଡରିଂ ପୃଷ୍ଠ କିମ୍ବା ଫ୍ରେମ୍‌ର ସମୟ ବଦଳିଛି। ନୂଆ ମାପ ଆବଶ୍ୟକ।</string>
+    <string name="adaptive_frames_improved">ପରୀକ୍ଷାର ସୀମା ମଧ୍ୟରେ କମ୍ ବିଳମ୍ବିତ କିମ୍ବା ଛାଡ଼ି ଦିଆଯାଇଥିବା ଫ୍ରେମ୍ ମପାଯାଇଛି।</string>
+    <string name="adaptive_frames_regressed">ପରୀକ୍ଷାଟି ଫ୍ରେମ୍‌ର ସୁଗମତା ଲକ୍ଷ୍ୟ ପୂରଣ କରିପାରିଲା ନାହିଁ।</string>
+    <string name="adaptive_frames_lower">ଫ୍ରେମ୍ ପ୍ରଦର୍ଶନ ସ୍ଥିର ଓ ଲୋଡ୍ କମ୍ ଅଛି। ସର୍ବାଧିକ ଫ୍ରିକ୍ୱେନ୍ସି କମାଇ ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="adaptive_frames_raise">ଅଧିକ ଲୋଡ୍ ସମୟରେ ବିଳମ୍ବିତ କିମ୍ବା ଛାଡ଼ି ଦିଆଯାଇଥିବା ଫ୍ରେମ୍ ଚିହ୍ନଟ ହୋଇଛି। ସର୍ବାଧିକ ଫ୍ରିକ୍ୱେନ୍ସି ବଢ଼ାଇ ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+    <string name="adaptive_gpu_boundaries">କେବଳ ସ୍ୱୟଂଚାଳିତ GPU ନିୟନ୍ତ୍ରଣ ସମାଯୋଜନ କରାଯାଇପାରେ। ମାନୁଆଲ୍ CPU/GPU ସେଟିଂସ୍‌କୁ ପ୍ରାଥମିକତା ମିଳେ।</string>
+    <string name="adaptive_trial_generic">ସମର୍ଥିତ ଫ୍ରିକ୍ୱେନ୍ସିର ଗୋଟିଏ ସ୍ତର ପରୀକ୍ଷା କରୁଛି।</string>
+    <string name="adaptive_gpu_missing">GPU ଲୋଡ୍ ଓ ତାପମାତ୍ରାର ବ୍ୟବହାରଯୋଗ୍ୟ ରିଡିଂ ପାଇଁ ଅପେକ୍ଷା କରୁଛି।</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU નિયંત્રણ</string>
+    <string name="gpu_home_summary">GPU ફ્રીક્વન્સી, લઘુત્તમ અને મહત્તમ મર્યાદાઓ અને સ્વચાલિત નિયંત્રણ.</string>
+    <string name="gpu_current_frequency">વર્તમાન આવર્તન</string>
+    <string name="gpu_requested_frequency">સ્થિર આવર્તન સેટિંગ</string>
+    <string name="gpu_loading">GPU સ્થિતિ વાંચી રહ્યાં છીએ…</string>
+    <string name="gpu_unavailable">"અનુપલબ્ધ"</string>
+    <string name="gpu_idle">નિષ્ક્રિય</string>
+    <string name="gpu_control_state">આવર્તન નિયંત્રણ</string>
+    <string name="gpu_mode_automatic">આપોઆપ</string>
+    <string name="gpu_mode_fixed">સ્થિર આવર્તન</string>
+    <string name="gpu_mode_unknown">અજ્ઞાત</string>
+    <string name="gpu_control_unavailable">આવર્તન નિયંત્રણ અનુપલબ્ધ છે. જ્યારે ડ્રાઇવર તેમને પ્રદાન કરે છે ત્યારે રીડિંગ્સ બતાવવામાં આવે છે.</string>
+    <string name="gpu_supported_frequencies">સપોર્ટેડ ફ્રીક્વન્સીઝ</string>
+    <string name="gpu_frequency_count">ઉપકરણ દ્વારા જાણ કરાયેલ આવર્તન પગલાં: %1$d</string>
+    <string name="gpu_choose_frequency">નિશ્ચિત આવર્તન સેટ કરો</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">આ ઉપકરણ દ્વારા જાણ કરાયેલ આવર્તન પસંદ કરો. એક નિશ્ચિત આવર્તન પાવર વપરાશ અને તાપમાન વધારી શકે છે. જ્યારે GPU સક્રિય હોય ત્યારે સેટિંગ લાગુ થાય છે; જ્યારે નિષ્ક્રિય હોય ત્યારે પણ GPU પાવર ડાઉન કરી શકે છે. સ્થિર મોડ સોફ્ટવેર દ્વારા લાગુ કરાયેલી GPU ની તાપમાન આધારિત આવર્તન મર્યાદાઓને બાયપાસ કરી શકે છે.</string>
+    <string name="gpu_apply_fixed">નિશ્ચિત આવર્તન લાગુ કરો</string>
+    <string name="gpu_restore_automatic">સ્વચાલિત નિયંત્રણ પુનઃસ્થાપિત કરો</string>
+    <string name="gpu_restore_summary">GPU ની ફ્રીક્વન્સી માટે જાતે ગોઠવેલી મર્યાદાઓ અને સ્થિર મોડ દૂર કરો અને સિસ્ટમને ફરી ફ્રીક્વન્સી પસંદ કરવા દો.</string>
+    <string name="gpu_restore_action">"રિસ્ટોર કરો"</string>
+    <string name="gpu_session_title">મેન્યુઅલ GPU સેટિંગ્સ</string>
+    <string name="gpu_session_summary">ફરી શરૂ કરવાથી GPU નું સ્વચાલિત નિયંત્રણ પુનઃસ્થાપિત થાય છે. આ નિયંત્રણો CPU સેટિંગ બદલતાં નથી. માંગેલી અને વાસ્તવમાં લાગુ ફ્રીક્વન્સી મર્યાદાઓ અલગ દર્શાવાય છે; વર્તમાન ફ્રીક્વન્સી ડ્રાઇવરમાંથી મળે છે.</string>
+    <string name="gpu_operation_title">છેલ્લું ઓપરેશન</string>
+    <string name="gpu_applying">ફેરફાર લાગુ કરી રહ્યાં છીએ અને તપાસી રહ્યાં છીએ...</string>
+    <string name="gpu_verified">ફેરફાર લાગુ અને ચકાસાયેલ.</string>
+    <string name="gpu_error_unavailable">વિનંતી કરેલ GPU નિયંત્રણ અનુપલબ્ધ છે. આ પૃષ્ઠ ફરીથી ખોલો અને ફરી પ્રયાસ કરો.</string>
+    <string name="gpu_error_unsupported">આ GPU ડ્રાઇવર વિનંતી કરેલ નિયંત્રણને સપોર્ટ કરતું નથી.</string>
+    <string name="gpu_error_frequency">તે આવર્તન હવે ઉપકરણ દ્વારા જાણ કરવામાં આવશે નહીં. હાલમાં ઉપલબ્ધ મૂલ્યોમાંથી એક પસંદ કરો.</string>
+    <string name="gpu_error_write">GPU ડ્રાઇવરે ફેરફારને નકાર્યો. એપ્લિકેશને પાછલી સેટિંગને પુનઃસ્થાપિત કરવાનો પ્રયાસ કર્યો.</string>
+    <string name="gpu_error_readback">વિનંતી કરેલ GPU સેટિંગની પુષ્ટિ કરી શકાઈ નથી. એપ્લિકેશને પાછલી સેટિંગને પુનઃસ્થાપિત કરવાનો પ્રયાસ કર્યો.</string>
+    <string name="gpu_error_rollback">%1$s પહેલાની GPU સેટિંગ પુનઃસ્થાપિત કરી શકાઈ નથી. સ્વચાલિત નિયંત્રણ પુનઃસ્થાપિત કરો અથવા ફોન પુનઃપ્રારંભ કરો.</string>
+    <string name="gpu_requested_range">માંગેલી ફ્રીક્વન્સી શ્રેણી</string>
+    <string name="gpu_effective_range">વાસ્તવમાં લાગુ ફ્રીક્વન્સી શ્રેણી</string>
+    <string name="gpu_mode_range">ફ્રીક્વન્સી મર્યાદાઓ</string>
+    <string name="gpu_choose_range">ફ્રીક્વન્સી શ્રેણી સેટ કરો</string>
+    <string name="gpu_range_summary">આ ઉપકરણ દ્વારા જણાવેલી ફ્રીક્વન્સીમાંથી લઘુત્તમ અને મહત્તમ પસંદ કરો. GPU વાસ્તવમાં લાગુ શ્રેણીમાં ફ્રીક્વન્સી બદલી શકે છે અને નિષ્ક્રિય હોય ત્યારે બંધ થઈ શકે છે. ઊંચી લઘુત્તમ ફ્રીક્વન્સી સૉફ્ટવેરની કેટલીક તાપમાન મર્યાદાઓને અવગણી શકે છે અને ગરમી તથા પાવર વપરાશ વધારી શકે છે.</string>
+    <string name="gpu_apply_range">શ્રેણી લાગુ કરો</string>
+    <string name="gpu_error_range">લઘુત્તમ ફ્રીક્વન્સી મહત્તમ કરતાં વધુ ન હોઈ શકે.</string>
+    <string name="gpu_error_conflict">બીજા નિયંત્રકે GPU સેટિંગ બદલ્યાં છે. તેનું સેટિંગ બદલ્યા વિના રાખવામાં આવ્યું છે.</string>
+    <string name="gpu_effective_summary">માંગેલી મર્યાદાઓ તમારાં સેટિંગ છે. વાસ્તવમાં લાગુ મર્યાદાઓ એ શ્રેણી છે જે બધા નિયંત્રકોની માંગને ભેગી કર્યા પછી ડ્રાઇવર હાલમાં લાગુ કરે છે.</string>
+    <string name="gpu_legacy_fixed_summary">GPU ની સ્થિર ફ્રીક્વન્સી સક્રિય છે. શ્રેણી લાગુ કરવાથી સ્થિર મોડ દૂર થાય છે અને GPU વાસ્તવમાં લાગુ મર્યાદાઓ વચ્ચે ફ્રીક્વન્સી બદલી શકે છે.</string>
+    <string name="gpu_minimum_frequency">લઘુત્તમ ફ્રીક્વન્સી</string>
+    <string name="gpu_maximum_frequency">મહત્તમ ફ્રીક્વન્સી</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

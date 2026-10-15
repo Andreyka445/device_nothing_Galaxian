@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU kontrola</string>
+    <string name="gpu_home_summary">Częstotliwość GPU, dolny i górny limit oraz sterowanie automatyczne.</string>
+    <string name="gpu_current_frequency">Aktualna częstotliwość</string>
+    <string name="gpu_requested_frequency">Stałe ustawienie częstotliwości</string>
+    <string name="gpu_loading">Odczytywanie stanu GPU…</string>
+    <string name="gpu_unavailable">"Niedostępne"</string>
+    <string name="gpu_idle">Bezczynny</string>
+    <string name="gpu_control_state">Kontrola częstotliwości</string>
+    <string name="gpu_mode_automatic">Automatyczny</string>
+    <string name="gpu_mode_fixed">Stała częstotliwość</string>
+    <string name="gpu_mode_unknown">Nieznany</string>
+    <string name="gpu_control_unavailable">Sterowanie częstotliwością jest niedostępne. Odczyty są wyświetlane, gdy kierowca je podaje.</string>
+    <string name="gpu_supported_frequencies">Obsługiwane częstotliwości</string>
+    <string name="gpu_frequency_count">Kroki częstotliwości raportowane przez urządzenie: %1$d</string>
+    <string name="gpu_choose_frequency">Ustaw stałą częstotliwość</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Wybierz częstotliwość zgłaszaną przez to urządzenie. Tryb stałej częstotliwości może omijać programowe ograniczenia częstotliwości GPU wynikające z temperatury. Stała częstotliwość może zwiększać zużycie energii i temperaturę. Ustawienie obowiązuje, gdy GPU jest aktywny; GPU nadal może się wyłączać w stanie bezczynności.</string>
+    <string name="gpu_apply_fixed">Zastosuj stałą częstotliwość</string>
+    <string name="gpu_restore_automatic">Przywróć automatyczną kontrolę</string>
+    <string name="gpu_restore_summary">Usuń ręczne limity częstotliwości GPU i tryb stały, aby system znów mógł wybierać częstotliwość.</string>
+    <string name="gpu_restore_action">"Przywróć"</string>
+    <string name="gpu_session_title">Ręczne ustawienia GPU</string>
+    <string name="gpu_session_summary">Ponowne uruchomienie przywraca automatyczne sterowanie GPU. Te elementy sterujące nie zmieniają ustawień CPU. Żądane i rzeczywiste limity częstotliwości są pokazywane oddzielnie; bieżąca częstotliwość pochodzi ze sterownika.</string>
+    <string name="gpu_operation_title">Ostatnia operacja</string>
+    <string name="gpu_applying">Stosowanie i sprawdzanie zmiany…</string>
+    <string name="gpu_verified">Zmiana zastosowana i zweryfikowana.</string>
+    <string name="gpu_error_unavailable">Żądana kontrola GPU jest niedostępna. Otwórz ponownie tę stronę i spróbuj jeszcze raz.</string>
+    <string name="gpu_error_unsupported">Ten sterownik GPU nie obsługuje żądanej kontroli.</string>
+    <string name="gpu_error_frequency">Częstotliwość ta nie jest już raportowana przez urządzenie. Wybierz jedną z aktualnie dostępnych wartości.</string>
+    <string name="gpu_error_write">Kierowca GPU odrzucił zmianę. Aplikacja podjęła próbę przywrócenia poprzedniego ustawienia.</string>
+    <string name="gpu_error_readback">Nie udało się potwierdzić żądanego ustawienia GPU. Aplikacja próbowała przywrócić poprzednie ustawienie.</string>
+    <string name="gpu_error_rollback">%1$s Nie udało się przywrócić poprzedniego ustawienia GPU. Przywróć sterowanie automatyczne lub uruchom ponownie telefon.</string>
+    <string name="gpu_requested_range">Żądany zakres częstotliwości</string>
+    <string name="gpu_effective_range">Rzeczywisty zakres częstotliwości</string>
+    <string name="gpu_mode_range">Limity częstotliwości</string>
+    <string name="gpu_choose_range">Ustaw zakres częstotliwości</string>
+    <string name="gpu_range_summary">Wybierz minimum i maksimum spośród częstotliwości zgłaszanych przez urządzenie. GPU może zmieniać częstotliwość w rzeczywistym zakresie i wyłączać się w bezczynności. Wysokie minimum może nadpisać niektóre programowe limity termiczne i zwiększyć nagrzewanie oraz zużycie energii.</string>
+    <string name="gpu_apply_range">Zastosuj zakres</string>
+    <string name="gpu_error_range">Minimalna częstotliwość nie może przekraczać maksymalnej.</string>
+    <string name="gpu_error_conflict">Inny kontroler zmienił ustawienia GPU. Jego ustawienie pozostawiono bez zmian.</string>
+    <string name="gpu_effective_summary">Żądane limity to Twoje ustawienia. Rzeczywiste limity to zakres obecnie stosowany przez sterownik po połączeniu żądań wszystkich kontrolerów.</string>
+    <string name="gpu_legacy_fixed_summary">Aktywna jest stała częstotliwość GPU. Zastosowanie zakresu wyłącza tryb stały i umożliwia GPU zmianę częstotliwości między rzeczywistymi limitami.</string>
+    <string name="gpu_minimum_frequency">Minimalna częstotliwość</string>
+    <string name="gpu_maximum_frequency">Maksymalna częstotliwość</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

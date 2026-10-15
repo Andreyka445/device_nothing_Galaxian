@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU хяналт</string>
+    <string name="gpu_home_summary">GPU давтамж, доод ба дээд хязгаар, автомат удирдлага.</string>
+    <string name="gpu_current_frequency">Одоогийн давтамж</string>
+    <string name="gpu_requested_frequency">Тогтмол давтамжийн тохиргоо</string>
+    <string name="gpu_loading">GPU төлөвийг уншиж байна...</string>
+    <string name="gpu_unavailable">"Байхгүй"</string>
+    <string name="gpu_idle">Сул зогсолт</string>
+    <string name="gpu_control_state">Давтамжийн хяналт</string>
+    <string name="gpu_mode_automatic">Автомат</string>
+    <string name="gpu_mode_fixed">Тогтмол давтамж</string>
+    <string name="gpu_mode_unknown">Тодорхойгүй</string>
+    <string name="gpu_control_unavailable">Давтамжийн хяналт боломжгүй байна. Уншилтыг жолооч өгөх үед харуулна.</string>
+    <string name="gpu_supported_frequencies">Дэмжигдсэн давтамжууд</string>
+    <string name="gpu_frequency_count">Төхөөрөмжийн мэдээлсэн давтамжийн алхмууд: %1$d</string>
+    <string name="gpu_choose_frequency">Тогтмол давтамжийг тохируулах</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Энэ төхөөрөмжөөс мэдээлсэн давтамжийг сонгоно уу. Тогтмол давтамж нь эрчим хүчний хэрэглээ болон температурыг нэмэгдүүлэх боломжтой. Тохиргоо нь GPU идэвхтэй байх үед хэрэгжинэ; GPU нь сул зогссон үед ч унтрах боломжтой. Тогтмол горим нь GPU-ийн давтамжид программ хангамжаар тогтоосон дулааны хязгаарлалтыг тойрч гарах боломжтой.</string>
+    <string name="gpu_apply_fixed">Тогтмол давтамжийг ашиглах</string>
+    <string name="gpu_restore_automatic">Автомат хяналтыг сэргээх</string>
+    <string name="gpu_restore_summary">GPU давтамжийн гар хязгаарлалт болон тогтмол горимыг цуцалж, системээр давтамжийг дахин сонгуулах.</string>
+    <string name="gpu_restore_action">"Сэргээх"</string>
+    <string name="gpu_session_title">Гарын авлагын GPU тохиргоо</string>
+    <string name="gpu_session_summary">Дахин асаахад GPU автомат удирдлага сэргэнэ. Эдгээр удирдлага CPU тохиргоог өөрчлөхгүй. Хүссэн болон бодитоор үйлчилж буй давтамжийн хязгааруудыг тусад нь харуулна; одоогийн давтамжийг драйвераас авна.</string>
+    <string name="gpu_operation_title">Сүүлийн ажиллагаа</string>
+    <string name="gpu_applying">Өөрчлөлтийг хэрэглэж, шалгаж байна...</string>
+    <string name="gpu_verified">Өөрчлөлтийг хэрэглэж, баталгаажуулсан.</string>
+    <string name="gpu_error_unavailable">Хүссэн GPU хяналт боломжгүй байна. Энэ хуудсыг дахин нээгээд дахин оролдоно уу.</string>
+    <string name="gpu_error_unsupported">Энэ GPU драйвер нь хүссэн хяналтыг дэмждэггүй.</string>
+    <string name="gpu_error_frequency">Энэ давтамжийг төхөөрөмжөөс мэдээлэхээ больсон. Одоо байгаа утгуудаас аль нэгийг нь сонгоно уу.</string>
+    <string name="gpu_error_write">GPU жолооч өөрчлөлтөөс татгалзав. Апп нь өмнөх тохиргоог сэргээхийг оролдсон.</string>
+    <string name="gpu_error_readback">Хүссэн GPU тохиргоог баталгаажуулж чадсангүй. Апп нь өмнөх тохиргоог сэргээхийг оролдсон.</string>
+    <string name="gpu_error_rollback">%1$s Өмнөх GPU тохиргоог сэргээж чадсангүй. Автомат удирдлагыг сэргээх эсвэл утсаа дахин эхлүүлнэ үү.</string>
+    <string name="gpu_minimum_frequency">Хамгийн бага давтамж</string>
+    <string name="gpu_maximum_frequency">Хамгийн их давтамж</string>
+    <string name="gpu_requested_range">Хүссэн давтамжийн муж</string>
+    <string name="gpu_effective_range">Бодитоор үйлчилж буй давтамжийн муж</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Мужийн хязгаар</string>
+    <string name="gpu_choose_range">Давтамжийн муж тохируулах</string>
+    <string name="gpu_range_summary">Энэ төхөөрөмжийн мэдээлсэн давтамжуудаас хамгийн бага, их утгыг сонгоно уу. GPU нь бодитоор үйлчилж буй мужид давтамжаа өөрчилж, сул зогсох үед унтарч болно. Өндөр доод хязгаар нь программын зарим дулааны хязгаарлалтыг давж, халалт болон эрчим хүчний хэрэглээг нэмэгдүүлж болзошгүй.</string>
+    <string name="gpu_apply_range">Мужийг хэрэгжүүлэх</string>
+    <string name="gpu_error_range">Хамгийн бага давтамж нь хамгийн ихээс хэтэрч болохгүй.</string>
+    <string name="gpu_error_conflict">Өөр хянагч GPU тохиргоог өөрчилсөн. Түүний тохиргоог хэвээр үлдээсэн.</string>
+    <string name="gpu_effective_summary">Хүссэн хязгаарууд нь таны тохиргоо юм. Бодитоор үйлчилж буй хязгаарууд нь бүх хянагчийн шаардлагыг нэгтгэсний дараа драйверийн одоо хэрэглэж буй муж юм.</string>
+    <string name="gpu_legacy_fixed_summary">GPU тогтмол давтамжтай ажиллаж байна. Муж хэрэгжүүлэхэд тогтмол горим цуцлагдаж, GPU бодитоор үйлчилж буй хязгааруудын хооронд давтамжаа өөрчилж чадна.</string>
+</resources>

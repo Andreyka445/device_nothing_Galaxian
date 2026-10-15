@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU ቁጥጥር</string>
+    <string name="gpu_home_summary">የGPU ድግግሞሽ፣ ዝቅተኛ እና ከፍተኛ ገደቦች እና ራስ-ሰር ቁጥጥር።</string>
+    <string name="gpu_current_frequency">የአሁኑ ድግግሞሽ</string>
+    <string name="gpu_requested_frequency">የቋሚ ድግግሞሽ ቅንብር</string>
+    <string name="gpu_loading">ንባብ GPU ሁኔታ…</string>
+    <string name="gpu_unavailable">"አይገኝም"</string>
+    <string name="gpu_idle">ስራ ፈት</string>
+    <string name="gpu_control_state">የድግግሞሽ ቁጥጥር</string>
+    <string name="gpu_mode_automatic">አውቶማቲክ</string>
+    <string name="gpu_mode_fixed">ቋሚ ድግግሞሽ</string>
+    <string name="gpu_mode_unknown">ያልታወቀ</string>
+    <string name="gpu_control_unavailable">የድግግሞሽ ቁጥጥር የለም። ንባቦች የሚታዩት ነጂው ሲያቀርብላቸው ነው።</string>
+    <string name="gpu_supported_frequencies">የሚደገፉ ድግግሞሾች</string>
+    <string name="gpu_frequency_count">በመሳሪያው የተዘገበ የድግግሞሽ ደረጃዎች፡- %1$d</string>
+    <string name="gpu_choose_frequency">ቋሚ ድግግሞሽ ያዘጋጁ</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">በዚህ መሣሪያ ሪፖርት የተደረገ ድግግሞሽ ይምረጡ። ቋሚ ድግግሞሽ የኃይል አጠቃቀምን እና የሙቀት መጠንን ይጨምራል. ቅንብሩ የሚሰራው GPU ንቁ ሲሆን ነው; GPU ስራ ሲፈታ አሁንም ሊጠፋ ይችላል። ቋሚ ሁነታ በሶፍትዌር የሚተገበሩ የGPU የሙቀት ድግግሞሽ ገደቦችን ሊያልፍ ይችላል።</string>
+    <string name="gpu_apply_fixed">ቋሚ ድግግሞሽ ተግብር</string>
+    <string name="gpu_restore_automatic">ራስ-ሰር ቁጥጥርን ወደነበረበት መልስ</string>
+    <string name="gpu_restore_summary">በእጅ የተዘጋጁ የGPU ድግግሞሽ ገደቦችን እና ቋሚ ሁነታን ያስወግዱ፣ ሥርዓቱም ድግግሞሹን እንደገና እንዲመርጥ ያድርጉ።</string>
+    <string name="gpu_restore_action">"ወደነበረበት መልስ"</string>
+    <string name="gpu_session_title">በእጅ GPU ቅንብሮች</string>
+    <string name="gpu_session_summary">ዳግም ማስጀመር ራስ-ሰር የGPU ቁጥጥርን ይመልሳል። እነዚህ መቆጣጠሪያዎች የCPU ቅንብሮችን አይቀይሩም። የተጠየቁ እና በተግባር ያሉ የድግግሞሽ ገደቦች ለየብቻ ይታያሉ፤ ያለው ድግግሞሽ ከድራይቨሩ ይመጣል።</string>
+    <string name="gpu_operation_title">የመጨረሻው ቀዶ ጥገና</string>
+    <string name="gpu_applying">ለውጡን በመተግበር እና በመፈተሽ ላይ…</string>
+    <string name="gpu_verified">ለውጥ ተተግብሯል እና ተረጋግጧል።</string>
+    <string name="gpu_error_unavailable">የተጠየቀው GPU ቁጥጥር አይገኝም። ይህን ገጽ እንደገና ይክፈቱ እና እንደገና ይሞክሩ።</string>
+    <string name="gpu_error_unsupported">ይህ GPU አሽከርካሪ የተጠየቀውን መቆጣጠሪያ አይደግፍም።</string>
+    <string name="gpu_error_frequency">ያ ድግግሞሽ በመሣሪያው ሪፖርት አይደረግም። አሁን ካሉት እሴቶች ውስጥ አንዱን ይምረጡ።</string>
+    <string name="gpu_error_write">GPU ሹፌሩ ለውጡን አልተቀበለውም። መተግበሪያው ቀዳሚውን መቼት ወደነበረበት ለመመለስ ሞክሯል።</string>
+    <string name="gpu_error_readback">የተጠየቀው GPU ቅንብር ሊረጋገጥ አልቻለም። መተግበሪያው ቀዳሚውን መቼት ወደነበረበት ለመመለስ ሞክሯል።</string>
+    <string name="gpu_error_rollback">%1$s የቀደመው GPU መቼት ወደነበረበት ሊመለስ አልቻለም። ራስ-ሰር ቁጥጥርን ወደነበረበት ይመልሱ ወይም ስልኩን እንደገና ያስጀምሩ.</string>
+    <string name="gpu_requested_range">የተጠየቀ የድግግሞሽ ክልል</string>
+    <string name="gpu_effective_range">በተግባር ያለ የድግግሞሽ ክልል</string>
+    <string name="gpu_mode_range">የድግግሞሽ ገደቦች</string>
+    <string name="gpu_choose_range">የድግግሞሽ ክልል ያዘጋጁ</string>
+    <string name="gpu_range_summary">መሣሪያው ከሚዘረዝራቸው ድግግሞሾች ዝቅተኛውን እና ከፍተኛውን ይምረጡ። GPU በተግባር ባለው ክልል ውስጥ ድግግሞሹን መቀየርና ሥራ ሳይኖረው መጥፋት ይችላል። ከፍ ያለ ዝቅተኛ ገደብ አንዳንድ የሶፍትዌር ሙቀት ገደቦችን በመሻር ሙቀትን እና የኃይል ፍጆታን ሊጨምር ይችላል።</string>
+    <string name="gpu_apply_range">ክልሉን ይተግብሩ</string>
+    <string name="gpu_error_range">ዝቅተኛው ድግግሞሽ ከከፍተኛው መብለጥ አይችልም።</string>
+    <string name="gpu_error_conflict">ሌላ ተቆጣጣሪ የGPU ቅንብሮችን ቀይሯል። የእሱ ቅንብር ሳይቀየር ቀርቷል።</string>
+    <string name="gpu_effective_summary">የተጠየቁ ገደቦች የእርስዎ ቅንብሮች ናቸው። በተግባር ያሉ ገደቦች የሁሉንም ተቆጣጣሪዎች ጥያቄዎች ካጣመረ በኋላ ድራይቨሩ የሚተገብረው ክልል ነው።</string>
+    <string name="gpu_legacy_fixed_summary">ቋሚ የGPU ድግግሞሽ ንቁ ነው። ክልል መተግበር ቋሚ ሁነታውን ያቋርጣል፣ GPUም በተግባር ባሉት ገደቦች መካከል ድግግሞሹን እንዲቀይር ያስችለዋል።</string>
+    <string name="gpu_minimum_frequency">ዝቅተኛ ድግግሞሽ</string>
+    <string name="gpu_maximum_frequency">ከፍተኛው ድግግሞሽ</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="memory_title">Memoria</string>
+    <string name="memory_total">RAM totale</string>
+    <string name="memory_available">RAM disponibile</string>
+    <string name="memory_used">RAM utilizzata</string>
+    <string name="memory_swap">Swap</string>
+    <string name="memory_zram">zRAM</string>
+    <string name="memory_unavailable">Non disponibile</string>
+    <string name="memory_disabled">Disattivato</string>
+    <string name="memory_swap_summary">%1$s utilizzati su %2$s</string>
+    <string name="memory_zram_summary">Configurata: %1$s\nDati memorizzati: %2$s\nRAM allocata: %3$s</string>
+    <string name="memory_about">Informazioni sulla memoria</string>
+    <string name="memory_about_summary">La RAM disponibile include la memoria che Android può recuperare. Android gestisce automaticamente le app in cache. I dettagli di swap e zRAM sono mostrati solo se leggibili.</string>
+    <string name="memory_background_apps">App in cache in background</string>
+    <string name="memory_clean">Libera le app in background</string>
+    <string name="memory_clean_summary">Richiedi ad Android di arrestare le app in cache elencate sotto. Sono escluse le app attive, di sistema, persistenti e quelle che condividono un UID.</string>
+    <string name="memory_app_summary">%1$s\nTocca per richiedere l\'arresto in background</string>
+    <string name="memory_apps_unavailable">Gestione delle app in background non disponibile</string>
+    <string name="memory_no_apps">Nessuna app in cache idonea</string>
+    <string name="memory_confirm_title">Arrestare le app in background?</string>
+    <string name="memory_confirm_one">Richiedere ad Android di arrestare %1$s in background? Le attività in background non salvate potrebbero andare perse. L\'app può riavviarsi automaticamente. Le app diventate attive saranno ignorate.</string>
+    <string name="memory_confirm_many">Richiedere ad Android di arrestare %1$d app in cache? Le attività in background non salvate potrebbero andare perse. Le app possono riavviarsi automaticamente. Le app diventate attive saranno ignorate.</string>
+    <string name="memory_stop">Arresta le app in background</string>
+    <string name="memory_result">Ultima azione</string>
+    <string name="memory_result_none">Nessuna richiesta di arresto inviata</string>
+    <string name="memory_result_waiting">Invio delle richieste e controllo delle app in esecuzione…</string>
+    <string name="memory_result_interrupted">Monitoraggio interrotto. Alcune richieste potrebbero essere già state inviate; il risultato non è stato verificato.</string>
+    <string name="memory_result_summary">Richieste inviate: %1$d\nNon più rilevate: %2$d\nAncora in esecuzione o riavviate: %3$d\nIgnorate: %4$d · Non riuscite: %5$d\nLe app possono riavviarsi automaticamente. Questo controllo non misura la RAM liberata.</string>
+    <string name="memory_result_unverified">Richieste inviate: %1$d\nIgnorate: %2$d · Non riuscite: %3$d\nImpossibile verificare il risultato. Le app potrebbero essere ancora in esecuzione o riavviarsi.</string>
+    <string name="memory_swap_section">Swap e compressione</string>
+    <string name="memory_swap_used">Swap utilizzata</string>
+    <string name="memory_swap_total">Swap totale</string>
+    <string name="memory_hero_summary">%1$s totali · %2$s disponibili</string>
+    <string name="memory_waiting">Letture della memoria non disponibili</string>
+    <string name="memory_stop_app">Arresta %1$s in background</string>
+</resources>

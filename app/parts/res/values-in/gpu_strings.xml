@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU kendali</string>
+    <string name="gpu_home_summary">Frekuensi GPU, batas minimum dan maksimum, serta kontrol otomatis.</string>
+    <string name="gpu_current_frequency">Frekuensi saat ini</string>
+    <string name="gpu_requested_frequency">Pengaturan frekuensi tetap</string>
+    <string name="gpu_loading">Membaca GPU menyatakan…</string>
+    <string name="gpu_unavailable">"Tidak tersedia"</string>
+    <string name="gpu_idle">Menganggur</string>
+    <string name="gpu_control_state">Kontrol frekuensi</string>
+    <string name="gpu_mode_automatic">Otomatis</string>
+    <string name="gpu_mode_fixed">Frekuensi tetap</string>
+    <string name="gpu_mode_unknown">Tidak dikenal</string>
+    <string name="gpu_control_unavailable">Kontrol frekuensi tidak tersedia. Pembacaan ditampilkan ketika pengemudi menyediakannya.</string>
+    <string name="gpu_supported_frequencies">Frekuensi yang didukung</string>
+    <string name="gpu_frequency_count">Langkah frekuensi yang dilaporkan oleh perangkat: %1$d</string>
+    <string name="gpu_choose_frequency">Tetapkan frekuensi tetap</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Pilih frekuensi yang dilaporkan oleh perangkat ini. Frekuensi tetap dapat meningkatkan penggunaan daya dan suhu. Pengaturan ini berlaku saat GPU aktif; GPU masih bisa mati saat idle. Mode tetap dapat melewati batas frekuensi termal GPU yang diterapkan perangkat lunak.</string>
+    <string name="gpu_apply_fixed">Terapkan frekuensi tetap</string>
+    <string name="gpu_restore_automatic">Kembalikan kontrol otomatis</string>
+    <string name="gpu_restore_summary">Lepaskan batas frekuensi GPU manual dan mode tetap, lalu biarkan sistem memilih frekuensi kembali.</string>
+    <string name="gpu_restore_action">"Pulihkan"</string>
+    <string name="gpu_session_title">Pengaturan manual GPU</string>
+    <string name="gpu_session_summary">Memulai ulang akan memulihkan kontrol GPU otomatis. Kontrol ini tidak mengubah setelan CPU. Batas frekuensi yang diminta dan efektif ditampilkan terpisah; frekuensi saat ini diperoleh dari driver.</string>
+    <string name="gpu_operation_title">Operasi terakhir</string>
+    <string name="gpu_applying">Menerapkan dan memeriksa perubahan…</string>
+    <string name="gpu_verified">Perubahan diterapkan dan diverifikasi.</string>
+    <string name="gpu_error_unavailable">Kontrol GPU yang diminta tidak tersedia. Buka kembali halaman ini dan coba lagi.</string>
+    <string name="gpu_error_unsupported">Driver GPU ini tidak mendukung kontrol yang diminta.</string>
+    <string name="gpu_error_frequency">Frekuensi tersebut tidak lagi dilaporkan oleh perangkat. Pilih salah satu nilai yang tersedia saat ini.</string>
+    <string name="gpu_error_write">Pengemudi GPU menolak perubahan tersebut. Aplikasi mencoba memulihkan pengaturan sebelumnya.</string>
+    <string name="gpu_error_readback">Pengaturan GPU yang diminta tidak dapat dikonfirmasi. Aplikasi mencoba memulihkan pengaturan sebelumnya.</string>
+    <string name="gpu_error_rollback">%1$s Pengaturan GPU sebelumnya tidak dapat dipulihkan. Pulihkan kontrol otomatis atau mulai ulang ponsel.</string>
+    <string name="gpu_minimum_frequency">Frekuensi minimum</string>
+    <string name="gpu_maximum_frequency">Frekuensi maksimum</string>
+    <string name="gpu_requested_range">Rentang frekuensi yang diminta</string>
+    <string name="gpu_effective_range">Rentang frekuensi efektif</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Batas rentang</string>
+    <string name="gpu_choose_range">Atur rentang frekuensi</string>
+    <string name="gpu_range_summary">Pilih minimum dan maksimum dari frekuensi yang dilaporkan perangkat ini. GPU dapat menyesuaikan frekuensi dalam rentang efektif dan mati saat menganggur. Minimum yang tinggi dapat mengesampingkan sebagian batas termal perangkat lunak serta meningkatkan panas dan penggunaan daya.</string>
+    <string name="gpu_apply_range">Terapkan rentang</string>
+    <string name="gpu_error_range">Frekuensi minimum tidak boleh melebihi maksimum.</string>
+    <string name="gpu_error_conflict">Pengontrol lain mengubah setelan GPU. Setelannya dibiarkan tanpa perubahan.</string>
+    <string name="gpu_effective_summary">Batas yang diminta adalah setelan Anda. Batas efektif adalah rentang yang saat ini diterapkan oleh driver setelah menggabungkan semua pengontrol.</string>
+    <string name="gpu_legacy_fixed_summary">Frekuensi GPU tetap sedang aktif. Menerapkan rentang akan melepaskan mode tetap dan memungkinkan GPU menyesuaikan frekuensi di antara batas efektif.</string>
+</resources>

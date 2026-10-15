@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Zaťaženie GPU</string>
+    <string name="adaptive_gpu_temperature">Teplota GPU</string>
+    <string name="adaptive_frames_title">Plynulosť snímok</string>
+    <string name="adaptive_frames_jank">Oneskorené alebo vynechané snímky</string>
+    <string name="adaptive_frames_dropped">Vynechané snímky</string>
+    <string name="adaptive_frames_count">Pozorované snímky: %1$d</string>
+    <string name="adaptive_frames_timing">Cieľ: %1$.0f FPS · Displej: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Čas snímky (95. percentil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Meria nedávne snímky používanej aplikácie. Vzorkovanie je čiastočné. Oneskorenie siete ani vstupu sa nemeria.</string>
+    <string name="adaptive_frames_waiting">Pred navrhnutím zmeny sa čaká na dostatok porovnateľných meraní snímok.</string>
+    <string name="adaptive_frames_changed">Aplikácia, vykresľovacia plocha alebo časovanie snímok sa zmenili. Sú potrebné nové merania.</string>
+    <string name="adaptive_frames_improved">V medziach skúšky bolo nameraných menej oneskorených alebo vynechaných snímok.</string>
+    <string name="adaptive_frames_regressed">Skúška nedosiahla cieľovú plynulosť snímok.</string>
+    <string name="adaptive_frames_lower">Zobrazovanie snímok je stabilné a zaťaženie nízke. Skúste nižšiu maximálnu frekvenciu.</string>
+    <string name="adaptive_frames_raise">Pri vysokom zaťažení boli zistené oneskorené alebo vynechané snímky. Skúste vyššiu maximálnu frekvenciu.</string>
+    <string name="adaptive_gpu_boundaries">GPU možno upravovať iba pri automatickom riadení. Manuálne nastavenia CPU/GPU majú prednosť.</string>
+    <string name="adaptive_trial_generic">Skúša sa jeden podporovaný frekvenčný krok.</string>
+    <string name="adaptive_gpu_missing">Čaká sa na použiteľné údaje o zaťažení a teplote GPU.</string>
+</resources>

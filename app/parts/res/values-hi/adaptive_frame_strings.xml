@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU लोड</string>
+    <string name="adaptive_gpu_temperature">GPU का तापमान</string>
+    <string name="adaptive_frames_title">फ़्रेम की सहजता</string>
+    <string name="adaptive_frames_jank">देर से आए या छूटे हुए फ़्रेम</string>
+    <string name="adaptive_frames_dropped">छूटे हुए फ़्रेम</string>
+    <string name="adaptive_frames_count">%1$d फ़्रेम देखे गए</string>
+    <string name="adaptive_frames_timing">लक्ष्य: %1$.0f FPS · डिसप्ले: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">फ़्रेम का समय (95वाँ पर्सेंटाइल)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">इस्तेमाल किए जा रहे ऐप के हाल के फ़्रेम मापता है। सैंपलिंग आंशिक है। नेटवर्क और इनपुट की देरी नहीं मापी जाती।</string>
+    <string name="adaptive_frames_waiting">बदलाव का सुझाव देने से पहले पर्याप्त तुलनीय फ़्रेम मापों का इंतज़ार है।</string>
+    <string name="adaptive_frames_changed">ऐप, रेंडरिंग सतह या फ़्रेम की टाइमिंग बदल गई है। नए माप ज़रूरी हैं।</string>
+    <string name="adaptive_frames_improved">परीक्षण की सीमाओं के भीतर देर से आए या छूटे हुए फ़्रेम कम मापे गए।</string>
+    <string name="adaptive_frames_regressed">परीक्षण फ़्रेम की सहजता का लक्ष्य पूरा नहीं कर पाया।</string>
+    <string name="adaptive_frames_lower">फ़्रेम की आपूर्ति स्थिर है और लोड कम है। अधिकतम फ़्रीक्वेंसी घटाकर आज़माएँ।</string>
+    <string name="adaptive_frames_raise">ज़्यादा लोड में देर से आए या छूटे हुए फ़्रेम मिले। अधिकतम फ़्रीक्वेंसी बढ़ाकर आज़माएँ।</string>
+    <string name="adaptive_gpu_boundaries">केवल अपने-आप होने वाला GPU नियंत्रण बदला जा सकता है। मैन्युअल CPU/GPU सेटिंग को प्राथमिकता मिलती है।</string>
+    <string name="adaptive_trial_generic">समर्थित फ़्रीक्वेंसी का एक ही स्तर परखा जा रहा है।</string>
+    <string name="adaptive_gpu_missing">GPU लोड और तापमान की उपयोग करने योग्य रीडिंग का इंतज़ार है।</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU контрол</string>
+    <string name="gpu_home_summary">Честота на GPU, минимални и максимални ограничения и автоматично управление.</string>
+    <string name="gpu_current_frequency">Текуща честота</string>
+    <string name="gpu_requested_frequency">Фиксирана честотна настройка</string>
+    <string name="gpu_loading">Четене на състояние GPU...</string>
+    <string name="gpu_unavailable">"Не е налице"</string>
+    <string name="gpu_idle">празен ход</string>
+    <string name="gpu_control_state">Контрол на честотата</string>
+    <string name="gpu_mode_automatic">Автоматичен</string>
+    <string name="gpu_mode_fixed">Фиксирана честота</string>
+    <string name="gpu_mode_unknown">неизвестен</string>
+    <string name="gpu_control_unavailable">Контролът на честотата не е наличен. Показанията се показват, когато водачът ги предостави.</string>
+    <string name="gpu_supported_frequencies">Поддържани честоти</string>
+    <string name="gpu_frequency_count">Честотни стъпки, отчетени от устройството: %1$d</string>
+    <string name="gpu_choose_frequency">Задайте фиксирана честота</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Изберете честота, докладвана от това устройство. Фиксираната честота може да увеличи консумацията на енергия и температурата. Настройката се прилага, докато GPU е активен; GPU все още може да се изключи, когато е неактивен. Фиксираният режим може да заобиколи софтуерните температурни ограничения на честотата на GPU.</string>
+    <string name="gpu_apply_fixed">Прилагане на фиксирана честота</string>
+    <string name="gpu_restore_automatic">Възстановете автоматичното управление</string>
+    <string name="gpu_restore_summary">Премахнете ръчните ограничения на честотата на GPU и фиксирания режим, за да може системата отново да избира честотата.</string>
+    <string name="gpu_restore_action">"Възстановяване"</string>
+    <string name="gpu_session_title">Ръчни настройки GPU</string>
+    <string name="gpu_session_summary">Рестартирането възстановява автоматичното управление на GPU. Тези контроли не променят настройките на CPU. Заявените и действителните ограничения на честотата се показват отделно; текущата честота се получава от драйвера.</string>
+    <string name="gpu_operation_title">Последна операция</string>
+    <string name="gpu_applying">Прилагане и проверка на промяната...</string>
+    <string name="gpu_verified">Промяната е приложена и потвърдена.</string>
+    <string name="gpu_error_unavailable">Исканата контрола GPU не е налична. Отворете отново тази страница и опитайте отново.</string>
+    <string name="gpu_error_unsupported">Този драйвер GPU не поддържа искания контрол.</string>
+    <string name="gpu_error_frequency">Тази честота вече не се отчита от устройството. Изберете една от наличните в момента стойности.</string>
+    <string name="gpu_error_write">Драйверът GPU отхвърли промяната. Приложението се опита да възстанови предишната настройка.</string>
+    <string name="gpu_error_readback">Исканата настройка GPU не може да бъде потвърдена. Приложението се опита да възстанови предишната настройка.</string>
+    <string name="gpu_error_rollback">%1$s Предишната настройка GPU не може да бъде възстановена. Възстановете автоматичното управление или рестартирайте телефона.</string>
+    <string name="gpu_requested_range">Заявен честотен диапазон</string>
+    <string name="gpu_effective_range">Действителен честотен диапазон</string>
+    <string name="gpu_mode_range">Ограничения на честотата</string>
+    <string name="gpu_choose_range">Задаване на честотен диапазон</string>
+    <string name="gpu_range_summary">Изберете минимална и максимална стойност от честотите, отчетени от устройството. GPU може да променя честотата си в действителния диапазон и да се изключва при бездействие. Високата минимална стойност може да преодолее някои софтуерни температурни ограничения и да увеличи нагряването и потреблението на енергия.</string>
+    <string name="gpu_apply_range">Прилагане на диапазона</string>
+    <string name="gpu_error_range">Минималната честота не може да надвишава максималната.</string>
+    <string name="gpu_error_conflict">Друг контролер промени настройките на GPU. Неговата настройка е оставена непроменена.</string>
+    <string name="gpu_effective_summary">Заявените ограничения са вашите настройки. Действителните ограничения са диапазонът, който драйверът прилага в момента след обединяване на заявките от всички контролери.</string>
+    <string name="gpu_legacy_fixed_summary">Активна е фиксирана честота на GPU. Прилагането на диапазон изключва фиксирания режим и позволява на GPU да променя честотата си между действителните ограничения.</string>
+    <string name="gpu_minimum_frequency">Минимална честота</string>
+    <string name="gpu_maximum_frequency">Максимална честота</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

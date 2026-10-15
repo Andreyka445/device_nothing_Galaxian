@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU கட்டுப்பாடு</string>
+    <string name="gpu_home_summary">GPU அதிர்வெண், குறைந்தபட்ச மற்றும் அதிகபட்ச வரம்புகள், தானியங்கிக் கட்டுப்பாடு.</string>
+    <string name="gpu_current_frequency">தற்போதைய அதிர்வெண்</string>
+    <string name="gpu_requested_frequency">நிலையான அதிர்வெண் அமைப்பு</string>
+    <string name="gpu_loading">GPU நிலையைப் படிக்கிறது…</string>
+    <string name="gpu_unavailable">"கிடைக்கவில்லை"</string>
+    <string name="gpu_idle">செயலற்றது</string>
+    <string name="gpu_control_state">அதிர்வெண் கட்டுப்பாடு</string>
+    <string name="gpu_mode_automatic">தானியக்கம்</string>
+    <string name="gpu_mode_fixed">நிலையான அதிர்வெண்</string>
+    <string name="gpu_mode_unknown">தெரியவில்லை</string>
+    <string name="gpu_control_unavailable">அதிர்வெண் கட்டுப்பாடு கிடைக்கவில்லை. இயக்கி வழங்கும்போது அளவீடுகள் காட்டப்படும்.</string>
+    <string name="gpu_supported_frequencies">ஆதரிக்கப்படும் அதிர்வெண்கள்</string>
+    <string name="gpu_frequency_count">சாதனம் தெரிவிக்கும் அதிர்வெண் படிநிலைகள்: %1$d</string>
+    <string name="gpu_choose_frequency">நிலையான அதிர்வெண்ணை அமைக்கவும்</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">இந்தச் சாதனம் தெரிவிக்கும் ஓர் அதிர்வெண்ணைத் தேர்ந்தெடுக்கவும். நிலையான பயன்முறை, மென்பொருள் விதிக்கும் GPU வெப்பநிலை சார்ந்த அதிர்வெண் வரம்புகளை மீறக்கூடும். நிலையான அதிர்வெண் மின் பயன்பாட்டையும் வெப்பநிலையையும் அதிகரிக்கக்கூடும். GPU செயலில் இருக்கும்போது இந்த அமைப்பு பொருந்தும்; செயலற்றிருக்கும்போது GPU இன்னும் அணையலாம்.</string>
+    <string name="gpu_apply_fixed">நிலையான அதிர்வெண்ணைப் பயன்படுத்தவும்</string>
+    <string name="gpu_restore_automatic">தானியக்கக் கட்டுப்பாட்டை மீட்டமைக்கவும்</string>
+    <string name="gpu_restore_summary">கைமுறையாக அமைத்த GPU அதிர்வெண் வரம்புகளையும் நிலையான பயன்முறையையும் நீக்கி, அதிர்வெண்ணை மீண்டும் தேர்ந்தெடுக்க அமைப்பை அனுமதிக்கவும்.</string>
+    <string name="gpu_restore_action">"மீட்டெடு"</string>
+    <string name="gpu_session_title">கைமுறை GPU அமைப்புகள்</string>
+    <string name="gpu_session_summary">மறுதொடக்கம் தானியங்கி GPU கட்டுப்பாட்டை மீட்டமைக்கும். இந்தக் கட்டுப்பாடுகள் CPU அமைப்புகளை மாற்றாது. கோரப்பட்ட மற்றும் உண்மையில் செயல்படும் அதிர்வெண் வரம்புகள் தனித்தனியாகக் காட்டப்படும்; தற்போதைய அதிர்வெண் இயக்கியிலிருந்து பெறப்படும்.</string>
+    <string name="gpu_operation_title">கடைசி ஆபரேஷன்</string>
+    <string name="gpu_applying">விண்ணப்பித்து மாற்றத்தைச் சரிபார்க்கிறது…</string>
+    <string name="gpu_verified">மாற்றம் பயன்படுத்தப்பட்டு சரிபார்க்கப்பட்டது.</string>
+    <string name="gpu_error_unavailable">கோரப்பட்ட GPU கட்டுப்பாடு கிடைக்கவில்லை. இந்தப் பக்கத்தை மீண்டும் திறந்து முயற்சிக்கவும்.</string>
+    <string name="gpu_error_unsupported">இந்த GPU இயக்கி கோரப்பட்ட கட்டுப்பாட்டை ஆதரிக்கவில்லை.</string>
+    <string name="gpu_error_frequency">சாதனம் இனி அந்த அதிர்வெண்ணைத் தெரிவிக்கவில்லை. தற்போது கிடைக்கும் மதிப்புகளில் ஒன்றைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="gpu_error_write">GPU இயக்கி மாற்றத்தை நிராகரித்தது. முந்தைய அமைப்பை மீட்டமைக்கச் செயலி முயன்றது.</string>
+    <string name="gpu_error_readback">கோரப்பட்ட GPU அமைப்பை உறுதிப்படுத்த முடியவில்லை. முந்தைய அமைப்பை மீட்டமைக்கச் செயலி முயன்றது.</string>
+    <string name="gpu_error_rollback">%1$s முந்தைய GPU அமைப்பை மீட்டமைக்க முடியவில்லை. தானியக்கக் கட்டுப்பாட்டை மீட்டமைக்கவும் அல்லது தொலைபேசியை மறுதொடக்கம் செய்யவும்.</string>
+    <string name="gpu_requested_range">கோரப்பட்ட அதிர்வெண் வரம்பு</string>
+    <string name="gpu_effective_range">உண்மையில் செயல்படும் அதிர்வெண் வரம்பு</string>
+    <string name="gpu_mode_range">அதிர்வெண் வரம்புகள்</string>
+    <string name="gpu_choose_range">அதிர்வெண் வரம்பை அமைக்கவும்</string>
+    <string name="gpu_range_summary">இந்தச் சாதனம் தெரிவிக்கும் அதிர்வெண்களில் குறைந்தபட்சம் மற்றும் அதிகபட்சத்தைத் தேர்ந்தெடுக்கவும். GPU உண்மையில் செயல்படும் வரம்பிற்குள் அதிர்வெண்ணை மாற்றலாம்; செயலற்ற நிலையில் அணைந்திருக்கலாம். உயர்ந்த குறைந்தபட்சம் சில மென்பொருள் வெப்ப வரம்புகளை மீறி வெப்பத்தையும் மின் பயன்பாட்டையும் அதிகரிக்கக்கூடும்.</string>
+    <string name="gpu_apply_range">வரம்பைச் செயல்படுத்தவும்</string>
+    <string name="gpu_error_range">குறைந்தபட்ச அதிர்வெண் அதிகபட்சத்தைவிட அதிகமாக இருக்கக்கூடாது.</string>
+    <string name="gpu_error_conflict">மற்றொரு கட்டுப்படுத்தி GPU அமைப்புகளை மாற்றிவிட்டது. அதன் அமைப்பு மாற்றப்படாமல் விடப்பட்டது.</string>
+    <string name="gpu_effective_summary">கோரப்பட்ட வரம்புகள் உங்கள் அமைப்புகளாகும். உண்மையில் செயல்படும் வரம்புகள் என்பது அனைத்து கட்டுப்படுத்திகளின் கோரிக்கைகளையும் ஒருங்கிணைத்த பின் இயக்கி தற்போது பயன்படுத்தும் வரம்பாகும்.</string>
+    <string name="gpu_legacy_fixed_summary">நிலையான GPU அதிர்வெண் செயல்பாட்டில் உள்ளது. ஒரு வரம்பைச் செயல்படுத்துவது நிலையான பயன்முறையை நீக்கி, GPU உண்மையில் செயல்படும் வரம்புகளுக்குள் அதிர்வெண்ணை மாற்ற அனுமதிக்கிறது.</string>
+    <string name="gpu_minimum_frequency">குறைந்தபட்ச அதிர்வெண்</string>
+    <string name="gpu_maximum_frequency">அதிகபட்ச அதிர்வெண்</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

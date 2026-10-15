@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">Ukulawula i-GPU</string>
+    <string name="gpu_home_summary">Imvamisa ye-GPU, imikhawulo ephansi nephezulu, nokulawula okuzenzakalelayo.</string>
+    <string name="gpu_current_frequency">Imvamisa yamanje</string>
+    <string name="gpu_requested_frequency">Isilungiselelo semvamisa engaguquki</string>
+    <string name="gpu_loading">Kufundwa isimo se-GPU…</string>
+    <string name="gpu_unavailable">"Ayitholakali"</string>
+    <string name="gpu_idle">Ayisebenzi</string>
+    <string name="gpu_control_state">Ukulawula imvamisa</string>
+    <string name="gpu_mode_automatic">Okuzenzakalelayo</string>
+    <string name="gpu_mode_fixed">Imvamisa engaguquki</string>
+    <string name="gpu_mode_unknown">Akwaziwa</string>
+    <string name="gpu_control_unavailable">Ukulawula imvamisa akutholakali. Ukufundwa kuboniswa uma kunikezwa umshayeli.</string>
+    <string name="gpu_supported_frequencies">Izimvamisa ezisekelwayo</string>
+    <string name="gpu_frequency_count">Amazinga emvamisa abikwe yile divayisi: %1$d</string>
+    <string name="gpu_choose_frequency">Setha imvamisa engaguquki</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Khetha imvamisa ebikwe yile divayisi. Imodi engaguquki ingase yeqe imikhawulo yemvamisa ye-GPU ebekwa isofthiwe ngenxa yokushisa. Imvamisa engaguquki ingakhuphula ukusetshenziswa kwamandla nezinga lokushisa. Lesi silungiselelo sisebenza uma i-GPU isebenza; i-GPU isengacisha lapho ingasebenzi.</string>
+    <string name="gpu_apply_fixed">Sebenzisa imvamisa engaguquki</string>
+    <string name="gpu_restore_automatic">Buyisela ukulawula okuzenzakalelayo</string>
+    <string name="gpu_restore_summary">Susa imikhawulo yemvamisa ye-GPU oyibeke ngesandla nemodi engaguquki, bese uvumela isistimu ukuthi iphinde ikhethe imvamisa.</string>
+    <string name="gpu_restore_action">"Buyisela"</string>
+    <string name="gpu_session_title">Izilungiselelo ze-GPU ezenziwa ngesandla</string>
+    <string name="gpu_session_summary">Ukuqalisa kabusha kubuyisela ukulawula kwe-GPU okuzenzakalelayo. Lezi zilawuli azishintshi izilungiselelo ze-CPU. Imikhawulo yemvamisa eceliwe nesebenzayo iboniswa ngokwehlukana; imvamisa yamanje ivela kumshayeli.</string>
+    <string name="gpu_operation_title">Ukusebenza kokugcina</string>
+    <string name="gpu_applying">Isebenzisa futhi ihlola ushintsho...</string>
+    <string name="gpu_verified">Ushintsho lusetshenzisiwe futhi lwaqinisekiswa.</string>
+    <string name="gpu_error_unavailable">Ukulawula i-GPU okuceliwe akutholakali. Vula leli khasi kabusha bese uzama futhi.</string>
+    <string name="gpu_error_unsupported">Lo mshayeli we-GPU akakusekeli ukulawula okuceliwe.</string>
+    <string name="gpu_error_frequency">Le divayisi ayisayibiki leyo mvamisa. Khetha elinye lamanani atholakalayo manje.</string>
+    <string name="gpu_error_write">Umshayeli we-GPU wenqabile ushintsho. Uhlelo lokusebenza luzamile ukubuyisela isilungiselelo sangaphambilini.</string>
+    <string name="gpu_error_readback">Isilungiselelo se-GPU esiceliwe asikwazanga ukuqinisekiswa. Uhlelo lokusebenza luzamile ukubuyisela isilungiselelo sangaphambilini.</string>
+    <string name="gpu_error_rollback">%1$s Isilungiselelo se-GPU sangaphambilini asikwazanga ukubuyiselwa. Buyisela ukulawula okuzenzakalelayo noma uqale kabusha ifoni.</string>
+    <string name="gpu_requested_range">Ibanga lemvamisa eliceliwe</string>
+    <string name="gpu_effective_range">Ibanga lemvamisa elisebenzayo</string>
+    <string name="gpu_mode_range">Imikhawulo yemvamisa</string>
+    <string name="gpu_choose_range">Setha ibanga lemvamisa</string>
+    <string name="gpu_range_summary">Khetha inani eliphansi neliphezulu ezimvamiseni ezibikwa yile divayisi. I-GPU ingashintsha imvamisa phakathi kwebanga elisebenzayo futhi icishe uma ingenzi lutho. Inani eliphansi elibekwe phezulu lingadlula eminye imikhawulo yokushisa yesofthiwe futhi landise ukushisa nokusetshenziswa kwamandla.</string>
+    <string name="gpu_apply_range">Sebenzisa ibanga</string>
+    <string name="gpu_error_range">Imvamisa ephansi ayikwazi ukudlula imvamisa ephezulu.</string>
+    <string name="gpu_error_conflict">Esinye isilawuli sishintshe izilungiselelo ze-GPU. Isilungiselelo saso sishiywe singashintshiwe.</string>
+    <string name="gpu_effective_summary">Imikhawulo eceliwe yizilungiselelo zakho. Imikhawulo esebenzayo yibanga umshayeli alisebenzisayo manje ngemva kokuhlanganisa izicelo zazo zonke izilawuli.</string>
+    <string name="gpu_legacy_fixed_summary">Imvamisa ye-GPU engaguquki iyasebenza. Ukusebenzisa ibanga kususa imodi engaguquki futhi kuvumele i-GPU ukuthi ishintshe imvamisa phakathi kwemikhawulo esebenzayo.</string>
+    <string name="gpu_minimum_frequency">Imvamisa ephansi</string>
+    <string name="gpu_maximum_frequency">Imvamisa ephezulu</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

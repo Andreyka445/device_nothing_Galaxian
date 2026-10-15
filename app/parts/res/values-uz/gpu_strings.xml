@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU boshqaruvi</string>
+    <string name="gpu_home_summary">GPU chastotasi, minimal va maksimal chegaralar hamda avtomatik boshqaruv.</string>
+    <string name="gpu_current_frequency">Joriy chastota</string>
+    <string name="gpu_requested_frequency">Belgilangan chastota sozlamasi</string>
+    <string name="gpu_loading">GPU holati o‘qilmoqda…</string>
+    <string name="gpu_unavailable">"Mavjud emas"</string>
+    <string name="gpu_idle">Faol emas</string>
+    <string name="gpu_control_state">Chastota boshqaruvi</string>
+    <string name="gpu_mode_automatic">Avtomatik</string>
+    <string name="gpu_mode_fixed">Belgilangan chastota</string>
+    <string name="gpu_mode_unknown">Noma’lum</string>
+    <string name="gpu_control_unavailable">Chastotani boshqarish imkoni yo‘q. Drayver taqdim etsa, o‘lchovlar ko‘rsatiladi.</string>
+    <string name="gpu_supported_frequencies">Qo‘llab-quvvatlanadigan chastotalar</string>
+    <string name="gpu_frequency_count">Qurilma bildirgan chastota bosqichlari soni: %1$d</string>
+    <string name="gpu_choose_frequency">Belgilangan chastotani o‘rnatish</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Ushbu qurilma bildirgan chastotani tanlang. Belgilangan chastota rejimi GPU chastotasiga harorat asosida qo‘yilgan dasturiy cheklovlarni chetlab o‘tishi mumkin. Belgilangan chastota quvvat sarfi va haroratni oshirishi mumkin. Sozlama GPU faol bo‘lganida amal qiladi; GPU ishlatilmayotganida baribir o‘chishi mumkin.</string>
+    <string name="gpu_apply_fixed">Belgilangan chastotani qo‘llash</string>
+    <string name="gpu_restore_automatic">Avtomatik boshqaruvni tiklash</string>
+    <string name="gpu_restore_summary">GPU chastotasining qo‘lda belgilangan chegaralari va o‘zgarmas rejimini olib tashlab, chastotani yana tizim tanlashiga ruxsat bering.</string>
+    <string name="gpu_restore_action">"Tiklash"</string>
+    <string name="gpu_session_title">Qo‘lda kiritilgan GPU sozlamalari</string>
+    <string name="gpu_session_summary">Qayta ishga tushirish GPU avtomatik boshqaruvini tiklaydi. Bu boshqaruvlar CPU sozlamalarini o‘zgartirmaydi. So‘ralgan va amaldagi chastota chegaralari alohida ko‘rsatiladi; joriy chastota drayverdan olinadi.</string>
+    <string name="gpu_operation_title">Oxirgi operatsiya</string>
+    <string name="gpu_applying">Oʻzgartirish kiritilmoqda va tekshirilmoqda…</string>
+    <string name="gpu_verified">O\'zgartirish kiritildi va tasdiqlandi.</string>
+    <string name="gpu_error_unavailable">So‘ralgan GPU boshqaruvi mavjud emas. Bu sahifani qayta ochib, yana urinib ko‘ring.</string>
+    <string name="gpu_error_unsupported">Bu GPU drayveri so‘ralgan boshqaruvni qo‘llab-quvvatlamaydi.</string>
+    <string name="gpu_error_frequency">Qurilma endi bu chastotani bildirmayapti. Hozir mavjud qiymatlardan birini tanlang.</string>
+    <string name="gpu_error_write">GPU drayveri o‘zgartirishni rad etdi. Ilova oldingi sozlamani tiklashga urindi.</string>
+    <string name="gpu_error_readback">So‘ralgan GPU sozlamasini tasdiqlab bo‘lmadi. Ilova oldingi sozlamani tiklashga urindi.</string>
+    <string name="gpu_error_rollback">%1$s Oldingi GPU sozlamasini tiklab bo‘lmadi. Avtomatik boshqaruvni tiklang yoki telefonni qayta ishga tushiring.</string>
+    <string name="gpu_requested_range">So‘ralgan chastota oralig‘i</string>
+    <string name="gpu_effective_range">Amaldagi chastota oralig‘i</string>
+    <string name="gpu_mode_range">Chastota chegaralari</string>
+    <string name="gpu_choose_range">Chastota oralig‘ini belgilash</string>
+    <string name="gpu_range_summary">Qurilma bildirgan chastotalardan minimum va maksimumni tanlang. GPU amaldagi oraliqda chastotasini o‘zgartirishi va bo‘sh turganda o‘chishi mumkin. Yuqori minimum ayrim dasturiy harorat cheklovlaridan ustun kelib, issiqlik va quvvat sarfini oshirishi mumkin.</string>
+    <string name="gpu_apply_range">Oraliqni qo‘llash</string>
+    <string name="gpu_error_range">Minimal chastota maksimaldan oshmasligi kerak.</string>
+    <string name="gpu_error_conflict">Boshqa boshqaruvchi GPU sozlamalarini o‘zgartirdi. Uning sozlamasi o‘zgarishsiz qoldirildi.</string>
+    <string name="gpu_effective_summary">So‘ralgan chegaralar — sizning sozlamalaringiz. Amaldagi chegaralar — barcha boshqaruvchilarning talablari birlashtirilgach, drayver qo‘llayotgan oraliq.</string>
+    <string name="gpu_legacy_fixed_summary">O‘zgarmas GPU chastotasi faol. Oraliqni qo‘llash o‘zgarmas rejimni bekor qilib, GPU chastotasini amaldagi chegaralar orasida o‘zgartirishga imkon beradi.</string>
+    <string name="gpu_minimum_frequency">Minimal chastota</string>
+    <string name="gpu_maximum_frequency">Maksimal chastota</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

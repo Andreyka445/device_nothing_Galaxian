@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">باری GPU</string>
+    <string name="adaptive_gpu_temperature">پلەی گەرمی GPU</string>
+    <string name="adaptive_frames_title">لووسیی فریمەکان</string>
+    <string name="adaptive_frames_jank">فریمە دواکەوتوو یان لەدەستچووەکان</string>
+    <string name="adaptive_frames_dropped">فریمە لەدەستچووەکان</string>
+    <string name="adaptive_frames_count">%1$d فریم چاودێری کراوە</string>
+    <string name="adaptive_frames_timing">ئامانج: %1$.0f FPS · پیشاندەر: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">کاتی فریم (سەدەکی ٩٥)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">فریمە نوێکانی ئەو ئەپە دەپێوێت کە بەکاردێت. نموونەوەرگرتن بەشەکییە. دواخستنی تۆڕ و تێخستن ناپێورێت.</string>
+    <string name="adaptive_frames_waiting">پێش پێشنیازکردنی گۆڕانکاری، چاوەڕێی پێوانەی بەراوردکراوی بەشی پێویست بۆ فریمەکانە.</string>
+    <string name="adaptive_frames_changed">ئەپەکە، ڕووکاری ڕێندەرکردن یان کاتی فریمەکان گۆڕاوە. پێوانەی نوێ پێویستە.</string>
+    <string name="adaptive_frames_improved">لە چوارچێوەی سنوورەکانی تاقیکردنەوەدا فریمی دواکەوتوو یان لەدەستچووی کەمتر پێورا.</string>
+    <string name="adaptive_frames_regressed">تاقیکردنەوەکە نەگەیشتە ئامانجی لووسیی فریمەکان.</string>
+    <string name="adaptive_frames_lower">گەیاندنی فریمەکان جێگیرە و بارەکە کەمە. زۆرترین فرێکوێنسییەکی نزمتر تاقی بکەرەوە.</string>
+    <string name="adaptive_frames_raise">لە ژێر باری زۆردا فریمی دواکەوتوو یان لەدەستچوو دۆزرایەوە. زۆرترین فرێکوێنسییەکی بەرزتر تاقی بکەرەوە.</string>
+    <string name="adaptive_gpu_boundaries">تەنها کۆنترۆڵی خۆکاری GPU دەتوانرێت ڕێک بخرێت. ڕێکخستنە دەستییەکانی CPU/GPU پێشەنگن.</string>
+    <string name="adaptive_trial_generic">یەک هەنگاوی پشتگیریکراوی فرێکوێنسی تاقی دەکرێتەوە.</string>
+    <string name="adaptive_gpu_missing">چاوەڕێی خوێندنەوەی گونجاوی بار و پلەی گەرمی GPU دەکرێت.</string>
+</resources>

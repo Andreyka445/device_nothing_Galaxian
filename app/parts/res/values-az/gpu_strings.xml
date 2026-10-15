@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU nəzarət</string>
+    <string name="gpu_home_summary">GPU tezliyi, minimum və maksimum hədlər və avtomatik idarəetmə.</string>
+    <string name="gpu_current_frequency">Cari tezlik</string>
+    <string name="gpu_requested_frequency">Sabit tezlik ayarı</string>
+    <string name="gpu_loading">GPU vəziyyəti oxunur...</string>
+    <string name="gpu_unavailable">"Əlçatmaz"</string>
+    <string name="gpu_idle">Boş</string>
+    <string name="gpu_control_state">Tezliyə nəzarət</string>
+    <string name="gpu_mode_automatic">Avtomatik</string>
+    <string name="gpu_mode_fixed">Sabit tezlik</string>
+    <string name="gpu_mode_unknown">Naməlum</string>
+    <string name="gpu_control_unavailable">Tezliyə nəzarət mövcud deyil. Oxumalar sürücü təqdim etdikdə göstərilir.</string>
+    <string name="gpu_supported_frequencies">Dəstəklənən tezliklər</string>
+    <string name="gpu_frequency_count">Cihaz tərəfindən bildirilən tezlik addımları: %1$d</string>
+    <string name="gpu_choose_frequency">Sabit tezlik təyin edin</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Bu cihaz tərəfindən bildirilən tezliyi seçin. Sabit tezlik enerji istifadəsini və temperaturu artıra bilər. Parametr GPU aktiv olduqda tətbiq edilir; GPU boş olduqda hələ də enerjini kəsə bilər. Sabit rejim GPU tezliyinə proqram təminatının tətbiq etdiyi istilik məhdudiyyətlərini keçə bilər.</string>
+    <string name="gpu_apply_fixed">Sabit tezlik tətbiq edin</string>
+    <string name="gpu_restore_automatic">Avtomatik idarəetməni bərpa edin</string>
+    <string name="gpu_restore_summary">Əl ilə təyin edilmiş GPU tezlik hədlərini və sabit rejimi ləğv edin, tezliyi yenidən sistem seçsin.</string>
+    <string name="gpu_restore_action">"Bərpa edin"</string>
+    <string name="gpu_session_title">Manual GPU parametrləri</string>
+    <string name="gpu_session_summary">Yenidən başlatma avtomatik GPU idarəetməsini bərpa edir. Bu idarəetmə elementləri CPU ayarlarını dəyişmir. Tələb olunan və faktiki tezlik hədləri ayrıca göstərilir; cari tezlik sürücüdən alınır.</string>
+    <string name="gpu_operation_title">Son əməliyyat</string>
+    <string name="gpu_applying">Dəyişiklik tətbiq edilir və yoxlanılır...</string>
+    <string name="gpu_verified">Dəyişiklik tətbiq edildi və təsdiqləndi.</string>
+    <string name="gpu_error_unavailable">Tələb olunan GPU nəzarəti mövcud deyil. Bu səhifəni yenidən açın və yenidən cəhd edin.</string>
+    <string name="gpu_error_unsupported">Bu GPU sürücü tələb olunan nəzarəti dəstəkləmir.</string>
+    <string name="gpu_error_frequency">Həmin tezlik artıq cihaz tərəfindən bildirilmir. Hazırda mövcud dəyərlərdən birini seçin.</string>
+    <string name="gpu_error_write">GPU sürücüsü dəyişikliyi rədd etdi. Tətbiq əvvəlki parametri bərpa etməyə cəhd etdi.</string>
+    <string name="gpu_error_readback">Tələb olunan GPU ayarını təsdiqləmək mümkün olmadı. Tətbiq əvvəlki parametri bərpa etməyə cəhd etdi.</string>
+    <string name="gpu_error_rollback">%1$s Əvvəlki GPU parametrini bərpa etmək mümkün olmadı. Avtomatik idarəetməni bərpa edin və ya telefonu yenidən başladın.</string>
+    <string name="gpu_requested_range">Tələb olunan tezlik aralığı</string>
+    <string name="gpu_effective_range">Faktiki tezlik aralığı</string>
+    <string name="gpu_mode_range">Tezlik hədləri</string>
+    <string name="gpu_choose_range">Tezlik aralığını təyin et</string>
+    <string name="gpu_range_summary">Bu cihazın bildirdiyi tezliklərdən minimum və maksimum seçin. GPU faktiki aralıqda tezliyini dəyişə və boşdaykən sönə bilər. Yüksək minimum bəzi proqram təminatı istilik hədlərini üstələyərək istiliyi və enerji sərfiyyatını artıra bilər.</string>
+    <string name="gpu_apply_range">Aralığı tətbiq et</string>
+    <string name="gpu_error_range">Minimum tezlik maksimumdan yüksək ola bilməz.</string>
+    <string name="gpu_error_conflict">Başqa idarəedici GPU ayarlarını dəyişdi. Onun ayarı dəyişdirilmədən saxlanıldı.</string>
+    <string name="gpu_effective_summary">Tələb olunan hədlər sizin ayarlarınızdır. Faktiki hədlər bütün idarəedicilərin tələbləri birləşdirildikdən sonra sürücünün hazırda tətbiq etdiyi aralıqdır.</string>
+    <string name="gpu_legacy_fixed_summary">Sabit GPU tezliyi aktivdir. Aralıq tətbiq etmək sabit rejimi ləğv edir və GPU tezliyinin faktiki hədlər arasında dəyişməsinə imkan verir.</string>
+    <string name="gpu_minimum_frequency">Minimum tezlik</string>
+    <string name="gpu_maximum_frequency">Maksimum tezlik</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

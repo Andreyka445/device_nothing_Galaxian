@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU контрола</string>
+    <string name="gpu_home_summary">Фреквенција на GPU, минимални и максимални граници и автоматска контрола.</string>
+    <string name="gpu_current_frequency">Тековна фреквенција</string>
+    <string name="gpu_requested_frequency">Поставување на фиксна фреквенција</string>
+    <string name="gpu_loading">Читање GPU состојба…</string>
+    <string name="gpu_unavailable">"Недостапна"</string>
+    <string name="gpu_idle">Неактивен</string>
+    <string name="gpu_control_state">Контрола на фреквенција</string>
+    <string name="gpu_mode_automatic">Автоматски</string>
+    <string name="gpu_mode_fixed">Фиксна фреквенција</string>
+    <string name="gpu_mode_unknown">Непознат</string>
+    <string name="gpu_control_unavailable">Контролата на фреквенцијата е недостапна. Читањата се прикажуваат кога возачот ги обезбедува.</string>
+    <string name="gpu_supported_frequencies">Поддржани фреквенции</string>
+    <string name="gpu_frequency_count">Фреквентни чекори пријавени од уредот: %1$d</string>
+    <string name="gpu_choose_frequency">Поставете фиксна фреквенција</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Изберете фреквенција пријавена од овој уред. Фиксната фреквенција може да ја зголеми употребата на енергија и температурата. Поставката се применува додека е активен GPU; GPU сè уште може да се исклучи кога е во мирување. Режимот со фиксна фреквенција може да ги заобиколи софтверските температурни ограничувања на фреквенцијата на GPU.</string>
+    <string name="gpu_apply_fixed">Примени фиксна фреквенција</string>
+    <string name="gpu_restore_automatic">Вратете ја автоматската контрола</string>
+    <string name="gpu_restore_summary">Отстранете ги рачните граници на фреквенцијата на GPU и фиксниот режим, па оставете системот повторно да ја избира фреквенцијата.</string>
+    <string name="gpu_restore_action">"Врати"</string>
+    <string name="gpu_session_title">Рачни GPU поставки</string>
+    <string name="gpu_session_summary">Рестартирањето ја враќа автоматската контрола на GPU. Овие контроли не ги менуваат поставките на CPU. Бараните и реално применетите граници на фреквенцијата се прикажуваат одделно; тековната фреквенција се добива од двигателот.</string>
+    <string name="gpu_operation_title">Последна операција</string>
+    <string name="gpu_applying">Се применува и се проверува промената…</string>
+    <string name="gpu_verified">Промената е применета и потврдена.</string>
+    <string name="gpu_error_unavailable">Бараната контрола GPU е недостапна. Повторно отворете ја оваа страница и обидете се повторно.</string>
+    <string name="gpu_error_unsupported">Овој GPU драјвер не ја поддржува бараната контрола.</string>
+    <string name="gpu_error_frequency">Таа фреквенција повеќе не ја известува уредот. Изберете една од моментално достапните вредности.</string>
+    <string name="gpu_error_write">Возачот GPU ја отфрли промената. Апликацијата се обиде да ја врати претходната поставка.</string>
+    <string name="gpu_error_readback">Бараната поставка GPU не може да се потврди. Апликацијата се обиде да ја врати претходната поставка.</string>
+    <string name="gpu_error_rollback">%1$s Претходната поставка GPU не може да се врати. Вратете ја автоматската контрола или рестартирајте го телефонот.</string>
+    <string name="gpu_requested_range">Баран опсег на фреквенција</string>
+    <string name="gpu_effective_range">Реално применет опсег на фреквенција</string>
+    <string name="gpu_mode_range">Граници на фреквенцијата</string>
+    <string name="gpu_choose_range">Постави опсег на фреквенција</string>
+    <string name="gpu_range_summary">Изберете минимум и максимум од фреквенциите што ги пријавува уредот. GPU може да ја менува фреквенцијата во реално применетиот опсег и да се исклучи кога е неактивен. Високиот минимум може да надвладее некои софтверски термички ограничувања и да ги зголеми загревањето и потрошувачката на енергија.</string>
+    <string name="gpu_apply_range">Примени го опсегот</string>
+    <string name="gpu_error_range">Минималната фреквенција не може да ја надмине максималната.</string>
+    <string name="gpu_error_conflict">Друг контролер ги промени поставките на GPU. Неговата поставка е оставена непроменета.</string>
+    <string name="gpu_effective_summary">Бараните граници се вашите поставки. Реално применетите граници се опсегот што двигателот го применува откако ќе ги обедини барањата на сите контролери.</string>
+    <string name="gpu_legacy_fixed_summary">Активна е фиксна фреквенција на GPU. Примената на опсег го исклучува фиксниот режим и му овозможува на GPU да ја менува фреквенцијата меѓу реално применетите граници.</string>
+    <string name="gpu_minimum_frequency">Минимална фреквенција</string>
+    <string name="gpu_maximum_frequency">Максимална фреквенција</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

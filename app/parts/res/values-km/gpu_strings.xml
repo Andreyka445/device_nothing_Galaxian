@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPUការគ្រប់គ្រង</string>
+    <string name="gpu_home_summary">ប្រេកង់ GPU ដែនកំណត់អប្បបរមា និងអតិបរមា និងការគ្រប់គ្រងដោយស្វ័យប្រវត្តិ។</string>
+    <string name="gpu_current_frequency">ប្រេកង់បច្ចុប្បន្ន</string>
+    <string name="gpu_requested_frequency">ការកំណត់ប្រេកង់ថេរ</string>
+    <string name="gpu_loading">កំពុងអាន GPU ស្ថានភាព…</string>
+    <string name="gpu_unavailable">"មិន​អាច​ប្រើ​បាន"</string>
+    <string name="gpu_idle">ទំនេរ</string>
+    <string name="gpu_control_state">ការត្រួតពិនិត្យប្រេកង់</string>
+    <string name="gpu_mode_automatic">ស្វ័យប្រវត្តិ</string>
+    <string name="gpu_mode_fixed">ប្រេកង់ថេរ</string>
+    <string name="gpu_mode_unknown">មិនស្គាល់</string>
+    <string name="gpu_control_unavailable">ការគ្រប់គ្រងប្រេកង់មិនអាចប្រើបានទេ។ ការអានត្រូវបានបង្ហាញនៅពេលដែលអ្នកបើកបរផ្តល់ឱ្យពួកគេ។</string>
+    <string name="gpu_supported_frequencies">ប្រេកង់ដែលគាំទ្រ</string>
+    <string name="gpu_frequency_count">ជំហានប្រេកង់ដែលបានរាយការណ៍ដោយឧបករណ៍៖ %1$d</string>
+    <string name="gpu_choose_frequency">កំណត់ប្រេកង់ថេរ</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">ជ្រើសរើសប្រេកង់ដែលបានរាយការណ៍ដោយឧបករណ៍នេះ។ ប្រេកង់ថេរអាចបង្កើនការប្រើប្រាស់ថាមពល និងសីតុណ្ហភាព។ ការកំណត់ត្រូវបានអនុវត្តខណៈពេលដែល GPU សកម្ម។ GPUនៅតែអាចបិទនៅពេលទំនេរ។ របៀបថេរអាចរំលងកម្រិតប្រេកង់ GPU តាមសីតុណ្ហភាពដែលកំណត់ដោយកម្មវិធី។</string>
+    <string name="gpu_apply_fixed">អនុវត្តប្រេកង់ថេរ</string>
+    <string name="gpu_restore_automatic">ស្តារការគ្រប់គ្រងដោយស្វ័យប្រវត្តិ</string>
+    <string name="gpu_restore_summary">ដោះចេញដែនកំណត់ប្រេកង់ GPU ដោយដៃ និងរបៀបថេរ ហើយអនុញ្ញាតឱ្យប្រព័ន្ធជ្រើសរើសប្រេកង់ម្ដងទៀត។</string>
+    <string name="gpu_restore_action">"ស្ដារ"</string>
+    <string name="gpu_session_title">ការកំណត់ដោយដៃGPU</string>
+    <string name="gpu_session_summary">ការចាប់ផ្ដើមឡើងវិញនឹងស្ដារការគ្រប់គ្រង GPU ដោយស្វ័យប្រវត្តិ។ ការគ្រប់គ្រងទាំងនេះមិនផ្លាស់ប្ដូរការកំណត់ CPU ទេ។ ដែនកំណត់ប្រេកង់ដែលបានស្នើ និងជាក់ស្ដែងត្រូវបានបង្ហាញដាច់ដោយឡែក ហើយប្រេកង់បច្ចុប្បន្នបានមកពីកម្មវិធីបញ្ជា។</string>
+    <string name="gpu_operation_title">ប្រតិបត្តិការចុងក្រោយ</string>
+    <string name="gpu_applying">កំពុងអនុវត្ត និងពិនិត្យមើលការផ្លាស់ប្តូរ...</string>
+    <string name="gpu_verified">ការផ្លាស់ប្តូរត្រូវបានអនុវត្ត និងផ្ទៀងផ្ទាត់។</string>
+    <string name="gpu_error_unavailable">ការគ្រប់គ្រងGPUដែលបានស្នើសុំគឺមិនអាចប្រើបានទេ។ បើកទំព័រនេះឡើងវិញ ហើយព្យាយាមម្តងទៀត។</string>
+    <string name="gpu_error_unsupported">កម្មវិធីបញ្ជាGPUនេះមិនគាំទ្រការគ្រប់គ្រងដែលបានស្នើសុំទេ។</string>
+    <string name="gpu_error_frequency">ប្រេកង់នោះមិនត្រូវបានរាយការណ៍ដោយឧបករណ៍ទៀតទេ។ ជ្រើសរើសតម្លៃមួយក្នុងចំណោមតម្លៃដែលមាននាពេលបច្ចុប្បន្ន។</string>
+    <string name="gpu_error_write">អ្នកបើកបរGPUបានបដិសេធការផ្លាស់ប្តូរ។ កម្មវិធីនេះព្យាយាមស្ដារការកំណត់ពីមុន។</string>
+    <string name="gpu_error_readback">ការកំណត់GPUដែលបានស្នើសុំមិនអាចបញ្ជាក់បានទេ។ កម្មវិធីនេះព្យាយាមស្ដារការកំណត់ពីមុន។</string>
+    <string name="gpu_error_rollback">%1$s ការកំណត់ GPU ពីមុនមិនអាចស្តារឡើងវិញបានទេ។ ស្តារការគ្រប់គ្រងដោយស្វ័យប្រវត្តិ ឬចាប់ផ្តើមទូរស័ព្ទឡើងវិញ។</string>
+    <string name="gpu_requested_range">ជួរប្រេកង់ដែលបានស្នើ</string>
+    <string name="gpu_effective_range">ជួរប្រេកង់ដែលមានប្រសិទ្ធភាពជាក់ស្ដែង</string>
+    <string name="gpu_mode_range">ដែនកំណត់ប្រេកង់</string>
+    <string name="gpu_choose_range">កំណត់ជួរប្រេកង់</string>
+    <string name="gpu_range_summary">ជ្រើសរើសតម្លៃអប្បបរមា និងអតិបរមាពីប្រេកង់ដែលឧបករណ៍នេះរាយការណ៍។ GPU អាចប្ដូរប្រេកង់ក្នុងជួរដែលមានប្រសិទ្ធភាពជាក់ស្ដែង និងបិទនៅពេលទំនេរ។ តម្លៃអប្បបរមាខ្ពស់អាចមានអាទិភាពលើដែនកំណត់កម្ដៅមួយចំនួនរបស់កម្មវិធី ហើយបង្កើនកម្ដៅ និងការប្រើប្រាស់ថាមពល។</string>
+    <string name="gpu_apply_range">អនុវត្តជួរ</string>
+    <string name="gpu_error_range">ប្រេកង់អប្បបរមាមិនអាចលើសប្រេកង់អតិបរមាបានទេ។</string>
+    <string name="gpu_error_conflict">ឧបករណ៍បញ្ជាផ្សេងបានផ្លាស់ប្ដូរការកំណត់ GPU។ ការកំណត់របស់វាត្រូវបានរក្សាទុកដោយមិនផ្លាស់ប្ដូរ។</string>
+    <string name="gpu_effective_summary">ដែនកំណត់ដែលបានស្នើគឺជាការកំណត់របស់អ្នក។ ដែនកំណត់ជាក់ស្ដែងគឺជាជួរដែលកម្មវិធីបញ្ជាកំពុងអនុវត្ត បន្ទាប់ពីរួមបញ្ចូលសំណើរបស់ឧបករណ៍បញ្ជាទាំងអស់។</string>
+    <string name="gpu_legacy_fixed_summary">ប្រេកង់ GPU ថេរកំពុងសកម្ម។ ការអនុវត្តជួរនឹងដោះចេញរបៀបថេរ ហើយអនុញ្ញាតឱ្យ GPU ប្ដូរប្រេកង់រវាងដែនកំណត់ជាក់ស្ដែង។</string>
+    <string name="gpu_minimum_frequency">ប្រេកង់អប្បបរមា</string>
+    <string name="gpu_maximum_frequency">ប្រេកង់អតិបរមា</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

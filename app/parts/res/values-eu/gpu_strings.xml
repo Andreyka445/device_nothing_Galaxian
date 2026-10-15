@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU kontrola</string>
+    <string name="gpu_home_summary">GPU maiztasuna, gutxieneko eta gehienezko mugak, eta kontrol automatikoa.</string>
+    <string name="gpu_current_frequency">Egungo maiztasuna</string>
+    <string name="gpu_requested_frequency">Maiztasun finkoaren ezarpena</string>
+    <string name="gpu_loading">Irakurtzen GPU egoera…</string>
+    <string name="gpu_unavailable">"Ez dago erabilgarri"</string>
+    <string name="gpu_idle">Geldirik</string>
+    <string name="gpu_control_state">Maiztasunaren kontrola</string>
+    <string name="gpu_mode_automatic">Automatikoa</string>
+    <string name="gpu_mode_fixed">Maiztasun finkoa</string>
+    <string name="gpu_mode_unknown">Ezezaguna</string>
+    <string name="gpu_control_unavailable">Maiztasunaren kontrola ez dago erabilgarri. Irakurketak gidariak ematen dituenean erakusten dira.</string>
+    <string name="gpu_supported_frequencies">Onartutako maiztasunak</string>
+    <string name="gpu_frequency_count">Gailuak jakinarazitako maiztasun-urratsak: %1$d</string>
+    <string name="gpu_choose_frequency">Ezarri maiztasun finko bat</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Aukeratu gailu honek jakinarazitako maiztasuna. Maiztasun finko batek energia-erabilera eta tenperatura handitu ditzake. Ezarpena GPU aktibo dagoen bitartean aplikatzen da; GPU oraindik itzal daiteke inaktibo dagoenean. Maiztasun finkoko moduak softwareak ezarritako GPUaren maiztasun-muga termikoak saihestu ditzake.</string>
+    <string name="gpu_apply_fixed">Aplikatu maiztasun finkoa</string>
+    <string name="gpu_restore_automatic">Kontrol automatikoa berreskuratu</string>
+    <string name="gpu_restore_summary">Kendu GPU maiztasunaren eskuzko mugak eta modu finkoa, sistemak maiztasuna berriro aukera dezan.</string>
+    <string name="gpu_restore_action">"Leheneratu"</string>
+    <string name="gpu_session_title">Eskuzko GPU ezarpenak</string>
+    <string name="gpu_session_summary">Berrabiarazteak GPU kontrol automatikoa berrezartzen du. Kontrol hauek ez dituzte CPU ezarpenak aldatzen. Eskatutako eta benetan aplikatutako maiztasun-mugak bereizita erakusten dira; uneko maiztasuna gidariak ematen du.</string>
+    <string name="gpu_operation_title">Azken operazioa</string>
+    <string name="gpu_applying">Aldaketa aplikatzen eta egiaztatzen…</string>
+    <string name="gpu_verified">Aldaketa aplikatu eta egiaztatu da.</string>
+    <string name="gpu_error_unavailable">Eskatutako GPU kontrola ez dago erabilgarri. Ireki orri hau berriro eta saiatu berriro.</string>
+    <string name="gpu_error_unsupported">GPU gidari honek ez du onartzen eskatutako kontrola.</string>
+    <string name="gpu_error_frequency">Maiztasun hori jada ez du gailuak jakinarazi. Aukeratu eskuragarri dauden balioetako bat.</string>
+    <string name="gpu_error_write">GPU gidariak aldaketa baztertu du. Aplikazioa aurreko ezarpena leheneratzen saiatu da.</string>
+    <string name="gpu_error_readback">Ezin izan da eskatutako GPU ezarpena berretsi. Aplikazioa aurreko ezarpena leheneratzen saiatu da.</string>
+    <string name="gpu_error_rollback">%1$s Aurreko GPU ezarpena ezin izan da leheneratu. Berrezarri kontrol automatikoa edo berrabiarazi telefonoa.</string>
+    <string name="gpu_requested_range">Eskatutako maiztasun-tartea</string>
+    <string name="gpu_effective_range">Maiztasun-tarte eraginkorra</string>
+    <string name="gpu_mode_range">Maiztasun-mugak</string>
+    <string name="gpu_choose_range">Ezarri maiztasun-tartea</string>
+    <string name="gpu_range_summary">Aukeratu gutxieneko eta gehienezko balioak gailuak jakinarazitako maiztasunen artean. GPU maiztasuna tarte eraginkorrean alda daiteke, eta GPU itzal daiteke inaktibo dagoenean. Gutxieneko balio altu batek softwarearen muga termiko batzuk gainditu eta beroa eta kontsumoa areagotu ditzake.</string>
+    <string name="gpu_apply_range">Aplikatu tartea</string>
+    <string name="gpu_error_range">Gutxieneko maiztasunak ezin du gehienezkoa gainditu.</string>
+    <string name="gpu_error_conflict">Beste kontrolatzaile batek GPU ezarpenak aldatu ditu. Haren ezarpena bere horretan utzi da.</string>
+    <string name="gpu_effective_summary">Eskatutako mugak zuk ezarritakoak dira. Muga eraginkorrak kontrolatzaile guztien eskaerak bateratu ondoren gidariak aplikatzen duen tartea dira.</string>
+    <string name="gpu_legacy_fixed_summary">GPU maiztasun finko bat aktibo dago. Tarte bat aplikatzeak modu finkoa desaktibatzen du eta GPU maiztasuna muga eraginkorren artean aldatzea ahalbidetzen du.</string>
+    <string name="gpu_minimum_frequency">Gutxieneko maiztasuna</string>
+    <string name="gpu_maximum_frequency">Gehienezko maiztasuna</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU నియంత్రణ</string>
+    <string name="gpu_home_summary">GPU ఫ్రీక్వెన్సీ, కనిష్ట మరియు గరిష్ట పరిమితులు, ఆటోమేటిక్ నియంత్రణ.</string>
+    <string name="gpu_current_frequency">ప్రస్తుత ఫ్రీక్వెన్సీ</string>
+    <string name="gpu_requested_frequency">స్థిర ఫ్రీక్వెన్సీ సెట్టింగ్</string>
+    <string name="gpu_loading">GPU స్థితిని చదువుతోంది…</string>
+    <string name="gpu_unavailable">"అందుబాటులో లేదు"</string>
+    <string name="gpu_idle">నిష్క్రియం</string>
+    <string name="gpu_control_state">ఫ్రీక్వెన్సీ నియంత్రణ</string>
+    <string name="gpu_mode_automatic">స్వయంచాలకం</string>
+    <string name="gpu_mode_fixed">స్థిర ఫ్రీక్వెన్సీ</string>
+    <string name="gpu_mode_unknown">తెలియదు</string>
+    <string name="gpu_control_unavailable">ఫ్రీక్వెన్సీ నియంత్రణ అందుబాటులో లేదు. డ్రైవర్ అందించినప్పుడు రీడింగ్‌లు చూపబడతాయి.</string>
+    <string name="gpu_supported_frequencies">మద్దతు ఉన్న ఫ్రీక్వెన్సీలు</string>
+    <string name="gpu_frequency_count">పరికరం తెలియజేసిన ఫ్రీక్వెన్సీ దశలు: %1$d</string>
+    <string name="gpu_choose_frequency">స్థిర ఫ్రీక్వెన్సీని సెట్ చేయండి</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">ఈ పరికరం తెలియజేసిన ఫ్రీక్వెన్సీని ఎంచుకోండి. స్థిర మోడ్ సాఫ్ట్‌వేర్ విధించే GPU ఉష్ణోగ్రత ఆధారిత ఫ్రీక్వెన్సీ పరిమితులను దాటవచ్చు. స్థిర ఫ్రీక్వెన్సీ విద్యుత్ వినియోగాన్ని, ఉష్ణోగ్రతను పెంచవచ్చు. GPU పనిచేస్తున్నప్పుడు ఈ సెట్టింగ్ వర్తిస్తుంది; నిష్క్రియంగా ఉన్నప్పుడు GPU విద్యుత్ సరఫరా ఇప్పటికీ ఆగవచ్చు.</string>
+    <string name="gpu_apply_fixed">స్థిర ఫ్రీక్వెన్సీని వర్తింపజేయండి</string>
+    <string name="gpu_restore_automatic">స్వయంచాలక నియంత్రణను పునరుద్ధరించండి</string>
+    <string name="gpu_restore_summary">మాన్యువల్ GPU ఫ్రీక్వెన్సీ పరిమితులు, స్థిర మోడ్‌ను తొలగించి, సిస్టమ్ మళ్లీ ఫ్రీక్వెన్సీని ఎంచుకునేలా చేయండి.</string>
+    <string name="gpu_restore_action">"రీస్టోర్ చేయండి"</string>
+    <string name="gpu_session_title">మాన్యువల్ GPU సెట్టింగ్‌లు</string>
+    <string name="gpu_session_summary">పునఃప్రారంభిస్తే ఆటోమేటిక్ GPU నియంత్రణ పునరుద్ధరించబడుతుంది. ఈ నియంత్రణలు CPU సెట్టింగ్‌లను మార్చవు. అభ్యర్థించిన మరియు అమలులో ఉన్న ఫ్రీక్వెన్సీ పరిమితులు విడిగా చూపబడతాయి; ప్రస్తుత ఫ్రీక్వెన్సీ డ్రైవర్ నుంచి వస్తుంది.</string>
+    <string name="gpu_operation_title">చివరి ఆపరేషన్</string>
+    <string name="gpu_applying">మార్పును వర్తింపజేస్తోంది మరియు తనిఖీ చేస్తోంది…</string>
+    <string name="gpu_verified">మార్పు వర్తింపజేయబడింది మరియు ధృవీకరించబడింది.</string>
+    <string name="gpu_error_unavailable">కోరిన GPU నియంత్రణ అందుబాటులో లేదు. ఈ పేజీని మళ్లీ తెరిచి, తిరిగి ప్రయత్నించండి.</string>
+    <string name="gpu_error_unsupported">ఈ GPU డ్రైవర్ కోరిన నియంత్రణకు మద్దతు ఇవ్వదు.</string>
+    <string name="gpu_error_frequency">పరికరం ఇకపై ఆ ఫ్రీక్వెన్సీని తెలియజేయడం లేదు. ప్రస్తుతం అందుబాటులో ఉన్న విలువలలో ఒకదాన్ని ఎంచుకోండి.</string>
+    <string name="gpu_error_write">GPU డ్రైవర్ మార్పును తిరస్కరించింది. మునుపటి సెట్టింగ్‌ను పునరుద్ధరించడానికి యాప్ ప్రయత్నించింది.</string>
+    <string name="gpu_error_readback">కోరిన GPU సెట్టింగ్‌ను నిర్ధారించలేకపోయింది. మునుపటి సెట్టింగ్‌ను పునరుద్ధరించడానికి యాప్ ప్రయత్నించింది.</string>
+    <string name="gpu_error_rollback">%1$s మునుపటి GPU సెట్టింగ్‌ను పునరుద్ధరించలేకపోయింది. స్వయంచాలక నియంత్రణను పునరుద్ధరించండి లేదా ఫోన్‌ను పునఃప్రారంభించండి.</string>
+    <string name="gpu_requested_range">అభ్యర్థించిన ఫ్రీక్వెన్సీ పరిధి</string>
+    <string name="gpu_effective_range">అమలులో ఉన్న ఫ్రీక్వెన్సీ పరిధి</string>
+    <string name="gpu_mode_range">ఫ్రీక్వెన్సీ పరిమితులు</string>
+    <string name="gpu_choose_range">ఫ్రీక్వెన్సీ పరిధిని సెట్ చేయండి</string>
+    <string name="gpu_range_summary">ఈ పరికరం నివేదించిన ఫ్రీక్వెన్సీల నుంచి కనిష్ట, గరిష్ట విలువలను ఎంచుకోండి. GPU అమలులో ఉన్న పరిధిలో ఫ్రీక్వెన్సీని మార్చుకోగలదు, పని లేనప్పుడు ఆఫ్ కాగలదు. అధిక కనిష్ట విలువ కొన్ని సాఫ్ట్‌వేర్ ఉష్ణ పరిమితులను అధిగమించి వేడిని, విద్యుత్ వినియోగాన్ని పెంచవచ్చు.</string>
+    <string name="gpu_apply_range">పరిధిని అమలు చేయండి</string>
+    <string name="gpu_error_range">కనిష్ట ఫ్రీక్వెన్సీ గరిష్టాన్ని మించకూడదు.</string>
+    <string name="gpu_error_conflict">మరో నియంత్రకం GPU సెట్టింగ్‌లను మార్చింది. దాని సెట్టింగ్‌ను మార్చకుండా ఉంచాం.</string>
+    <string name="gpu_effective_summary">అభ్యర్థించిన పరిమితులు మీ సెట్టింగ్‌లు. అన్ని నియంత్రకాల అభ్యర్థనలను కలిపిన తర్వాత డ్రైవర్ వర్తింపజేస్తున్న పరిధే అమలులో ఉన్న పరిమితులు.</string>
+    <string name="gpu_legacy_fixed_summary">స్థిర GPU ఫ్రీక్వెన్సీ యాక్టివ్‌గా ఉంది. పరిధిని అమలు చేస్తే స్థిర మోడ్ తొలగి, GPU అమలులో ఉన్న పరిమితుల మధ్య ఫ్రీక్వెన్సీని మార్చుకోగలదు.</string>
+    <string name="gpu_minimum_frequency">కనిష్ట ఫ్రీక్వెన్సీ</string>
+    <string name="gpu_maximum_frequency">గరిష్ట ఫ్రీక్వెన్సీ</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

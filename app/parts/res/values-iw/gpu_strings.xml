@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU שליטה</string>
+    <string name="gpu_home_summary">תדר GPU, גבולות מינימום ומקסימום ובקרה אוטומטית.</string>
+    <string name="gpu_current_frequency">תדר נוכחי</string>
+    <string name="gpu_requested_frequency">הגדרת תדר קבועה</string>
+    <string name="gpu_loading">קורא מצב GPU...</string>
+    <string name="gpu_unavailable">"לא זמין"</string>
+    <string name="gpu_idle">לְהִתְבַּטֵל</string>
+    <string name="gpu_control_state">בקרת תדרים</string>
+    <string name="gpu_mode_automatic">אוֹטוֹמָטִי</string>
+    <string name="gpu_mode_fixed">תדר קבוע</string>
+    <string name="gpu_mode_unknown">לֹא יְדוּעַ</string>
+    <string name="gpu_control_unavailable">בקרת תדרים אינה זמינה. קריאות מוצגות כאשר הנהג מספק אותן.</string>
+    <string name="gpu_supported_frequencies">תדרים נתמכים</string>
+    <string name="gpu_frequency_count">שלבי תדירות המדווחים על ידי המכשיר: %1$d</string>
+    <string name="gpu_choose_frequency">הגדר תדר קבוע</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">בחר תדירות המדווחת על ידי המכשיר הזה. תדר קבוע יכול להגביר את צריכת החשמל והטמפרטורה. ההגדרה חלה כאשר GPU פעיל; ה-GPU עדיין יכול לכבות כאשר הוא לא פעיל. מצב תדר קבוע עשוי לעקוף מגבלות תדר תרמיות של GPU שנאכפות בתוכנה.</string>
+    <string name="gpu_apply_fixed">החל תדר קבוע</string>
+    <string name="gpu_restore_automatic">שחזר את השליטה האוטומטית</string>
+    <string name="gpu_restore_summary">הסרת גבולות התדר הידניים של GPU וביטול המצב הקבוע כדי לאפשר למערכת לבחור שוב את התדר.</string>
+    <string name="gpu_restore_action">"שחזור"</string>
+    <string name="gpu_session_title">הגדרות GPU ידניות</string>
+    <string name="gpu_session_summary">הפעלה מחדש משחזרת את הבקרה האוטומטית של GPU. הבקרים האלה אינם משנים את הגדרות CPU. גבולות התדר המבוקשים והגבולות בפועל מוצגים בנפרד; התדר הנוכחי מתקבל ממנהל ההתקן.</string>
+    <string name="gpu_operation_title">ניתוח אחרון</string>
+    <string name="gpu_applying">מפעיל ובודק את השינוי...</string>
+    <string name="gpu_verified">השינוי הוחל ואומת.</string>
+    <string name="gpu_error_unavailable">הפקד המבוקש GPU אינו זמין. פתח מחדש את הדף הזה ונסה שוב.</string>
+    <string name="gpu_error_unsupported">מנהל ההתקן GPU אינו תומך בבקרה המבוקשת.</string>
+    <string name="gpu_error_frequency">התדירות הזו כבר לא מדווחת על ידי המכשיר. בחר אחד מהערכים הזמינים כעת.</string>
+    <string name="gpu_error_write">הנהג GPU דחה את השינוי. האפליקציה ניסתה לשחזר את ההגדרה הקודמת.</string>
+    <string name="gpu_error_readback">לא ניתן לאשר את ההגדרה המבוקשת GPU. האפליקציה ניסתה לשחזר את ההגדרה הקודמת.</string>
+    <string name="gpu_error_rollback">%1$s לא ניתן היה לשחזר את ההגדרה הקודמת GPU. שחזר את השליטה האוטומטית או הפעל מחדש את הטלפון.</string>
+    <string name="gpu_requested_range">טווח תדרים מבוקש</string>
+    <string name="gpu_effective_range">טווח תדרים בפועל</string>
+    <string name="gpu_mode_range">גבולות תדר</string>
+    <string name="gpu_choose_range">הגדרת טווח תדרים</string>
+    <string name="gpu_range_summary">יש לבחור מינימום ומקסימום מתוך התדרים שהמכשיר מדווח עליהם. תדר GPU יכול להשתנות בתוך הטווח בפועל, וה־GPU יכול להיכבות כשהוא אינו פעיל. מינימום גבוה עלול לגבור על חלק ממגבלות החום בתוכנה ולהגדיל את החום ואת צריכת החשמל.</string>
+    <string name="gpu_apply_range">החלת הטווח</string>
+    <string name="gpu_error_range">התדר המינימלי אינו יכול לעלות על התדר המרבי.</string>
+    <string name="gpu_error_conflict">בקר אחר שינה את הגדרות GPU. ההגדרה שלו נשמרה ללא שינוי.</string>
+    <string name="gpu_effective_summary">הגבולות המבוקשים הם ההגדרות שלך. הגבולות בפועל הם הטווח שמנהל ההתקן מחיל לאחר שילוב הדרישות של כל הבקרים.</string>
+    <string name="gpu_legacy_fixed_summary">תדר GPU קבוע פעיל כעת. החלת טווח מבטלת את המצב הקבוע ומאפשרת לתדר GPU להשתנות בין הגבולות בפועל.</string>
+    <string name="gpu_minimum_frequency">תדירות מינימלית</string>
+    <string name="gpu_maximum_frequency">תדירות מקסימלית</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU Kontrolle</string>
+    <string name="gpu_home_summary">GPU-Frequenz, Mindest- und Höchstgrenzen sowie automatische Steuerung.</string>
+    <string name="gpu_current_frequency">Aktuelle Frequenz</string>
+    <string name="gpu_requested_frequency">Feste Frequenzeinstellung</string>
+    <string name="gpu_loading">GPU Zustand lesen…</string>
+    <string name="gpu_unavailable">"Nicht verfügbar"</string>
+    <string name="gpu_idle">Leerlauf</string>
+    <string name="gpu_control_state">Frequenzsteuerung</string>
+    <string name="gpu_mode_automatic">Automatisch</string>
+    <string name="gpu_mode_fixed">Feste Frequenz</string>
+    <string name="gpu_mode_unknown">Unbekannt</string>
+    <string name="gpu_control_unavailable">Die Frequenzsteuerung ist nicht verfügbar. Die Messwerte werden angezeigt, wenn der Fahrer sie bereitstellt.</string>
+    <string name="gpu_supported_frequencies">Unterstützte Frequenzen</string>
+    <string name="gpu_frequency_count">Vom Gerät gemeldete Frequenzschritte: %1$d</string>
+    <string name="gpu_choose_frequency">Stellen Sie eine feste Frequenz ein</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Wählen Sie eine von diesem Gerät gemeldete Frequenz. Eine feste Frequenz kann den Stromverbrauch und die Temperatur erhöhen. Die Einstellung gilt, solange die GPU aktiv ist; Die GPU kann sich im Leerlauf immer noch ausschalten. Der feste Modus kann softwareseitige thermische Begrenzungen der GPU-Frequenz umgehen.</string>
+    <string name="gpu_apply_fixed">Legen Sie eine feste Frequenz an</string>
+    <string name="gpu_restore_automatic">Automatische Steuerung wiederherstellen</string>
+    <string name="gpu_restore_summary">Hebe manuelle GPU-Frequenzgrenzen und den festen Modus auf, damit das System die Frequenz wieder wählen kann.</string>
+    <string name="gpu_restore_action">"Wiederherstellen"</string>
+    <string name="gpu_session_title">Manuelle GPU Einstellungen</string>
+    <string name="gpu_session_summary">Ein Neustart stellt die automatische GPU-Steuerung wieder her. Diese Einstellungen ändern die CPU-Einstellungen nicht. Angeforderte und wirksame Frequenzgrenzen werden getrennt angezeigt; die aktuelle Frequenz stammt vom Treiber.</string>
+    <string name="gpu_operation_title">Letzte Operation</string>
+    <string name="gpu_applying">Änderung übernehmen und prüfen…</string>
+    <string name="gpu_verified">Änderung angewendet und überprüft.</string>
+    <string name="gpu_error_unavailable">Das angeforderte Steuerelement GPU ist nicht verfügbar. Öffnen Sie diese Seite erneut und versuchen Sie es erneut.</string>
+    <string name="gpu_error_unsupported">Dieser GPU-Treiber unterstützt die angeforderte Steuerung nicht.</string>
+    <string name="gpu_error_frequency">Diese Frequenz wird vom Gerät nicht mehr gemeldet. Wählen Sie einen der aktuell verfügbaren Werte.</string>
+    <string name="gpu_error_write">Der GPU-Treiber lehnte die Änderung ab. Die App hat versucht, die vorherige Einstellung wiederherzustellen.</string>
+    <string name="gpu_error_readback">Die angeforderte Einstellung GPU konnte nicht bestätigt werden. Die App hat versucht, die vorherige Einstellung wiederherzustellen.</string>
+    <string name="gpu_error_rollback">%1$s Die vorherige GPU-Einstellung konnte nicht wiederhergestellt werden. Stellen Sie die automatische Steuerung wieder her oder starten Sie das Telefon neu.</string>
+    <string name="gpu_minimum_frequency">Mindestfrequenz</string>
+    <string name="gpu_maximum_frequency">Höchstfrequenz</string>
+    <string name="gpu_requested_range">Angeforderter Frequenzbereich</string>
+    <string name="gpu_effective_range">Wirksamer Frequenzbereich</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Frequenzgrenzen</string>
+    <string name="gpu_choose_range">Frequenzbereich festlegen</string>
+    <string name="gpu_range_summary">Wähle eine Mindest- und Höchstfrequenz aus den vom Gerät gemeldeten Werten. Die GPU kann ihre Frequenz innerhalb der wirksamen Grenzen anpassen und sich im Leerlauf abschalten. Eine hohe Mindestfrequenz kann einige softwareseitige Temperaturgrenzen übersteuern und Wärmeentwicklung sowie Stromverbrauch erhöhen.</string>
+    <string name="gpu_apply_range">Bereich anwenden</string>
+    <string name="gpu_error_range">Die Mindestfrequenz darf die Höchstfrequenz nicht überschreiten.</string>
+    <string name="gpu_error_conflict">Eine andere Steuerung hat die GPU-Einstellungen geändert. Ihre Einstellung wurde unverändert gelassen.</string>
+    <string name="gpu_effective_summary">Angeforderte Grenzen sind deine Einstellungen. Wirksame Grenzen entsprechen dem Bereich, den der Treiber nach Berücksichtigung aller Steuerungen tatsächlich anwendet.</string>
+    <string name="gpu_legacy_fixed_summary">Eine feste GPU-Frequenz ist aktiv. Das Anwenden eines Bereichs hebt die feste Frequenz auf und lässt die GPU innerhalb der wirksamen Grenzen regeln.</string>
+</resources>

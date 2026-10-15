@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Оптерећење GPU-а</string>
+    <string name="adaptive_gpu_temperature">Температура GPU-а</string>
+    <string name="adaptive_frames_title">Глаткоћа кадрова</string>
+    <string name="adaptive_frames_jank">Закаснели или испуштени кадрови</string>
+    <string name="adaptive_frames_dropped">Испуштени кадрови</string>
+    <string name="adaptive_frames_count">Посматрано кадрова: %1$d</string>
+    <string name="adaptive_frames_timing">Циљ: %1$.0f FPS · Екран: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Време кадра (95. перцентил)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Мери недавне кадрове апликације која се користи. Узорковање је делимично. Кашњење мреже и уноса се не мери.</string>
+    <string name="adaptive_frames_waiting">Чека се довољно упоредивих мерења кадрова пре предлагања промене.</string>
+    <string name="adaptive_frames_changed">Апликација, површина за исцртавање или временски распоред кадрова су промењени. Потребна су нова мерења.</string>
+    <string name="adaptive_frames_improved">Измерено је мање закаснелих или испуштених кадрова у границама пробе.</string>
+    <string name="adaptive_frames_regressed">Проба није постигла циљану глаткоћу кадрова.</string>
+    <string name="adaptive_frames_lower">Приказ кадрова је стабилан, а оптерећење мало. Пробајте нижу максималну фреквенцију.</string>
+    <string name="adaptive_frames_raise">Откривени су закаснели или испуштени кадрови при великом оптерећењу. Пробајте вишу максималну фреквенцију.</string>
+    <string name="adaptive_gpu_boundaries">GPU може да се подешава само при аутоматској контроли. Ручна подешавања CPU/GPU-а имају предност.</string>
+    <string name="adaptive_trial_generic">Испробава се један подржани корак фреквенције.</string>
+    <string name="adaptive_gpu_missing">Чекају се употребљиви подаци о оптерећењу и температури GPU-а.</string>
+</resources>

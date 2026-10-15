@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">بار GPU</string>
+    <string name="adaptive_gpu_temperature">دمای GPU</string>
+    <string name="adaptive_frames_title">روانی فریم‌ها</string>
+    <string name="adaptive_frames_jank">فریم‌های دیررس یا ازدست‌رفته</string>
+    <string name="adaptive_frames_dropped">فریم‌های ازدست‌رفته</string>
+    <string name="adaptive_frames_count">%1$d فریم مشاهده شد</string>
+    <string name="adaptive_frames_timing">هدف: %1$.0f FPS · نمایشگر: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">زمان فریم (صدک 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">فریم‌های اخیر برنامهٔ در حال استفاده را اندازه می‌گیرد. نمونه‌برداری جزئی است. تأخیر شبکه و ورودی اندازه‌گیری نمی‌شود.</string>
+    <string name="adaptive_frames_waiting">پیش از پیشنهاد تغییر، در انتظار اندازه‌گیری‌های کافی و قابل‌مقایسه از فریم‌ها است.</string>
+    <string name="adaptive_frames_changed">برنامه، سطح ترسیم یا زمان‌بندی فریم‌ها تغییر کرده است. اندازه‌گیری‌های تازه لازم است.</string>
+    <string name="adaptive_frames_improved">در محدودهٔ آزمایش، فریم‌های دیررس یا ازدست‌رفتهٔ کمتری اندازه‌گیری شد.</string>
+    <string name="adaptive_frames_regressed">آزمایش به هدف روانی فریم‌ها نرسید.</string>
+    <string name="adaptive_frames_lower">ارائهٔ فریم‌ها پایدار و بار کم است. بسامد بیشینهٔ پایین‌تری را آزمایش کنید.</string>
+    <string name="adaptive_frames_raise">هنگام بار زیاد، فریم‌های دیررس یا ازدست‌رفته شناسایی شد. بسامد بیشینهٔ بالاتری را آزمایش کنید.</string>
+    <string name="adaptive_gpu_boundaries">فقط کنترل خودکار GPU را می‌توان تنظیم کرد. تنظیمات دستی CPU/GPU اولویت دارند.</string>
+    <string name="adaptive_trial_generic">در حال آزمایش یک پلهٔ بسامد پشتیبانی‌شده.</string>
+    <string name="adaptive_gpu_missing">در انتظار خوانش‌های قابل‌استفادهٔ بار و دمای GPU.</string>
+</resources>

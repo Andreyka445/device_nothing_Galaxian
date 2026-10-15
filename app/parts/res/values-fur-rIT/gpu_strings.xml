@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU control</string>
+    <string name="gpu_home_summary">Frecuence de GPU, limits minim e massim e control automatic.</string>
+    <string name="gpu_current_frequency">Frecuence corint</string>
+    <string name="gpu_requested_frequency">Impostazion di frecuence fisse</string>
+    <string name="gpu_loading">Leture GPU stât...</string>
+    <string name="gpu_unavailable">No disponibil</string>
+    <string name="gpu_idle">Sflacjon</string>
+    <string name="gpu_control_state">Control de frecuence</string>
+    <string name="gpu_mode_automatic">Automatic</string>
+    <string name="gpu_mode_fixed">Frecuence fisse</string>
+    <string name="gpu_mode_unknown">No cognossût</string>
+    <string name="gpu_control_unavailable">Il control de frecuence nol è disponibil. Lis leturis a son mostradis cuant che il condutôr lis furnìs.</string>
+    <string name="gpu_supported_frequencies">Frecuencis supuartadis</string>
+    <string name="gpu_frequency_count">Pas di frecuence segnalâts dal dispositîf: %1$d</string>
+    <string name="gpu_choose_frequency">Imposta une frecuence fisse</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Sielzi une frecuence segnalade di chest dispositîf. Une frecuence fisse e pues aumentâ l’ûs de energjie e la temperadure. L’impostazion e si apliche cuant che il GPU al è atîf; il GPU al pues ancjemò spegnî cuant che al è inatîf. La modalitât fisse e pues ignorâ i limits termics de frecuence de GPU imponûts dal software.</string>
+    <string name="gpu_apply_fixed">Aplica une frecuence fisse</string>
+    <string name="gpu_restore_automatic">Restaurâ il control automatic</string>
+    <string name="gpu_restore_summary">Gjave i limits manuâi di frecuence de GPU e la modalitât fisse, lassant di gnûf al sisteme la sielte de frecuence.</string>
+    <string name="gpu_restore_action">Restaurâ</string>
+    <string name="gpu_session_title">Impostazions manuâls GPU</string>
+    <string name="gpu_session_summary">Un tornâ a inviâ al ripristine il control automatic de GPU. Chescj controi no cambiin lis impostazions de CPU. I limits di frecuence domandâts e efetîfs a vegnin mostrâts separâts; la frecuence atuâl e rive dal driver.</string>
+    <string name="gpu_operation_title">Ultime operazion</string>
+    <string name="gpu_applying">Aplicazion e controlâ il cambiament...</string>
+    <string name="gpu_verified">Cambi aplicât e verificât.</string>
+    <string name="gpu_error_unavailable">Il control GPU domandât nol è disponibil. Tornâ a viodi cheste pagjine e provâ di gnûf.</string>
+    <string name="gpu_error_unsupported">Chest driver GPU nol supuarte il control domandât.</string>
+    <string name="gpu_error_frequency">Cheste frecuence no je plui segnalade dal dispositîf. Sielzi un dai valôrs disponibii in dì di vuê.</string>
+    <string name="gpu_error_write">Il condutôr GPU al à refudât il cambiament. La aplicazion e à provât a restaurâ la impostazion precedent.</string>
+    <string name="gpu_error_readback">L’impostazion GPU domandade no je stade confermade. La aplicazion e à provât a restaurâ la impostazion precedent.</string>
+    <string name="gpu_error_rollback">%1$s La impostazion GPU precedente no je stade restaurade. Restaurâ il control automatic o riavviâ il telefonin.</string>
+    <string name="gpu_requested_range">Interval di frecuencis domandât</string>
+    <string name="gpu_effective_range">Interval di frecuencis efetîf</string>
+    <string name="gpu_mode_range">Limits di frecuence</string>
+    <string name="gpu_choose_range">Impueste l’interval di frecuencis</string>
+    <string name="gpu_range_summary">Sielç un minim e un massim tra lis frecuencis indicadis di chest dispositîf. La GPU e pues variâ la frecuence dentri dal interval efetîf e distudâsi cuant che no je ative. Un minim alt al pues superâ cualchi limit termic dal software e aumentâ il calôr e il consum di energjie.</string>
+    <string name="gpu_apply_range">Apliche l’interval</string>
+    <string name="gpu_error_range">La frecuence minime no pues superâ la massime.</string>
+    <string name="gpu_error_conflict">Un altri controlôr al à cambiât lis impostazions de GPU. La sô impostazion e je stade lassade cence cambiaments.</string>
+    <string name="gpu_effective_summary">I limits domandâts a son lis tôs impostazions. I limits efetîfs a son l’interval che il driver al apliche cumò dopo vê cumbinât lis richiestis di ducj i controlôrs.</string>
+    <string name="gpu_legacy_fixed_summary">E je ative une frecuence GPU fisse. Aplicâ un interval al disative la modalitât fisse e al permet ae GPU di variâ tra i limits efetîfs.</string>
+    <string name="gpu_minimum_frequency">Frecuence minime</string>
+    <string name="gpu_maximum_frequency">Frecuence massime</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU लोड</string>
+    <string name="adaptive_gpu_temperature">GPU को तापक्रम</string>
+    <string name="adaptive_frames_title">फ्रेमहरूको सहजता</string>
+    <string name="adaptive_frames_jank">ढिलो आएका वा छुटेका फ्रेमहरू</string>
+    <string name="adaptive_frames_dropped">छुटेका फ्रेमहरू</string>
+    <string name="adaptive_frames_count">%1$d फ्रेम अवलोकन गरियो</string>
+    <string name="adaptive_frames_timing">लक्ष्य: %1$.0f FPS · डिस्प्ले: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">फ्रेम समय (९५औँ पर्सेन्टाइल)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">प्रयोग भइरहेको एपका हालैका फ्रेमहरू मापन गर्छ। नमुना सङ्कलन आंशिक हुन्छ। नेटवर्क र इनपुटको ढिलाइ मापन गरिँदैन।</string>
+    <string name="adaptive_frames_waiting">परिवर्तनको प्रस्ताव गर्नुअघि पर्याप्त तुलना गर्न मिल्ने फ्रेम मापनहरूको प्रतीक्षा गर्दै।</string>
+    <string name="adaptive_frames_changed">एप, रेन्डरिङ सतह वा फ्रेमको समय बदलिएको छ। नयाँ मापन आवश्यक छन्।</string>
+    <string name="adaptive_frames_improved">परीक्षणका सीमाभित्र ढिलो आएका वा छुटेका फ्रेमहरू कम मापन भए।</string>
+    <string name="adaptive_frames_regressed">परीक्षणले फ्रेमहरूको सहजताको लक्ष्य पूरा गरेन।</string>
+    <string name="adaptive_frames_lower">फ्रेम प्रदर्शन स्थिर छ र लोड कम छ। अधिकतम फ्रिक्वेन्सी घटाएर प्रयास गर्नुहोस्।</string>
+    <string name="adaptive_frames_raise">धेरै लोड हुँदा ढिलो आएका वा छुटेका फ्रेमहरू भेटिए। अधिकतम फ्रिक्वेन्सी बढाएर प्रयास गर्नुहोस्।</string>
+    <string name="adaptive_gpu_boundaries">स्वचालित GPU नियन्त्रण मात्र समायोजन गर्न सकिन्छ। म्यानुअल CPU/GPU सेटिङहरूलाई प्राथमिकता दिइन्छ।</string>
+    <string name="adaptive_trial_generic">समर्थित फ्रिक्वेन्सीको एउटा चरण परीक्षण गर्दै।</string>
+    <string name="adaptive_gpu_missing">GPU लोड र तापक्रमका प्रयोगयोग्य रिडिङहरूको प्रतीक्षा गर्दै।</string>
+</resources>

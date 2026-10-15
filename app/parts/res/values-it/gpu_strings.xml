@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="gpu_settings_title">Controllo GPU</string>
+    <string name="gpu_home_summary">Frequenza GPU, limiti minimo e massimo e controllo automatico.</string>
+    <string name="gpu_current_frequency">Frequenza attuale</string>
+    <string name="gpu_requested_frequency">Frequenza fissa impostata</string>
+    <string name="gpu_loading">Lettura dello stato GPU…</string>
+    <string name="gpu_unavailable">Non disponibile</string>
+    <string name="gpu_idle">Inattiva</string>
+    <string name="gpu_control_state">Controllo della frequenza</string>
+    <string name="gpu_mode_automatic">Automatico</string>
+    <string name="gpu_mode_fixed">Frequenza fissa</string>
+    <string name="gpu_mode_unknown">Sconosciuto</string>
+    <string name="gpu_control_unavailable">Il controllo della frequenza non è disponibile. Le letture vengono mostrate quando il driver le fornisce.</string>
+    <string name="gpu_supported_frequencies">Frequenze supportate</string>
+    <string name="gpu_frequency_count">Livelli di frequenza indicati dal dispositivo: %1$d</string>
+    <string name="gpu_choose_frequency">Imposta una frequenza fissa</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Scegli una frequenza indicata dal dispositivo. La modalità fissa può aggirare i limiti termici software della frequenza GPU. Una frequenza fissa può aumentare consumo e temperatura. L\'impostazione vale quando la GPU è attiva; la GPU può comunque spegnersi quando è inattiva.</string>
+    <string name="gpu_apply_fixed">Applica frequenza fissa</string>
+    <string name="gpu_restore_automatic">Ripristina controllo automatico</string>
+    <string name="gpu_restore_summary">Rimuovi i limiti manuali della GPU e la modalità fissa, lasciando di nuovo al sistema la scelta della frequenza.</string>
+    <string name="gpu_restore_action">Ripristina</string>
+    <string name="gpu_session_title">Impostazioni GPU manuali</string>
+    <string name="gpu_session_summary">Un riavvio ripristina il controllo GPU automatico. Questi controlli non modificano le impostazioni CPU. I limiti di frequenza richiesti ed effettivi sono mostrati separatamente; la frequenza attuale proviene dal driver.</string>
+    <string name="gpu_operation_title">Ultima operazione</string>
+    <string name="gpu_applying">Applicazione e verifica della modifica…</string>
+    <string name="gpu_verified">Modifica applicata e verificata.</string>
+    <string name="gpu_error_unavailable">Il controllo GPU richiesto non è disponibile. Riapri questa pagina e riprova.</string>
+    <string name="gpu_error_unsupported">Questo driver GPU non supporta il controllo richiesto.</string>
+    <string name="gpu_error_frequency">Il dispositivo non indica più quella frequenza. Scegli uno dei valori attualmente disponibili.</string>
+    <string name="gpu_error_write">Il driver GPU ha rifiutato la modifica. L\'app ha tentato di ripristinare l\'impostazione precedente.</string>
+    <string name="gpu_error_readback">Impossibile confermare l\'impostazione GPU richiesta. L\'app ha tentato di ripristinare l\'impostazione precedente.</string>
+    <string name="gpu_error_rollback">%1$s Impossibile ripristinare l\'impostazione GPU precedente. Ripristina il controllo automatico o riavvia il telefono.</string>
+    <string name="gpu_minimum_frequency">Frequenza minima</string>
+    <string name="gpu_maximum_frequency">Frequenza massima</string>
+    <string name="gpu_requested_range">Intervallo di frequenza richiesto</string>
+    <string name="gpu_effective_range">Intervallo di frequenza effettivo</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Limiti di frequenza</string>
+    <string name="gpu_choose_range">Imposta intervallo di frequenza</string>
+    <string name="gpu_range_summary">Scegli un minimo e un massimo tra le frequenze riportate dal dispositivo. La GPU può variare la frequenza entro i limiti effettivi e spegnersi quando è inattiva. Un minimo elevato può prevalere su alcuni limiti termici software e aumentare calore e consumo.</string>
+    <string name="gpu_apply_range">Applica intervallo</string>
+    <string name="gpu_error_range">La frequenza minima non può superare la massima.</string>
+    <string name="gpu_error_conflict">Un altro controller ha modificato le impostazioni GPU. La sua impostazione non è stata sovrascritta.</string>
+    <string name="gpu_effective_summary">I limiti richiesti sono quelli impostati da te. I limiti effettivi sono quelli applicati dal driver dopo aver combinato le richieste di tutti i controller.</string>
+    <string name="gpu_legacy_fixed_summary">È attiva una frequenza GPU fissa. Applicando un intervallo si disattiva la modalità fissa e si consente alla GPU di variare tra i limiti effettivi.</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="battery_title">Batteria</string>
+    <string name="battery_level">Livello batteria</string>
+    <string name="battery_status">Stato di ricarica</string>
+    <string name="battery_health">Stato della batteria</string>
+    <string name="battery_temperature">Temperatura</string>
+    <string name="battery_voltage">Tensione</string>
+    <string name="battery_current">Corrente</string>
+    <string name="battery_charge">Carica residua</string>
+    <string name="battery_about">Informazioni sulle letture</string>
+    <string name="battery_about_summary">I valori sono forniti da Android e dipendono dal supporto del driver. La corrente positiva indica la ricarica; quella negativa indica la scarica. La carica residua non è la capacità totale della batteria. Lo stato è quello segnalato da Android, non una misura dell\'usura della batteria.</string>
+    <string name="battery_unavailable">Non disponibile</string>
+    <string name="battery_percent">%1$d%%</string>
+    <string name="battery_celsius">%1$.1f °C</string>
+    <string name="battery_volts">%1$.3f V</string>
+    <string name="battery_milliamps">%1$.1f mA</string>
+    <string name="battery_milliamp_hours">%1$.1f mAh</string>
+    <string name="battery_charging">In carica</string>
+    <string name="battery_discharging">In scarica</string>
+    <string name="battery_not_charging">Non in carica</string>
+    <string name="battery_full">Carica completa</string>
+    <string name="battery_health_good">Buono</string>
+    <string name="battery_health_overheat">Surriscaldata</string>
+    <string name="battery_health_dead">Guasta</string>
+    <string name="battery_health_over_voltage">Sovratensione</string>
+    <string name="battery_health_failure">Guasto non specificato</string>
+    <string name="battery_health_cold">Troppo fredda</string>
+    <string name="battery_live_section">Letture in tempo reale</string>
+    <string name="battery_condition_section">Condizioni della batteria</string>
+</resources>

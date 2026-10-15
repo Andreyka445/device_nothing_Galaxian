@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU کنٹرول</string>
+    <string name="gpu_home_summary">GPU کی فریکوئنسی، کم سے کم اور زیادہ سے زیادہ حدود، اور خودکار کنٹرول۔</string>
+    <string name="gpu_current_frequency">موجودہ تعدد</string>
+    <string name="gpu_requested_frequency">مقررہ فریکوئنسی کی ترتیب</string>
+    <string name="gpu_loading">GPU کی حالت پڑھی جا رہی ہے…</string>
+    <string name="gpu_unavailable">"غیر دستیاب"</string>
+    <string name="gpu_idle">غیر فعال</string>
+    <string name="gpu_control_state">فریکوئنسی کنٹرول</string>
+    <string name="gpu_mode_automatic">خودکار</string>
+    <string name="gpu_mode_fixed">مقررہ فریکوئنسی</string>
+    <string name="gpu_mode_unknown">نامعلوم</string>
+    <string name="gpu_control_unavailable">فریکوئنسی کنٹرول دستیاب نہیں ہے۔ ڈرائیور کی فراہم کردہ ریڈنگز دکھائی جاتی ہیں۔</string>
+    <string name="gpu_supported_frequencies">تعاون یافتہ فریکوئنسیاں</string>
+    <string name="gpu_frequency_count">آلے کی بتائی ہوئی فریکوئنسی کی سطحیں: %1$d</string>
+    <string name="gpu_choose_frequency">ایک مقررہ فریکوئنسی طے کریں</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">اس آلے کی بتائی ہوئی فریکوئنسی منتخب کریں۔ مقررہ موڈ، سافٹ ویئر کی جانب سے درجۂ حرارت کی بنیاد پر عائد کردہ GPU فریکوئنسی کی حدوں کو نظرانداز کر سکتا ہے۔ مقررہ فریکوئنسی بجلی کے استعمال اور درجۂ حرارت میں اضافہ کر سکتی ہے۔ یہ ترتیب GPU کے فعال ہونے پر لاگو ہوتی ہے؛ غیر فعال ہونے پر GPU اب بھی بند ہو سکتا ہے۔</string>
+    <string name="gpu_apply_fixed">مقررہ فریکوئنسی لاگو کریں</string>
+    <string name="gpu_restore_automatic">خودکار کنٹرول بحال کریں</string>
+    <string name="gpu_restore_summary">GPU کی فریکوئنسی کی دستی حدود اور مقررہ موڈ ختم کریں اور نظام کو دوبارہ فریکوئنسی چننے دیں۔</string>
+    <string name="gpu_restore_action">"بحال کریں"</string>
+    <string name="gpu_session_title">GPU کی دستی ترتیبات</string>
+    <string name="gpu_session_summary">دوبارہ شروع کرنے سے GPU کا خودکار کنٹرول بحال ہو جاتا ہے۔ یہ کنٹرولز CPU کی ترتیبات نہیں بدلتے۔ مطلوبہ اور عملاً نافذ فریکوئنسی کی حدود الگ دکھائی جاتی ہیں؛ موجودہ فریکوئنسی ڈرائیور سے ملتی ہے۔</string>
+    <string name="gpu_operation_title">آخری آپریشن</string>
+    <string name="gpu_applying">تبدیلی کا اطلاق اور جانچ کرنا…</string>
+    <string name="gpu_verified">تبدیلی لاگو اور تصدیق شدہ۔</string>
+    <string name="gpu_error_unavailable">مطلوبہ GPU کنٹرول دستیاب نہیں ہے۔ یہ صفحہ دوبارہ کھول کر پھر کوشش کریں۔</string>
+    <string name="gpu_error_unsupported">یہ GPU ڈرائیور مطلوبہ کنٹرول کی سہولت فراہم نہیں کرتا۔</string>
+    <string name="gpu_error_frequency">آلہ اب وہ فریکوئنسی نہیں بتا رہا۔ فی الحال دستیاب قدروں میں سے ایک منتخب کریں۔</string>
+    <string name="gpu_error_write">GPU ڈرائیور نے تبدیلی مسترد کر دی۔ ایپ نے پچھلی ترتیب بحال کرنے کی کوشش کی۔</string>
+    <string name="gpu_error_readback">مطلوبہ GPU ترتیب کی تصدیق نہیں ہو سکی۔ ایپ نے پچھلی ترتیب بحال کرنے کی کوشش کی۔</string>
+    <string name="gpu_error_rollback">%1$s پچھلی GPU ترتیب بحال نہیں ہو سکی۔ خودکار کنٹرول بحال کریں یا فون دوبارہ شروع کریں۔</string>
+    <string name="gpu_requested_range">مطلوبہ فریکوئنسی کی حد</string>
+    <string name="gpu_effective_range">عملاً نافذ فریکوئنسی کی حد</string>
+    <string name="gpu_mode_range">فریکوئنسی کی حدود</string>
+    <string name="gpu_choose_range">فریکوئنسی کی حد مقرر کریں</string>
+    <string name="gpu_range_summary">اس آلے کی بتائی گئی فریکوئنسیوں میں سے کم سے کم اور زیادہ سے زیادہ منتخب کریں۔ GPU عملاً نافذ حد کے اندر فریکوئنسی بدل سکتا ہے اور فارغ ہونے پر بند ہو سکتا ہے۔ بلند کم سے کم فریکوئنسی سافٹ ویئر کی کچھ حرارتی حدود کو نظر انداز کر سکتی ہے اور حرارت اور بجلی کا استعمال بڑھا سکتی ہے۔</string>
+    <string name="gpu_apply_range">حد نافذ کریں</string>
+    <string name="gpu_error_range">کم سے کم فریکوئنسی زیادہ سے زیادہ فریکوئنسی سے بڑھ نہیں سکتی۔</string>
+    <string name="gpu_error_conflict">کسی دوسرے کنٹرولر نے GPU کی ترتیبات بدلی ہیں۔ اس کی ترتیب کو تبدیل نہیں کیا گیا۔</string>
+    <string name="gpu_effective_summary">مطلوبہ حدود آپ کی ترتیبات ہیں۔ عملاً نافذ حدود وہ دائرہ ہیں جو تمام کنٹرولرز کی درخواستوں کو یکجا کرنے کے بعد ڈرائیور اس وقت نافذ کر رہا ہے۔</string>
+    <string name="gpu_legacy_fixed_summary">GPU کی مقررہ فریکوئنسی فعال ہے۔ ایک حد نافذ کرنے سے مقررہ موڈ ختم ہوتا ہے اور GPU عملاً نافذ حدود کے درمیان فریکوئنسی بدل سکتا ہے۔</string>
+    <string name="gpu_minimum_frequency">کم سے کم فریکوئنسی</string>
+    <string name="gpu_maximum_frequency">زیادہ سے زیادہ فریکوئنسی</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

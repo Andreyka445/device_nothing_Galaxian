@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU жүгү</string>
+    <string name="adaptive_gpu_temperature">GPU температурасы</string>
+    <string name="adaptive_frames_title">Кадрлардын жылмакайлыгы</string>
+    <string name="adaptive_frames_jank">Кечиккен же өткөрүлүп жиберилген кадрлар</string>
+    <string name="adaptive_frames_dropped">Өткөрүлүп жиберилген кадрлар</string>
+    <string name="adaptive_frames_count">Байкалган кадрлар: %1$d</string>
+    <string name="adaptive_frames_timing">Максат: %1$.0f FPS · Экран: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Кадр убактысы (95-процентиль)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Колдонулуп жаткан колдонмонун акыркы кадрларын өлчөйт. Тандалманын бир бөлүгү гана өлчөнөт. Тармак жана киргизүү кечигүүлөрү өлчөнбөйт.</string>
+    <string name="adaptive_frames_waiting">Өзгөртүү сунуштоодон мурун салыштырууга боло турган кадр өлчөмдөрүнүн жетиштүү болушу күтүлүүдө.</string>
+    <string name="adaptive_frames_changed">Колдонмо, сүрөт тартуу бети же кадрлардын убакыт тартиби өзгөрдү. Жаңы өлчөмдөр керек.</string>
+    <string name="adaptive_frames_improved">Сыноонун чегинде кечиккен же өткөрүлүп жиберилген кадрлар азыраак өлчөндү.</string>
+    <string name="adaptive_frames_regressed">Сыноо кадрлардын жылмакайлыгы боюнча максатка жеткен жок.</string>
+    <string name="adaptive_frames_lower">Кадрлардын берилиши туруктуу жана жүк төмөн. Төмөнүрөөк максималдуу жыштыкты сынап көрүңүз.</string>
+    <string name="adaptive_frames_raise">Жогорку жүктө кечиккен же өткөрүлүп жиберилген кадрлар табылды. Жогорураак максималдуу жыштыкты сынап көрүңүз.</string>
+    <string name="adaptive_gpu_boundaries">GPU автоматтык башкарууда болгондо гана жөндөлөт. CPU/GPU кол жөндөөлөрү артыкчылыкка ээ.</string>
+    <string name="adaptive_trial_generic">Колдоого алынган жыштыктын бир баскычы сыналууда.</string>
+    <string name="adaptive_gpu_missing">GPU жүгү менен температурасынын колдонууга жарактуу көрсөткүчтөрү күтүлүүдө.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">Carga da GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatura da GPU</string>
+    <string name="adaptive_frames_title">Fluidez dos quadros</string>
+    <string name="adaptive_frames_jank">Quadros atrasados ou descartados</string>
+    <string name="adaptive_frames_dropped">Quadros descartados</string>
+    <string name="adaptive_frames_count">%1$d quadros observados</string>
+    <string name="adaptive_frames_timing">Meta: %1$.0f FPS · Tela: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Tempo de quadro (percentil 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mede quadros recentes do app em uso. A amostragem é parcial. Atrasos de rede e de entrada não são medidos.</string>
+    <string name="adaptive_frames_waiting">Aguardando medições de quadros suficientes e comparáveis antes de propor uma alteração.</string>
+    <string name="adaptive_frames_changed">O app, a superfície de renderização ou os tempos dos quadros mudaram. São necessárias novas medições.</string>
+    <string name="adaptive_frames_improved">Foram medidos menos quadros atrasados ou descartados dentro dos limites do teste.</string>
+    <string name="adaptive_frames_regressed">O teste não atingiu a meta de fluidez dos quadros.</string>
+    <string name="adaptive_frames_lower">A entrega de quadros está estável e a carga está baixa. Experimente uma frequência máxima menor.</string>
+    <string name="adaptive_frames_raise">Foram detectados quadros atrasados ou descartados sob carga alta. Experimente uma frequência máxima maior.</string>
+    <string name="adaptive_gpu_boundaries">Só é possível ajustar o controle automático da GPU. As configurações manuais de CPU/GPU têm prioridade.</string>
+    <string name="adaptive_trial_generic">Testando um único nível de frequência compatível.</string>
+    <string name="adaptive_gpu_missing">Aguardando leituras utilizáveis de carga e temperatura da GPU.</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU 控制</string>
+    <string name="gpu_home_summary">GPU 頻率、最低和最高限制，以及自動控制。</string>
+    <string name="gpu_current_frequency">目前頻率</string>
+    <string name="gpu_requested_frequency">固定頻率設定</string>
+    <string name="gpu_loading">正在讀取 GPU 狀態…</string>
+    <string name="gpu_unavailable">"無法使用"</string>
+    <string name="gpu_idle">閒置</string>
+    <string name="gpu_control_state">頻率控制</string>
+    <string name="gpu_mode_automatic">自動</string>
+    <string name="gpu_mode_fixed">固定頻率</string>
+    <string name="gpu_mode_unknown">不明</string>
+    <string name="gpu_control_unavailable">無法控制頻率。驅動程式提供讀數時，會在此顯示。</string>
+    <string name="gpu_supported_frequencies">支援的頻率</string>
+    <string name="gpu_frequency_count">裝置回報的頻率級數：%1$d</string>
+    <string name="gpu_choose_frequency">設定固定頻率</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">請選擇此裝置所回報的頻率。固定模式可能繞過軟件設定的 GPU 溫控頻率限制。固定頻率可能增加耗電量及溫度。設定只會在 GPU 運作時生效；GPU 閒置時仍可關閉電源。</string>
+    <string name="gpu_apply_fixed">套用固定頻率</string>
+    <string name="gpu_restore_automatic">還原自動控制</string>
+    <string name="gpu_restore_summary">解除手動 GPU 頻率限制及固定模式，讓系統再次自行選擇頻率。</string>
+    <string name="gpu_restore_action">"還原"</string>
+    <string name="gpu_session_title">手動 GPU 設定</string>
+    <string name="gpu_session_summary">重新啟動會還原 GPU 自動控制。這些控制項不會變更 CPU 設定。要求的頻率限制與實際生效的限制會分開顯示；目前頻率由驅動程式提供。</string>
+    <string name="gpu_operation_title">上次操作</string>
+    <string name="gpu_applying">應用並檢查更改...</string>
+    <string name="gpu_verified">更改已套用並已驗證。</string>
+    <string name="gpu_error_unavailable">所要求的 GPU 控制功能無法使用。請重新開啟此頁面後再試。</string>
+    <string name="gpu_error_unsupported">此 GPU 驅動程式不支援所要求的控制功能。</string>
+    <string name="gpu_error_frequency">裝置不再回報此頻率。請從目前可用的數值中選擇。</string>
+    <string name="gpu_error_write">GPU 驅動程式拒絕了變更。應用程式已嘗試還原之前的設定。</string>
+    <string name="gpu_error_readback">無法確認所要求的 GPU 設定。應用程式已嘗試還原之前的設定。</string>
+    <string name="gpu_error_rollback">%1$s 無法還原之前的 GPU 設定。請還原自動控制或重新啟動手機。</string>
+    <string name="gpu_requested_range">要求的頻率範圍</string>
+    <string name="gpu_effective_range">實際生效的頻率範圍</string>
+    <string name="gpu_mode_range">頻率限制</string>
+    <string name="gpu_choose_range">設定頻率範圍</string>
+    <string name="gpu_range_summary">從裝置回報的頻率中選擇最低和最高值。GPU 可在實際生效的範圍內調整頻率，並在閒置時關閉。較高的最低值可能凌駕部分軟件溫控限制，並增加發熱和耗電量。</string>
+    <string name="gpu_apply_range">套用範圍</string>
+    <string name="gpu_error_range">最低頻率不得高於最高頻率。</string>
+    <string name="gpu_error_conflict">其他控制器已變更 GPU 設定，該設定已保留不變。</string>
+    <string name="gpu_effective_summary">要求的限制是你所選的設定。實際生效的限制是驅動程式綜合所有控制器的要求後，目前所套用的範圍。</string>
+    <string name="gpu_legacy_fixed_summary">GPU 固定頻率目前已啟用。套用範圍後會解除固定模式，讓 GPU 在實際生效的限制內調整頻率。</string>
+    <string name="gpu_minimum_frequency">最低頻率</string>
+    <string name="gpu_maximum_frequency">最大頻率</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

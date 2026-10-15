@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="cpu_settings_title">Controllo CPU</string>
+    <string name="cpu_session_title">Impostazioni CPU temporanee</string>
+    <string name="cpu_session_summary">Le modifiche non vengono riapplicate all’avvio. Android e la HAL di alimentazione possono cambiare i limiti durante l’uso. Le frequenze vengono lette dal kernel di questo dispositivo.</string>
+    <string name="cpu_operation_title">Ultima operazione</string>
+    <string name="cpu_efficiency_cluster">Core efficienti · Cortex-A55 (0–3)</string>
+    <string name="cpu_performance_cluster">Core ad alte prestazioni · Cortex-A78 (4–7)</string>
+    <string name="cpu_current_frequency">Frequenza attuale</string>
+    <string name="cpu_minimum_frequency">Frequenza minima</string>
+    <string name="cpu_maximum_frequency">Frequenza massima</string>
+    <string name="cpu_loading">Lettura dello stato della CPU…</string>
+    <string name="cpu_cores_title">Core della CPU</string>
+    <string name="cpu_core_title">CPU %1$d</string>
+    <string name="cpu_controls_title">Controlli</string>
+    <string name="cpu_restore_title">Ripristina i valori CPU iniziali</string>
+    <string name="cpu_restore_summary">Ripristina i limiti di frequenza e i core attivi registrati alla prima lettura in questo processo dell’app. Il controllo termico è separato.</string>
+    <string name="cpu_applying">Applicazione e verifica della modifica…</string>
+    <string name="cpu_policy_unavailable">Questo cluster è disattivato oppure i controlli di frequenza non sono leggibili.</string>
+    <string name="cpu_unavailable">Non disponibile</string>
+    <string name="cpu_policy_status">%1$s · CPU %2$s</string>
+    <string name="cpu_core_required">Attivo · il core principale resta abilitato</string>
+    <string name="cpu_core_fixed">Attivo · al momento non è possibile disattivare questo core</string>
+    <string name="cpu_core_online">Attivo</string>
+    <string name="cpu_core_offline">Disattivato</string>
+    <string name="cpu_core_offline_unavailable">Disattivato · controllo non disponibile</string>
+    <string name="cpu_frequency_read_only">%1$s · controllo di frequenza non disponibile</string>
+    <string name="cpu_operation_success">Modifica applicata e verificata. Il sistema potrebbe cambiare nuovamente questi valori.</string>
+    <string name="cpu_error_unavailable">Il controllo CPU richiesto non è disponibile. Riapri la schermata e riprova.</string>
+    <string name="cpu_error_frequency">Il kernel non espone più quella frequenza. Scegli uno dei valori attualmente disponibili.</string>
+    <string name="cpu_error_range">La frequenza minima non può superare la massima. Modifica prima l’altro limite.</string>
+    <string name="cpu_error_last_core">Deve rimanere attivo almeno un core per ogni cluster.</string>
+    <string name="cpu_error_write">Il kernel ha rifiutato la modifica. L’app ha tentato di ripristinare i valori precedenti.</string>
+    <string name="cpu_error_readback">I valori richiesti non sono rimasti applicati. Un componente di sistema potrebbe averli cambiati. L’app ha tentato di ripristinare i valori precedenti.</string>
+    <string name="cpu_error_rollback">%1$s Non è stato possibile ripristinare tutti i valori precedenti. Controlla i valori qui sotto oppure riavvia.</string>
+    <string name="cpu_frequency_mhz">%1$d MHz</string>
+    <string name="cpu_little_short">Cortex-A55</string>
+    <string name="cpu_big_short">Cortex-A78</string>
+    <string name="cpu_lock_info_title">Mantieni i tuoi limiti CPU</string>
+    <string name="cpu_lock_info">Quando il kernel lo supporta, applicare un intervallo lo blocca. Android non può sostituirlo finché non rilasci il blocco. Possono essere superati anche i limiti termici software della CPU; restano i vincoli hardware. Il riavvio rilascia i blocchi.</string>
+    <string name="cpu_kernel_required">Serve il kernel aggiornato</string>
+    <string name="cpu_kernel_required_summary">Questo kernel non offre il blocco delle frequenze. Installa il kernel con il supporto Galaxian Parts per forzare i limiti. Fino ad allora le modifiche sono temporanee.</string>
+    <string name="cpu_range_title">Intervallo di frequenze</string>
+    <string name="cpu_range_value">%1$s – %2$s</string>
+    <string name="cpu_force_title">Blocca questi limiti</string>
+    <string name="cpu_force_active">Android non può sostituire questo intervallo. Disattiva per restituire il controllo al sistema.</string>
+    <string name="cpu_force_inactive">Android può modificare i limiti. Attiva per mantenere l’intervallo visualizzato.</string>
+    <string name="cpu_apply_lock">Applica e blocca</string>
+    <string name="cpu_apply_temporary">Applica temporaneamente</string>
+    <string name="cpu_apply_lock_summary">L’intervallo resta bloccato fino al rilascio o al riavvio. Può superare i limiti termici software della CPU.</string>
+    <string name="cpu_apply_temporary_summary">Il kernel non supporta il blocco delle frequenze. Android può sostituire un intervallo temporaneo.</string>
+    <string name="cpu_verified">Modifica applicata e verificata.</string>
+    <string name="cpu_restore_action">Ripristina</string>
+</resources>

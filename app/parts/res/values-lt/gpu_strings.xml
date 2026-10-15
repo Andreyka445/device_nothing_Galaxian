@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU valdymas</string>
+    <string name="gpu_home_summary">GPU dažnis, minimali ir maksimali ribos bei automatinis valdymas.</string>
+    <string name="gpu_current_frequency">Dabartinis dažnis</string>
+    <string name="gpu_requested_frequency">Fiksuotas dažnio nustatymas</string>
+    <string name="gpu_loading">Skaitoma GPU būsena…</string>
+    <string name="gpu_unavailable">"Nepasiekiamas"</string>
+    <string name="gpu_idle">Tuščia eiga</string>
+    <string name="gpu_control_state">Dažnio valdymas</string>
+    <string name="gpu_mode_automatic">Automatinis</string>
+    <string name="gpu_mode_fixed">Fiksuotas dažnis</string>
+    <string name="gpu_mode_unknown">Nežinoma</string>
+    <string name="gpu_control_unavailable">Dažnio valdymas nepasiekiamas. Rodmenys rodomi, kai vairuotojas juos pateikia.</string>
+    <string name="gpu_supported_frequencies">Palaikomi dažniai</string>
+    <string name="gpu_frequency_count">Įrenginio pranešami dažnio žingsniai: %1$d</string>
+    <string name="gpu_choose_frequency">Nustatykite fiksuotą dažnį</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Pasirinkite dažnį, kurį praneša šis įrenginys. Fiksuotas dažnis gali padidinti energijos suvartojimą ir temperatūrą. Nustatymas taikomas, kai GPU yra aktyvus; GPU vis tiek gali išsijungti, kai neveikia. Fiksuotas režimas gali apeiti programinės įrangos nustatytus temperatūrinius GPU dažnio apribojimus.</string>
+    <string name="gpu_apply_fixed">Taikykite fiksuotą dažnį</string>
+    <string name="gpu_restore_automatic">Atkurti automatinį valdymą</string>
+    <string name="gpu_restore_summary">Pašalinkite rankines GPU dažnio ribas ir fiksuotą režimą, kad sistema vėl parinktų dažnį.</string>
+    <string name="gpu_restore_action">"Atkurti"</string>
+    <string name="gpu_session_title">Rankiniai GPU nustatymai</string>
+    <string name="gpu_session_summary">Paleidus iš naujo atkuriamas automatinis GPU valdymas. Šie valdikliai nekeičia CPU nustatymų. Pageidaujamos ir faktinės dažnio ribos rodomos atskirai; dabartinį dažnį pateikia tvarkyklė.</string>
+    <string name="gpu_operation_title">Paskutinė operacija</string>
+    <string name="gpu_applying">Taikomas ir tikrinamas pakeitimas…</string>
+    <string name="gpu_verified">Pakeitimas pritaikytas ir patvirtintas.</string>
+    <string name="gpu_error_unavailable">Prašomas valdiklis GPU nepasiekiamas. Iš naujo atidarykite šį puslapį ir bandykite dar kartą.</string>
+    <string name="gpu_error_unsupported">Ši GPU tvarkyklė nepalaiko prašomo valdymo.</string>
+    <string name="gpu_error_frequency">Šio dažnio įrenginys nebepraneša. Pasirinkite vieną iš šiuo metu galimų verčių.</string>
+    <string name="gpu_error_write">GPU vairuotojas atmetė pakeitimą. Programa bandė atkurti ankstesnį nustatymą.</string>
+    <string name="gpu_error_readback">The requested GPU setting could not be confirmed. Programa bandė atkurti ankstesnį nustatymą.</string>
+    <string name="gpu_error_rollback">%1$s Nepavyko atkurti ankstesnio GPU nustatymo. Restore automatic control or restart the phone.</string>
+    <string name="gpu_requested_range">Pageidaujamas dažnių diapazonas</string>
+    <string name="gpu_effective_range">Faktinis dažnių diapazonas</string>
+    <string name="gpu_mode_range">Dažnio ribos</string>
+    <string name="gpu_choose_range">Nustatyti dažnių diapazoną</string>
+    <string name="gpu_range_summary">Pasirinkite mažiausią ir didžiausią reikšmę iš įrenginio nurodomų dažnių. GPU gali keisti dažnį faktiniame diapazone ir išsijungti, kai neveikia. Didelis minimalus dažnis gali nepaisyti kai kurių programinių temperatūros ribų ir padidinti kaitimą bei energijos sąnaudas.</string>
+    <string name="gpu_apply_range">Taikyti diapazoną</string>
+    <string name="gpu_error_range">Minimalus dažnis negali viršyti maksimalaus.</string>
+    <string name="gpu_error_conflict">Kitas valdiklis pakeitė GPU nustatymus. Jo nustatymas paliktas nepakeistas.</string>
+    <string name="gpu_effective_summary">Pageidaujamos ribos yra jūsų nustatymai. Faktinės ribos yra diapazonas, kurį tvarkyklė taiko suderinusi visų valdiklių reikalavimus.</string>
+    <string name="gpu_legacy_fixed_summary">Aktyvus fiksuotas GPU dažnis. Pritaikius diapazoną, fiksuotas režimas išjungiamas ir GPU gali keisti dažnį tarp faktinių ribų.</string>
+    <string name="gpu_minimum_frequency">Minimalus dažnis</string>
+    <string name="gpu_maximum_frequency">Maksimalus dažnis</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Încărcare GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatură GPU</string>
+    <string name="adaptive_frames_title">Fluiditatea cadrelor</string>
+    <string name="adaptive_frames_jank">Cadre întârziate sau omise</string>
+    <string name="adaptive_frames_dropped">Cadre omise</string>
+    <string name="adaptive_frames_count">%1$d cadre observate</string>
+    <string name="adaptive_frames_timing">Țintă: %1$.0f FPS · Ecran: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Durata unui cadru (percentila 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Măsoară cadrele recente ale aplicației utilizate. Eșantionarea este parțială. Întârzierile rețelei și ale comenzilor de intrare nu sunt măsurate.</string>
+    <string name="adaptive_frames_waiting">Se așteaptă suficiente măsurători comparabile ale cadrelor înainte de a propune o modificare.</string>
+    <string name="adaptive_frames_changed">Aplicația, suprafața de randare sau temporizarea cadrelor s-au schimbat. Sunt necesare măsurători noi.</string>
+    <string name="adaptive_frames_improved">S-au măsurat mai puține cadre întârziate sau omise, în limitele testului.</string>
+    <string name="adaptive_frames_regressed">Testul nu a atins ținta de fluiditate a cadrelor.</string>
+    <string name="adaptive_frames_lower">Afișarea cadrelor este stabilă, iar încărcarea este redusă. Încercați o frecvență maximă mai mică.</string>
+    <string name="adaptive_frames_raise">S-au detectat cadre întârziate sau omise la o încărcare ridicată. Încercați o frecvență maximă mai mare.</string>
+    <string name="adaptive_gpu_boundaries">GPU poate fi ajustat doar când controlul este automat. Setările manuale CPU/GPU au prioritate.</string>
+    <string name="adaptive_trial_generic">Se testează o singură treaptă de frecvență acceptată.</string>
+    <string name="adaptive_gpu_missing">Se așteaptă valori utilizabile pentru încărcarea și temperatura GPU.</string>
+</resources>

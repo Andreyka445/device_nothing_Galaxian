@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU control</string>
+    <string name="gpu_home_summary">Frecvența GPU, limitele minimă și maximă și controlul automat.</string>
+    <string name="gpu_current_frequency">Frecvența curentă</string>
+    <string name="gpu_requested_frequency">Setare de frecvență fixă</string>
+    <string name="gpu_loading">Se citesc starea GPU...</string>
+    <string name="gpu_unavailable">"Indisponibil"</string>
+    <string name="gpu_idle">Inactiv</string>
+    <string name="gpu_control_state">Controlul frecvenței</string>
+    <string name="gpu_mode_automatic">Automat</string>
+    <string name="gpu_mode_fixed">Frecvență fixă</string>
+    <string name="gpu_mode_unknown">Necunoscut</string>
+    <string name="gpu_control_unavailable">Controlul frecvenței nu este disponibil. Valorile măsurate sunt afișate atunci când driverul le furnizează.</string>
+    <string name="gpu_supported_frequencies">Frecvențe acceptate</string>
+    <string name="gpu_frequency_count">Numărul treptelor de frecvență raportate de dispozitiv: %1$d</string>
+    <string name="gpu_choose_frequency">Setează o frecvență fixă</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Alege o frecvență raportată de acest dispozitiv. Modul cu frecvență fixă poate ocoli limitele de frecvență ale GPU impuse de software în funcție de temperatură. O frecvență fixă poate crește consumul de energie și temperatura. Setarea se aplică atunci când GPU este activ; GPU se poate opri în continuare când nu este utilizat.</string>
+    <string name="gpu_apply_fixed">Aplică frecvența fixă</string>
+    <string name="gpu_restore_automatic">Restabilește controlul automat</string>
+    <string name="gpu_restore_summary">Elimină limitele manuale de frecvență GPU și modul fix și lasă sistemul să aleagă din nou frecvența.</string>
+    <string name="gpu_restore_action">"Restabilește"</string>
+    <string name="gpu_session_title">Setări manuale GPU</string>
+    <string name="gpu_session_summary">O repornire restabilește controlul automat al GPU. Aceste comenzi nu modifică setările CPU. Limitele de frecvență solicitate și efective sunt afișate separat; frecvența curentă este furnizată de driver.</string>
+    <string name="gpu_operation_title">Ultima operatie</string>
+    <string name="gpu_applying">Se aplică și se verifică modificarea...</string>
+    <string name="gpu_verified">Modificare aplicată și verificată.</string>
+    <string name="gpu_error_unavailable">Controlul GPU solicitat nu este disponibil. Redeschide această pagină și încearcă din nou.</string>
+    <string name="gpu_error_unsupported">Acest driver GPU nu acceptă controlul solicitat.</string>
+    <string name="gpu_error_frequency">Dispozitivul nu mai raportează acea frecvență. Alege una dintre valorile disponibile în prezent.</string>
+    <string name="gpu_error_write">Driverul GPU a respins modificarea. Aplicația a încercat să restabilească setarea anterioară.</string>
+    <string name="gpu_error_readback">Setarea GPU solicitată nu a putut fi confirmată. Aplicația a încercat să restabilească setarea anterioară.</string>
+    <string name="gpu_error_rollback">%1$s Setarea GPU anterioară nu a putut fi restabilită. Restabilește controlul automat sau repornește telefonul.</string>
+    <string name="gpu_requested_range">Interval de frecvență solicitat</string>
+    <string name="gpu_effective_range">Interval de frecvență efectiv</string>
+    <string name="gpu_mode_range">Limite de frecvență</string>
+    <string name="gpu_choose_range">Setează intervalul de frecvență</string>
+    <string name="gpu_range_summary">Alege un minim și un maxim dintre frecvențele raportate de dispozitiv. GPU poate varia frecvența în intervalul efectiv și se poate opri când este inactiv. Un minim ridicat poate suprascrie unele limite termice software și poate crește încălzirea și consumul de energie.</string>
+    <string name="gpu_apply_range">Aplică intervalul</string>
+    <string name="gpu_error_range">Frecvența minimă nu poate depăși frecvența maximă.</string>
+    <string name="gpu_error_conflict">Un alt controler a modificat setările GPU. Setarea acestuia a fost păstrată neschimbată.</string>
+    <string name="gpu_effective_summary">Limitele solicitate sunt setările tale. Limitele efective sunt intervalul aplicat în prezent de driver după combinarea cererilor tuturor controlerelor.</string>
+    <string name="gpu_legacy_fixed_summary">Este activă o frecvență GPU fixă. Aplicarea unui interval dezactivează modul fix și permite GPU să varieze frecvența între limitele efective.</string>
+    <string name="gpu_minimum_frequency">Frecvența minimă</string>
+    <string name="gpu_maximum_frequency">Frecvența maximă</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

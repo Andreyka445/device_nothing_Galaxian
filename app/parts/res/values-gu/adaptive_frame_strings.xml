@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU લોડ</string>
+    <string name="adaptive_gpu_temperature">GPU તાપમાન</string>
+    <string name="adaptive_frames_title">ફ્રેમની સરળતા</string>
+    <string name="adaptive_frames_jank">મોડી પડેલી અથવા છૂટી ગયેલી ફ્રેમ</string>
+    <string name="adaptive_frames_dropped">છૂટી ગયેલી ફ્રેમ</string>
+    <string name="adaptive_frames_count">%1$d ફ્રેમનું નિરીક્ષણ કર્યું</string>
+    <string name="adaptive_frames_timing">લક્ષ્ય: %1$.0f FPS · ડિસ્પ્લે: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ફ્રેમનો સમય (95મો પર્સેન્ટાઇલ)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">વપરાતી ઍપની તાજેતરની ફ્રેમ માપે છે. નમૂના આંશિક રીતે લેવાય છે. નેટવર્ક કે ઇનપુટનો વિલંબ માપવામાં આવતો નથી.</string>
+    <string name="adaptive_frames_waiting">ફેરફાર સૂચવતા પહેલાં ફ્રેમના પૂરતા અને સરખાવી શકાય તેવા માપનની રાહ જોવાય છે.</string>
+    <string name="adaptive_frames_changed">ઍપ, રેન્ડરિંગ સપાટી અથવા ફ્રેમનો સમય બદલાયો છે. નવા માપન જરૂરી છે.</string>
+    <string name="adaptive_frames_improved">પરીક્ષણની મર્યાદામાં ઓછી મોડી પડેલી અથવા છૂટી ગયેલી ફ્રેમ માપવામાં આવી.</string>
+    <string name="adaptive_frames_regressed">પરીક્ષણ ફ્રેમની સરળતાનું લક્ષ્ય હાંસલ કરી શક્યું નહીં.</string>
+    <string name="adaptive_frames_lower">ફ્રેમનું પ્રદર્શન સ્થિર છે અને લોડ ઓછો છે. મહત્તમ આવર્તન ઘટાડીને અજમાવો.</string>
+    <string name="adaptive_frames_raise">વધુ લોડ વખતે મોડી પડેલી અથવા છૂટી ગયેલી ફ્રેમ મળી. મહત્તમ આવર્તન વધારીને અજમાવો.</string>
+    <string name="adaptive_gpu_boundaries">GPU માત્ર આપમેળે નિયંત્રણમાં હોય ત્યારે જ ગોઠવી શકાય છે. CPU/GPUના મેન્યુઅલ સેટિંગને પ્રાથમિકતા મળે છે.</string>
+    <string name="adaptive_trial_generic">સમર્થિત આવર્તનનું એક પગલું અજમાવાય છે.</string>
+    <string name="adaptive_gpu_missing">GPU લોડ અને તાપમાનના ઉપયોગમાં લઈ શકાય તેવા માપનની રાહ જોવાય છે.</string>
+</resources>

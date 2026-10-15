@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-álag</string>
+    <string name="adaptive_gpu_temperature">GPU-hitastig</string>
+    <string name="adaptive_frames_title">Mýkt ramma</string>
+    <string name="adaptive_frames_jank">Seinkaðir rammar eða rammar sem féllu út</string>
+    <string name="adaptive_frames_dropped">Rammar sem féllu út</string>
+    <string name="adaptive_frames_count">%1$d rammar skoðaðir</string>
+    <string name="adaptive_frames_timing">Markmið: %1$.0f FPS · Skjár: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Rammatími (95. hundraðshlutamark)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mælir nýlega ramma úr forritinu sem er í notkun. Úrtakið er aðeins hluti rammanna. Net- og inntaksseinkun er ekki mæld.</string>
+    <string name="adaptive_frames_waiting">Beðið er eftir nægum sambærilegum rammamælingum áður en breyting er lögð til.</string>
+    <string name="adaptive_frames_changed">Forritið, teikniflöturinn eða tímasetning ramma hefur breyst. Nýjar mælingar eru nauðsynlegar.</string>
+    <string name="adaptive_frames_improved">Færri seinkaðir rammar eða rammar sem féllu út mældust innan marka prófunarinnar.</string>
+    <string name="adaptive_frames_regressed">Prófunin náði ekki markmiðinu um mýkt ramma.</string>
+    <string name="adaptive_frames_lower">Birting ramma er stöðug og álagið lítið. Prófaðu lægri hámarkstíðni.</string>
+    <string name="adaptive_frames_raise">Seinkaðir rammar eða rammar sem féllu út greindust við mikið álag. Prófaðu hærri hámarkstíðni.</string>
+    <string name="adaptive_gpu_boundaries">Aðeins er hægt að breyta GPU-stýringu þegar hún er sjálfvirk. Handvirkar CPU/GPU-stillingar hafa forgang.</string>
+    <string name="adaptive_trial_generic">Verið er að prófa eitt studd tíðniþrep.</string>
+    <string name="adaptive_gpu_missing">Beðið er eftir nothæfum mælingum á GPU-álagi og hitastigi.</string>
+</resources>

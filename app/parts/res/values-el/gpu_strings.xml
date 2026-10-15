@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">Έλεγχος GPU</string>
+    <string name="gpu_home_summary">Συχνότητα GPU, ελάχιστα και μέγιστα όρια και αυτόματος έλεγχος.</string>
+    <string name="gpu_current_frequency">Τρέχουσα συχνότητα</string>
+    <string name="gpu_requested_frequency">Ρύθμιση σταθερής συχνότητας</string>
+    <string name="gpu_loading">Κατάσταση GPU ​​ανάγνωσης…</string>
+    <string name="gpu_unavailable">"Μη διαθέσιμη"</string>
+    <string name="gpu_idle">Αεργος</string>
+    <string name="gpu_control_state">Έλεγχος συχνότητας</string>
+    <string name="gpu_mode_automatic">Αυτόματο</string>
+    <string name="gpu_mode_fixed">Σταθερή συχνότητα</string>
+    <string name="gpu_mode_unknown">Αγνωστος</string>
+    <string name="gpu_control_unavailable">Ο έλεγχος συχνότητας δεν είναι διαθέσιμος. Οι ενδείξεις εμφανίζονται όταν τις παρέχει το πρόγραμμα οδήγησης.</string>
+    <string name="gpu_supported_frequencies">Υποστηριζόμενες συχνότητες</string>
+    <string name="gpu_frequency_count">Βήματα συχνότητας που αναφέρονται από τη συσκευή: %1$d</string>
+    <string name="gpu_choose_frequency">Ορίστε μια σταθερή συχνότητα</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Επιλέξτε μια συχνότητα που αναφέρεται από αυτήν τη συσκευή. Μια σταθερή συχνότητα μπορεί να αυξήσει τη χρήση ενέργειας και τη θερμοκρασία. Η ρύθμιση ισχύει όταν το GPU είναι ενεργό. το GPU μπορεί ακόμα να απενεργοποιηθεί όταν είναι σε αδράνεια. Η λειτουργία σταθερής συχνότητας μπορεί να παρακάμψει τα θερμικά όρια συχνότητας του GPU που επιβάλλει το λογισμικό.</string>
+    <string name="gpu_apply_fixed">Εφαρμόστε σταθερή συχνότητα</string>
+    <string name="gpu_restore_automatic">Επαναφορά αυτόματου ελέγχου</string>
+    <string name="gpu_restore_summary">Καταργήστε τα χειροκίνητα όρια συχνότητας GPU και τη σταθερή λειτουργία, ώστε το σύστημα να επιλέγει ξανά τη συχνότητα.</string>
+    <string name="gpu_restore_action">"Επαναφορά"</string>
+    <string name="gpu_session_title">Χειροκίνητες ρυθμίσεις GPU</string>
+    <string name="gpu_session_summary">Η επανεκκίνηση επαναφέρει τον αυτόματο έλεγχο GPU. Αυτά τα στοιχεία ελέγχου δεν αλλάζουν τις ρυθμίσεις CPU. Τα ζητούμενα και τα πραγματικά όρια συχνότητας εμφανίζονται ξεχωριστά· η τρέχουσα συχνότητα προέρχεται από το πρόγραμμα οδήγησης.</string>
+    <string name="gpu_operation_title">Τελευταία επέμβαση</string>
+    <string name="gpu_applying">Εφαρμογή και έλεγχος της αλλαγής…</string>
+    <string name="gpu_verified">Η αλλαγή εφαρμόστηκε και επαληθεύτηκε.</string>
+    <string name="gpu_error_unavailable">Το ζητούμενο στοιχείο ελέγχου GPU δεν είναι διαθέσιμο. Ανοίξτε ξανά αυτήν τη σελίδα και δοκιμάστε ξανά.</string>
+    <string name="gpu_error_unsupported">Αυτό το πρόγραμμα οδήγησης GPU δεν υποστηρίζει το ζητούμενο στοιχείο ελέγχου.</string>
+    <string name="gpu_error_frequency">Αυτή η συχνότητα δεν αναφέρεται πλέον από τη συσκευή. Επιλέξτε μία από τις τρέχουσες διαθέσιμες τιμές.</string>
+    <string name="gpu_error_write">Ο οδηγός GPU απέρριψε την αλλαγή. Η εφαρμογή προσπάθησε να επαναφέρει την προηγούμενη ρύθμιση.</string>
+    <string name="gpu_error_readback">Δεν ήταν δυνατή η επιβεβαίωση της ζητούμενης ρύθμισης GPU. Η εφαρμογή προσπάθησε να επαναφέρει την προηγούμενη ρύθμιση.</string>
+    <string name="gpu_error_rollback">%1$s Δεν ήταν δυνατή η επαναφορά της προηγούμενης ρύθμισης GPU. Επαναφέρετε τον αυτόματο έλεγχο ή επανεκκινήστε το τηλέφωνο.</string>
+    <string name="gpu_requested_range">Ζητούμενο εύρος συχνοτήτων</string>
+    <string name="gpu_effective_range">Πραγματικό εύρος συχνοτήτων</string>
+    <string name="gpu_mode_range">Όρια συχνότητας</string>
+    <string name="gpu_choose_range">Ορισμός εύρους συχνοτήτων</string>
+    <string name="gpu_range_summary">Επιλέξτε ελάχιστη και μέγιστη τιμή από τις συχνότητες που αναφέρει η συσκευή. Η GPU μπορεί να μεταβάλλει τη συχνότητά της εντός του πραγματικού εύρους και να απενεργοποιείται όταν είναι αδρανής. Μια υψηλή ελάχιστη τιμή μπορεί να παρακάμψει ορισμένα θερμικά όρια λογισμικού και να αυξήσει τη θερμότητα και την κατανάλωση ενέργειας.</string>
+    <string name="gpu_apply_range">Εφαρμογή εύρους</string>
+    <string name="gpu_error_range">Η ελάχιστη συχνότητα δεν μπορεί να υπερβαίνει τη μέγιστη.</string>
+    <string name="gpu_error_conflict">Ένας άλλος ελεγκτής άλλαξε τις ρυθμίσεις GPU. Η ρύθμισή του έμεινε αμετάβλητη.</string>
+    <string name="gpu_effective_summary">Τα ζητούμενα όρια είναι οι ρυθμίσεις σας. Τα πραγματικά όρια είναι το εύρος που εφαρμόζει τώρα το πρόγραμμα οδήγησης αφού συνδυάσει τις απαιτήσεις όλων των ελεγκτών.</string>
+    <string name="gpu_legacy_fixed_summary">Είναι ενεργή μια σταθερή συχνότητα GPU. Η εφαρμογή εύρους καταργεί τη σταθερή λειτουργία και επιτρέπει στην GPU να μεταβάλλει τη συχνότητά της μεταξύ των πραγματικών ορίων.</string>
+    <string name="gpu_minimum_frequency">Ελάχιστη συχνότητα</string>
+    <string name="gpu_maximum_frequency">Μέγιστη συχνότητα</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">Upravljanje GPU</string>
+    <string name="gpu_home_summary">Frekvenca GPU, najmanjša in največja meja ter samodejno upravljanje.</string>
+    <string name="gpu_current_frequency">Trenutna frekvenca</string>
+    <string name="gpu_requested_frequency">Nastavljena stalna frekvenca</string>
+    <string name="gpu_loading">Branje stanja GPU…</string>
+    <string name="gpu_unavailable">"Ni na voljo"</string>
+    <string name="gpu_idle">Mirovanje</string>
+    <string name="gpu_control_state">Upravljanje frekvence</string>
+    <string name="gpu_mode_automatic">Samodejno</string>
+    <string name="gpu_mode_fixed">Stalna frekvenca</string>
+    <string name="gpu_mode_unknown">Neznano</string>
+    <string name="gpu_control_unavailable">Upravljanje frekvence ni na voljo. Odčitki so prikazani, ko jih posreduje gonilnik.</string>
+    <string name="gpu_supported_frequencies">Podprte frekvence</string>
+    <string name="gpu_frequency_count">Število frekvenčnih stopenj, ki jih sporoča naprava: %1$d</string>
+    <string name="gpu_choose_frequency">Nastavi stalno frekvenco</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Izberite frekvenco, ki jo sporoča ta naprava. Način s stalno frekvenco lahko obide programske temperaturne omejitve frekvence GPU. Stalna frekvenca lahko poveča porabo energije in temperaturo. Nastavitev velja, ko je GPU aktiven; GPU se lahko med mirovanjem še vedno izklopi.</string>
+    <string name="gpu_apply_fixed">Uporabi stalno frekvenco</string>
+    <string name="gpu_restore_automatic">Obnovi samodejno upravljanje</string>
+    <string name="gpu_restore_summary">Odstranite ročne frekvenčne omejitve GPU in fiksni način, da sistem znova izbira frekvenco.</string>
+    <string name="gpu_restore_action">"Obnovi"</string>
+    <string name="gpu_session_title">Ročne nastavitve GPU</string>
+    <string name="gpu_session_summary">Ponovni zagon obnovi samodejno upravljanje GPU. Ti kontrolniki ne spreminjajo nastavitev CPU. Zahtevane in dejanske frekvenčne meje so prikazane ločeno; trenutno frekvenco sporoča gonilnik.</string>
+    <string name="gpu_operation_title">Zadnja operacija</string>
+    <string name="gpu_applying">Uveljavljanje in preverjanje spremembe ...</string>
+    <string name="gpu_verified">Sprememba je uporabljena in preverjena.</string>
+    <string name="gpu_error_unavailable">Zahtevano upravljanje GPU ni na voljo. Znova odprite to stran in poskusite ponovno.</string>
+    <string name="gpu_error_unsupported">Ta gonilnik GPU ne podpira zahtevanega upravljanja.</string>
+    <string name="gpu_error_frequency">Naprava te frekvence ne sporoča več. Izberite eno od trenutno razpoložljivih vrednosti.</string>
+    <string name="gpu_error_write">Gonilnik GPU je zavrnil spremembo. Aplikacija je poskusila obnoviti prejšnjo nastavitev.</string>
+    <string name="gpu_error_readback">Zahtevane nastavitve GPU ni bilo mogoče potrditi. Aplikacija je poskusila obnoviti prejšnjo nastavitev.</string>
+    <string name="gpu_error_rollback">%1$s Prejšnje nastavitve GPU ni bilo mogoče obnoviti. Obnovite samodejno upravljanje ali znova zaženite telefon.</string>
+    <string name="gpu_requested_range">Zahtevani frekvenčni razpon</string>
+    <string name="gpu_effective_range">Dejanski frekvenčni razpon</string>
+    <string name="gpu_mode_range">Frekvenčne meje</string>
+    <string name="gpu_choose_range">Nastavi frekvenčni razpon</string>
+    <string name="gpu_range_summary">Izberite najmanjšo in največjo vrednost med frekvencami, ki jih poroča naprava. GPU lahko spreminja frekvenco v dejanskem razponu in se izklopi v mirovanju. Visoka spodnja meja lahko prevlada nad nekaterimi programskimi toplotnimi omejitvami ter poveča segrevanje in porabo energije.</string>
+    <string name="gpu_apply_range">Uveljavi razpon</string>
+    <string name="gpu_error_range">Najmanjša frekvenca ne sme presegati največje.</string>
+    <string name="gpu_error_conflict">Drug krmilnik je spremenil nastavitve GPU. Njegova nastavitev je ostala nespremenjena.</string>
+    <string name="gpu_effective_summary">Zahtevane meje so vaše nastavitve. Dejanske meje so razpon, ki ga gonilnik uporablja po združitvi zahtev vseh krmilnikov.</string>
+    <string name="gpu_legacy_fixed_summary">Aktivna je fiksna frekvenca GPU. Uveljavitev razpona sprosti fiksni način in omogoči spreminjanje frekvence GPU med dejanskimi mejami.</string>
+    <string name="gpu_minimum_frequency">Najmanjša frekvenca</string>
+    <string name="gpu_maximum_frequency">Največja frekvenca</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

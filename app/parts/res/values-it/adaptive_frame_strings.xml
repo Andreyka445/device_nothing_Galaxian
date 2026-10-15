@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Carico GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatura GPU</string>
+    <string name="adaptive_frames_title">Fluidità dei frame</string>
+    <string name="adaptive_frames_jank">Frame in ritardo o scartati</string>
+    <string name="adaptive_frames_dropped">Frame scartati</string>
+    <string name="adaptive_frames_count">%1$d frame osservati</string>
+    <string name="adaptive_frames_timing">Obiettivo: %1$.0f FPS · Schermo: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Tempo dei frame (95º percentile)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Misura i frame recenti dell’app in uso. Il campionamento è parziale. Non misura i ritardi di rete o di risposta ai comandi.</string>
+    <string name="adaptive_frames_waiting">In attesa di misurazioni dei frame sufficienti e confrontabili prima di proporre una modifica.</string>
+    <string name="adaptive_frames_changed">L’app, la superficie di rendering o i tempi dei frame sono cambiati. Servono nuove misurazioni.</string>
+    <string name="adaptive_frames_improved">Sono stati misurati meno frame in ritardo o scartati, entro i limiti della prova.</string>
+    <string name="adaptive_frames_regressed">La prova non ha raggiunto l’obiettivo di fluidità dei frame.</string>
+    <string name="adaptive_frames_lower">I frame sono fluidi e il carico è basso. Si propone una frequenza massima inferiore.</string>
+    <string name="adaptive_frames_raise">Sono stati rilevati frame in ritardo o scartati con un carico elevato. Si propone una frequenza massima superiore.</string>
+    <string name="adaptive_gpu_boundaries">La GPU può essere regolata solo se il controllo è automatico. Le impostazioni manuali CPU/GPU hanno la precedenza.</string>
+    <string name="adaptive_trial_generic">Prova di un solo livello di frequenza supportato.</string>
+    <string name="adaptive_gpu_missing">In attesa di letture utilizzabili del carico e della temperatura GPU.</string>
+</resources>

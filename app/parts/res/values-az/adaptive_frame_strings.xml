@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU yükü</string>
+    <string name="adaptive_gpu_temperature">GPU temperaturu</string>
+    <string name="adaptive_frames_title">Kadrların axıcılığı</string>
+    <string name="adaptive_frames_jank">Gecikmiş və ya atılmış kadrlar</string>
+    <string name="adaptive_frames_dropped">Atılmış kadrlar</string>
+    <string name="adaptive_frames_count">%1$d kadr müşahidə edilib</string>
+    <string name="adaptive_frames_timing">Hədəf: %1$.0f FPS · Ekran: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Kadr müddəti (95-ci persentil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">İstifadə olunan tətbiqin son kadrlarını ölçür. Yalnız qismən nümunələr götürülür. Şəbəkə və daxiletmə gecikmələri ölçülmür.</string>
+    <string name="adaptive_frames_waiting">Dəyişiklik təklif etməzdən əvvəl kifayət qədər müqayisə edilə bilən kadr ölçmələri gözlənilir.</string>
+    <string name="adaptive_frames_changed">Tətbiq, təsvir səthi və ya kadr vaxtları dəyişib. Yeni ölçmələr lazımdır.</string>
+    <string name="adaptive_frames_improved">Sınaq hədləri daxilində daha az gecikmiş və ya atılmış kadr qeydə alınıb.</string>
+    <string name="adaptive_frames_regressed">Sınaq kadr axıcılığı hədəfinə çatmadı.</string>
+    <string name="adaptive_frames_lower">Kadrların göstərilməsi sabitdir və yük azdır. Daha aşağı maksimum tezliyi sınayın.</string>
+    <string name="adaptive_frames_raise">Yüksək yük altında gecikmiş və ya atılmış kadrlar aşkarlandı. Daha yüksək maksimum tezliyi sınayın.</string>
+    <string name="adaptive_gpu_boundaries">GPU yalnız avtomatik idarəetmə rejimində tənzimlənə bilər. CPU/GPU üçün əl ilə verilmiş ayarlar üstün tutulur.</string>
+    <string name="adaptive_trial_generic">Dəstəklənən tezliklərdən bir pillə sınaqdan keçirilir.</string>
+    <string name="adaptive_gpu_missing">GPU yükü və temperaturu üçün istifadə edilə bilən göstəricilər gözlənilir.</string>
+</resources>

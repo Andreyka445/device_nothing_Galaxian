@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU コントロール</string>
+    <string name="gpu_home_summary">GPU の周波数、最小値と最大値の制限、自動制御。</string>
+    <string name="gpu_current_frequency">電流周波数</string>
+    <string name="gpu_requested_frequency">固定周波数設定</string>
+    <string name="gpu_loading">GPU 状態を読み取り中…</string>
+    <string name="gpu_unavailable">"ご利用いただけません"</string>
+    <string name="gpu_idle">アイドル状態</string>
+    <string name="gpu_control_state">周波数制御</string>
+    <string name="gpu_mode_automatic">自動</string>
+    <string name="gpu_mode_fixed">固定周波数</string>
+    <string name="gpu_mode_unknown">未知</string>
+    <string name="gpu_control_unavailable">周波数制御は使用できません。測定値は、ドライバーが提供するときに表示されます。</string>
+    <string name="gpu_supported_frequencies">サポートされている周波数</string>
+    <string name="gpu_frequency_count">デバイスによって報告される周波数ステップ: %1$d</string>
+    <string name="gpu_choose_frequency">固定周波数を設定する</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">このデバイスによって報告される周波数を選択します。周波数を固定すると、電力使用量と温度が増加する可能性があります。この設定は、GPU がアクティブな間適用されます。 GPU はアイドル状態でも電源をオフにすることができます。 固定モードでは、ソフトウェアが設定する GPU の温度に応じた周波数制限を回避する場合があります。</string>
+    <string name="gpu_apply_fixed">固定周波数を適用する</string>
+    <string name="gpu_restore_automatic">自動制御を復元する</string>
+    <string name="gpu_restore_summary">GPU の手動周波数制限と固定モードを解除し、システムが再び周波数を選択するようにします。</string>
+    <string name="gpu_restore_action">"復元"</string>
+    <string name="gpu_session_title">手動GPU設定</string>
+    <string name="gpu_session_summary">再起動すると GPU の自動制御に戻ります。これらの操作で CPU の設定は変わりません。要求した周波数制限と実際に適用される制限は別々に表示され、現在の周波数はドライバーから取得します。</string>
+    <string name="gpu_operation_title">最後の操作</string>
+    <string name="gpu_applying">変更を適用して確認しています…</string>
+    <string name="gpu_verified">変更が適用され、確認されました。</string>
+    <string name="gpu_error_unavailable">要求された GPU コントロールは使用できません。このページを再度開いて、再試行してください。</string>
+    <string name="gpu_error_unsupported">この GPU ドライバーは、要求されたコントロールをサポートしていません。</string>
+    <string name="gpu_error_frequency">その周波数はデバイスによって報告されなくなりました。現在使用可能な値のいずれかを選択します。</string>
+    <string name="gpu_error_write">GPU ドライバーは変更を拒否しました。アプリは以前の設定を復元しようとしました。</string>
+    <string name="gpu_error_readback">要求されたGPU設定が確認できませんでした。アプリは以前の設定を復元しようとしました。</string>
+    <string name="gpu_error_rollback">%1$s 以前の GPU 設定を復元できませんでした。自動制御を復元するか、電話機を再起動します。</string>
+    <string name="gpu_minimum_frequency">最小周波数</string>
+    <string name="gpu_maximum_frequency">最大周波数</string>
+    <string name="gpu_requested_range">要求した周波数範囲</string>
+    <string name="gpu_effective_range">実際に適用される周波数範囲</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">範囲制限</string>
+    <string name="gpu_choose_range">周波数範囲を設定</string>
+    <string name="gpu_range_summary">このデバイスが報告する周波数から最小値と最大値を選択します。GPU は実際に適用される範囲内で周波数を調整し、アイドル時には電源をオフにできます。最小値を高くすると、一部のソフトウェアによる熱制限より優先され、発熱や消費電力が増える場合があります。</string>
+    <string name="gpu_apply_range">範囲を適用</string>
+    <string name="gpu_error_range">最小周波数は最大周波数以下にしてください。</string>
+    <string name="gpu_error_conflict">別のコントローラーが GPU の設定を変更しました。その設定は変更せずに維持しました。</string>
+    <string name="gpu_effective_summary">要求した制限はユーザーの設定値です。実際に適用される制限は、すべてのコントローラーの要求を統合した後にドライバーが適用している範囲です。</string>
+    <string name="gpu_legacy_fixed_summary">GPU の周波数が固定されています。範囲を適用すると固定モードを解除し、GPU が実際の制限内で周波数を調整できるようになります。</string>
+</resources>

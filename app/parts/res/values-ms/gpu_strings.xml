@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU kawalan</string>
+    <string name="gpu_home_summary">Frekuensi GPU, had minimum dan maksimum serta kawalan automatik.</string>
+    <string name="gpu_current_frequency">Kekerapan semasa</string>
+    <string name="gpu_requested_frequency">Tetapan kekerapan tetap</string>
+    <string name="gpu_loading">Membaca GPU nyatakan…</string>
+    <string name="gpu_unavailable">"Tiada"</string>
+    <string name="gpu_idle">terbiar</string>
+    <string name="gpu_control_state">Kawalan kekerapan</string>
+    <string name="gpu_mode_automatic">Automatik</string>
+    <string name="gpu_mode_fixed">Kekerapan tetap</string>
+    <string name="gpu_mode_unknown">Tidak diketahui</string>
+    <string name="gpu_control_unavailable">Kawalan kekerapan tidak tersedia. Bacaan ditunjukkan apabila pemandu menyediakannya.</string>
+    <string name="gpu_supported_frequencies">Frekuensi yang disokong</string>
+    <string name="gpu_frequency_count">Langkah kekerapan yang dilaporkan oleh peranti: %1$d</string>
+    <string name="gpu_choose_frequency">Tetapkan frekuensi tetap</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Pilih kekerapan yang dilaporkan oleh peranti ini. Frekuensi tetap boleh meningkatkan penggunaan kuasa dan suhu. Tetapan digunakan semasa GPU aktif; GPU masih boleh mati apabila melahu. Mod tetap boleh memintas had frekuensi terma GPU yang ditetapkan oleh perisian.</string>
+    <string name="gpu_apply_fixed">Gunakan frekuensi tetap</string>
+    <string name="gpu_restore_automatic">Pulihkan kawalan automatik</string>
+    <string name="gpu_restore_summary">Lepaskan had frekuensi GPU manual dan mod tetap, lalu biarkan sistem memilih frekuensi semula.</string>
+    <string name="gpu_restore_action">"Pulihkan"</string>
+    <string name="gpu_session_title">Tetapan GPU manual</string>
+    <string name="gpu_session_summary">Mula semula memulihkan kawalan GPU automatik. Kawalan ini tidak mengubah tetapan CPU. Had frekuensi yang diminta dan berkesan dipaparkan secara berasingan; frekuensi semasa diperoleh daripada pemacu.</string>
+    <string name="gpu_operation_title">Operasi terakhir</string>
+    <string name="gpu_applying">Memohon dan menyemak perubahan…</string>
+    <string name="gpu_verified">Perubahan digunakan dan disahkan.</string>
+    <string name="gpu_error_unavailable">Kawalan GPU yang diminta tidak tersedia. Buka semula halaman ini dan cuba lagi.</string>
+    <string name="gpu_error_unsupported">Pemandu GPU ini tidak menyokong kawalan yang diminta.</string>
+    <string name="gpu_error_frequency">Kekerapan itu tidak lagi dilaporkan oleh peranti. Pilih salah satu daripada nilai yang tersedia pada masa ini.</string>
+    <string name="gpu_error_write">Pemandu GPU menolak perubahan itu. Apl cuba memulihkan tetapan sebelumnya.</string>
+    <string name="gpu_error_readback">Tetapan GPU yang diminta tidak dapat disahkan. Apl cuba memulihkan tetapan sebelumnya.</string>
+    <string name="gpu_error_rollback">%1$s Tetapan GPU sebelumnya tidak dapat dipulihkan. Pulihkan kawalan automatik atau mulakan semula telefon.</string>
+    <string name="gpu_requested_range">Julat frekuensi yang diminta</string>
+    <string name="gpu_effective_range">Julat frekuensi berkesan</string>
+    <string name="gpu_mode_range">Had frekuensi</string>
+    <string name="gpu_choose_range">Tetapkan julat frekuensi</string>
+    <string name="gpu_range_summary">Pilih nilai minimum dan maksimum daripada frekuensi yang dilaporkan oleh peranti ini. GPU boleh berubah dalam julat berkesan dan dimatikan apabila melahu. Nilai minimum yang tinggi boleh mengatasi sesetengah had terma perisian dan meningkatkan haba serta penggunaan kuasa.</string>
+    <string name="gpu_apply_range">Terapkan julat</string>
+    <string name="gpu_error_range">Frekuensi minimum tidak boleh melebihi frekuensi maksimum.</string>
+    <string name="gpu_error_conflict">Pengawal lain telah mengubah tetapan GPU. Tetapannya dikekalkan tanpa perubahan.</string>
+    <string name="gpu_effective_summary">Had yang diminta ialah tetapan anda. Had berkesan ialah julat yang sedang diterapkan oleh pemacu selepas menggabungkan semua pengawal.</string>
+    <string name="gpu_legacy_fixed_summary">Frekuensi GPU tetap sedang aktif. Menerapkan julat akan melepaskan mod tetap dan membolehkan GPU berubah antara had berkesan.</string>
+    <string name="gpu_minimum_frequency">Kekerapan minimum</string>
+    <string name="gpu_maximum_frequency">Kekerapan maksimum</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-belastning</string>
+    <string name="adaptive_gpu_temperature">GPU-temperatur</string>
+    <string name="adaptive_frames_title">Jevn bildeflyt</string>
+    <string name="adaptive_frames_jank">Forsinkede eller droppede bilder</string>
+    <string name="adaptive_frames_dropped">Droppede bilder</string>
+    <string name="adaptive_frames_count">%1$d bilder observert</string>
+    <string name="adaptive_frames_timing">Mål: %1$.0f FPS · Skjerm: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Bildetid (95. persentil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Måler nylige bilder fra appen som er i bruk. Utvalget er delvis. Forsinkelse i nettverk og inndata måles ikke.</string>
+    <string name="adaptive_frames_waiting">Venter på nok sammenlignbare bildemålinger før en endring foreslås.</string>
+    <string name="adaptive_frames_changed">Appen, tegneflaten eller bildetidene har endret seg. Nye målinger er nødvendige.</string>
+    <string name="adaptive_frames_improved">Det ble målt færre forsinkede eller droppede bilder innenfor grensene for forsøket.</string>
+    <string name="adaptive_frames_regressed">Forsøket nådde ikke målet for jevn bildeflyt.</string>
+    <string name="adaptive_frames_lower">Bildene vises jevnt, og belastningen er lav. Prøv en lavere maksimal frekvens.</string>
+    <string name="adaptive_frames_raise">Forsinkede eller droppede bilder ble oppdaget ved høy belastning. Prøv en høyere maksimal frekvens.</string>
+    <string name="adaptive_gpu_boundaries">GPU-en kan bare justeres når den styres automatisk. Manuelle CPU/GPU-innstillinger har prioritet.</string>
+    <string name="adaptive_trial_generic">Tester ett støttet frekvenstrinn.</string>
+    <string name="adaptive_gpu_missing">Venter på brukbare målinger av GPU-belastning og temperatur.</string>
+</resources>

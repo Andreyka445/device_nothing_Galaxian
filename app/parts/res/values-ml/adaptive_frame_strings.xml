@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU ലോഡ്</string>
+    <string name="adaptive_gpu_temperature">GPU താപനില</string>
+    <string name="adaptive_frames_title">ഫ്രെയിമുകളുടെ സുഗമത</string>
+    <string name="adaptive_frames_jank">വൈകിയതോ നഷ്ടപ്പെട്ടതോ ആയ ഫ്രെയിമുകൾ</string>
+    <string name="adaptive_frames_dropped">നഷ്ടപ്പെട്ട ഫ്രെയിമുകൾ</string>
+    <string name="adaptive_frames_count">%1$d ഫ്രെയിമുകൾ നിരീക്ഷിച്ചു</string>
+    <string name="adaptive_frames_timing">ലക്ഷ്യം: %1$.0f FPS · ഡിസ്‌പ്ലേ: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ഫ്രെയിം സമയം (95-ാം പെർസെന്റൈൽ)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">ഉപയോഗിക്കുന്ന ആപ്പിലെ സമീപകാല ഫ്രെയിമുകൾ അളക്കുന്നു. സാമ്പിൾ ശേഖരണം ഭാഗികമാണ്. നെറ്റ്‌വർക്ക്, ഇൻപുട്ട് കാലതാമസങ്ങൾ അളക്കുന്നില്ല.</string>
+    <string name="adaptive_frames_waiting">മാറ്റം നിർദേശിക്കുന്നതിന് മുമ്പ് താരതമ്യം ചെയ്യാവുന്ന മതിയായ ഫ്രെയിം അളവുകൾക്കായി കാത്തിരിക്കുന്നു.</string>
+    <string name="adaptive_frames_changed">ആപ്പ്, റെൻഡറിംഗ് പ്രതലം അല്ലെങ്കിൽ ഫ്രെയിം സമയക്രമം മാറി. പുതിയ അളവുകൾ ആവശ്യമാണ്.</string>
+    <string name="adaptive_frames_improved">പരീക്ഷണത്തിന്റെ പരിധികൾ പാലിച്ചുകൊണ്ട് വൈകിയതോ നഷ്ടപ്പെട്ടതോ ആയ ഫ്രെയിമുകൾ കുറഞ്ഞതായി അളന്നു.</string>
+    <string name="adaptive_frames_regressed">പരീക്ഷണം ഫ്രെയിമുകളുടെ സുഗമതയുടെ ലക്ഷ്യം കൈവരിച്ചില്ല.</string>
+    <string name="adaptive_frames_lower">ഫ്രെയിം വിതരണം സ്ഥിരമാണ്, ലോഡ് കുറവാണ്. പരമാവധി ആവൃത്തി കുറച്ച് പരീക്ഷിക്കുക.</string>
+    <string name="adaptive_frames_raise">ഉയർന്ന ലോഡിൽ വൈകിയതോ നഷ്ടപ്പെട്ടതോ ആയ ഫ്രെയിമുകൾ കണ്ടെത്തി. പരമാവധി ആവൃത്തി കൂട്ടി പരീക്ഷിക്കുക.</string>
+    <string name="adaptive_gpu_boundaries">സ്വയമേവയുള്ള GPU നിയന്ത്രണം മാത്രമേ ക്രമീകരിക്കാനാകൂ. നേരിട്ട് സജ്ജമാക്കിയ CPU/GPU ക്രമീകരണങ്ങൾക്ക് മുൻഗണനയുണ്ട്.</string>
+    <string name="adaptive_trial_generic">പിന്തുണയ്ക്കുന്ന ആവൃത്തിയുടെ ഒരു ഘട്ടം മാത്രം പരീക്ഷിക്കുന്നു.</string>
+    <string name="adaptive_gpu_missing">ഉപയോഗിക്കാവുന്ന GPU ലോഡ്, താപനില റീഡിംഗുകൾക്കായി കാത്തിരിക്കുന്നു.</string>
+</resources>

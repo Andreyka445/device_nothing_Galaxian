@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-belastning</string>
+    <string name="adaptive_gpu_temperature">GPU-temperatur</string>
+    <string name="adaptive_frames_title">Jamn biletflyt</string>
+    <string name="adaptive_frames_jank">Forseinka eller droppa bilete</string>
+    <string name="adaptive_frames_dropped">Droppa bilete</string>
+    <string name="adaptive_frames_count">%1$d bilete observerte</string>
+    <string name="adaptive_frames_timing">Mål: %1$.0f FPS · Skjerm: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Bilettid (95. persentil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Måler nylege bilete frå appen som er i bruk. Utvalet er delvis. Forseinking i nettverk og inndata vert ikkje målt.</string>
+    <string name="adaptive_frames_waiting">Ventar på nok samanliknbare biletmålingar før ei endring vert føreslått.</string>
+    <string name="adaptive_frames_changed">Appen, teikneflata eller bilettidene har endra seg. Det trengst nye målingar.</string>
+    <string name="adaptive_frames_improved">Det vart målt færre forseinka eller droppa bilete innanfor grensene for forsøket.</string>
+    <string name="adaptive_frames_regressed">Forsøket nådde ikkje målet for jamn biletflyt.</string>
+    <string name="adaptive_frames_lower">Bileta vert viste jamt, og belastninga er låg. Prøv ein lågare maksimal frekvens.</string>
+    <string name="adaptive_frames_raise">Forseinka eller droppa bilete vart oppdaga ved høg belastning. Prøv ein høgare maksimal frekvens.</string>
+    <string name="adaptive_gpu_boundaries">GPU-en kan berre justerast når han vert styrt automatisk. Manuelle CPU/GPU-innstillingar har prioritet.</string>
+    <string name="adaptive_trial_generic">Testar eitt støtta frekvenssteg.</string>
+    <string name="adaptive_gpu_missing">Ventar på brukbare målingar av GPU-belastning og temperatur.</string>
+</resources>

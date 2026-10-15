@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-এর লোড</string>
+    <string name="adaptive_gpu_temperature">GPU-এর তাপমাত্রা</string>
+    <string name="adaptive_frames_title">ফ্রেমের মসৃণতা</string>
+    <string name="adaptive_frames_jank">দেরি হওয়া বা বাদ পড়া ফ্রেম</string>
+    <string name="adaptive_frames_dropped">বাদ পড়া ফ্রেম</string>
+    <string name="adaptive_frames_count">%1$dটি ফ্রেম পর্যবেক্ষণ করা হয়েছে</string>
+    <string name="adaptive_frames_timing">লক্ষ্য: %1$.0f FPS · ডিসপ্লে: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ফ্রেমের সময় (৯৫তম পার্সেন্টাইল)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">ব্যবহৃত অ্যাপের সাম্প্রতিক ফ্রেমগুলো মাপে। নমুনা সংগ্রহ আংশিক। নেটওয়ার্ক ও ইনপুটের বিলম্ব মাপা হয় না।</string>
+    <string name="adaptive_frames_waiting">পরিবর্তনের প্রস্তাব দেওয়ার আগে পর্যাপ্ত তুলনাযোগ্য ফ্রেমের পরিমাপের জন্য অপেক্ষা করছে।</string>
+    <string name="adaptive_frames_changed">অ্যাপ, রেন্ডারিং সারফেস বা ফ্রেমের সময় বদলেছে। নতুন পরিমাপ প্রয়োজন।</string>
+    <string name="adaptive_frames_improved">পরীক্ষার সীমার মধ্যে দেরি হওয়া বা বাদ পড়া ফ্রেম কম পাওয়া গেছে।</string>
+    <string name="adaptive_frames_regressed">পরীক্ষাটি ফ্রেমের মসৃণতার লক্ষ্য পূরণ করেনি।</string>
+    <string name="adaptive_frames_lower">ফ্রেম প্রদর্শন স্থিতিশীল এবং লোড কম। সর্বোচ্চ ফ্রিকোয়েন্সি কমিয়ে দেখুন।</string>
+    <string name="adaptive_frames_raise">বেশি লোডে দেরি হওয়া বা বাদ পড়া ফ্রেম শনাক্ত হয়েছে। সর্বোচ্চ ফ্রিকোয়েন্সি বাড়িয়ে দেখুন।</string>
+    <string name="adaptive_gpu_boundaries">শুধু স্বয়ংক্রিয় GPU নিয়ন্ত্রণ সামঞ্জস্য করা যায়। হাতে করা CPU/GPU সেটিংস অগ্রাধিকার পায়।</string>
+    <string name="adaptive_trial_generic">সমর্থিত ফ্রিকোয়েন্সির একটি ধাপ পরীক্ষা করা হচ্ছে।</string>
+    <string name="adaptive_gpu_missing">GPU-এর লোড ও তাপমাত্রার ব্যবহারযোগ্য রিডিংয়ের জন্য অপেক্ষা করছে।</string>
+</resources>

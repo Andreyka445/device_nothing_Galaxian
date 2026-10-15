@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU кантроль</string>
+    <string name="gpu_home_summary">Частата GPU, мінімальная і максімальная межы і аўтаматычнае кіраванне.</string>
+    <string name="gpu_current_frequency">Частата току</string>
+    <string name="gpu_requested_frequency">Фіксаваная налада частоты</string>
+    <string name="gpu_loading">Чытанне стану GPU...</string>
+    <string name="gpu_unavailable">"Недаступна"</string>
+    <string name="gpu_idle">Бяздзейны</string>
+    <string name="gpu_control_state">Рэгуляванне частоты</string>
+    <string name="gpu_mode_automatic">Аўтаматычны</string>
+    <string name="gpu_mode_fixed">Фіксаваная частата</string>
+    <string name="gpu_mode_unknown">Невядомы</string>
+    <string name="gpu_control_unavailable">Кантроль частоты недаступны. Паказанні паказваюцца, калі іх дае кіроўца.</string>
+    <string name="gpu_supported_frequencies">Падтрымліваюцца частоты</string>
+    <string name="gpu_frequency_count">Крокі частаты, якія паведамляе прылада: %1$d</string>
+    <string name="gpu_choose_frequency">Усталюйце фіксаваную частату</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Выберыце частату, якую паведамляе гэтая прылада. Фіксаваная частата можа павялічыць спажыванне энергіі і тэмпературу. Налада прымяняецца, калі GPU актыўны; GPU можа адключацца ў рэжыме чакання. Фіксаваны рэжым можа абыходзіць праграмныя тэмпературныя абмежаванні частаты GPU.</string>
+    <string name="gpu_apply_fixed">Прымяніць фіксаваную частату</string>
+    <string name="gpu_restore_automatic">Аднавіць аўтаматычнае кіраванне</string>
+    <string name="gpu_restore_summary">Зняць ручныя абмежаванні частаты GPU і фіксаваны рэжым, каб сістэма зноў выбірала частату.</string>
+    <string name="gpu_restore_action">"Аднавіць"</string>
+    <string name="gpu_session_title">Ручныя налады GPU</string>
+    <string name="gpu_session_summary">Перазапуск аднаўляе аўтаматычнае кіраванне GPU. Гэтыя элементы кіравання не змяняюць налады CPU. Запытаныя і фактычныя межы частаты паказваюцца асобна; бягучая частата атрымліваецца ад драйвера.</string>
+    <string name="gpu_operation_title">Апошняя аперацыя</string>
+    <string name="gpu_applying">Прымяненне і праверка змены…</string>
+    <string name="gpu_verified">Змена прыменена і праверана.</string>
+    <string name="gpu_error_unavailable">Запытаны элемент кіравання GPU недаступны. Паўторна адкрыйце гэту старонку і паўтарыце спробу.</string>
+    <string name="gpu_error_unsupported">Гэты драйвер GPU не падтрымлівае запытаны элемент кіравання.</string>
+    <string name="gpu_error_frequency">Гэтая частата больш не паведамляецца прыладай. Выберыце адно з даступных на дадзены момант значэнняў.</string>
+    <string name="gpu_error_write">Драйвер GPU адхіліў змены. Прыкладанне спрабавала аднавіць папярэднія налады.</string>
+    <string name="gpu_error_readback">Запытаны параметр GPU не можа быць пацверджаны. Прыкладанне спрабавала аднавіць папярэднія налады.</string>
+    <string name="gpu_error_rollback">%1$s Папярэдняя налада GPU не можа быць адноўлена. Аднавіце аўтаматычнае кіраванне або перазагрузіце тэлефон.</string>
+    <string name="gpu_minimum_frequency">Мінімальная частата</string>
+    <string name="gpu_maximum_frequency">Максімальная частата</string>
+    <string name="gpu_requested_range">Запытаны дыяпазон частот</string>
+    <string name="gpu_effective_range">Фактычны дыяпазон частот</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Межы дыяпазону</string>
+    <string name="gpu_choose_range">Задаць дыяпазон частот</string>
+    <string name="gpu_range_summary">Выберыце мінімальную і максімальную частату з частот, якія паведамляе прылада. GPU можа змяняць частату ў фактычным дыяпазоне і адключацца пры прастоі. Высокі мінімум можа пераважыць некаторыя праграмныя цеплавыя абмежаванні і павялічыць нагрэў і энергаспажыванне.</string>
+    <string name="gpu_apply_range">Ужыць дыяпазон</string>
+    <string name="gpu_error_range">Мінімальная частата не можа перавышаць максімальную.</string>
+    <string name="gpu_error_conflict">Іншы кантролер змяніў налады GPU. Яго налада пакінута без змяненняў.</string>
+    <string name="gpu_effective_summary">Запытаныя межы — гэта вашы налады. Фактычныя межы — дыяпазон, які драйвер ужывае пасля ўліку ўсіх кантролераў.</string>
+    <string name="gpu_legacy_fixed_summary">Уключана фіксаваная частата GPU. Ужыванне дыяпазону выключае фіксаваны рэжым і дазваляе GPU змяняць частату ў фактычных межах.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU жүктемесі</string>
+    <string name="adaptive_gpu_temperature">GPU температурасы</string>
+    <string name="adaptive_frames_title">Кадрлардың бірқалыптылығы</string>
+    <string name="adaptive_frames_jank">Кешіккен немесе түсіп қалған кадрлар</string>
+    <string name="adaptive_frames_dropped">Түсіп қалған кадрлар</string>
+    <string name="adaptive_frames_count">%1$d кадр бақыланды</string>
+    <string name="adaptive_frames_timing">Мақсат: %1$.0f FPS · Экран: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Кадр уақыты (95-процентиль)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Қолданыстағы қолданбаның соңғы кадрларын өлшейді. Іріктеу ішінара жасалады. Желі мен енгізу кідірісі өлшенбейді.</string>
+    <string name="adaptive_frames_waiting">Өзгерісті ұсынбас бұрын кадрлардың салыстыруға болатын жеткілікті өлшемдері күтілуде.</string>
+    <string name="adaptive_frames_changed">Қолданба, бейнелеу беті немесе кадр уақыты өзгерді. Жаңа өлшемдер қажет.</string>
+    <string name="adaptive_frames_improved">Сынақ шектерінде кешіккен немесе түсіп қалған кадрлардың азайғаны өлшенді.</string>
+    <string name="adaptive_frames_regressed">Сынақ кадрлардың бірқалыптылығы мақсатына жетпеді.</string>
+    <string name="adaptive_frames_lower">Кадрлардың берілуі тұрақты, жүктеме төмен. Төменірек ең жоғары жиілікті байқап көріңіз.</string>
+    <string name="adaptive_frames_raise">Жоғары жүктеме кезінде кешіккен немесе түсіп қалған кадрлар анықталды. Жоғарырақ ең жоғары жиілікті байқап көріңіз.</string>
+    <string name="adaptive_gpu_boundaries">Тек автоматты GPU басқаруын реттеуге болады. CPU/GPU қолмен орнатылған параметрлері басымдыққа ие.</string>
+    <string name="adaptive_trial_generic">Қолдау көрсетілетін жиіліктің бір сатысы сыналуда.</string>
+    <string name="adaptive_gpu_missing">GPU жүктемесі мен температурасының жарамды көрсеткіштері күтілуде.</string>
+</resources>

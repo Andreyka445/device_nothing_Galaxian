@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">Obremenitev GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatura GPU</string>
+    <string name="adaptive_frames_title">Tekočnost sličic</string>
+    <string name="adaptive_frames_jank">Pozne ali izpuščene sličice</string>
+    <string name="adaptive_frames_dropped">Izpuščene sličice</string>
+    <string name="adaptive_frames_count">Opazovane sličice: %1$d</string>
+    <string name="adaptive_frames_timing">Cilj: %1$.0f FPS · Zaslon: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Čas sličice (95. percentil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Meri nedavne sličice trenutno uporabljene aplikacije. Vzorčenje je delno. Omrežna in vhodna zakasnitev se ne merita.</string>
+    <string name="adaptive_frames_waiting">Pred predlaganjem spremembe čaka na dovolj primerljivih meritev sličic.</string>
+    <string name="adaptive_frames_changed">Aplikacija, izrisovalna površina ali časovni potek sličic se je spremenil. Potrebne so nove meritve.</string>
+    <string name="adaptive_frames_improved">V mejah preizkusa je bilo izmerjenih manj poznih ali izpuščenih sličic.</string>
+    <string name="adaptive_frames_regressed">Preizkus ni dosegel cilja tekočnosti sličic.</string>
+    <string name="adaptive_frames_lower">Prikaz sličic je stabilen, obremenitev pa nizka. Poskusite z nižjo najvišjo frekvenco.</string>
+    <string name="adaptive_frames_raise">Pri visoki obremenitvi so bile zaznane pozne ali izpuščene sličice. Poskusite z višjo najvišjo frekvenco.</string>
+    <string name="adaptive_gpu_boundaries">Prilagajati je mogoče samo samodejno upravljanje GPU. Ročne nastavitve CPU/GPU imajo prednost.</string>
+    <string name="adaptive_trial_generic">Preizkušanje ene podprte frekvenčne stopnje.</string>
+    <string name="adaptive_gpu_missing">Čakanje na uporabne odčitke obremenitve in temperature GPU.</string>
+</resources>

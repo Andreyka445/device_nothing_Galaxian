@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-las</string>
+    <string name="adaptive_gpu_temperature">GPU-temperatuur</string>
+    <string name="adaptive_frames_title">Raamvloeiendheid</string>
+    <string name="adaptive_frames_jank">Laat of weggelate rame</string>
+    <string name="adaptive_frames_dropped">Weggelate rame</string>
+    <string name="adaptive_frames_count">%1$d rame waargeneem</string>
+    <string name="adaptive_frames_timing">Teiken: %1$.0f FPS · Skerm: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Raamtyd (95ste persentiel)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Meet onlangse rame van die toepassing wat gebruik word. Slegs ’n deel word bemonster. Netwerk- en invoervertraging word nie gemeet nie.</string>
+    <string name="adaptive_frames_waiting">Wag vir genoeg vergelykbare raammetings voordat ’n verandering voorgestel word.</string>
+    <string name="adaptive_frames_changed">Die toepassing, tekenoppervlak of raamtydsberekening het verander. Nuwe metings is nodig.</string>
+    <string name="adaptive_frames_improved">Minder laat of weggelate rame is binne die proef se limiete gemeet.</string>
+    <string name="adaptive_frames_regressed">Die proef het nie die teiken vir raamvloeiendheid bereik nie.</string>
+    <string name="adaptive_frames_lower">Raamlewering is stabiel en die las is laag. Probeer ’n laer maksimum frekwensie.</string>
+    <string name="adaptive_frames_raise">Laat of weggelate rame is onder hoë las waargeneem. Probeer ’n hoër maksimum frekwensie.</string>
+    <string name="adaptive_gpu_boundaries">Slegs outomatiese GPU-beheer kan aangepas word. Handmatige CPU/GPU-instellings kry voorkeur.</string>
+    <string name="adaptive_trial_generic">Toets een ondersteunde frekwensiestap.</string>
+    <string name="adaptive_gpu_missing">Wag vir bruikbare GPU-las- en temperatuurlesings.</string>
+</resources>

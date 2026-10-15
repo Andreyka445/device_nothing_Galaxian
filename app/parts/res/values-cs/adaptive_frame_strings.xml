@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">Vytížení GPU</string>
+    <string name="adaptive_gpu_temperature">Teplota GPU</string>
+    <string name="adaptive_frames_title">Plynulost snímků</string>
+    <string name="adaptive_frames_jank">Opožděné nebo zahozené snímky</string>
+    <string name="adaptive_frames_dropped">Zahozené snímky</string>
+    <string name="adaptive_frames_count">Počet sledovaných snímků: %1$d</string>
+    <string name="adaptive_frames_timing">Cíl: %1$.0f FPS · Displej: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Doba snímku (95. percentil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Měří nedávné snímky používané aplikace. Vzorkování je částečné. Zpoždění sítě ani vstupu se neměří.</string>
+    <string name="adaptive_frames_waiting">Před návrhem změny se čeká na dostatek srovnatelných měření snímků.</string>
+    <string name="adaptive_frames_changed">Aplikace, vykreslovací plocha nebo časování snímků se změnily. Jsou nutná nová měření.</string>
+    <string name="adaptive_frames_improved">V rámci limitů pokusu bylo naměřeno méně opožděných nebo zahozených snímků.</string>
+    <string name="adaptive_frames_regressed">Pokus nesplnil cíl plynulosti snímků.</string>
+    <string name="adaptive_frames_lower">Dodávání snímků je stabilní a zatížení nízké. Vyzkoušejte nižší maximální frekvenci.</string>
+    <string name="adaptive_frames_raise">Při vysokém zatížení byly zjištěny opožděné nebo zahozené snímky. Vyzkoušejte vyšší maximální frekvenci.</string>
+    <string name="adaptive_gpu_boundaries">Lze upravovat pouze automatické řízení GPU. Ruční nastavení CPU/GPU má přednost.</string>
+    <string name="adaptive_trial_generic">Testuje se jeden podporovaný stupeň frekvence.</string>
+    <string name="adaptive_gpu_missing">Čeká se na použitelné údaje o vytížení a teplotě GPU.</string>
+</resources>

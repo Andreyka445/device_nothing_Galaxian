@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU башкаруу</string>
+    <string name="gpu_home_summary">GPU жыштыгы, минималдуу жана максималдуу чектер жана автоматтык башкаруу.</string>
+    <string name="gpu_current_frequency">Учурдагы жыштык</string>
+    <string name="gpu_requested_frequency">Туруктуу жыштык орнотуу</string>
+    <string name="gpu_loading">GPU абалы окулууда…</string>
+    <string name="gpu_unavailable">"Жеткиликсиз"</string>
+    <string name="gpu_idle">Бош</string>
+    <string name="gpu_control_state">Жыштыкты көзөмөлдөө</string>
+    <string name="gpu_mode_automatic">Автоматтык</string>
+    <string name="gpu_mode_fixed">Туруктуу жыштык</string>
+    <string name="gpu_mode_unknown">Белгисиз</string>
+    <string name="gpu_control_unavailable">Жыштыктарды көзөмөлдөө жеткиликтүү эмес. Окуулар айдоочу аларды бергенде көрсөтүлөт.</string>
+    <string name="gpu_supported_frequencies">Колдоого алынган жыштыктар</string>
+    <string name="gpu_frequency_count">Түзмөк кабарлаган жыштык кадамдары: %1$d</string>
+    <string name="gpu_choose_frequency">Белгиленген жыштыкты коюңуз</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Бул түзмөк кабарлаган жыштыкты тандаңыз. Туруктуу жыштык электр энергиясын колдонууну жана температураны жогорулатат. Жөндөө GPU активдүү болгондо колдонулат; GPU бош турганда дагы эле өчүрө алат. Туруктуу режим GPU жыштыгына программалык камсыздоо койгон жылуулук чектөөлөрүн айланып өтүшү мүмкүн.</string>
+    <string name="gpu_apply_fixed">Белгиленген жыштыкты колдонуңуз</string>
+    <string name="gpu_restore_automatic">Автоматтык башкарууну калыбына келтирүү</string>
+    <string name="gpu_restore_summary">GPU жыштыгынын кол менен коюлган чектерин жана туруктуу режимин бошотуп, жыштыкты кайра системага тандатуу.</string>
+    <string name="gpu_restore_action">"Калыбына келтирүү"</string>
+    <string name="gpu_session_title">Кол менен GPU орнотуулары</string>
+    <string name="gpu_session_summary">Өчүрүп-күйгүзүү GPU автоматтык башкаруусун калыбына келтирет. Бул башкаруу каражаттары CPU жөндөөлөрүн өзгөртпөйт. Суралган жана иш жүзүндөгү жыштык чектери өзүнчө көрсөтүлөт; учурдагы жыштык драйверден алынат.</string>
+    <string name="gpu_operation_title">Акыркы операция</string>
+    <string name="gpu_applying">Өзгөртүү колдонулууда жана текшерилүүдө…</string>
+    <string name="gpu_verified">Өзгөртүү колдонулуп, текшерилди.</string>
+    <string name="gpu_error_unavailable">Суралган GPU башкаруу жеткиликтүү эмес. Бул баракты кайра ачып, кайра аракет кылыңыз.</string>
+    <string name="gpu_error_unsupported">Бул GPU драйвери суралган башкарууну колдобойт.</string>
+    <string name="gpu_error_frequency">Бул жыштык мындан ары түзмөк тарабынан билдирилбейт. Учурдагы жеткиликтүү маанилердин бирин тандаңыз.</string>
+    <string name="gpu_error_write">GPU айдоочу өзгөртүүнү четке какты. Колдонмо мурунку жөндөөнү калыбына келтирүүгө аракет кылды.</string>
+    <string name="gpu_error_readback">Суралган GPU жөндөөсү ырасталган жок. Колдонмо мурунку жөндөөнү калыбына келтирүүгө аракет кылды.</string>
+    <string name="gpu_error_rollback">%1$s Мурунку GPU жөндөөсүн калыбына келтирүү мүмкүн эмес. Автоматтык башкарууну калыбына келтириңиз же телефонду өчүрүп күйгүзүңүз.</string>
+    <string name="gpu_minimum_frequency">Минималдуу жыштык</string>
+    <string name="gpu_maximum_frequency">Максималдуу жыштык</string>
+    <string name="gpu_requested_range">Суралган жыштык аралыгы</string>
+    <string name="gpu_effective_range">Иш жүзүндөгү жыштык аралыгы</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Аралыктын чектери</string>
+    <string name="gpu_choose_range">Жыштык аралыгын коюу</string>
+    <string name="gpu_range_summary">Бул түзмөк билдирген жыштыктардан минимум менен максимумду тандаңыз. GPU жыштыкты иш жүзүндөгү аралыкта өзгөртүп, бош турганда өчө алат. Жогорку минимум айрым программалык жылуулук чектеринен үстөм болуп, ысыкты жана энергия керектөөнү көбөйтүшү мүмкүн.</string>
+    <string name="gpu_apply_range">Аралыкты колдонуу</string>
+    <string name="gpu_error_range">Минималдуу жыштык максимумдан жогору боло албайт.</string>
+    <string name="gpu_error_conflict">Башка контроллер GPU жөндөөлөрүн өзгөрттү. Анын жөндөөсү өзгөртүлбөй калтырылды.</string>
+    <string name="gpu_effective_summary">Суралган чектер — сиздин жөндөөлөрүңүз. Иш жүзүндөгү чектер — бардык контроллерлердин талаптарын бириктиргенден кийин драйвер колдонуп жаткан аралык.</string>
+    <string name="gpu_legacy_fixed_summary">GPU жыштыгы туруктуу коюлган. Аралыкты колдонуу туруктуу режимди бошотуп, GPU жыштыгын иш жүзүндөгү чектерде өзгөртүүгө мүмкүндүк берет.</string>
+</resources>

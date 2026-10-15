@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU controle</string>
+    <string name="gpu_home_summary">GPU-frequentie, minimum- en maximumlimieten en automatische regeling.</string>
+    <string name="gpu_current_frequency">Huidige frequentie</string>
+    <string name="gpu_requested_frequency">Vaste frequentie-instelling</string>
+    <string name="gpu_loading">GPU staat lezen…</string>
+    <string name="gpu_unavailable">"Niet beschikbaar"</string>
+    <string name="gpu_idle">Inactief</string>
+    <string name="gpu_control_state">Frequentiecontrole</string>
+    <string name="gpu_mode_automatic">Automatisch</string>
+    <string name="gpu_mode_fixed">Vaste frequentie</string>
+    <string name="gpu_mode_unknown">Onbekend</string>
+    <string name="gpu_control_unavailable">Frequentieregeling is niet beschikbaar. De meetwaarden worden weergegeven wanneer de chauffeur deze doorgeeft.</string>
+    <string name="gpu_supported_frequencies">Ondersteunde frequenties</string>
+    <string name="gpu_frequency_count">Frequentiestappen gerapporteerd door het apparaat: %1$d</string>
+    <string name="gpu_choose_frequency">Stel een vaste frequentie in</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Kies een frequentie die door dit apparaat wordt gerapporteerd. Een vaste frequentie kan het stroomverbruik en de temperatuur verhogen. De instelling is van toepassing zolang de GPU actief is; de GPU kan nog steeds worden uitgeschakeld als deze niet actief is. De vaste modus kan de door software ingestelde thermische frequentielimieten van de GPU omzeilen.</string>
+    <string name="gpu_apply_fixed">Vaste frequentie toepassen</string>
+    <string name="gpu_restore_automatic">Automatische controle herstellen</string>
+    <string name="gpu_restore_summary">Hef handmatige GPU-frequentielimieten en de vaste modus op, zodat het systeem de frequentie weer kiest.</string>
+    <string name="gpu_restore_action">"Herstellen"</string>
+    <string name="gpu_session_title">Handmatige GPU instellingen</string>
+    <string name="gpu_session_summary">Een herstart herstelt de automatische GPU-regeling. Deze bediening wijzigt geen CPU-instellingen. Gevraagde en effectieve frequentielimieten worden apart getoond; de huidige frequentie komt van de driver.</string>
+    <string name="gpu_operation_title">Laatste operatie</string>
+    <string name="gpu_applying">Wijziging toepassen en controleren…</string>
+    <string name="gpu_verified">Wijziging toegepast en geverifieerd.</string>
+    <string name="gpu_error_unavailable">Het gevraagde GPU-besturingselement is niet beschikbaar. Open deze pagina opnieuw en probeer het opnieuw.</string>
+    <string name="gpu_error_unsupported">Deze GPU-driver ondersteunt de gevraagde besturing niet.</string>
+    <string name="gpu_error_frequency">Die frequentie wordt niet meer gerapporteerd door het toestel. Kies een van de momenteel beschikbare waarden.</string>
+    <string name="gpu_error_write">De chauffeur GPU heeft de wijziging afgewezen. De app heeft geprobeerd de vorige instelling te herstellen.</string>
+    <string name="gpu_error_readback">De gevraagde GPU-instelling kon niet worden bevestigd. De app heeft geprobeerd de vorige instelling te herstellen.</string>
+    <string name="gpu_error_rollback">%1$s De vorige GPU-instelling kon niet worden hersteld. Herstel de automatische besturing of start de telefoon opnieuw op.</string>
+    <string name="gpu_minimum_frequency">Minimumfrequentie</string>
+    <string name="gpu_maximum_frequency">Maximumfrequentie</string>
+    <string name="gpu_requested_range">Gevraagd frequentiebereik</string>
+    <string name="gpu_effective_range">Effectief frequentiebereik</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Frequentielimieten</string>
+    <string name="gpu_choose_range">Frequentiebereik instellen</string>
+    <string name="gpu_range_summary">Kies een minimum en maximum uit de frequenties die dit apparaat rapporteert. De GPU kan binnen het effectieve bereik schakelen en uitschakelen wanneer hij inactief is. Een hoog minimum kan sommige thermische softwarelimieten overrulen en de warmteproductie en het stroomverbruik verhogen.</string>
+    <string name="gpu_apply_range">Bereik toepassen</string>
+    <string name="gpu_error_range">De minimumfrequentie mag niet hoger zijn dan de maximumfrequentie.</string>
+    <string name="gpu_error_conflict">Een andere regeling heeft de GPU-instellingen gewijzigd. Die instelling is niet gewijzigd.</string>
+    <string name="gpu_effective_summary">Gevraagde limieten zijn jouw instellingen. Effectieve limieten zijn het bereik dat de driver nu toepast nadat alle regelingen zijn gecombineerd.</string>
+    <string name="gpu_legacy_fixed_summary">Er is een vaste GPU-frequentie actief. Door een bereik toe te passen vervalt de vaste modus en kan de GPU tussen de effectieve limieten schakelen.</string>
+</resources>

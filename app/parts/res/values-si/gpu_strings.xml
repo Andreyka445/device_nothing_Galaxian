@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU පාලනය</string>
+    <string name="gpu_home_summary">GPU සංඛ්‍යාතය, අවම සහ උපරිම සීමා, සහ ස්වයංක්‍රීය පාලනය.</string>
+    <string name="gpu_current_frequency">වත්මන් සංඛ්යාතය</string>
+    <string name="gpu_requested_frequency">ස්ථිර සංඛ්‍යාත සැකසුම</string>
+    <string name="gpu_loading">GPU තත්ත්වය කියවමින්…</string>
+    <string name="gpu_unavailable">"ලබාගත නොහැක"</string>
+    <string name="gpu_idle">අක්‍රිය</string>
+    <string name="gpu_control_state">සංඛ්‍යාත පාලනය</string>
+    <string name="gpu_mode_automatic">ස්වයංක්‍රීය</string>
+    <string name="gpu_mode_fixed">ස්ථිර සංඛ්‍යාතය</string>
+    <string name="gpu_mode_unknown">නොදනී</string>
+    <string name="gpu_control_unavailable">සංඛ්‍යාත පාලනය ලබා ගත නොහැක. ධාවකය කියවීම් සපයන විට ඒවා පෙන්වයි.</string>
+    <string name="gpu_supported_frequencies">සහාය දක්වන සංඛ්‍යාත</string>
+    <string name="gpu_frequency_count">උපාංගය වාර්තා කරන සංඛ්‍යාත පියවර ගණන: %1$d</string>
+    <string name="gpu_choose_frequency">ස්ථිර සංඛ්‍යාතයක් සකසන්න</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">මෙම උපාංගය වාර්තා කරන සංඛ්‍යාතයක් තෝරන්න. ස්ථිර මාදිලියට මෘදුකාංගය මගින් පනවා ඇති GPU උෂ්ණත්වය මත පදනම් වූ සංඛ්‍යාත සීමා මඟ හැරිය හැක. ස්ථිර සංඛ්‍යාතයක් බලශක්ති භාවිතය සහ උෂ්ණත්වය වැඩි කළ හැක. සැකසුම GPU සක්‍රියව ඇති විට අදාළ වේ; අක්‍රියව ඇති විට GPU තවමත් බලය විසන්ධි කළ හැක.</string>
+    <string name="gpu_apply_fixed">ස්ථිර සංඛ්‍යාතය යොදන්න</string>
+    <string name="gpu_restore_automatic">ස්වයංක්‍රීය පාලනය ප්‍රතිස්ථාපනය කරන්න</string>
+    <string name="gpu_restore_summary">අතින් සැකසූ GPU සංඛ්‍යාත සීමා සහ ස්ථාවර මාදිලිය ඉවත් කර, නැවත සංඛ්‍යාතය තේරීමට පද්ධතියට ඉඩ දෙන්න.</string>
+    <string name="gpu_restore_action">"ප්‍රතිසාධනය කරන්න"</string>
+    <string name="gpu_session_title">අතින් සකසන GPU සැකසුම්</string>
+    <string name="gpu_session_summary">නැවත ආරම්භ කිරීමෙන් ස්වයංක්‍රීය GPU පාලනය ප්‍රතිසාධනය වේ. මෙම පාලන CPU සැකසීම් වෙනස් නොකරයි. ඉල්ලූ සහ ක්‍රියාත්මක සංඛ්‍යාත සීමා වෙන් වෙන්ව පෙන්වයි; වත්මන් සංඛ්‍යාතය ධාවකයෙන් ලබා ගනී.</string>
+    <string name="gpu_operation_title">අවසාන මෙහෙයුම</string>
+    <string name="gpu_applying">වෙනස් කිරීම අයදුම් කිරීම සහ පරීක්ෂා කිරීම...</string>
+    <string name="gpu_verified">වෙනස් කිරීම යොදන ලද අතර සත්‍යාපනය කරන ලදී.</string>
+    <string name="gpu_error_unavailable">ඉල්ලා සිටි GPU පාලනය ලබා ගත නොහැක. මෙම පිටුව නැවත විවෘත කර යළි උත්සාහ කරන්න.</string>
+    <string name="gpu_error_unsupported">මෙම GPU ධාවකය ඉල්ලා සිටි පාලනයට සහාය නොදක්වයි.</string>
+    <string name="gpu_error_frequency">උපාංගය තවදුරටත් එම සංඛ්‍යාතය වාර්තා නොකරයි. දැනට ලබා ගත හැකි අගයන්ගෙන් එකක් තෝරන්න.</string>
+    <string name="gpu_error_write">GPU ධාවකය වෙනස් කිරීම ප්‍රතික්ෂේප කළේය. යෙදුම පෙර සැකසුම ප්‍රතිස්ථාපනය කිරීමට උත්සාහ කළේය.</string>
+    <string name="gpu_error_readback">ඉල්ලා සිටි GPU සැකසුම තහවුරු කළ නොහැකි විය. යෙදුම පෙර සැකසුම ප්‍රතිස්ථාපනය කිරීමට උත්සාහ කළේය.</string>
+    <string name="gpu_error_rollback">%1$s පෙර GPU සැකසුම ප්‍රතිස්ථාපනය කළ නොහැකි විය. ස්වයංක්‍රීය පාලනය ප්‍රතිස්ථාපනය කරන්න හෝ දුරකථනය නැවත ආරම්භ කරන්න.</string>
+    <string name="gpu_minimum_frequency">අවම සංඛ්‍යාතය</string>
+    <string name="gpu_maximum_frequency">උපරිම සංඛ්‍යාතය</string>
+    <string name="gpu_requested_range">ඉල්ලූ සංඛ්‍යාත පරාසය</string>
+    <string name="gpu_effective_range">සත්‍ය වශයෙන් ක්‍රියාත්මක සංඛ්‍යාත පරාසය</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">පරාස සීමා</string>
+    <string name="gpu_choose_range">සංඛ්‍යාත පරාසය සකසන්න</string>
+    <string name="gpu_range_summary">මෙම උපාංගය වාර්තා කරන සංඛ්‍යාතවලින් අවමය සහ උපරිමය තෝරන්න. GPU හට ක්‍රියාත්මක පරාසය තුළ සංඛ්‍යාතය වෙනස් කළ හැකි අතර, වැඩක් නොමැති විට බලය අක්‍රිය කළ හැක. ඉහළ අවමයක් සමහර මෘදුකාංග තාප සීමාවලට වඩා ප්‍රමුඛ විය හැකි අතර තාපය සහ විදුලි පරිභෝජනය වැඩි කළ හැක.</string>
+    <string name="gpu_apply_range">පරාසය යොදන්න</string>
+    <string name="gpu_error_range">අවම සංඛ්‍යාතය උපරිමය ඉක්මවිය නොහැක.</string>
+    <string name="gpu_error_conflict">වෙනත් පාලකයක් GPU සැකසීම් වෙනස් කළා. එහි සැකසීම වෙනස් නොකර තබා ඇත.</string>
+    <string name="gpu_effective_summary">ඉල්ලූ සීමා යනු ඔබේ සැකසීම්ය. ක්‍රියාත්මක සීමා යනු සියලු පාලකවල ඉල්ලීම් ඒකාබද්ධ කිරීමෙන් පසු ධාවකය දැනට යොදන පරාසයයි.</string>
+    <string name="gpu_legacy_fixed_summary">ස්ථාවර GPU සංඛ්‍යාතයක් සක්‍රියයි. පරාසයක් යෙදීමෙන් ස්ථාවර මාදිලිය ඉවත් කර, ක්‍රියාත්මක සීමා අතර සංඛ්‍යාතය වෙනස් කිරීමට GPU හට ඉඩ ලබා දෙයි.</string>
+</resources>

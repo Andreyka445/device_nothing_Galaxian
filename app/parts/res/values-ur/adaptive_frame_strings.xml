@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU کا بوجھ</string>
+    <string name="adaptive_gpu_temperature">GPU کا درجۂ حرارت</string>
+    <string name="adaptive_frames_title">فریموں کی روانی</string>
+    <string name="adaptive_frames_jank">تاخیر سے آنے والے یا چھوٹ جانے والے فریم</string>
+    <string name="adaptive_frames_dropped">چھوٹ جانے والے فریم</string>
+    <string name="adaptive_frames_count">%1$d فریم دیکھے گئے</string>
+    <string name="adaptive_frames_timing">ہدف: ⁨%1$.0f FPS⁩ · ڈسپلے: ⁨%2$.0f Hz⁩</string>
+    <string name="adaptive_frames_p95">فریم کا وقت (95واں پرسنٹائل)</string>
+    <string name="adaptive_milliseconds">⁨%1$.1f ms⁩</string>
+    <string name="adaptive_frames_partial">زیرِ استعمال ایپ کے حالیہ فریم ناپتا ہے۔ صرف کچھ فریموں کے نمونے لیے جاتے ہیں۔ نیٹ ورک اور ان پٹ کی تاخیر نہیں ناپی جاتی۔</string>
+    <string name="adaptive_frames_waiting">تبدیلی تجویز کرنے سے پہلے فریموں کی کافی اور قابلِ موازنہ پیمائشوں کا انتظار ہے۔</string>
+    <string name="adaptive_frames_changed">ایپ، رینڈرنگ کی سطح یا فریموں کے اوقات بدل گئے ہیں۔ نئی پیمائشیں درکار ہیں۔</string>
+    <string name="adaptive_frames_improved">آزمائش کی حدود کے اندر تاخیر سے آنے والے یا چھوٹ جانے والے فریم کم ناپے گئے۔</string>
+    <string name="adaptive_frames_regressed">آزمائش فریموں کی روانی کا ہدف حاصل نہیں کر سکی۔</string>
+    <string name="adaptive_frames_lower">فریموں کی نمائش مستحکم ہے اور بوجھ کم ہے۔ زیادہ سے زیادہ فریکوئنسی کی حد کم کر کے آزمائیں۔</string>
+    <string name="adaptive_frames_raise">زیادہ بوجھ کے دوران تاخیر سے آنے والے یا چھوٹ جانے والے فریم ملے۔ زیادہ سے زیادہ فریکوئنسی کی حد بڑھا کر آزمائیں۔</string>
+    <string name="adaptive_gpu_boundaries">GPU کو صرف خودکار کنٹرول میں ایڈجسٹ کیا جا سکتا ہے۔ CPU/GPU کی دستی ترتیبات کو ترجیح حاصل ہے۔</string>
+    <string name="adaptive_trial_generic">فریکوئنسی کا ایک معاون درجہ آزمایا جا رہا ہے۔</string>
+    <string name="adaptive_gpu_missing">GPU کے بوجھ اور درجۂ حرارت کی قابلِ استعمال پیمائشوں کا انتظار ہے۔</string>
+</resources>

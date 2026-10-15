@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU slodze</string>
+    <string name="adaptive_gpu_temperature">GPU temperatūra</string>
+    <string name="adaptive_frames_title">Kadru plūdums</string>
+    <string name="adaptive_frames_jank">Novēloti vai izlaisti kadri</string>
+    <string name="adaptive_frames_dropped">Izlaisti kadri</string>
+    <string name="adaptive_frames_count">Novēroto kadru skaits: %1$d</string>
+    <string name="adaptive_frames_timing">Mērķis: %1$.0f FPS · Displejs: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Kadra laiks (95. procentile)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mēra izmantotās lietotnes nesenos kadrus. Izlase ir daļēja. Tīkla un ievades aizkave netiek mērīta.</string>
+    <string name="adaptive_frames_waiting">Pirms izmaiņas ieteikšanas tiek gaidīts pietiekami daudz salīdzināmu kadru mērījumu.</string>
+    <string name="adaptive_frames_changed">Lietotne, renderēšanas virsma vai kadru laika parametri ir mainījušies. Vajadzīgi jauni mērījumi.</string>
+    <string name="adaptive_frames_improved">Izmēģinājuma robežās tika izmērīts mazāk novēlotu vai izlaistu kadru.</string>
+    <string name="adaptive_frames_regressed">Izmēģinājums nesasniedza kadru plūduma mērķi.</string>
+    <string name="adaptive_frames_lower">Kadru piegāde ir stabila, un slodze ir zema. Izmēģiniet zemāku maksimālo frekvenci.</string>
+    <string name="adaptive_frames_raise">Pie lielas slodzes konstatēti novēloti vai izlaisti kadri. Izmēģiniet augstāku maksimālo frekvenci.</string>
+    <string name="adaptive_gpu_boundaries">Var pielāgot tikai automātisku GPU vadību. Manuālajiem CPU/GPU iestatījumiem ir priekšroka.</string>
+    <string name="adaptive_trial_generic">Tiek izmēģināts viens atbalstīts frekvences līmenis.</string>
+    <string name="adaptive_gpu_missing">Tiek gaidīti izmantojami GPU slodzes un temperatūras rādījumi.</string>
+</resources>

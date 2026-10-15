@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU नियंत्रण</string>
+    <string name="gpu_home_summary">GPU फ़्रीक्वेंसी, न्यूनतम और अधिकतम सीमाएँ और अपने-आप नियंत्रण।</string>
+    <string name="gpu_current_frequency">वर्तमान आवृत्ति</string>
+    <string name="gpu_requested_frequency">निश्चित आवृत्ति सेटिंग</string>
+    <string name="gpu_loading">GPU राज्य पढ़ रहा है…</string>
+    <string name="gpu_unavailable">"मौजूद नहीं है"</string>
+    <string name="gpu_idle">निठल्ला</string>
+    <string name="gpu_control_state">आवृत्ति नियंत्रण</string>
+    <string name="gpu_mode_automatic">स्वचालित</string>
+    <string name="gpu_mode_fixed">निश्चित आवृत्ति</string>
+    <string name="gpu_mode_unknown">अज्ञात</string>
+    <string name="gpu_control_unavailable">आवृत्ति नियंत्रण अनुपलब्ध है. रीडिंग तब दिखाई जाती है जब ड्राइवर उन्हें उपलब्ध कराता है।</string>
+    <string name="gpu_supported_frequencies">समर्थित आवृत्तियाँ</string>
+    <string name="gpu_frequency_count">डिवाइस द्वारा रिपोर्ट किए गए आवृत्ति चरण: %1$d</string>
+    <string name="gpu_choose_frequency">एक निश्चित आवृत्ति सेट करें</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">इस उपकरण द्वारा रिपोर्ट की गई आवृत्ति चुनें. एक निश्चित आवृत्ति बिजली के उपयोग और तापमान को बढ़ा सकती है। GPU सक्रिय होने पर सेटिंग लागू होती है; GPU निष्क्रिय होने पर भी बिजली बंद हो सकती है। स्थिर मोड, सॉफ़्टवेयर द्वारा तापमान के आधार पर लागू की गई GPU आवृत्ति सीमाओं को दरकिनार कर सकता है।</string>
+    <string name="gpu_apply_fixed">निश्चित आवृत्ति लागू करें</string>
+    <string name="gpu_restore_automatic">स्वचालित नियंत्रण बहाल करें</string>
+    <string name="gpu_restore_summary">GPU फ़्रीक्वेंसी की मैन्युअल सीमाएँ और तय मोड हटाएँ, ताकि सिस्टम फिर से फ़्रीक्वेंसी चुन सके।</string>
+    <string name="gpu_restore_action">"वापस लाएं"</string>
+    <string name="gpu_session_title">मैनुअल GPU सेटिंग्स</string>
+    <string name="gpu_session_summary">रीस्टार्ट करने से GPU का अपने-आप नियंत्रण बहाल होता है। ये नियंत्रण CPU सेटिंग नहीं बदलते। अनुरोधित और प्रभावी फ़्रीक्वेंसी सीमाएँ अलग दिखाई जाती हैं; मौजूदा फ़्रीक्वेंसी ड्राइवर से मिलती है।</string>
+    <string name="gpu_operation_title">आखिरी ऑपरेशन</string>
+    <string name="gpu_applying">परिवर्तन लागू करना और जाँचना…</string>
+    <string name="gpu_verified">परिवर्तन लागू किया गया और सत्यापित किया गया.</string>
+    <string name="gpu_error_unavailable">अनुरोधित GPU नियंत्रण अनुपलब्ध है। इस पृष्ठ को पुनः खोलें और पुनः प्रयास करें।</string>
+    <string name="gpu_error_unsupported">यह GPU ड्राइवर अनुरोधित नियंत्रण का समर्थन नहीं करता है।</string>
+    <string name="gpu_error_frequency">वह आवृत्ति अब डिवाइस द्वारा रिपोर्ट नहीं की जाती है। वर्तमान में उपलब्ध मानों में से एक चुनें.</string>
+    <string name="gpu_error_write">GPU ड्राइवर ने परिवर्तन को अस्वीकार कर दिया। ऐप ने पिछली सेटिंग को पुनर्स्थापित करने का प्रयास किया।</string>
+    <string name="gpu_error_readback">अनुरोधित GPU सेटिंग की पुष्टि नहीं की जा सकी. ऐप ने पिछली सेटिंग को पुनर्स्थापित करने का प्रयास किया।</string>
+    <string name="gpu_error_rollback">%1$s पिछली GPU सेटिंग पुनर्स्थापित नहीं की जा सकी। स्वचालित नियंत्रण पुनर्स्थापित करें या फ़ोन पुनः प्रारंभ करें।</string>
+    <string name="gpu_requested_range">अनुरोधित फ़्रीक्वेंसी रेंज</string>
+    <string name="gpu_effective_range">प्रभावी फ़्रीक्वेंसी रेंज</string>
+    <string name="gpu_mode_range">फ़्रीक्वेंसी सीमाएँ</string>
+    <string name="gpu_choose_range">फ़्रीक्वेंसी रेंज तय करें</string>
+    <string name="gpu_range_summary">इस डिवाइस से बताई गई फ़्रीक्वेंसी में से न्यूनतम और अधिकतम चुनें। GPU प्रभावी रेंज में फ़्रीक्वेंसी बदल सकता है और निष्क्रिय होने पर बंद हो सकता है। ऊँची न्यूनतम सीमा, सॉफ़्टवेयर की कुछ तापीय सीमाओं पर हावी होकर गर्मी और बिजली की खपत बढ़ा सकती है।</string>
+    <string name="gpu_apply_range">रेंज लागू करें</string>
+    <string name="gpu_error_range">न्यूनतम फ़्रीक्वेंसी अधिकतम से ज़्यादा नहीं हो सकती।</string>
+    <string name="gpu_error_conflict">किसी दूसरे नियंत्रक ने GPU सेटिंग बदल दी है। उसकी सेटिंग को बदला नहीं गया।</string>
+    <string name="gpu_effective_summary">अनुरोधित सीमाएँ आपकी सेटिंग हैं। प्रभावी सीमाएँ वह रेंज हैं जो सभी नियंत्रकों की माँगों को मिलाने के बाद ड्राइवर लागू करता है।</string>
+    <string name="gpu_legacy_fixed_summary">एक तय GPU फ़्रीक्वेंसी सक्रिय है। रेंज लागू करने से तय मोड हटता है और GPU प्रभावी सीमाओं के बीच फ़्रीक्वेंसी बदल सकता है।</string>
+    <string name="gpu_minimum_frequency">न्यूनतम आवृत्ति</string>
+    <string name="gpu_maximum_frequency">अधिकतम आवृत्ति</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

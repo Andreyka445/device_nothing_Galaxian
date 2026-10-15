@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU ohjaus</string>
+    <string name="gpu_home_summary">GPU-taajuus, vähimmäis- ja enimmäisrajat sekä automaattinen ohjaus.</string>
+    <string name="gpu_current_frequency">Nykyinen taajuus</string>
+    <string name="gpu_requested_frequency">Kiinteä taajuusasetus</string>
+    <string name="gpu_loading">Luetaan GPU-tilaa…</string>
+    <string name="gpu_unavailable">"Ei saatavilla"</string>
+    <string name="gpu_idle">Tyhjäkäynti</string>
+    <string name="gpu_control_state">Taajuussäätö</string>
+    <string name="gpu_mode_automatic">Automaattinen</string>
+    <string name="gpu_mode_fixed">Kiinteä taajuus</string>
+    <string name="gpu_mode_unknown">Tuntematon</string>
+    <string name="gpu_control_unavailable">Taajuussäätö ei ole käytettävissä. Lukemat näytetään, kun kuljettaja antaa ne.</string>
+    <string name="gpu_supported_frequencies">Tuetut taajuudet</string>
+    <string name="gpu_frequency_count">Laitteen ilmoittamat tiheysaskeleet: %1$d</string>
+    <string name="gpu_choose_frequency">Aseta kiinteä taajuus</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Valitse tämän laitteen ilmoittama taajuus. Kiinteä taajuus voi lisätä virrankulutusta ja lämpötilaa. Asetus on voimassa, kun GPU on aktiivinen; GPU voi silti sammua tyhjäkäynnillä. Kiinteä tila voi ohittaa ohjelmiston asettamat GPU:n lämpötilasta johtuvat taajuusrajoitukset.</string>
+    <string name="gpu_apply_fixed">Käytä kiinteää taajuutta</string>
+    <string name="gpu_restore_automatic">Palauta automaattinen ohjaus</string>
+    <string name="gpu_restore_summary">Poista GPU-taajuuden manuaaliset rajat ja kiinteä tila ja anna järjestelmän taas valita taajuus.</string>
+    <string name="gpu_restore_action">"Palauta"</string>
+    <string name="gpu_session_title">Manuaaliset GPU-asetukset</string>
+    <string name="gpu_session_summary">Uudelleenkäynnistys palauttaa GPU:n automaattisen ohjauksen. Nämä säätimet eivät muuta CPU-asetuksia. Pyydetyt ja toteutuvat taajuusrajat näytetään erikseen; nykyinen taajuus saadaan ajurilta.</string>
+    <string name="gpu_operation_title">Viimeinen operaatio</string>
+    <string name="gpu_applying">Muutosta otetaan käyttöön ja tarkistetaan…</string>
+    <string name="gpu_verified">Muutos otettu käyttöön ja vahvistettu.</string>
+    <string name="gpu_error_unavailable">Pyydetty GPU-ohjausobjekti ei ole käytettävissä. Avaa tämä sivu uudelleen ja yritä uudelleen.</string>
+    <string name="gpu_error_unsupported">Tämä GPU-ohjain ei tue pyydettyä ohjausta.</string>
+    <string name="gpu_error_frequency">Laite ei enää raportoi tätä taajuutta. Valitse jokin tällä hetkellä käytettävissä olevista arvoista.</string>
+    <string name="gpu_error_write">GPU-kuljettaja hylkäsi muutoksen. Sovellus yritti palauttaa aiemman asetuksen.</string>
+    <string name="gpu_error_readback">Pyydettyä GPU-asetusta ei voitu vahvistaa. Sovellus yritti palauttaa aiemman asetuksen.</string>
+    <string name="gpu_error_rollback">%1$s Aiempaa GPU-asetusta ei voitu palauttaa. Palauta automaattinen ohjaus tai käynnistä puhelin uudelleen.</string>
+    <string name="gpu_requested_range">Pyydetty taajuusalue</string>
+    <string name="gpu_effective_range">Toteutuva taajuusalue</string>
+    <string name="gpu_mode_range">Taajuusrajat</string>
+    <string name="gpu_choose_range">Aseta taajuusalue</string>
+    <string name="gpu_range_summary">Valitse vähimmäis- ja enimmäisarvo laitteen ilmoittamista taajuuksista. GPU voi muuttaa taajuuttaan toteutuvan alueen sisällä ja sammua lepotilassa. Suuri vähimmäisarvo voi ohittaa joitakin ohjelmiston lämpörajoituksia ja lisätä kuumenemista sekä virrankulutusta.</string>
+    <string name="gpu_apply_range">Ota alue käyttöön</string>
+    <string name="gpu_error_range">Vähimmäistaajuus ei voi ylittää enimmäistaajuutta.</string>
+    <string name="gpu_error_conflict">Toinen ohjain muutti GPU-asetuksia. Sen asetus jätettiin ennalleen.</string>
+    <string name="gpu_effective_summary">Pyydetyt rajat ovat omat asetuksesi. Toteutuvat rajat ovat alue, jota ajuri käyttää yhdistettyään kaikkien ohjainten pyynnöt.</string>
+    <string name="gpu_legacy_fixed_summary">Kiinteä GPU-taajuus on käytössä. Taajuusalueen käyttöönotto poistaa kiinteän tilan ja antaa GPU:n muuttaa taajuuttaan toteutuvien rajojen sisällä.</string>
+    <string name="gpu_minimum_frequency">Vähimmäistaajuus</string>
+    <string name="gpu_maximum_frequency">Enimmäistaajuus</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

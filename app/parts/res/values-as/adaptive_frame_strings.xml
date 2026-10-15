@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-ৰ লোড</string>
+    <string name="adaptive_gpu_temperature">GPU-ৰ উষ্ণতা</string>
+    <string name="adaptive_frames_title">ফ্ৰেমৰ মসৃণতা</string>
+    <string name="adaptive_frames_jank">পলম হোৱা বা বাদ পৰা ফ্ৰেম</string>
+    <string name="adaptive_frames_dropped">বাদ পৰা ফ্ৰেম</string>
+    <string name="adaptive_frames_count">%1$d টা ফ্ৰেম পৰ্যবেক্ষণ কৰা হৈছে</string>
+    <string name="adaptive_frames_timing">লক্ষ্য: %1$.0f FPS · ডিছপ্লে: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ফ্ৰেমৰ সময় (৯৫তম পাৰ্চেণ্টাইল)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">ব্যৱহাৰ কৰি থকা এপটোৰ শেহতীয়া ফ্ৰেমবোৰ জোখে। নমুনা সংগ্ৰহ আংশিক। নেটৱৰ্ক আৰু ইনপুটৰ পলম জোখা নহয়।</string>
+    <string name="adaptive_frames_waiting">পৰিৱৰ্তন প্ৰস্তাৱ কৰাৰ আগতে পৰ্যাপ্ত তুলনাযোগ্য ফ্ৰেমৰ জোখৰ বাবে অপেক্ষা কৰি আছে।</string>
+    <string name="adaptive_frames_changed">এপ, ৰেণ্ডাৰিং পৃষ্ঠ বা ফ্ৰেমৰ সময় সলনি হৈছে। নতুন জোখৰ প্ৰয়োজন।</string>
+    <string name="adaptive_frames_improved">পৰীক্ষাৰ সীমাৰ ভিতৰত পলম হোৱা বা বাদ পৰা ফ্ৰেম কম পোৱা গৈছে।</string>
+    <string name="adaptive_frames_regressed">পৰীক্ষাটোৱে ফ্ৰেমৰ মসৃণতাৰ লক্ষ্য পূৰণ কৰিব নোৱাৰিলে।</string>
+    <string name="adaptive_frames_lower">ফ্ৰেম প্ৰদৰ্শন স্থিৰ আৰু লোড কম। সৰ্বাধিক কম্পাঙ্ক কমাই চাওক।</string>
+    <string name="adaptive_frames_raise">অধিক লোডৰ সময়ত পলম হোৱা বা বাদ পৰা ফ্ৰেম ধৰা পৰিছে। সৰ্বাধিক কম্পাঙ্ক বঢ়াই চাওক।</string>
+    <string name="adaptive_gpu_boundaries">কেৱল স্বয়ংক্ৰিয় GPU নিয়ন্ত্ৰণ সমন্বয় কৰিব পাৰি। হাতেৰে কৰা CPU/GPU ছেটিংছে অগ্ৰাধিকাৰ পায়।</string>
+    <string name="adaptive_trial_generic">সমৰ্থিত কম্পাঙ্কৰ এটা ধাপ পৰীক্ষা কৰি আছে।</string>
+    <string name="adaptive_gpu_missing">GPU-ৰ লোড আৰু উষ্ণতাৰ ব্যৱহাৰযোগ্য ৰিডিঙৰ বাবে অপেক্ষা কৰি আছে।</string>
+</resources>

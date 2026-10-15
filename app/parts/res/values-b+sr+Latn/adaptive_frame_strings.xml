@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">Opterećenje GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatura GPU</string>
+    <string name="adaptive_frames_title">Glatkoća prikaza kadrova</string>
+    <string name="adaptive_frames_jank">Zakasneli ili odbačeni kadrovi</string>
+    <string name="adaptive_frames_dropped">Odbačeni kadrovi</string>
+    <string name="adaptive_frames_count">Posmatrano kadrova: %1$d</string>
+    <string name="adaptive_frames_timing">Cilj: %1$.0f FPS · Ekran: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Vreme kadra (95. percentil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Meri nedavne kadrove aplikacije koja se koristi. Uzorkovanje je delimično. Kašnjenje mreže i unosa se ne meri.</string>
+    <string name="adaptive_frames_waiting">Čeka se dovoljno uporedivih merenja kadrova pre predlaganja promene.</string>
+    <string name="adaptive_frames_changed">Aplikacija, površina za iscrtavanje ili vreme kadrova su se promenili. Potrebna su nova merenja.</string>
+    <string name="adaptive_frames_improved">Izmereno je manje zakasnelih ili odbačenih kadrova u okviru ograničenja probe.</string>
+    <string name="adaptive_frames_regressed">Proba nije postigla cilj glatkoće prikaza kadrova.</string>
+    <string name="adaptive_frames_lower">Isporuka kadrova je stabilna, a opterećenje malo. Isprobajte nižu maksimalnu frekvenciju.</string>
+    <string name="adaptive_frames_raise">Pri velikom opterećenju otkriveni su zakasneli ili odbačeni kadrovi. Isprobajte višu maksimalnu frekvenciju.</string>
+    <string name="adaptive_gpu_boundaries">Može da se prilagođava samo automatska kontrola GPU. Ručna podešavanja CPU/GPU imaju prednost.</string>
+    <string name="adaptive_trial_generic">Ispituje se jedan podržani korak frekvencije.</string>
+    <string name="adaptive_gpu_missing">Čekaju se upotrebljiva očitavanja opterećenja i temperature GPU.</string>
+</resources>

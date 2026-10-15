@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPUຄວບຄຸມ</string>
+    <string name="gpu_home_summary">ຄວາມຖີ່ GPU, ຂີດຈຳກັດຕ່ຳສຸດ ແລະ ສູງສຸດ, ແລະ ການຄວບຄຸມອັດຕະໂນມັດ.</string>
+    <string name="gpu_current_frequency">ຄວາມຖີ່ໃນປະຈຸບັນ</string>
+    <string name="gpu_requested_frequency">ການຕັ້ງຄ່າຄວາມຖີ່ຄົງທີ່</string>
+    <string name="gpu_loading">ກຳລັງອ່ານສະຖານະ GPU…</string>
+    <string name="gpu_unavailable">"ບໍ່ພ້ອມໃຊ້"</string>
+    <string name="gpu_idle">ບໍ່ເຮັດວຽກ</string>
+    <string name="gpu_control_state">ການຄວບຄຸມຄວາມຖີ່</string>
+    <string name="gpu_mode_automatic">ອັດຕະໂນມັດ</string>
+    <string name="gpu_mode_fixed">ຄວາມຖີ່ຄົງທີ່</string>
+    <string name="gpu_mode_unknown">ບໍ່ຮູ້ຈັກ</string>
+    <string name="gpu_control_unavailable">ບໍ່ສາມາດຄວບຄຸມຄວາມຖີ່ໄດ້. ການອ່ານແມ່ນສະແດງໃຫ້ເຫັນໃນເວລາທີ່ຄົນຂັບສະຫນອງໃຫ້ເຂົາເຈົ້າ.</string>
+    <string name="gpu_supported_frequencies">ຄວາມຖີ່ທີ່ຮອງຮັບ</string>
+    <string name="gpu_frequency_count">ຂັ້ນຕອນຄວາມຖີ່ທີ່ອຸປະກອນລາຍງານ: %1$d</string>
+    <string name="gpu_choose_frequency">ກໍານົດຄວາມຖີ່ຄົງທີ່</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">ເລືອກຄວາມຖີ່ຂອງການລາຍງານໂດຍອຸປະກອນນີ້. ຄວາມຖີ່ຄົງທີ່ສາມາດເພີ່ມການໃຊ້ພະລັງງານແລະອຸນຫະພູມ. ການຕັ້ງຄ່ານຳໃຊ້ໃນຂະນະທີ່ GPU ເຮັດວຽກຢູ່; GPUຍັງສາມາດປິດເຄື່ອງໄດ້ເມື່ອບໍ່ໄດ້ເຮັດວຽກ. ໂໝດຄົງທີ່ອາດຂ້າມຂີດຈຳກັດຄວາມຖີ່ GPU ຕາມອຸນຫະພູມທີ່ຊອບແວກຳນົດ.</string>
+    <string name="gpu_apply_fixed">ນຳໃຊ້ຄວາມຖີ່ຄົງທີ່</string>
+    <string name="gpu_restore_automatic">ຟື້ນຟູການຄວບຄຸມອັດຕະໂນມັດ</string>
+    <string name="gpu_restore_summary">ຍົກເລີກຂີດຈຳກັດຄວາມຖີ່ GPU ທີ່ຕັ້ງເອງ ແລະ ໂໝດຄົງທີ່, ແລ້ວໃຫ້ລະບົບເລືອກຄວາມຖີ່ອີກຄັ້ງ.</string>
+    <string name="gpu_restore_action">"ກູ້ຄືນ"</string>
+    <string name="gpu_session_title">ການຕັ້ງຄ່າຄູ່ມືGPU</string>
+    <string name="gpu_session_summary">ການເລີ່ມໃໝ່ຈະກູ້ຄືນການຄວບຄຸມ GPU ອັດຕະໂນມັດ. ການຄວບຄຸມເຫຼົ່ານີ້ບໍ່ປ່ຽນການຕັ້ງຄ່າ CPU. ຂີດຈຳກັດຄວາມຖີ່ທີ່ຮ້ອງຂໍ ແລະ ທີ່ໃຊ້ຈິງສະແດງແຍກກັນ; ຄວາມຖີ່ປັດຈຸບັນໄດ້ມາຈາກໄດຣເວີ.</string>
+    <string name="gpu_operation_title">ປະຕິບັດການຫຼ້າສຸດ</string>
+    <string name="gpu_applying">ກຳລັງນຳໃຊ້ ແລະກວດສອບການປ່ຽນແປງ...</string>
+    <string name="gpu_verified">ນຳໃຊ້ການປ່ຽນແປງ ແລະຢັ້ງຢືນແລ້ວ.</string>
+    <string name="gpu_error_unavailable">ການຄວບຄຸມ GPU ທີ່ຮ້ອງຂໍນັ້ນບໍ່ສາມາດໃຊ້ໄດ້. ເປີດໜ້ານີ້ຄືນໃໝ່ແລ້ວລອງອີກຄັ້ງ.</string>
+    <string name="gpu_error_unsupported">ຄົນຂັບGPUນີ້ບໍ່ຮອງຮັບການຄວບຄຸມທີ່ຮ້ອງຂໍ.</string>
+    <string name="gpu_error_frequency">ຄວາມຖີ່ນັ້ນບໍ່ໄດ້ຖືກລາຍງານໂດຍອຸປະກອນອີກຕໍ່ໄປ. ເລືອກໜຶ່ງໃນຄ່າທີ່ມີຢູ່ໃນປັດຈຸບັນ.</string>
+    <string name="gpu_error_write">ຄົນຂັບລົດGPUປະຕິເສດການປ່ຽນແປງ. ແອັບພະຍາຍາມຟື້ນຟູການຕັ້ງຄ່າກ່ອນໜ້ານີ້.</string>
+    <string name="gpu_error_readback">ການຕັ້ງຄ່າ GPU ທີ່ຮ້ອງຂໍນັ້ນບໍ່ສາມາດຢືນຢັນໄດ້. ແອັບພະຍາຍາມຟື້ນຟູການຕັ້ງຄ່າກ່ອນໜ້ານີ້.</string>
+    <string name="gpu_error_rollback">%1$s ການຕັ້ງຄ່າ GPU ທີ່ຜ່ານມາບໍ່ສາມາດຖືກຟື້ນຟູໄດ້. ຟື້ນຟູການຄວບຄຸມອັດຕະໂນມັດຫຼື restart ໂທລະສັບ.</string>
+    <string name="gpu_requested_range">ຊ່ວງຄວາມຖີ່ທີ່ຮ້ອງຂໍ</string>
+    <string name="gpu_effective_range">ຊ່ວງຄວາມຖີ່ທີ່ໃຊ້ຈິງ</string>
+    <string name="gpu_mode_range">ຂີດຈຳກັດຄວາມຖີ່</string>
+    <string name="gpu_choose_range">ຕັ້ງຊ່ວງຄວາມຖີ່</string>
+    <string name="gpu_range_summary">ເລືອກຄ່າຕ່ຳສຸດ ແລະ ສູງສຸດຈາກຄວາມຖີ່ທີ່ອຸປະກອນນີ້ລາຍງານ. GPU ສາມາດປັບຄວາມຖີ່ພາຍໃນຊ່ວງທີ່ໃຊ້ຈິງ ແລະ ປິດໄຟເມື່ອບໍ່ໄດ້ເຮັດວຽກ. ຄ່າຕ່ຳສຸດທີ່ສູງອາດລົບລ້າງຂີດຈຳກັດຄວາມຮ້ອນບາງຢ່າງຂອງຊອບແວ ແລະ ເພີ່ມຄວາມຮ້ອນກັບການໃຊ້ພະລັງງານ.</string>
+    <string name="gpu_apply_range">ນຳໃຊ້ຊ່ວງ</string>
+    <string name="gpu_error_range">ຄວາມຖີ່ຕ່ຳສຸດບໍ່ສາມາດເກີນຄວາມຖີ່ສູງສຸດໄດ້.</string>
+    <string name="gpu_error_conflict">ຕົວຄວບຄຸມອື່ນໄດ້ປ່ຽນການຕັ້ງຄ່າ GPU. ການຕັ້ງຄ່າຂອງມັນຖືກປະໄວ້ໂດຍບໍ່ປ່ຽນແປງ.</string>
+    <string name="gpu_effective_summary">ຂີດຈຳກັດທີ່ຮ້ອງຂໍແມ່ນຄ່າທີ່ທ່ານຕັ້ງ. ຂີດຈຳກັດທີ່ໃຊ້ຈິງແມ່ນຊ່ວງທີ່ໄດຣເວີໃຊ້ຢູ່ໃນປັດຈຸບັນ ຫຼັງຈາກລວມຄຳຮ້ອງຂໍຈາກຕົວຄວບຄຸມທັງໝົດ.</string>
+    <string name="gpu_legacy_fixed_summary">ກຳລັງໃຊ້ຄວາມຖີ່ GPU ແບບຄົງທີ່. ການນຳໃຊ້ຊ່ວງຈະຍົກເລີກໂໝດຄົງທີ່ ແລະ ໃຫ້ GPU ປັບຄວາມຖີ່ໃນຂີດຈຳກັດທີ່ໃຊ້ຈິງໄດ້.</string>
+    <string name="gpu_minimum_frequency">ຄວາມຖີ່ຕ່ຳສຸດ</string>
+    <string name="gpu_maximum_frequency">ຄວາມຖີ່ສູງສຸດ</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

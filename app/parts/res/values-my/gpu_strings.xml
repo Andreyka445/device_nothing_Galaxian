@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU ထိန်းချုပ်မှု</string>
+    <string name="gpu_home_summary">GPU ကြိမ်နှုန်း၊ အနိမ့်ဆုံးနှင့် အမြင့်ဆုံးကန့်သတ်ချက်များ၊ အလိုအလျောက်ထိန်းချုပ်မှု။</string>
+    <string name="gpu_current_frequency">လက်ရှိ အကြိမ်ရေ</string>
+    <string name="gpu_requested_frequency">ပုံသေ ကြိမ်နှုန်း ဆက်တင်</string>
+    <string name="gpu_loading">GPU အခြေအနေကို ဖတ်နေသည်…</string>
+    <string name="gpu_unavailable">"မရရှိနိုင်ပါ"</string>
+    <string name="gpu_idle">ဘာမှမလုပ်ဘူး။</string>
+    <string name="gpu_control_state">ကြိမ်နှုန်းထိန်းချုပ်မှု</string>
+    <string name="gpu_mode_automatic">အလိုအလျောက်</string>
+    <string name="gpu_mode_fixed">ပုံသေအကြိမ်ရေ</string>
+    <string name="gpu_mode_unknown">မသိ</string>
+    <string name="gpu_control_unavailable">ကြိမ်နှုန်းထိန်းချုပ်မှု မရနိုင်ပါ။ ယာဉ်မောင်းက ၎င်းတို့ကို ပေးသောအခါတွင် ဖတ်ရှုမှုများကို ပြသည်။</string>
+    <string name="gpu_supported_frequencies">ပံ့ပိုးထားသော ကြိမ်နှုန်းများ</string>
+    <string name="gpu_frequency_count">စက်မှ အစီရင်ခံသည့် အကြိမ်ရေ အဆင့်များ- %1$d</string>
+    <string name="gpu_choose_frequency">ပုံသေကြိမ်နှုန်းသတ်မှတ်ပါ။</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">ဤစက်ပစ္စည်းမှ တင်ပြသည့် အကြိမ်ရေကို ရွေးပါ။ ပုံသေကြိမ်နှုန်းတစ်ခုသည် ပါဝါအသုံးပြုမှုနှင့် အပူချိန်ကို တိုးမြှင့်နိုင်သည်။ GPU တက်ကြွနေချိန်တွင် ဆက်တင်သည် အကျုံးဝင်သည်။ အလုပ်မလုပ်သည့်အခါ GPU သည် ပါဝါချနိုင်သေးသည်။ ပုံသေမုဒ်သည် ဆော့ဖ်ဝဲက အပူချိန်အလိုက် သတ်မှတ်ထားသော GPU ကြိမ်နှုန်းကန့်သတ်ချက်များကို ကျော်လွှားနိုင်သည်။</string>
+    <string name="gpu_apply_fixed">ပုံသေကြိမ်နှုန်းကို အသုံးပြုပါ။</string>
+    <string name="gpu_restore_automatic">အလိုအလျောက်ထိန်းချုပ်မှုကို ပြန်လည်ရယူပါ။</string>
+    <string name="gpu_restore_summary">ကိုယ်တိုင်သတ်မှတ်ထားသော GPU ကြိမ်နှုန်းကန့်သတ်ချက်များနှင့် ပုံသေမုဒ်ကို ဖယ်ရှားပြီး စနစ်ကို ကြိမ်နှုန်းပြန်ရွေးခွင့်ပေးပါ။</string>
+    <string name="gpu_restore_action">"ပြန်ယူရန်"</string>
+    <string name="gpu_session_title">လူကိုယ်တိုင် GPU ဆက်တင်များ</string>
+    <string name="gpu_session_summary">ပြန်စခြင်းသည် အလိုအလျောက် GPU ထိန်းချုပ်မှုကို ပြန်ထားမည်။ ဤထိန်းချုပ်မှုများသည် CPU ဆက်တင်များကို မပြောင်းပါ။ တောင်းဆိုထားသောနှင့် လက်တွေ့အသုံးပြုနေသော ကြိမ်နှုန်းကန့်သတ်ချက်များကို သီးခြားဖော်ပြပြီး လက်ရှိကြိမ်နှုန်းကို ဒရိုင်ဗာမှ ရယူသည်။</string>
+    <string name="gpu_operation_title">နောက်ဆုံးလည်ပတ်မှု</string>
+    <string name="gpu_applying">ပြောင်းလဲမှုကို အသုံးချပြီး စစ်ဆေးနေသည်...</string>
+    <string name="gpu_verified">ပြောင်းလဲမှုကို အသုံးချပြီး အတည်ပြုပြီးပါပြီ။</string>
+    <string name="gpu_error_unavailable">တောင်းဆိုထားသော GPU ထိန်းချုပ်မှုကို မရရှိနိုင်ပါ။ ဤစာမျက်နှာကို ပြန်ဖွင့်ပြီး ထပ်စမ်းကြည့်ပါ။</string>
+    <string name="gpu_error_unsupported">ဤ GPU ယာဉ်မောင်းသည် တောင်းဆိုထားသော ထိန်းချုပ်မှုကို မပံ့ပိုးပါ။</string>
+    <string name="gpu_error_frequency">ထိုကြိမ်နှုန်းကို စက်က အစီရင်ခံတော့မည်မဟုတ်ပါ။ လက်ရှိရရှိနိုင်သော တန်ဖိုးများထဲမှ တစ်ခုကို ရွေးပါ။</string>
+    <string name="gpu_error_write">GPU ယာဉ်မောင်းသည် အပြောင်းအလဲကို ပယ်ချခဲ့သည်။ အက်ပ်သည် ယခင်ဆက်တင်ကို ပြန်လည်ရယူရန် ကြိုးစားခဲ့သည်။</string>
+    <string name="gpu_error_readback">တောင်းဆိုထားသည့် GPU ဆက်တင်ကို အတည်မပြုနိုင်ပါ။ အက်ပ်သည် ယခင်ဆက်တင်ကို ပြန်လည်ရယူရန် ကြိုးစားခဲ့သည်။</string>
+    <string name="gpu_error_rollback">%1$s ယခင် GPU ဆက်တင်ကို ပြန်မရနိုင်ပါ။ အလိုအလျောက် ထိန်းချုပ်မှုကို ပြန်လည်ရယူပါ သို့မဟုတ် ဖုန်းကို ပြန်လည်စတင်ပါ။</string>
+    <string name="gpu_requested_range">တောင်းဆိုထားသော ကြိမ်နှုန်းအပိုင်းအခြား</string>
+    <string name="gpu_effective_range">လက်တွေ့အသုံးပြုနေသော ကြိမ်နှုန်းအပိုင်းအခြား</string>
+    <string name="gpu_mode_range">ကြိမ်နှုန်းကန့်သတ်ချက်များ</string>
+    <string name="gpu_choose_range">ကြိမ်နှုန်းအပိုင်းအခြား သတ်မှတ်ရန်</string>
+    <string name="gpu_range_summary">ဤစက်က ဖော်ပြသော ကြိမ်နှုန်းများထဲမှ အနိမ့်ဆုံးနှင့် အမြင့်ဆုံးကို ရွေးပါ။ GPU သည် လက်တွေ့အသုံးပြုနေသော အပိုင်းအခြားအတွင်း ကြိမ်နှုန်းပြောင်းနိုင်ပြီး အလုပ်မရှိချိန်တွင် ပိတ်နိုင်သည်။ အနိမ့်ဆုံးတန်ဖိုးကို မြင့်စွာထားခြင်းသည် ဆော့ဖ်ဝဲ၏ အပူကန့်သတ်ချက်အချို့ထက် ဦးစားပေးခံရပြီး အပူနှင့် ပါဝါသုံးစွဲမှု တိုးလာနိုင်သည်။</string>
+    <string name="gpu_apply_range">အပိုင်းအခြားကို အသုံးပြုရန်</string>
+    <string name="gpu_error_range">အနိမ့်ဆုံးကြိမ်နှုန်းသည် အမြင့်ဆုံးထက် မကျော်ရပါ။</string>
+    <string name="gpu_error_conflict">အခြားထိန်းချုပ်ကိရိယာတစ်ခုက GPU ဆက်တင်များကို ပြောင်းထားသည်။ ၎င်း၏ဆက်တင်ကို မပြောင်းဘဲ ထားခဲ့သည်။</string>
+    <string name="gpu_effective_summary">တောင်းဆိုထားသော ကန့်သတ်ချက်များသည် သင်သတ်မှတ်ထားသော ဆက်တင်များဖြစ်သည်။ လက်တွေ့ကန့်သတ်ချက်များသည် ထိန်းချုပ်ကိရိယာအားလုံး၏ တောင်းဆိုချက်များကို ပေါင်းစပ်ပြီး ဒရိုင်ဗာက လက်ရှိအသုံးပြုနေသော အပိုင်းအခြားဖြစ်သည်။</string>
+    <string name="gpu_legacy_fixed_summary">ပုံသေ GPU ကြိမ်နှုန်းတစ်ခု အသုံးပြုနေသည်။ အပိုင်းအခြားသတ်မှတ်ခြင်းသည် ပုံသေမုဒ်ကို ပယ်ဖျက်ပြီး GPU ကို လက်တွေ့ကန့်သတ်ချက်များအတွင်း ကြိမ်နှုန်းပြောင်းခွင့်ပေးသည်။</string>
+    <string name="gpu_minimum_frequency">အနိမ့်ဆုံးအကြိမ်ရေ</string>
+    <string name="gpu_maximum_frequency">အများဆုံးအကြိမ်ရေ</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-Auslastung</string>
+    <string name="adaptive_gpu_temperature">GPU-Temperatur</string>
+    <string name="adaptive_frames_title">Flüssige Bildausgabe</string>
+    <string name="adaptive_frames_jank">Verspätete oder verworfene Bilder</string>
+    <string name="adaptive_frames_dropped">Verworfene Bilder</string>
+    <string name="adaptive_frames_count">%1$d Bilder beobachtet</string>
+    <string name="adaptive_frames_timing">Ziel: %1$.0f FPS · Display: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Bilddauer (95. Perzentil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Misst aktuelle Bilder der verwendeten App. Die Erfassung erfolgt stichprobenartig. Netzwerk- und Eingabeverzögerungen werden nicht gemessen.</string>
+    <string name="adaptive_frames_waiting">Warten auf genügend vergleichbare Bildmessungen, bevor eine Änderung vorgeschlagen wird.</string>
+    <string name="adaptive_frames_changed">App, Rendering-Oberfläche oder Bildtakt haben sich geändert. Neue Messungen sind erforderlich.</string>
+    <string name="adaptive_frames_improved">Innerhalb der Versuchsgrenzen wurden weniger verspätete oder verworfene Bilder gemessen.</string>
+    <string name="adaptive_frames_regressed">Der Versuch hat das Ziel für eine flüssige Bildausgabe nicht erreicht.</string>
+    <string name="adaptive_frames_lower">Die Bildausgabe ist stabil und die Auslastung niedrig. Eine niedrigere Höchstfrequenz ausprobieren.</string>
+    <string name="adaptive_frames_raise">Bei hoher Auslastung wurden verspätete oder verworfene Bilder erkannt. Eine höhere Höchstfrequenz ausprobieren.</string>
+    <string name="adaptive_gpu_boundaries">Nur die automatische GPU-Steuerung kann angepasst werden. Manuelle CPU/GPU-Einstellungen haben Vorrang.</string>
+    <string name="adaptive_trial_generic">Eine unterstützte Frequenzstufe wird getestet.</string>
+    <string name="adaptive_gpu_missing">Warten auf verwertbare Messwerte für GPU-Auslastung und -Temperatur.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU 負荷</string>
+    <string name="adaptive_gpu_temperature">GPU 温度</string>
+    <string name="adaptive_frames_title">フレームの滑らかさ</string>
+    <string name="adaptive_frames_jank">遅延または欠落したフレーム</string>
+    <string name="adaptive_frames_dropped">欠落したフレーム</string>
+    <string name="adaptive_frames_count">%1$d フレームを観測</string>
+    <string name="adaptive_frames_timing">目標: %1$.0f FPS · ディスプレイ: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">フレーム時間（95 パーセンタイル）</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">使用中のアプリの最近のフレームを測定します。測定対象は一部のサンプルです。ネットワークや入力の遅延は測定しません。</string>
+    <string name="adaptive_frames_waiting">変更を提案する前に、比較可能なフレーム測定値が十分に集まるのを待っています。</string>
+    <string name="adaptive_frames_changed">アプリ、描画サーフェス、またはフレームのタイミングが変わりました。新しい測定が必要です。</string>
+    <string name="adaptive_frames_improved">試行の制限内で、遅延または欠落したフレームの減少が測定されました。</string>
+    <string name="adaptive_frames_regressed">試行はフレームの滑らかさの目標を達成しませんでした。</string>
+    <string name="adaptive_frames_lower">フレームの出力が安定していて負荷が低いため、最大周波数を下げて試してください。</string>
+    <string name="adaptive_frames_raise">高負荷時に遅延または欠落したフレームが検出されました。最大周波数を上げて試してください。</string>
+    <string name="adaptive_gpu_boundaries">調整できるのは自動制御中の GPU のみです。手動の CPU/GPU 設定が優先されます。</string>
+    <string name="adaptive_trial_generic">サポートされている周波数を一段階変更して試しています。</string>
+    <string name="adaptive_gpu_missing">利用可能な GPU 負荷と温度の測定値を待っています。</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU नियंत्रण</string>
+    <string name="gpu_home_summary">GPU वारंवारता, किमान आणि कमाल मर्यादा आणि स्वयंचलित नियंत्रण.</string>
+    <string name="gpu_current_frequency">वर्तमान वारंवारता</string>
+    <string name="gpu_requested_frequency">निश्चित वारंवारता सेटिंग</string>
+    <string name="gpu_loading">GPU स्थिती वाचत आहे...</string>
+    <string name="gpu_unavailable">"उपलब्ध नाही"</string>
+    <string name="gpu_idle">निष्क्रिय</string>
+    <string name="gpu_control_state">वारंवारता नियंत्रण</string>
+    <string name="gpu_mode_automatic">स्वयंचलित</string>
+    <string name="gpu_mode_fixed">निश्चित वारंवारता</string>
+    <string name="gpu_mode_unknown">अज्ञात</string>
+    <string name="gpu_control_unavailable">वारंवारता नियंत्रण अनुपलब्ध आहे. जेव्हा ड्रायव्हर प्रदान करतो तेव्हा रीडिंग दर्शविल्या जातात.</string>
+    <string name="gpu_supported_frequencies">समर्थित फ्रिक्वेन्सी</string>
+    <string name="gpu_frequency_count">डिव्हाइसद्वारे नोंदवलेल्या वारंवारता चरण: %1$d</string>
+    <string name="gpu_choose_frequency">निश्चित वारंवारता सेट करा</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">या डिव्हाइसद्वारे नोंदवलेली वारंवारता निवडा. एक निश्चित वारंवारता वीज वापर आणि तापमान वाढवू शकते. GPU सक्रिय असताना सेटिंग लागू होते; GPU निष्क्रिय असतानाही पॉवर डाउन होऊ शकते. स्थिर मोड सॉफ्टवेअरने तापमानानुसार लादलेल्या GPU वारंवारतेच्या मर्यादा ओलांडू शकतो.</string>
+    <string name="gpu_apply_fixed">निश्चित वारंवारता लागू करा</string>
+    <string name="gpu_restore_automatic">स्वयंचलित नियंत्रण पुनर्संचयित करा</string>
+    <string name="gpu_restore_summary">GPU वारंवारतेच्या स्वतः ठरवलेल्या मर्यादा आणि स्थिर मोड काढून टाका आणि सिस्टमला पुन्हा वारंवारता निवडू द्या.</string>
+    <string name="gpu_restore_action">"रिस्टोअर करा"</string>
+    <string name="gpu_session_title">मॅन्युअल GPU सेटिंग्ज</string>
+    <string name="gpu_session_summary">रीस्टार्ट केल्याने स्वयंचलित GPU नियंत्रण पूर्ववत होते. ही नियंत्रणे CPU सेटिंग्ज बदलत नाहीत. मागितलेल्या आणि प्रत्यक्ष लागू वारंवारता मर्यादा स्वतंत्रपणे दाखवल्या जातात; सध्याची वारंवारता ड्रायव्हरकडून मिळते.</string>
+    <string name="gpu_operation_title">शेवटचे ऑपरेशन</string>
+    <string name="gpu_applying">बदल लागू करत आहे आणि तपासत आहे...</string>
+    <string name="gpu_verified">बदल लागू आणि सत्यापित.</string>
+    <string name="gpu_error_unavailable">विनंती केलेले GPU नियंत्रण अनुपलब्ध आहे. हे पृष्ठ पुन्हा उघडा आणि पुन्हा प्रयत्न करा.</string>
+    <string name="gpu_error_unsupported">हा GPU ड्रायव्हर विनंती केलेल्या नियंत्रणास समर्थन देत नाही.</string>
+    <string name="gpu_error_frequency">ती वारंवारता यापुढे डिव्हाइसद्वारे नोंदवली जाणार नाही. सध्या उपलब्ध असलेल्या मूल्यांपैकी एक निवडा.</string>
+    <string name="gpu_error_write">GPU ड्रायव्हरने बदल नाकारला. ॲपने मागील सेटिंग पुनर्संचयित करण्याचा प्रयत्न केला.</string>
+    <string name="gpu_error_readback">विनंती केलेल्या GPU सेटिंगची पुष्टी करता आली नाही. ॲपने मागील सेटिंग पुनर्संचयित करण्याचा प्रयत्न केला.</string>
+    <string name="gpu_error_rollback">%1$s मागील GPU सेटिंग रिस्टोअर करता आली नाही. स्वयंचलित नियंत्रण पुनर्संचयित करा किंवा फोन रीस्टार्ट करा.</string>
+    <string name="gpu_requested_range">मागितलेली वारंवारता श्रेणी</string>
+    <string name="gpu_effective_range">प्रत्यक्ष लागू वारंवारता श्रेणी</string>
+    <string name="gpu_mode_range">वारंवारता मर्यादा</string>
+    <string name="gpu_choose_range">वारंवारता श्रेणी सेट करा</string>
+    <string name="gpu_range_summary">या डिव्हाइसने नोंदवलेल्या वारंवारतांमधून किमान आणि कमाल मूल्य निवडा. GPU प्रत्यक्ष लागू श्रेणीमध्ये वारंवारता बदलू शकतो आणि निष्क्रिय असताना बंद होऊ शकतो. उच्च किमान मूल्य काही सॉफ्टवेअर तापमान मर्यादांवर मात करू शकते आणि उष्णता व वीज वापर वाढवू शकते.</string>
+    <string name="gpu_apply_range">श्रेणी लागू करा</string>
+    <string name="gpu_error_range">किमान वारंवारता कमाल वारंवारतेपेक्षा जास्त असू शकत नाही.</string>
+    <string name="gpu_error_conflict">दुसऱ्या नियंत्रकाने GPU सेटिंग्ज बदलल्या. त्याची सेटिंग बदलल्याशिवाय ठेवली आहे.</string>
+    <string name="gpu_effective_summary">मागितलेल्या मर्यादा या तुमच्या सेटिंग्ज आहेत. प्रत्यक्ष लागू मर्यादा म्हणजे सर्व नियंत्रकांच्या मागण्या एकत्र केल्यानंतर ड्रायव्हर सध्या लागू करत असलेली श्रेणी.</string>
+    <string name="gpu_legacy_fixed_summary">स्थिर GPU वारंवारता सक्रिय आहे. श्रेणी लागू केल्याने स्थिर मोड बंद होतो आणि GPU ला प्रत्यक्ष लागू मर्यादांमध्ये वारंवारता बदलता येते.</string>
+    <string name="gpu_minimum_frequency">किमान वारंवारता</string>
+    <string name="gpu_maximum_frequency">कमाल वारंवारता</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

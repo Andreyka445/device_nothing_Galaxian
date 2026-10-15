@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU التحكم</string>
+    <string name="gpu_home_summary">تردد GPU والحدان الأدنى والأقصى والتحكم التلقائي.</string>
+    <string name="gpu_current_frequency">التردد الحالي</string>
+    <string name="gpu_requested_frequency">إعداد تردد ثابت</string>
+    <string name="gpu_loading">قراءة GPU الحالة…</string>
+    <string name="gpu_unavailable">"غير متاح"</string>
+    <string name="gpu_idle">عاطل</string>
+    <string name="gpu_control_state">التحكم في التردد</string>
+    <string name="gpu_mode_automatic">تلقائي</string>
+    <string name="gpu_mode_fixed">تردد ثابت</string>
+    <string name="gpu_mode_unknown">مجهول</string>
+    <string name="gpu_control_unavailable">التحكم في التردد غير متوفر. يتم عرض القراءات عندما يقدمها السائق.</string>
+    <string name="gpu_supported_frequencies">الترددات المدعومة</string>
+    <string name="gpu_frequency_count">خطوات التردد التي أبلغ عنها الجهاز: %1$d</string>
+    <string name="gpu_choose_frequency">ضبط تردد ثابت</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">اختر التردد الذي أبلغ عنه هذا الجهاز. التردد الثابت يمكن أن يزيد من استخدام الطاقة ودرجة الحرارة. ينطبق الإعداد عندما يكون GPU نشطًا؛ لا يزال بإمكان GPU إيقاف تشغيل الطاقة عند الخمول. يمكن أن يتجاوز الوضع الثابت حدود تردد GPU الحرارية التي يفرضها البرنامج.</string>
+    <string name="gpu_apply_fixed">تطبيق تردد ثابت</string>
+    <string name="gpu_restore_automatic">استعادة التحكم الآلي</string>
+    <string name="gpu_restore_summary">ألغِ حدود تردد GPU اليدوية والوضع الثابت، ودع النظام يختار التردد مجددًا.</string>
+    <string name="gpu_restore_action">"استعادة"</string>
+    <string name="gpu_session_title">الإعدادات اليدوية GPU</string>
+    <string name="gpu_session_summary">تستعيد إعادة التشغيل التحكم التلقائي في GPU. لا تغيّر عناصر التحكم هذه إعدادات CPU. تُعرض حدود التردد المطلوبة والفعلية كلٌّ على حدة؛ ويُؤخذ التردد الحالي من برنامج التشغيل.</string>
+    <string name="gpu_operation_title">العملية الأخيرة</string>
+    <string name="gpu_applying">تطبيق والتحقق من التغيير...</string>
+    <string name="gpu_verified">تم تطبيق التغيير والتحقق منه.</string>
+    <string name="gpu_error_unavailable">التحكم GPU المطلوب غير متوفر. أعد فتح هذه الصفحة وحاول مرة أخرى.</string>
+    <string name="gpu_error_unsupported">برنامج التشغيل GPU هذا لا يدعم التحكم المطلوب.</string>
+    <string name="gpu_error_frequency">لم يعد يتم الإبلاغ عن هذا التردد بواسطة الجهاز. اختر إحدى القيم المتاحة حاليًا.</string>
+    <string name="gpu_error_write">رفض السائق GPU التغيير. حاول التطبيق استعادة الإعداد السابق.</string>
+    <string name="gpu_error_readback">لا يمكن تأكيد الإعداد GPU المطلوب. حاول التطبيق استعادة الإعداد السابق.</string>
+    <string name="gpu_error_rollback">%1$s لا يمكن استعادة الإعداد GPU السابق. استعادة التحكم التلقائي أو إعادة تشغيل الهاتف.</string>
+    <string name="gpu_requested_range">نطاق التردد المطلوب</string>
+    <string name="gpu_effective_range">نطاق التردد الفعلي</string>
+    <string name="gpu_mode_range">حدود التردد</string>
+    <string name="gpu_choose_range">تعيين نطاق التردد</string>
+    <string name="gpu_range_summary">اختر ترددًا أدنى وأقصى من الترددات التي يبلغ عنها هذا الجهاز. يمكن أن يتغير تردد GPU ضمن النطاق الفعلي، ويمكن إيقاف طاقتها عند الخمول. قد يتجاوز الحد الأدنى المرتفع بعض الحدود الحرارية البرمجية ويزيد الحرارة واستهلاك الطاقة.</string>
+    <string name="gpu_apply_range">تطبيق النطاق</string>
+    <string name="gpu_error_range">لا يمكن أن يتجاوز التردد الأدنى التردد الأقصى.</string>
+    <string name="gpu_error_conflict">غيّر متحكم آخر إعدادات GPU. تُرك إعداده دون تغيير.</string>
+    <string name="gpu_effective_summary">الحدود المطلوبة هي إعداداتك. الحدود الفعلية هي النطاق الذي يطبقه برنامج التشغيل حاليًا بعد الجمع بين طلبات جميع المتحكمات.</string>
+    <string name="gpu_legacy_fixed_summary">يوجد تردد GPU ثابت نشط. يؤدي تطبيق نطاق إلى إلغاء الوضع الثابت والسماح بتغير تردد GPU بين الحدود الفعلية.</string>
+    <string name="gpu_minimum_frequency">التردد الأدنى</string>
+    <string name="gpu_maximum_frequency">التردد الأقصى</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

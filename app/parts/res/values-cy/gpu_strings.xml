@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU rheolaeth</string>
+    <string name="gpu_home_summary">Amledd y GPU, terfynau isaf ac uchaf, a rheolaeth awtomatig.</string>
+    <string name="gpu_current_frequency">Amlder presennol</string>
+    <string name="gpu_requested_frequency">Gosodiad amledd sefydlog</string>
+    <string name="gpu_loading">Darllen GPU cyflwr…</string>
+    <string name="gpu_unavailable">Ddim ar gael</string>
+    <string name="gpu_idle">Segur</string>
+    <string name="gpu_control_state">Rheoli amlder</string>
+    <string name="gpu_mode_automatic">Awtomatig</string>
+    <string name="gpu_mode_fixed">Amledd sefydlog</string>
+    <string name="gpu_mode_unknown">Anhysbys</string>
+    <string name="gpu_control_unavailable">Nid yw rheolaeth amledd ar gael. Dangosir darlleniadau pan fydd y gyrrwr yn eu darparu.</string>
+    <string name="gpu_supported_frequencies">Amleddau a gefnogir</string>
+    <string name="gpu_frequency_count">Camau amlder a adroddir gan y ddyfais: %1$d</string>
+    <string name="gpu_choose_frequency">Gosodwch amledd sefydlog</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Dewiswch amledd a adroddir gan y ddyfais hon. Gall amlder sefydlog gynyddu defnydd pŵer a thymheredd. Mae\'r gosodiad yn berthnasol tra bod y GPU yn weithredol; mae\'r GPU yn dal i allu pweru i lawr pan fydd yn segur. Gall y modd sefydlog osgoi terfynau amledd thermol GPU a osodir gan feddalwedd.</string>
+    <string name="gpu_apply_fixed">Gwneud cais amledd sefydlog</string>
+    <string name="gpu_restore_automatic">Adfer rheolaeth awtomatig</string>
+    <string name="gpu_restore_summary">Rhyddhewch derfynau amledd GPU â llaw a’r modd sefydlog, a gadewch i’r system ddewis yr amledd eto.</string>
+    <string name="gpu_restore_action">Adfer</string>
+    <string name="gpu_session_title">Gosodiadau llaw GPU</string>
+    <string name="gpu_session_summary">Mae ailgychwyn yn adfer rheolaeth awtomatig ar y GPU. Nid yw’r rheolyddion hyn yn newid gosodiadau’r CPU. Dangosir y terfynau amledd a geisiwyd a’r rhai sydd mewn grym ar wahân; daw’r amledd cyfredol o’r gyrrwr.</string>
+    <string name="gpu_operation_title">Gweithrediad olaf</string>
+    <string name="gpu_applying">Wrthi\'n cymhwyso a gwirio\'r newid…</string>
+    <string name="gpu_verified">Newid wedi\'i gymhwyso a\'i ddilysu.</string>
+    <string name="gpu_error_unavailable">Nid yw\'r rheolydd GPU y gofynnwyd amdano ar gael. Ailagor y dudalen hon a cheisio eto.</string>
+    <string name="gpu_error_unsupported">Nid yw\'r gyrrwr GPU hwn yn cefnogi\'r rheolaeth y gofynnwyd amdani.</string>
+    <string name="gpu_error_frequency">Nid yw\'r amledd hwnnw bellach yn cael ei adrodd gan y ddyfais. Dewiswch un o\'r gwerthoedd sydd ar gael ar hyn o bryd.</string>
+    <string name="gpu_error_write">Gwrthododd y gyrrwr GPU y newid. Ceisiodd yr ap adfer y gosodiad blaenorol.</string>
+    <string name="gpu_error_readback">Nid oedd modd cadarnhau\'r gosodiad GPU y gofynnwyd amdano. Ceisiodd yr ap adfer y gosodiad blaenorol.</string>
+    <string name="gpu_error_rollback">%1$s Nid oedd modd adfer y gosodiad GPU blaenorol. Adfer rheolaeth awtomatig neu ailgychwyn y ffôn.</string>
+    <string name="gpu_requested_range">Ystod amledd a geisiwyd</string>
+    <string name="gpu_effective_range">Ystod amledd mewn grym</string>
+    <string name="gpu_mode_range">Terfynau amledd</string>
+    <string name="gpu_choose_range">Gosod yr ystod amledd</string>
+    <string name="gpu_range_summary">Dewiswch isafswm ac uchafswm o’r amleddau a adroddir gan y ddyfais hon. Gall y GPU amrywio o fewn yr ystod sydd mewn grym a diffodd pan fydd yn segur. Gall isafswm uchel ddiystyru rhai terfynau thermol meddalwedd a chynyddu gwres a defnydd pŵer.</string>
+    <string name="gpu_apply_range">Cymhwyso’r ystod</string>
+    <string name="gpu_error_range">Ni all yr amledd isaf fod yn fwy na’r amledd uchaf.</string>
+    <string name="gpu_error_conflict">Newidiodd rheolydd arall osodiadau’r GPU. Gadawyd ei osodiad heb ei newid.</string>
+    <string name="gpu_effective_summary">Y terfynau a geisiwyd yw eich gosodiadau chi. Y terfynau sydd mewn grym yw’r ystod y mae’r gyrrwr yn ei chymhwyso ar hyn o bryd ar ôl cyfuno ceisiadau’r holl reolwyr.</string>
+    <string name="gpu_legacy_fixed_summary">Mae amledd GPU sefydlog yn weithredol. Mae cymhwyso ystod yn rhyddhau’r modd sefydlog ac yn gadael i’r GPU amrywio rhwng y terfynau sydd mewn grym.</string>
+    <string name="gpu_minimum_frequency">Amledd isaf</string>
+    <string name="gpu_maximum_frequency">Amledd uchaf</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

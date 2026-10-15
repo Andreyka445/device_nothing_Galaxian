@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU භාරය</string>
+    <string name="adaptive_gpu_temperature">GPU උෂ්ණත්වය</string>
+    <string name="adaptive_frames_title">රාමු සුමටතාව</string>
+    <string name="adaptive_frames_jank">ප්‍රමාද වූ හෝ මඟහැරුණු රාමු</string>
+    <string name="adaptive_frames_dropped">මඟහැරුණු රාමු</string>
+    <string name="adaptive_frames_count">නිරීක්ෂණය කළ රාමු: %1$d</string>
+    <string name="adaptive_frames_timing">ඉලක්කය: %1$.0f FPS · තිරය: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">රාමු කාලය (95 වැනි ප්‍රතිශතකය)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">භාවිතයේ ඇති යෙදුමේ මෑත රාමු මනියි. නියැදීම අර්ධ වශයෙන් සිදු වේ. ජාල සහ ආදාන ප්‍රමාද මනින්නේ නැත.</string>
+    <string name="adaptive_frames_waiting">වෙනස්කමක් යෝජනා කිරීමට පෙර ප්‍රමාණවත් හා සැසඳිය හැකි රාමු මිනුම් ලැබෙන තුරු බලා සිටී.</string>
+    <string name="adaptive_frames_changed">යෙදුම, විදැහුම්කරණ පෘෂ්ඨය හෝ රාමු කාල සැකසුම වෙනස් විය. නව මිනුම් අවශ්‍යයි.</string>
+    <string name="adaptive_frames_improved">අත්හදා බැලීමේ සීමා තුළ ප්‍රමාද වූ හෝ මඟහැරුණු රාමු අඩුවෙන් මැනිණි.</string>
+    <string name="adaptive_frames_regressed">අත්හදා බැලීම රාමු සුමටතාව පිළිබඳ ඉලක්කයට ළඟා වූයේ නැත.</string>
+    <string name="adaptive_frames_lower">රාමු පෙන්වීම ස්ථාවර වන අතර භාරය අඩුය. පහළ උපරිම සංඛ්‍යාතයක් අත්හදා බලන්න.</string>
+    <string name="adaptive_frames_raise">ඉහළ භාරයක් යටතේ ප්‍රමාද වූ හෝ මඟහැරුණු රාමු හඳුනා ගැනිණි. ඉහළ උපරිම සංඛ්‍යාතයක් අත්හදා බලන්න.</string>
+    <string name="adaptive_gpu_boundaries">සකස් කළ හැක්කේ ස්වයංක්‍රීය GPU පාලනය පමණි. අතින් කළ CPU/GPU සැකසීම්වලට ප්‍රමුඛතාව ලැබේ.</string>
+    <string name="adaptive_trial_generic">සහාය දක්වන එක් සංඛ්‍යාත මට්ටමක් අත්හදා බලමින්.</string>
+    <string name="adaptive_gpu_missing">භාවිත කළ හැකි GPU භාර සහ උෂ්ණත්ව කියවීම් බලාපොරොත්තුවෙන්.</string>
+</resources>

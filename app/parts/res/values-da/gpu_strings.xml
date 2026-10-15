@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU kontrol</string>
+    <string name="gpu_home_summary">GPU-frekvens, minimums- og maksimumsgrænser samt automatisk styring.</string>
+    <string name="gpu_current_frequency">Aktuel frekvens</string>
+    <string name="gpu_requested_frequency">Fast frekvensindstilling</string>
+    <string name="gpu_loading">Læser GPU tilstand...</string>
+    <string name="gpu_unavailable">"Ikke tilgængelig"</string>
+    <string name="gpu_idle">Ledig</string>
+    <string name="gpu_control_state">Frekvenskontrol</string>
+    <string name="gpu_mode_automatic">Automatisk</string>
+    <string name="gpu_mode_fixed">Fast frekvens</string>
+    <string name="gpu_mode_unknown">Ukendt</string>
+    <string name="gpu_control_unavailable">Frekvensstyring er ikke tilgængelig. Aflæsninger vises, når chaufføren giver dem.</string>
+    <string name="gpu_supported_frequencies">Understøttede frekvenser</string>
+    <string name="gpu_frequency_count">Frekvenstrin rapporteret af enheden: %1$d</string>
+    <string name="gpu_choose_frequency">Indstil en fast frekvens</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Vælg en frekvens, der rapporteres af denne enhed. En fast frekvens kan øge strømforbruget og temperaturen. Indstillingen gælder, mens GPU er aktiv; GPU kan stadig slukke, når den er inaktiv. Fast tilstand kan omgå de temperaturbestemte grænser for GPU-frekvens, som softwaren håndhæver.</string>
+    <string name="gpu_apply_fixed">Anvend fast frekvens</string>
+    <string name="gpu_restore_automatic">Gendan automatisk kontrol</string>
+    <string name="gpu_restore_summary">Ophæv de manuelle GPU-frekvensgrænser og den faste tilstand, og lad systemet vælge frekvensen igen.</string>
+    <string name="gpu_restore_action">"Gendan"</string>
+    <string name="gpu_session_title">Manuelle GPU indstillinger</string>
+    <string name="gpu_session_summary">En genstart gendanner automatisk GPU-styring. Disse kontroller ændrer ikke CPU-indstillingerne. Ønskede og effektive frekvensgrænser vises separat; den aktuelle frekvens kommer fra driveren.</string>
+    <string name="gpu_operation_title">Sidste operation</string>
+    <string name="gpu_applying">Anvender og kontrollerer ændringen...</string>
+    <string name="gpu_verified">Ændring anvendt og bekræftet.</string>
+    <string name="gpu_error_unavailable">Den anmodede GPU kontrol er ikke tilgængelig. Åbn denne side igen, og prøv igen.</string>
+    <string name="gpu_error_unsupported">Denne GPU-driver understøtter ikke den anmodede kontrol.</string>
+    <string name="gpu_error_frequency">Denne frekvens rapporteres ikke længere af enheden. Vælg en af ​​de aktuelt tilgængelige værdier.</string>
+    <string name="gpu_error_write">GPU-chaufføren afviste ændringen. Appen forsøgte at gendanne den tidligere indstilling.</string>
+    <string name="gpu_error_readback">Den ønskede GPU indstilling kunne ikke bekræftes. Appen forsøgte at gendanne den tidligere indstilling.</string>
+    <string name="gpu_error_rollback">%1$s Den tidligere GPU indstilling kunne ikke gendannes. Gendan automatisk kontrol eller genstart telefonen.</string>
+    <string name="gpu_requested_range">Ønsket frekvensinterval</string>
+    <string name="gpu_effective_range">Effektivt frekvensinterval</string>
+    <string name="gpu_mode_range">Frekvensgrænser</string>
+    <string name="gpu_choose_range">Indstil frekvensinterval</string>
+    <string name="gpu_range_summary">Vælg en minimums- og maksimumsfrekvens blandt dem, enheden rapporterer. GPU kan variere inden for det effektive interval og slukke, når den er inaktiv. En høj minimumsfrekvens kan tilsidesætte visse temperaturgrænser i softwaren og øge varmeudviklingen og strømforbruget.</string>
+    <string name="gpu_apply_range">Anvend interval</string>
+    <string name="gpu_error_range">Minimumsfrekvensen må ikke overstige maksimumsfrekvensen.</string>
+    <string name="gpu_error_conflict">En anden styring ændrede GPU-indstillingerne. Dens indstilling blev bevaret.</string>
+    <string name="gpu_effective_summary">De ønskede grænser er dine indstillinger. De effektive grænser er det interval, driveren anvender efter at have kombineret alle styringers krav.</string>
+    <string name="gpu_legacy_fixed_summary">En fast GPU-frekvens er aktiv. Hvis du anvender et interval, ophæves den faste tilstand, så GPU kan variere mellem de effektive grænser.</string>
+    <string name="gpu_minimum_frequency">Minimum frekvens</string>
+    <string name="gpu_maximum_frequency">Maksimal frekvens</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

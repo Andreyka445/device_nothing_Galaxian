@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">ພາລະຂອງ GPU</string>
+    <string name="adaptive_gpu_temperature">ອຸນຫະພູມ GPU</string>
+    <string name="adaptive_frames_title">ຄວາມລື່ນໄຫຼຂອງເຟຣມ</string>
+    <string name="adaptive_frames_jank">ເຟຣມທີ່ຊ້າ ຫຼື ຖືກຂ້າມ</string>
+    <string name="adaptive_frames_dropped">ເຟຣມທີ່ຖືກຂ້າມ</string>
+    <string name="adaptive_frames_count">ສັງເກດແລ້ວ %1$d ເຟຣມ</string>
+    <string name="adaptive_frames_timing">ເປົ້າໝາຍ: %1$.0f FPS · ໜ້າຈໍ: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ເວລາຂອງເຟຣມ (ເປີເຊັນໄທລ໌ທີ 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">ວັດແທກເຟຣມຫຼ້າສຸດຂອງແອັບທີ່ກຳລັງໃຊ້. ເກັບຕົວຢ່າງພຽງບາງສ່ວນ. ບໍ່ໄດ້ວັດແທກຄວາມຊ້າຂອງເຄືອຂ່າຍ ຫຼື ການປ້ອນຂໍ້ມູນ.</string>
+    <string name="adaptive_frames_waiting">ກຳລັງລໍຖ້າຜົນວັດແທກເຟຣມທີ່ພຽງພໍ ແລະ ປຽບທຽບໄດ້ ກ່ອນສະເໜີການປ່ຽນແປງ.</string>
+    <string name="adaptive_frames_changed">ແອັບ, ພື້ນທີ່ສະແດງຜົນ ຫຼື ຈັງຫວະເຟຣມໄດ້ປ່ຽນແປງ. ຕ້ອງມີການວັດແທກໃໝ່.</string>
+    <string name="adaptive_frames_improved">ພົບເຟຣມທີ່ຊ້າ ຫຼື ຖືກຂ້າມໜ້ອຍລົງ ພາຍໃນຂອບເຂດການທົດລອງ.</string>
+    <string name="adaptive_frames_regressed">ການທົດລອງບໍ່ບັນລຸເປົ້າໝາຍຄວາມລື່ນໄຫຼຂອງເຟຣມ.</string>
+    <string name="adaptive_frames_lower">ການສະແດງເຟຣມຄົງທີ່ ແລະ ພາລະຕ່ຳ. ລອງຫຼຸດຄວາມຖີ່ສູງສຸດລົງ.</string>
+    <string name="adaptive_frames_raise">ພົບເຟຣມທີ່ຊ້າ ຫຼື ຖືກຂ້າມໃນຂະນະທີ່ພາລະສູງ. ລອງເພີ່ມຄວາມຖີ່ສູງສຸດ.</string>
+    <string name="adaptive_gpu_boundaries">ປັບ GPU ໄດ້ສະເພາະເມື່ອຄວບຄຸມແບບອັດຕະໂນມັດ. ການຕັ້ງຄ່າ CPU/GPU ດ້ວຍຕົນເອງມີບຸລິມະສິດ.</string>
+    <string name="adaptive_trial_generic">ກຳລັງທົດສອບຄວາມຖີ່ທີ່ຮອງຮັບພຽງໜຶ່ງຂັ້ນ.</string>
+    <string name="adaptive_gpu_missing">ກຳລັງລໍຖ້າຄ່າພາລະ ແລະ ອຸນຫະພູມ GPU ທີ່ໃຊ້ງານໄດ້.</string>
+</resources>

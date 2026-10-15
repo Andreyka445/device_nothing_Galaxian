@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU stjórn</string>
+    <string name="gpu_home_summary">GPU-tíðni, lágmarks- og hámarksmörk og sjálfvirk stýring.</string>
+    <string name="gpu_current_frequency">Núverandi tíðni</string>
+    <string name="gpu_requested_frequency">Föst tíðnistilling</string>
+    <string name="gpu_loading">Les GPU ástand...</string>
+    <string name="gpu_unavailable">"Ekki tiltækt"</string>
+    <string name="gpu_idle">Aðgerðarlaus</string>
+    <string name="gpu_control_state">Tíðnistjórnun</string>
+    <string name="gpu_mode_automatic">Sjálfvirk</string>
+    <string name="gpu_mode_fixed">Föst tíðni</string>
+    <string name="gpu_mode_unknown">Óþekkt</string>
+    <string name="gpu_control_unavailable">Tíðnistjórnun er ekki tiltæk. Lestrar eru sýndir þegar ökumaður gefur þær upp.</string>
+    <string name="gpu_supported_frequencies">Stuðlar tíðnir</string>
+    <string name="gpu_frequency_count">Tíðniþrep tilkynnt af tækinu: %1$d</string>
+    <string name="gpu_choose_frequency">Stilltu fasta tíðni</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Veldu tíðni sem þetta tæki tilkynnir. Föst tíðni getur aukið orkunotkun og hitastig. Stillingin gildir á meðan GPU er virkt; GPU getur samt slökkt á sér þegar hann er aðgerðalaus. Fastur hamur getur sniðgengið hitatengdar tíðnitakmarkanir GPU sem hugbúnaður setur.</string>
+    <string name="gpu_apply_fixed">Notaðu fasta tíðni</string>
+    <string name="gpu_restore_automatic">Endurheimtu sjálfvirka stjórn</string>
+    <string name="gpu_restore_summary">Afléttu handvirkum GPU-tíðnimörkum og fastri stillingu og leyfðu kerfinu að velja tíðnina aftur.</string>
+    <string name="gpu_restore_action">"Endurheimta"</string>
+    <string name="gpu_session_title">Handvirkar GPU stillingar</string>
+    <string name="gpu_session_summary">Endurræsing endurheimtir sjálfvirka GPU-stýringu. Þessar stýringar breyta ekki CPU-stillingum. Umbeðin og raunveruleg tíðnimörk eru sýnd hvort í sínu lagi; núverandi tíðni kemur frá rekli.</string>
+    <string name="gpu_operation_title">Síðasta aðgerð</string>
+    <string name="gpu_applying">Notar og athugar breytinguna...</string>
+    <string name="gpu_verified">Breyting beitt og staðfest.</string>
+    <string name="gpu_error_unavailable">Umbeðin GPU stýring er ekki tiltæk. Opnaðu þessa síðu aftur og reyndu aftur.</string>
+    <string name="gpu_error_unsupported">Þessi GPU bílstjóri styður ekki umbeðna stjórn.</string>
+    <string name="gpu_error_frequency">Sú tíðni er ekki lengur tilkynnt af tækinu. Veldu eitt af þeim gildum sem eru í boði.</string>
+    <string name="gpu_error_write">Ökumaðurinn GPU hafnaði breytingunni. Forritið reyndi að endurheimta fyrri stillingu.</string>
+    <string name="gpu_error_readback">Ekki var hægt að staðfesta umbeðna GPU stillingu. Forritið reyndi að endurheimta fyrri stillingu.</string>
+    <string name="gpu_error_rollback">%1$s Ekki var hægt að endurheimta fyrri GPU stillingu. Endurheimtu sjálfvirka stjórn eða endurræstu símann.</string>
+    <string name="gpu_requested_range">Umbeðið tíðnisvið</string>
+    <string name="gpu_effective_range">Raunverulegt tíðnisvið</string>
+    <string name="gpu_mode_range">Tíðnimörk</string>
+    <string name="gpu_choose_range">Stilla tíðnisvið</string>
+    <string name="gpu_range_summary">Veldu lágmark og hámark úr þeim tíðnum sem tækið tilkynnir. GPU getur breytt tíðninni innan raunverulega sviðsins og slökkt á sér í aðgerðaleysi. Hátt lágmark getur hunsað sum varmamörk hugbúnaðar og aukið hita og orkunotkun.</string>
+    <string name="gpu_apply_range">Virkja svið</string>
+    <string name="gpu_error_range">Lágmarkstíðnin má ekki vera hærri en hámarkstíðnin.</string>
+    <string name="gpu_error_conflict">Önnur stýring breytti GPU-stillingunum. Stilling hennar var látin standa óbreytt.</string>
+    <string name="gpu_effective_summary">Umbeðin mörk eru þínar stillingar. Raunveruleg mörk eru sviðið sem rekillinn beitir nú eftir að hafa sameinað beiðnir allra stýringa.</string>
+    <string name="gpu_legacy_fixed_summary">Föst GPU-tíðni er virk. Með því að virkja tíðnisvið er föstu stillingunni aflétt og GPU getur breytt tíðninni milli raunverulegu markanna.</string>
+    <string name="gpu_minimum_frequency">Lágmarkstíðni</string>
+    <string name="gpu_maximum_frequency">Hámarkstíðni</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

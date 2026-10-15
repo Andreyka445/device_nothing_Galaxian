@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU ಲೋಡ್</string>
+    <string name="adaptive_gpu_temperature">GPU ತಾಪಮಾನ</string>
+    <string name="adaptive_frames_title">ಫ್ರೇಮ್‌ಗಳ ಸುಗಮತೆ</string>
+    <string name="adaptive_frames_jank">ತಡವಾದ ಅಥವಾ ಕೈಬಿಟ್ಟ ಫ್ರೇಮ್‌ಗಳು</string>
+    <string name="adaptive_frames_dropped">ಕೈಬಿಟ್ಟ ಫ್ರೇಮ್‌ಗಳು</string>
+    <string name="adaptive_frames_count">%1$d ಫ್ರೇಮ್‌ಗಳನ್ನು ಗಮನಿಸಲಾಗಿದೆ</string>
+    <string name="adaptive_frames_timing">ಗುರಿ: %1$.0f FPS · ಪರದೆ: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ಫ್ರೇಮ್ ಸಮಯ (95ನೇ ಪರ್ಸೆಂಟೈಲ್)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">ಬಳಕೆಯಲ್ಲಿರುವ ಆ್ಯಪ್‌ನ ಇತ್ತೀಚಿನ ಫ್ರೇಮ್‌ಗಳನ್ನು ಅಳೆಯುತ್ತದೆ. ಭಾಗಶಃ ಮಾದರಿಗಳನ್ನು ಮಾತ್ರ ತೆಗೆದುಕೊಳ್ಳಲಾಗುತ್ತದೆ. ನೆಟ್‌ವರ್ಕ್ ಮತ್ತು ಇನ್‌ಪುಟ್ ವಿಳಂಬವನ್ನು ಅಳೆಯುವುದಿಲ್ಲ.</string>
+    <string name="adaptive_frames_waiting">ಬದಲಾವಣೆ ಸೂಚಿಸುವ ಮೊದಲು ಸಾಕಷ್ಟು ಹೋಲಿಸಬಹುದಾದ ಫ್ರೇಮ್ ಅಳತೆಗಳಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ.</string>
+    <string name="adaptive_frames_changed">ಆ್ಯಪ್, ರೆಂಡರಿಂಗ್ ಮೇಲ್ಮೈ ಅಥವಾ ಫ್ರೇಮ್‌ಗಳ ಸಮಯ ಬದಲಾಗಿದೆ. ಹೊಸ ಅಳತೆಗಳು ಬೇಕಾಗಿವೆ.</string>
+    <string name="adaptive_frames_improved">ಪರೀಕ್ಷೆಯ ಮಿತಿಗಳೊಳಗೆ ಕಡಿಮೆ ತಡವಾದ ಅಥವಾ ಕೈಬಿಟ್ಟ ಫ್ರೇಮ್‌ಗಳು ಕಂಡುಬಂದಿವೆ.</string>
+    <string name="adaptive_frames_regressed">ಪರೀಕ್ಷೆಯು ಫ್ರೇಮ್ ಸುಗಮತೆಯ ಗುರಿಯನ್ನು ತಲುಪಲಿಲ್ಲ.</string>
+    <string name="adaptive_frames_lower">ಫ್ರೇಮ್‌ಗಳ ಪ್ರದರ್ಶನ ಸ್ಥಿರವಾಗಿದೆ ಮತ್ತು ಲೋಡ್ ಕಡಿಮೆಯಾಗಿದೆ. ಕಡಿಮೆ ಗರಿಷ್ಠ ಆವರ್ತನವನ್ನು ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="adaptive_frames_raise">ಹೆಚ್ಚಿನ ಲೋಡ್‌ನಲ್ಲಿ ತಡವಾದ ಅಥವಾ ಕೈಬಿಟ್ಟ ಫ್ರೇಮ್‌ಗಳು ಪತ್ತೆಯಾಗಿವೆ. ಹೆಚ್ಚಿನ ಗರಿಷ್ಠ ಆವರ್ತನವನ್ನು ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="adaptive_gpu_boundaries">ಸ್ವಯಂಚಾಲಿತ ನಿಯಂತ್ರಣದಲ್ಲಿದ್ದಾಗ ಮಾತ್ರ GPU ಅನ್ನು ಹೊಂದಿಸಬಹುದು. CPU/GPU ನ ಹಸ್ತಚಾಲಿತ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಆದ್ಯತೆ ನೀಡಲಾಗುತ್ತದೆ.</string>
+    <string name="adaptive_trial_generic">ಬೆಂಬಲಿತ ಆವರ್ತನದ ಒಂದು ಹಂತವನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ.</string>
+    <string name="adaptive_gpu_missing">GPU ಲೋಡ್ ಮತ್ತು ತಾಪಮಾನದ ಬಳಸಬಹುದಾದ ಅಳತೆಗಳಿಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ.</string>
+</resources>

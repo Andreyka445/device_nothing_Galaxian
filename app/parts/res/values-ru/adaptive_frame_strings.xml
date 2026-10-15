@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">Нагрузка GPU</string>
+    <string name="adaptive_gpu_temperature">Температура GPU</string>
+    <string name="adaptive_frames_title">Плавность кадров</string>
+    <string name="adaptive_frames_jank">Запоздавшие или пропущенные кадры</string>
+    <string name="adaptive_frames_dropped">Пропущенные кадры</string>
+    <string name="adaptive_frames_count">Наблюдалось кадров: %1$d</string>
+    <string name="adaptive_frames_timing">Цель: %1$.0f FPS · Экран: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Время кадра (95-й процентиль)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Измеряет последние кадры используемого приложения. Выборка частичная. Задержки сети и ввода не измеряются.</string>
+    <string name="adaptive_frames_waiting">Ожидание достаточного количества сопоставимых измерений кадров перед предложением изменения.</string>
+    <string name="adaptive_frames_changed">Приложение, поверхность отрисовки или временные параметры кадров изменились. Нужны новые измерения.</string>
+    <string name="adaptive_frames_improved">В пределах ограничений теста зафиксировано меньше запоздавших или пропущенных кадров.</string>
+    <string name="adaptive_frames_regressed">Тест не достиг целевой плавности кадров.</string>
+    <string name="adaptive_frames_lower">Вывод кадров стабилен, нагрузка низкая. Попробуйте снизить максимальную частоту.</string>
+    <string name="adaptive_frames_raise">При высокой нагрузке обнаружены запоздавшие или пропущенные кадры. Попробуйте повысить максимальную частоту.</string>
+    <string name="adaptive_gpu_boundaries">Настраивать можно только автоматическое управление GPU. Ручные настройки CPU/GPU имеют приоритет.</string>
+    <string name="adaptive_trial_generic">Проверяется изменение на одну поддерживаемую ступень частоты.</string>
+    <string name="adaptive_gpu_missing">Ожидание пригодных показаний нагрузки и температуры GPU.</string>
+</resources>

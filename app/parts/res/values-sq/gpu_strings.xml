@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">Kontrolli i GPU</string>
+    <string name="gpu_home_summary">Frekuenca e GPU, kufijtë minimalë e maksimalë dhe kontrolli automatik.</string>
+    <string name="gpu_current_frequency">Frekuenca aktuale</string>
+    <string name="gpu_requested_frequency">Cilësimi i frekuencës fikse</string>
+    <string name="gpu_loading">Po lexohet gjendja e GPU…</string>
+    <string name="gpu_unavailable">"Nuk ofrohet"</string>
+    <string name="gpu_idle">Joaktive</string>
+    <string name="gpu_control_state">Kontrolli i frekuencës</string>
+    <string name="gpu_mode_automatic">Automatik</string>
+    <string name="gpu_mode_fixed">Frekuencë fikse</string>
+    <string name="gpu_mode_unknown">E panjohur</string>
+    <string name="gpu_control_unavailable">Kontrolli i frekuencës nuk është i disponueshëm. Vlerat shfaqen kur ofrohen nga drejtuesi.</string>
+    <string name="gpu_supported_frequencies">Frekuencat e mbështetura</string>
+    <string name="gpu_frequency_count">Nivelet e frekuencës të raportuara nga pajisja: %1$d</string>
+    <string name="gpu_choose_frequency">Vendos një frekuencë fikse</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Zgjidhni një frekuencë të raportuar nga kjo pajisje. Modaliteti fiks mund të anashkalojë kufijtë termikë të frekuencës së GPU të vendosur nga softueri. Një frekuencë fikse mund të rrisë konsumin e energjisë dhe temperaturën. Cilësimi zbatohet kur GPU është aktive; GPU mund të fiket përsëri kur është joaktive.</string>
+    <string name="gpu_apply_fixed">Zbato frekuencën fikse</string>
+    <string name="gpu_restore_automatic">Rikthe kontrollin automatik</string>
+    <string name="gpu_restore_summary">Hiqni kufijtë manualë të frekuencës së GPU dhe modalitetin fiks, që sistemi ta zgjedhë sërish frekuencën.</string>
+    <string name="gpu_restore_action">"Restauro"</string>
+    <string name="gpu_session_title">Cilësimet manuale të GPU</string>
+    <string name="gpu_session_summary">Rinisja rikthen kontrollin automatik të GPU. Këto kontrolle nuk ndryshojnë cilësimet e CPU. Kufijtë e kërkuar dhe efektivë të frekuencës shfaqen veçmas; frekuenca aktuale merret nga drejtuesi.</string>
+    <string name="gpu_operation_title">Operacioni i fundit</string>
+    <string name="gpu_applying">Po aplikon dhe kontrollon ndryshimin…</string>
+    <string name="gpu_verified">Ndryshimi u zbatua dhe u verifikua.</string>
+    <string name="gpu_error_unavailable">Kontrolli i kërkuar i GPU nuk është i disponueshëm. Rihapeni këtë faqe dhe provoni përsëri.</string>
+    <string name="gpu_error_unsupported">Ky drejtues i GPU nuk e mbështet kontrollin e kërkuar.</string>
+    <string name="gpu_error_frequency">Pajisja nuk e raporton më atë frekuencë. Zgjidhni një nga vlerat që janë aktualisht të disponueshme.</string>
+    <string name="gpu_error_write">Drejtuesi i GPU e refuzoi ndryshimin. Aplikacioni u përpoq të rikthente cilësimin e mëparshëm.</string>
+    <string name="gpu_error_readback">Cilësimi i kërkuar i GPU nuk mund të konfirmohej. Aplikacioni u përpoq të rikthente cilësimin e mëparshëm.</string>
+    <string name="gpu_error_rollback">%1$s Cilësimi i mëparshëm i GPU nuk mund të rikthehej. Riktheni kontrollin automatik ose rinisni telefonin.</string>
+    <string name="gpu_minimum_frequency">Frekuenca minimale</string>
+    <string name="gpu_maximum_frequency">Frekuenca maksimale</string>
+    <string name="gpu_requested_range">Diapazoni i kërkuar i frekuencës</string>
+    <string name="gpu_effective_range">Diapazoni efektiv i frekuencës</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Kufijtë e diapazonit</string>
+    <string name="gpu_choose_range">Cakto diapazonin e frekuencës</string>
+    <string name="gpu_range_summary">Zgjidhni një frekuencë minimale dhe maksimale nga frekuencat që raporton pajisja. GPU mund ta ndryshojë frekuencën brenda diapazonit efektiv dhe të fiket kur nuk punon. Një minimum i lartë mund të mbizotërojë mbi disa kufij termikë të softuerit dhe të shtojë nxehtësinë e konsumin e energjisë.</string>
+    <string name="gpu_apply_range">Zbato diapazonin</string>
+    <string name="gpu_error_range">Frekuenca minimale nuk mund të tejkalojë maksimumin.</string>
+    <string name="gpu_error_conflict">Një kontrollues tjetër ndryshoi cilësimet e GPU. Cilësimi i tij u la i pandryshuar.</string>
+    <string name="gpu_effective_summary">Kufijtë e kërkuar janë cilësimet tuaja. Kufijtë efektivë janë diapazoni që drejtuesi zbaton aktualisht pasi ndërthur kërkesat e të gjithë kontrolluesve.</string>
+    <string name="gpu_legacy_fixed_summary">Një frekuencë fikse e GPU është aktive. Zbatimi i një diapazoni heq modalitetin fiks dhe lejon GPU të ndryshojë frekuencën brenda kufijve efektivë.</string>
+</resources>

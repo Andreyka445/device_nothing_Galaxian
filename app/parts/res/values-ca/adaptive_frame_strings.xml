@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Càrrega de la GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatura de la GPU</string>
+    <string name="adaptive_frames_title">Fluïdesa dels fotogrames</string>
+    <string name="adaptive_frames_jank">Fotogrames endarrerits o descartats</string>
+    <string name="adaptive_frames_dropped">Fotogrames descartats</string>
+    <string name="adaptive_frames_count">%1$d fotogrames observats</string>
+    <string name="adaptive_frames_timing">Objectiu: %1$.0f FPS · Pantalla: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Temps de fotograma (percentil 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mesura els fotogrames recents de l’aplicació en ús. El mostreig és parcial. No mesura els retards de xarxa ni d’entrada.</string>
+    <string name="adaptive_frames_waiting">S’esperen prou mesures de fotogrames comparables abans de proposar un canvi.</string>
+    <string name="adaptive_frames_changed">L’aplicació, la superfície de renderització o la temporització dels fotogrames han canviat. Calen mesures noves.</string>
+    <string name="adaptive_frames_improved">S’han mesurat menys fotogrames endarrerits o descartats dins dels límits de la prova.</string>
+    <string name="adaptive_frames_regressed">La prova no ha assolit l’objectiu de fluïdesa dels fotogrames.</string>
+    <string name="adaptive_frames_lower">La presentació dels fotogrames és estable i la càrrega és baixa. Proveu una freqüència màxima més baixa.</string>
+    <string name="adaptive_frames_raise">S’han detectat fotogrames endarrerits o descartats amb una càrrega alta. Proveu una freqüència màxima més alta.</string>
+    <string name="adaptive_gpu_boundaries">La GPU només es pot ajustar si el control és automàtic. Els ajustos manuals de CPU/GPU tenen prioritat.</string>
+    <string name="adaptive_trial_generic">S’està provant un sol esglaó de freqüència admès.</string>
+    <string name="adaptive_gpu_missing">S’esperen lectures utilitzables de càrrega i temperatura de la GPU.</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">Điều khiển GPU</string>
+    <string name="gpu_home_summary">Tần số GPU, giới hạn tối thiểu và tối đa, cùng chế độ điều khiển tự động.</string>
+    <string name="gpu_current_frequency">Tần số hiện tại</string>
+    <string name="gpu_requested_frequency">Mức tần số cố định đã đặt</string>
+    <string name="gpu_loading">Đang đọc trạng thái GPU…</string>
+    <string name="gpu_unavailable">"Không có sẵn"</string>
+    <string name="gpu_idle">Nhàn rỗi</string>
+    <string name="gpu_control_state">Điều khiển tần số</string>
+    <string name="gpu_mode_automatic">Tự động</string>
+    <string name="gpu_mode_fixed">Tần số cố định</string>
+    <string name="gpu_mode_unknown">Không xác định</string>
+    <string name="gpu_control_unavailable">Không thể điều khiển tần số. Các số liệu được hiển thị khi trình điều khiển cung cấp.</string>
+    <string name="gpu_supported_frequencies">Các tần số được hỗ trợ</string>
+    <string name="gpu_frequency_count">Số mức tần số do thiết bị báo cáo: %1$d</string>
+    <string name="gpu_choose_frequency">Đặt tần số cố định</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Chọn một tần số do thiết bị này báo cáo. Chế độ cố định có thể bỏ qua các giới hạn tần số GPU theo nhiệt độ do phần mềm đặt ra. Tần số cố định có thể làm tăng mức tiêu thụ điện và nhiệt độ. Cài đặt có hiệu lực khi GPU hoạt động; GPU vẫn có thể tắt nguồn khi nhàn rỗi.</string>
+    <string name="gpu_apply_fixed">Áp dụng tần số cố định</string>
+    <string name="gpu_restore_automatic">Khôi phục điều khiển tự động</string>
+    <string name="gpu_restore_summary">Bỏ giới hạn tần số GPU thủ công và chế độ cố định để hệ thống chọn lại tần số.</string>
+    <string name="gpu_restore_action">"Khôi phục"</string>
+    <string name="gpu_session_title">Cài đặt GPU thủ công</string>
+    <string name="gpu_session_summary">Khởi động lại sẽ khôi phục chế độ điều khiển GPU tự động. Các tùy chọn này không thay đổi cài đặt CPU. Giới hạn tần số yêu cầu và hiệu lực được hiển thị riêng; tần số hiện tại được lấy từ trình điều khiển.</string>
+    <string name="gpu_operation_title">Hoạt động cuối cùng</string>
+    <string name="gpu_applying">Áp dụng và kiểm tra sự thay đổi…</string>
+    <string name="gpu_verified">Thay đổi được áp dụng và xác minh.</string>
+    <string name="gpu_error_unavailable">Không thể sử dụng chức năng điều khiển GPU đã yêu cầu. Hãy mở lại trang này và thử lại.</string>
+    <string name="gpu_error_unsupported">Trình điều khiển GPU này không hỗ trợ chức năng điều khiển đã yêu cầu.</string>
+    <string name="gpu_error_frequency">Thiết bị không còn báo cáo tần số đó. Hãy chọn một trong các giá trị hiện có.</string>
+    <string name="gpu_error_write">Trình điều khiển GPU đã từ chối thay đổi. Ứng dụng đã thử khôi phục cài đặt trước đó.</string>
+    <string name="gpu_error_readback">Không thể xác nhận cài đặt GPU đã yêu cầu. Ứng dụng đã thử khôi phục cài đặt trước đó.</string>
+    <string name="gpu_error_rollback">%1$s Không thể khôi phục cài đặt GPU trước đó. Hãy khôi phục điều khiển tự động hoặc khởi động lại điện thoại.</string>
+    <string name="gpu_minimum_frequency">Tần số tối thiểu</string>
+    <string name="gpu_maximum_frequency">Tần số tối đa</string>
+    <string name="gpu_requested_range">Dải tần số yêu cầu</string>
+    <string name="gpu_effective_range">Dải tần số hiệu lực</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Giới hạn dải tần</string>
+    <string name="gpu_choose_range">Đặt dải tần số</string>
+    <string name="gpu_range_summary">Chọn mức tối thiểu và tối đa trong các tần số mà thiết bị này báo cáo. GPU có thể điều chỉnh trong dải hiệu lực và tắt nguồn khi nhàn rỗi. Mức tối thiểu cao có thể ghi đè một số giới hạn nhiệt của phần mềm, làm tăng nhiệt độ và điện năng tiêu thụ.</string>
+    <string name="gpu_apply_range">Áp dụng dải tần</string>
+    <string name="gpu_error_range">Tần số tối thiểu không được vượt quá mức tối đa.</string>
+    <string name="gpu_error_conflict">Một bộ điều khiển khác đã thay đổi cài đặt GPU. Cài đặt của bộ điều khiển đó được giữ nguyên.</string>
+    <string name="gpu_effective_summary">Giới hạn yêu cầu là cài đặt của bạn. Giới hạn hiệu lực là dải mà trình điều khiển hiện áp dụng sau khi kết hợp yêu cầu của tất cả bộ điều khiển.</string>
+    <string name="gpu_legacy_fixed_summary">Tần số GPU cố định đang hoạt động. Áp dụng dải tần sẽ bỏ chế độ cố định và cho phép GPU điều chỉnh giữa các giới hạn hiệu lực.</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU vezérlés</string>
+    <string name="gpu_home_summary">GPU-frekvencia, minimális és maximális korlátok, valamint automatikus vezérlés.</string>
+    <string name="gpu_current_frequency">Aktuális frekvencia</string>
+    <string name="gpu_requested_frequency">Fix frekvencia beállítás</string>
+    <string name="gpu_loading">GPU állapot olvasása…</string>
+    <string name="gpu_unavailable">"Nem érhető el"</string>
+    <string name="gpu_idle">Tétlen</string>
+    <string name="gpu_control_state">Frekvencia szabályozás</string>
+    <string name="gpu_mode_automatic">Automatikus</string>
+    <string name="gpu_mode_fixed">Fix frekvencia</string>
+    <string name="gpu_mode_unknown">Ismeretlen</string>
+    <string name="gpu_control_unavailable">A frekvenciaszabályozás nem elérhető. Az értékek akkor jelennek meg, amikor az illesztőprogram megadja azokat.</string>
+    <string name="gpu_supported_frequencies">Támogatott frekvenciák</string>
+    <string name="gpu_frequency_count">Az eszköz által jelentett gyakorisági lépések: %1$d</string>
+    <string name="gpu_choose_frequency">Állítson be egy fix frekvenciát</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Válassza ki az eszköz által jelentett gyakoriságot. A rögzített frekvencia növelheti az energiafogyasztást és a hőmérsékletet. A beállítás akkor érvényes, ha a GPU aktív; a GPU alapjáraton is kikapcsolhat. A rögzített mód megkerülheti a GPU frekvenciájának szoftveres hőmérsékleti korlátait.</string>
+    <string name="gpu_apply_fixed">Fix frekvencia alkalmazása</string>
+    <string name="gpu_restore_automatic">Állítsa vissza az automatikus vezérlést</string>
+    <string name="gpu_restore_summary">Oldja fel a GPU-frekvencia kézi korlátait és a rögzített módot, hogy a rendszer ismét maga válassza ki a frekvenciát.</string>
+    <string name="gpu_restore_action">"Visszaállítás"</string>
+    <string name="gpu_session_title">Kézi GPU beállítások</string>
+    <string name="gpu_session_summary">Az újraindítás visszaállítja a GPU automatikus vezérlését. Ezek a vezérlők nem módosítják a CPU beállításait. A kért és tényleges frekvenciakorlátok külön jelennek meg; az aktuális frekvenciát az illesztőprogram jelzi.</string>
+    <string name="gpu_operation_title">Utolsó művelet</string>
+    <string name="gpu_applying">A változtatás alkalmazása és ellenőrzése…</string>
+    <string name="gpu_verified">Módosítás alkalmazva és ellenőrizve.</string>
+    <string name="gpu_error_unavailable">A kért GPU vezérlő nem érhető el. Nyissa meg újra ezt az oldalt, és próbálja újra.</string>
+    <string name="gpu_error_unsupported">Ez a GPU illesztőprogram nem támogatja a kért vezérlőt.</string>
+    <string name="gpu_error_frequency">Ezt a frekvenciát már nem jelzi az eszköz. Válasszon egyet az aktuálisan elérhető értékek közül.</string>
+    <string name="gpu_error_write">A GPU sofőr elutasította a változtatást. Az alkalmazás megpróbálta visszaállítani a korábbi beállítást.</string>
+    <string name="gpu_error_readback">A kért GPU beállítást nem sikerült megerősíteni. Az alkalmazás megpróbálta visszaállítani a korábbi beállítást.</string>
+    <string name="gpu_error_rollback">%1$s Az előző GPU beállítást nem sikerült visszaállítani. Állítsa vissza az automatikus vezérlést, vagy indítsa újra a telefont.</string>
+    <string name="gpu_requested_range">Kért frekvenciatartomány</string>
+    <string name="gpu_effective_range">Tényleges frekvenciatartomány</string>
+    <string name="gpu_mode_range">Frekvenciakorlátok</string>
+    <string name="gpu_choose_range">Frekvenciatartomány beállítása</string>
+    <string name="gpu_range_summary">Válasszon minimumot és maximumot az eszköz által jelzett frekvenciák közül. A GPU a tényleges tartományon belül változtathatja a frekvenciáját, és tétlenül kikapcsolhat. A magas minimum felülírhat egyes szoftveres hőmérsékleti korlátokat, és növelheti a hőtermelést és az energiafogyasztást.</string>
+    <string name="gpu_apply_range">Tartomány alkalmazása</string>
+    <string name="gpu_error_range">A minimális frekvencia nem haladhatja meg a maximálisat.</string>
+    <string name="gpu_error_conflict">Egy másik vezérlő módosította a GPU beállításait. Az általa megadott beállítás változatlanul maradt.</string>
+    <string name="gpu_effective_summary">A kért korlátok az Ön beállításai. A tényleges korlátok azt a tartományt jelentik, amelyet az illesztőprogram az összes vezérlő igényének összevonása után jelenleg alkalmaz.</string>
+    <string name="gpu_legacy_fixed_summary">Rögzített GPU-frekvencia aktív. A tartomány alkalmazása feloldja a rögzített módot, és lehetővé teszi, hogy a GPU frekvenciája a tényleges korlátok között változzon.</string>
+    <string name="gpu_minimum_frequency">Minimális frekvencia</string>
+    <string name="gpu_maximum_frequency">Maximális frekvencia</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

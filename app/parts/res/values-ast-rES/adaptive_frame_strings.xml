@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">Carga de la GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatura de la GPU</string>
+    <string name="adaptive_frames_title">Fluidez de los fotogrames</string>
+    <string name="adaptive_frames_jank">Fotogrames retrasaos o descartaos</string>
+    <string name="adaptive_frames_dropped">Fotogrames descartaos</string>
+    <string name="adaptive_frames_count">%1$d fotogrames observaos</string>
+    <string name="adaptive_frames_timing">Oxetivu: %1$.0f FPS · Pantalla: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Tiempu de fotograma (percentil 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mide los fotogrames recientes de l\'aplicación n\'usu. El muestreo ye parcial. Nun se miden los retrasos de rede nin d\'entrada.</string>
+    <string name="adaptive_frames_waiting">Esperando abondes midíes de fotogrames comparables enantes de proponer un cambéu.</string>
+    <string name="adaptive_frames_changed">L\'aplicación, la superficie de renderizáu o los tiempos de los fotogrames camudaron. Faen falta midíes nueves.</string>
+    <string name="adaptive_frames_improved">Midiéronse menos fotogrames retrasaos o descartaos dientro de les llendes de la prueba.</string>
+    <string name="adaptive_frames_regressed">La prueba nun algamó l\'oxetivu de fluidez de los fotogrames.</string>
+    <string name="adaptive_frames_lower">La entrega de fotogrames ye estable y la carga ye baxa. Prueba una frecuencia máxima menor.</string>
+    <string name="adaptive_frames_raise">Detectáronse fotogrames retrasaos o descartaos con una carga alta. Prueba una frecuencia máxima mayor.</string>
+    <string name="adaptive_gpu_boundaries">Namái se pue axustar el control automáticu de la GPU. Los axustes manuales de CPU/GPU tienen prioridá.</string>
+    <string name="adaptive_trial_generic">Probando un solu pasu de frecuencia compatible.</string>
+    <string name="adaptive_gpu_missing">Esperando llectures utilizables de carga y temperatura de la GPU.</string>
+</resources>

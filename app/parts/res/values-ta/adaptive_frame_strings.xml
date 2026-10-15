@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU சுமை</string>
+    <string name="adaptive_gpu_temperature">GPU வெப்பநிலை</string>
+    <string name="adaptive_frames_title">ஃபிரேம்களின் சீர்மை</string>
+    <string name="adaptive_frames_jank">தாமதமான அல்லது கைவிடப்பட்ட ஃபிரேம்கள்</string>
+    <string name="adaptive_frames_dropped">கைவிடப்பட்ட ஃபிரேம்கள்</string>
+    <string name="adaptive_frames_count">%1$d ஃபிரேம்கள் கவனிக்கப்பட்டன</string>
+    <string name="adaptive_frames_timing">இலக்கு: %1$.0f FPS · திரை: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ஃபிரேம் நேரம் (95வது சதமானம்)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">பயன்பாட்டில் உள்ள செயலியின் சமீபத்திய ஃபிரேம்களை அளவிடுகிறது. மாதிரிகள் பகுதியளவில் மட்டுமே எடுக்கப்படுகின்றன. நெட்வொர்க் மற்றும் உள்ளீட்டுத் தாமதங்கள் அளவிடப்படுவதில்லை.</string>
+    <string name="adaptive_frames_waiting">மாற்றத்தைப் பரிந்துரைக்கும் முன், ஒப்பிடத்தக்க போதுமான ஃபிரேம் அளவீடுகளுக்குக் காத்திருக்கிறது.</string>
+    <string name="adaptive_frames_changed">செயலி, காட்சியாக்கப் பரப்பு அல்லது ஃபிரேம்களின் நேரம் மாறியுள்ளது. புதிய அளவீடுகள் தேவை.</string>
+    <string name="adaptive_frames_improved">சோதனையின் வரம்புகளுக்குள் தாமதமான அல்லது கைவிடப்பட்ட ஃபிரேம்கள் குறைவாக அளவிடப்பட்டன.</string>
+    <string name="adaptive_frames_regressed">சோதனை ஃபிரேம்களின் சீர்மை இலக்கை எட்டவில்லை.</string>
+    <string name="adaptive_frames_lower">ஃபிரேம்களின் காட்சி சீராக உள்ளது, சுமையும் குறைவாக உள்ளது. குறைந்த அதிகபட்ச அதிர்வெண்ணை முயற்சிக்கவும்.</string>
+    <string name="adaptive_frames_raise">அதிகச் சுமையின்போது தாமதமான அல்லது கைவிடப்பட்ட ஃபிரேம்கள் கண்டறியப்பட்டன. உயர்ந்த அதிகபட்ச அதிர்வெண்ணை முயற்சிக்கவும்.</string>
+    <string name="adaptive_gpu_boundaries">தானியங்கி கட்டுப்பாட்டில் இருக்கும்போது மட்டுமே GPU-ஐ சரிசெய்யலாம். கைமுறை CPU/GPU அமைப்புகளுக்கு முன்னுரிமை உண்டு.</string>
+    <string name="adaptive_trial_generic">ஆதரிக்கப்படும் ஒரு அதிர்வெண் படிநிலை சோதிக்கப்படுகிறது.</string>
+    <string name="adaptive_gpu_missing">GPU சுமை மற்றும் வெப்பநிலைக்கான பயன்படுத்தத்தக்க அளவீடுகளுக்குக் காத்திருக்கிறது.</string>
+</resources>

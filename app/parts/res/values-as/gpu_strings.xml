@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU নিয়ন্ত্ৰণ</string>
+    <string name="gpu_home_summary">GPU কম্পাঙ্ক, সৰ্বনিম্ন আৰু সৰ্বোচ্চ সীমা, আৰু স্বয়ংক্ৰিয় নিয়ন্ত্ৰণ।</string>
+    <string name="gpu_current_frequency">বৰ্তমানৰ কম্পাঙ্ক</string>
+    <string name="gpu_requested_frequency">ফিক্সড ফ্ৰিকুৱেন্সি ছেটিং</string>
+    <string name="gpu_loading">GPU ৰাজ্য পঢ়া...</string>
+    <string name="gpu_unavailable">"উপলব্ধ নহয়"</string>
+    <string name="gpu_idle">এনেই থকা</string>
+    <string name="gpu_control_state">কম্পাঙ্ক নিয়ন্ত্ৰণ</string>
+    <string name="gpu_mode_automatic">স্বয়ংক্ৰিয়</string>
+    <string name="gpu_mode_fixed">নিৰ্দিষ্ট কম্পাঙ্ক</string>
+    <string name="gpu_mode_unknown">অজ্ঞাত</string>
+    <string name="gpu_control_unavailable">কম্পাঙ্ক নিয়ন্ত্ৰণ উপলব্ধ নহয়। ড্ৰাইভাৰে যেতিয়া সেইবোৰ প্ৰদান কৰে তেতিয়া ৰিডিংসমূহ দেখুওৱা হয়।</string>
+    <string name="gpu_supported_frequencies">সমৰ্থিত কম্পাঙ্কসমূহ</string>
+    <string name="gpu_frequency_count">ডিভাইচৰ দ্বাৰা প্ৰতিবেদন কৰা কম্পাঙ্ক পদক্ষেপসমূহ: %1$d</string>
+    <string name="gpu_choose_frequency">এটা নিৰ্দিষ্ট কম্পাঙ্ক নিৰ্ধাৰণ কৰক</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">এই ডিভাইচৰ দ্বাৰা প্ৰতিবেদন কৰা এটা কম্পাঙ্ক বাছক। এটা নিৰ্দিষ্ট কম্পাঙ্ক শক্তিৰ ব্যৱহাৰ আৰু উষ্ণতা বৃদ্ধি কৰিব পাৰে। GPU সক্ৰিয় হৈ থকাৰ সময়ত ছেটিং প্ৰযোজ্য হয়; GPU এতিয়াও অচল অৱস্থাত পাৱাৰ ডাউন কৰিব পাৰে। স্থিৰ মোডে ছফ্টৱেৰে জাপি দিয়া GPU-ৰ তাপজনিত কম্পাঙ্ক সীমা অতিক্ৰম কৰিব পাৰে।</string>
+    <string name="gpu_apply_fixed">নিৰ্দিষ্ট কম্পাঙ্ক প্ৰয়োগ কৰক</string>
+    <string name="gpu_restore_automatic">স্বয়ংক্ৰিয় নিয়ন্ত্ৰণ পুনৰুদ্ধাৰ কৰক</string>
+    <string name="gpu_restore_summary">GPU কম্পাঙ্কৰ হাতেৰে নিৰ্ধাৰিত সীমা আৰু স্থিৰ মোড আঁতৰাই দিয়ক, যাতে ছিষ্টেমে পুনৰ কম্পাঙ্ক বাছিব পাৰে।</string>
+    <string name="gpu_restore_action">"পুনঃস্থাপন কৰক"</string>
+    <string name="gpu_session_title">মেনুৱেল GPU ছেটিংছ</string>
+    <string name="gpu_session_summary">পুনৰাৰম্ভ কৰিলে GPU-ৰ স্বয়ংক্ৰিয় নিয়ন্ত্ৰণ পুনৰুদ্ধাৰ হয়। এই নিয়ন্ত্ৰণসমূহে CPU ছেটিংছ সলনি নকৰে। অনুৰোধ কৰা আৰু কাৰ্যকৰী কম্পাঙ্কৰ সীমা পৃথকে দেখুওৱা হয়; বৰ্তমান কম্পাঙ্ক ড্ৰাইভাৰৰ পৰা পোৱা যায়।</string>
+    <string name="gpu_operation_title">শেষ অপাৰেচন</string>
+    <string name="gpu_applying">প্ৰয়োগ আৰু পৰিবৰ্তন পৰীক্ষণ...</string>
+    <string name="gpu_verified">পৰিৱৰ্তন প্ৰয়োগ কৰা হৈছে আৰু পৰীক্ষা কৰা হৈছে।</string>
+    <string name="gpu_error_unavailable">অনুৰোধ কৰা GPU নিয়ন্ত্ৰণ উপলব্ধ নহয়। এই পৃষ্ঠাটো পুনৰ খোলক আৰু পুনৰ চেষ্টা কৰক।</string>
+    <string name="gpu_error_unsupported">এই GPU ড্ৰাইভাৰে অনুৰোধ কৰা নিয়ন্ত্ৰণ সমৰ্থন নকৰে।</string>
+    <string name="gpu_error_frequency">সেই কম্পাঙ্ক ডিভাইচটোৱে আৰু ৰিপৰ্ট নকৰে। বৰ্তমান উপলব্ধ মানসমূহৰ এটা বাছক।</string>
+    <string name="gpu_error_write">GPU চালকজনে এই পৰিৱৰ্তন নাকচ কৰে। এপটোৱে পূৰ্বৰ ছেটিং পুনৰুদ্ধাৰ কৰিবলৈ চেষ্টা কৰিছিল।</string>
+    <string name="gpu_error_readback">অনুৰোধ কৰা GPU ছেটিং নিশ্চিত কৰিব পৰা নগ\'ল। এপটোৱে পূৰ্বৰ ছেটিং পুনৰুদ্ধাৰ কৰিবলৈ চেষ্টা কৰিছিল।</string>
+    <string name="gpu_error_rollback">%1$s পূৰ্বৰ GPU ছেটিং পুনৰুদ্ধাৰ কৰিব পৰা নগ\'ল। স্বয়ংক্ৰিয় নিয়ন্ত্ৰণ পুনৰুদ্ধাৰ কৰক বা ফোন পুনৰাৰম্ভ কৰক।</string>
+    <string name="gpu_requested_range">অনুৰোধ কৰা কম্পাঙ্কৰ পৰিসৰ</string>
+    <string name="gpu_effective_range">কাৰ্যকৰী কম্পাঙ্কৰ পৰিসৰ</string>
+    <string name="gpu_mode_range">কম্পাঙ্কৰ সীমা</string>
+    <string name="gpu_choose_range">কম্পাঙ্কৰ পৰিসৰ নিৰ্ধাৰণ কৰক</string>
+    <string name="gpu_range_summary">ডিভাইচে জনোৱা কম্পাঙ্কসমূহৰ পৰা এটা সৰ্বনিম্ন আৰু এটা সৰ্বোচ্চ বাছক। GPU কাৰ্যকৰী পৰিসৰৰ ভিতৰত সলনি হ’ব পাৰে আৰু অব্যৱহৃত থাকিলে বন্ধ হ’ব পাৰে। অধিক সৰ্বনিম্ন কম্পাঙ্কে কিছুমান ছফ্টৱেৰৰ তাপীয় সীমা অতিক্ৰম কৰি তাপ আৰু শক্তি খৰচ বৃদ্ধি কৰিব পাৰে।</string>
+    <string name="gpu_apply_range">পৰিসৰ প্ৰয়োগ কৰক</string>
+    <string name="gpu_error_range">সৰ্বনিম্ন কম্পাঙ্ক সৰ্বোচ্চতকৈ বেছি হ’ব নোৱাৰে।</string>
+    <string name="gpu_error_conflict">আন এটা নিয়ন্ত্ৰকে GPU ছেটিংছ সলনি কৰিছে। তাৰ ছেটিং অপৰিৱৰ্তিত ৰখা হৈছে।</string>
+    <string name="gpu_effective_summary">অনুৰোধ কৰা সীমা হৈছে আপোনাৰ ছেটিংছ। কাৰ্যকৰী সীমা হৈছে সকলো নিয়ন্ত্ৰকৰ অনুৰোধ একত্ৰিত কৰাৰ পিছত ড্ৰাইভাৰে বৰ্তমান প্ৰয়োগ কৰা পৰিসৰ।</string>
+    <string name="gpu_legacy_fixed_summary">এটা স্থিৰ GPU কম্পাঙ্ক সক্ৰিয় হৈ আছে। পৰিসৰ প্ৰয়োগ কৰিলে স্থিৰ মোড বন্ধ হয় আৰু GPU কাৰ্যকৰী সীমাৰ ভিতৰত সলনি হ’ব পাৰে।</string>
+    <string name="gpu_minimum_frequency">নূন্যতম কম্পাঙ্ক</string>
+    <string name="gpu_maximum_frequency">সৰ্বোচ্চ কম্পাঙ্ক</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

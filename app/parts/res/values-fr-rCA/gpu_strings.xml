@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU contrôle</string>
+    <string name="gpu_home_summary">Fréquence GPU, limites minimale et maximale et contrôle automatique.</string>
+    <string name="gpu_current_frequency">Fréquence actuelle</string>
+    <string name="gpu_requested_frequency">Réglage de la fréquence fixe</string>
+    <string name="gpu_loading">Lecture de l\'état GPU…</string>
+    <string name="gpu_unavailable">"Non disponible"</string>
+    <string name="gpu_idle">Vain</string>
+    <string name="gpu_control_state">Contrôle de fréquence</string>
+    <string name="gpu_mode_automatic">Automatique</string>
+    <string name="gpu_mode_fixed">Fréquence fixe</string>
+    <string name="gpu_mode_unknown">Inconnu</string>
+    <string name="gpu_control_unavailable">Le contrôle de fréquence n\'est pas disponible. Les lectures sont affichées lorsque le chauffeur les fournit.</string>
+    <string name="gpu_supported_frequencies">Fréquences supportées</string>
+    <string name="gpu_frequency_count">Aucune fréquence signalée par l\'appareil : %1$d</string>
+    <string name="gpu_choose_frequency">Définir une fréquence fixe</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Choisissez une fréquence indiquée par cet appareil. Une fréquence fixe peut augmenter la consommation d\'énergie et la température. Le paramètre s\'applique lorsque le GPU est actif ; le GPU peut toujours s\'éteindre lorsqu\'il est inactif. Le mode fixe peut contourner les limites thermiques de fréquence du GPU imposées par le logiciel.</string>
+    <string name="gpu_apply_fixed">Appliquer une fréquence fixe</string>
+    <string name="gpu_restore_automatic">Restaurer le contrôle automatique</string>
+    <string name="gpu_restore_summary">Supprimez les limites manuelles de fréquence du GPU et le mode fixe pour laisser le système choisir de nouveau la fréquence.</string>
+    <string name="gpu_restore_action">"Restaurer"</string>
+    <string name="gpu_session_title">Paramètres manuels GPU</string>
+    <string name="gpu_session_summary">Un redémarrage rétablit le contrôle automatique du GPU. Ces commandes ne changent pas les paramètres du CPU. Les limites de fréquence demandées et effectives sont affichées séparément; la fréquence actuelle provient du pilote.</string>
+    <string name="gpu_operation_title">Dernière opération</string>
+    <string name="gpu_applying">Appliquer et vérifier le changement…</string>
+    <string name="gpu_verified">Modification appliquée et vérifiée.</string>
+    <string name="gpu_error_unavailable">Le contrôle GPU demandé n\'est pas disponible. Rouvrez cette page et réessayez.</string>
+    <string name="gpu_error_unsupported">Ce pilote GPU ne prend pas en charge le contrôle demandé.</string>
+    <string name="gpu_error_frequency">Cette fréquence n\'est plus signalée par l\'appareil. Choisissez l\'une des valeurs présentement disponibles.</string>
+    <string name="gpu_error_write">Le chauffeur GPU a rejeté le changement. L\'application a essayé de restaurer le paramètre précédent.</string>
+    <string name="gpu_error_readback">Le paramètre GPU demandé n\'a pas pu être confirmé. L\'application a essayé de restaurer le paramètre précédent.</string>
+    <string name="gpu_error_rollback">%1$s Le paramètre GPU précédent n\'a pas pu être restauré. Restaurez le contrôle automatique ou redémarrez le téléphone.</string>
+    <string name="gpu_minimum_frequency">Fréquence minimale</string>
+    <string name="gpu_maximum_frequency">Fréquence maximale</string>
+    <string name="gpu_requested_range">Plage de fréquences demandée</string>
+    <string name="gpu_effective_range">Plage de fréquences effective</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Limites de fréquence</string>
+    <string name="gpu_choose_range">Définir la plage de fréquences</string>
+    <string name="gpu_range_summary">Choisissez un minimum et un maximum parmi les fréquences indiquées par cet appareil. Le GPU peut varier dans la plage effective et s’éteindre lorsqu’il est inactif. Un minimum élevé peut passer outre certaines limites thermiques logicielles et augmenter la chaleur et la consommation d’énergie.</string>
+    <string name="gpu_apply_range">Appliquer la plage</string>
+    <string name="gpu_error_range">La fréquence minimale ne peut pas dépasser la fréquence maximale.</string>
+    <string name="gpu_error_conflict">Un autre contrôleur a modifié les paramètres du GPU. Son réglage a été laissé inchangé.</string>
+    <string name="gpu_effective_summary">Les limites demandées correspondent à vos réglages. Les limites effectives sont la plage actuellement appliquée par le pilote après combinaison des demandes de tous les contrôleurs.</string>
+    <string name="gpu_legacy_fixed_summary">Une fréquence GPU fixe est active. Appliquer une plage désactive le mode fixe et permet au GPU de varier entre les limites effectives.</string>
+</resources>

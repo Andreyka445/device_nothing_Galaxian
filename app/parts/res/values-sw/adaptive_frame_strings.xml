@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">Mzigo wa GPU</string>
+    <string name="adaptive_gpu_temperature">Halijoto ya GPU</string>
+    <string name="adaptive_frames_title">Ulaini wa mwendo wa fremu</string>
+    <string name="adaptive_frames_jank">Fremu zilizochelewa au kurukwa</string>
+    <string name="adaptive_frames_dropped">Fremu zilizorukwa</string>
+    <string name="adaptive_frames_count">Fremu %1$d zimeangaliwa</string>
+    <string name="adaptive_frames_timing">Lengo: %1$.0f FPS · Skrini: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Muda wa fremu (persentili ya 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Hupima fremu za hivi karibuni za programu inayotumika. Ni sehemu tu ya sampuli inayopimwa. Ucheleweshaji wa mtandao na ingizo haupimwi.</string>
+    <string name="adaptive_frames_waiting">Inasubiri vipimo vya kutosha vya fremu vinavyoweza kulinganishwa kabla ya kupendekeza badiliko.</string>
+    <string name="adaptive_frames_changed">Programu, eneo la uchoraji au muda wa fremu umebadilika. Vipimo vipya vinahitajika.</string>
+    <string name="adaptive_frames_improved">Fremu chache zaidi zilizochelewa au kurukwa zilipimwa ndani ya vikomo vya jaribio.</string>
+    <string name="adaptive_frames_regressed">Jaribio halikufikia lengo la ulaini wa mwendo wa fremu.</string>
+    <string name="adaptive_frames_lower">Uwasilishaji wa fremu ni thabiti na mzigo ni mdogo. Jaribu kupunguza masafa ya juu.</string>
+    <string name="adaptive_frames_raise">Fremu zilizochelewa au kurukwa ziligunduliwa wakati wa mzigo mkubwa. Jaribu kuongeza masafa ya juu.</string>
+    <string name="adaptive_gpu_boundaries">Ni udhibiti wa GPU wa kiotomatiki pekee unaoweza kurekebishwa. Mipangilio ya CPU/GPU ya kuweka mwenyewe ina kipaumbele.</string>
+    <string name="adaptive_trial_generic">Inajaribu hatua moja ya masafa inayokubaliwa.</string>
+    <string name="adaptive_gpu_missing">Inasubiri vipimo vinavyoweza kutumika vya mzigo na halijoto ya GPU.</string>
+</resources>

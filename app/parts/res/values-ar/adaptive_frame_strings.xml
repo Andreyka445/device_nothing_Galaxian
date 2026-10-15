@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">حمل GPU</string>
+    <string name="adaptive_gpu_temperature">درجة حرارة GPU</string>
+    <string name="adaptive_frames_title">سلاسة الإطارات</string>
+    <string name="adaptive_frames_jank">الإطارات المتأخرة أو المُسقطة</string>
+    <string name="adaptive_frames_dropped">الإطارات المُسقطة</string>
+    <string name="adaptive_frames_count">تم رصد %1$d إطارًا</string>
+    <string name="adaptive_frames_timing">الهدف: ⁨%1$.0f FPS⁩ · الشاشة: ⁨%2$.0f Hz⁩</string>
+    <string name="adaptive_frames_p95">زمن الإطار (المئين 95)</string>
+    <string name="adaptive_milliseconds">⁨%1$.1f ms⁩</string>
+    <string name="adaptive_frames_partial">يقيس الإطارات الأخيرة للتطبيق قيد الاستخدام. تُؤخذ عينة جزئية فقط. لا يُقاس تأخر الشبكة أو الاستجابة للإدخال.</string>
+    <string name="adaptive_frames_waiting">بانتظار قياسات كافية وقابلة للمقارنة للإطارات قبل اقتراح تغيير.</string>
+    <string name="adaptive_frames_changed">تغيّر التطبيق أو سطح العرض أو توقيت الإطارات. يلزم إجراء قياسات جديدة.</string>
+    <string name="adaptive_frames_improved">تم رصد عدد أقل من الإطارات المتأخرة أو المُسقطة ضمن حدود التجربة.</string>
+    <string name="adaptive_frames_regressed">لم تحقق التجربة هدف سلاسة الإطارات.</string>
+    <string name="adaptive_frames_lower">عرض الإطارات مستقر والحمل منخفض. جرّب خفض التردد الأقصى.</string>
+    <string name="adaptive_frames_raise">تم رصد إطارات متأخرة أو مُسقطة تحت حمل مرتفع. جرّب رفع التردد الأقصى.</string>
+    <string name="adaptive_gpu_boundaries">يمكن تعديل GPU فقط عند استخدام التحكم التلقائي. تُعطى الأولوية للإعدادات اليدوية لـ CPU وGPU.</string>
+    <string name="adaptive_trial_generic">جارٍ اختبار خطوة واحدة من الترددات المدعومة.</string>
+    <string name="adaptive_gpu_missing">بانتظار قراءات قابلة للاستخدام لحمل GPU ودرجة حرارته.</string>
+</resources>

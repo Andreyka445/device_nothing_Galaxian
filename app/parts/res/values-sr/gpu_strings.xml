@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU контрола</string>
+    <string name="gpu_home_summary">Фреквенција GPU, минимално и максимално ограничење и аутоматска контрола.</string>
+    <string name="gpu_current_frequency">Тренутна фреквенција</string>
+    <string name="gpu_requested_frequency">Поставка фиксне фреквенције</string>
+    <string name="gpu_loading">Читање GPU стања…</string>
+    <string name="gpu_unavailable">"Недоступан"</string>
+    <string name="gpu_idle">Идле</string>
+    <string name="gpu_control_state">Контрола фреквенције</string>
+    <string name="gpu_mode_automatic">Аутоматски</string>
+    <string name="gpu_mode_fixed">Фиксна фреквенција</string>
+    <string name="gpu_mode_unknown">Непознато</string>
+    <string name="gpu_control_unavailable">Контрола фреквенције није доступна. Очитавања се приказују када их возач пружи.</string>
+    <string name="gpu_supported_frequencies">Подржане фреквенције</string>
+    <string name="gpu_frequency_count">Кораци фреквенције које је уређај пријавио: %1$d</string>
+    <string name="gpu_choose_frequency">Поставите фиксну фреквенцију</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Одаберите фреквенцију коју је пријавио овај уређај. Фиксна фреквенција може повећати потрошњу енергије и температуру. Поставка се примењује док је GPU активан; GPU се и даље може искључити када је у стању мировања. Режим фиксне фреквенције може заобићи софтверска температурна ограничења фреквенције GPU-а.</string>
+    <string name="gpu_apply_fixed">Примените фиксну фреквенцију</string>
+    <string name="gpu_restore_automatic">Вратите аутоматску контролу</string>
+    <string name="gpu_restore_summary">Уклоните ручна ограничења фреквенције GPU и фиксни режим и дозволите систему да поново бира фреквенцију.</string>
+    <string name="gpu_restore_action">"Врати"</string>
+    <string name="gpu_session_title">Ручна подешавања GPU</string>
+    <string name="gpu_session_summary">Поновно покретање враћа аутоматску контролу GPU. Ове контроле не мењају подешавања CPU. Захтевана и стварна ограничења фреквенције приказују се одвојено; тренутна фреквенција се добија од драјвера.</string>
+    <string name="gpu_operation_title">Последња операција</string>
+    <string name="gpu_applying">Примена и провера промене…</string>
+    <string name="gpu_verified">Промена је примењена и верификована.</string>
+    <string name="gpu_error_unavailable">Тражена контрола GPU је недоступна. Поново отворите ову страницу и покушајте поново.</string>
+    <string name="gpu_error_unsupported">Овај драјвер GPU не подржава тражену контролу.</string>
+    <string name="gpu_error_frequency">Уређај више не пријављује ту фреквенцију. Изаберите једну од тренутно доступних вредности.</string>
+    <string name="gpu_error_write">Возач GPU је одбио промену. Апликација је покушала да врати претходну поставку.</string>
+    <string name="gpu_error_readback">Тражена поставка GPU није могла бити потврђена. Апликација је покушала да врати претходну поставку.</string>
+    <string name="gpu_error_rollback">%1$s Претходно подешавање GPU није било могуће вратити. Вратите аутоматску контролу или поново покрените телефон.</string>
+    <string name="gpu_requested_range">Захтевани опсег фреквенције</string>
+    <string name="gpu_effective_range">Стварни опсег фреквенције</string>
+    <string name="gpu_mode_range">Ограничења фреквенције</string>
+    <string name="gpu_choose_range">Подеси опсег фреквенције</string>
+    <string name="gpu_range_summary">Изаберите минимум и максимум међу фреквенцијама које уређај пријављује. GPU може да мења фреквенцију у стварном опсегу и да се искључи када мирује. Висок минимум може да надјача нека софтверска термална ограничења и повећа загревање и потрошњу енергије.</string>
+    <string name="gpu_apply_range">Примени опсег</string>
+    <string name="gpu_error_range">Минимална фреквенција не може бити већа од максималне.</string>
+    <string name="gpu_error_conflict">Други контролер је променио подешавања GPU. Његово подешавање је остављено непромењено.</string>
+    <string name="gpu_effective_summary">Захтевана ограничења су ваша подешавања. Стварна ограничења су опсег који драјвер тренутно примењује након обједињавања захтева свих контролера.</string>
+    <string name="gpu_legacy_fixed_summary">Активна је фиксна фреквенција GPU. Примена опсега укида фиксни режим и омогућава GPU да мења фреквенцију између стварних ограничења.</string>
+    <string name="gpu_minimum_frequency">Минимална фреквенција</string>
+    <string name="gpu_maximum_frequency">Максимална фреквенција</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

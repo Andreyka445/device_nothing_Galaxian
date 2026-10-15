@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">Luchd GPU</string>
+    <string name="adaptive_gpu_temperature">Teòthachd GPU</string>
+    <string name="adaptive_frames_title">Rèidheachd nam frèaman</string>
+    <string name="adaptive_frames_jank">Frèaman fadalach no air an leigeil às</string>
+    <string name="adaptive_frames_dropped">Frèaman air an leigeil às</string>
+    <string name="adaptive_frames_count">%1$d frèam air am faicinn</string>
+    <string name="adaptive_frames_timing">Targaid: %1$.0f FPS · Taisbeanadh: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Ùine frèam (95mh ceudachd)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Tomhaisidh seo frèaman o chionn ghoirid bhon aplacaid a thathar a’ cleachdadh. Chan eil ach cuid de na frèaman san t-sampall. Chan eil dàil lìonraidh no ion-chuir ga tomhas.</string>
+    <string name="adaptive_frames_waiting">A’ feitheamh ri tomhasan frèama gu leòr a ghabhas coimeas mus tèid atharrachadh a mholadh.</string>
+    <string name="adaptive_frames_changed">Dh’atharraich an aplacaid, uachdar an reandaraidh no tìm nam frèaman. Tha feum air tomhasan ùra.</string>
+    <string name="adaptive_frames_improved">Chaidh nas lugha de fhrèaman fadalach no air an leigeil às a thomhas taobh a-staigh crìochan na deuchainn.</string>
+    <string name="adaptive_frames_regressed">Cha do ràinig an deuchainn an targaid airson rèidheachd nam frèaman.</string>
+    <string name="adaptive_frames_lower">Tha lìbhrigeadh nam frèaman seasmhach agus tha an luchd ìosal. Feuch tricead as àirde nas ìsle.</string>
+    <string name="adaptive_frames_raise">Chaidh frèaman fadalach no air an leigeil às a lorg fo luchd àrd. Feuch tricead as àirde nas àirde.</string>
+    <string name="adaptive_gpu_boundaries">Cha ghabh ach smachd fèin-obrachail GPU atharrachadh. Tha prìomhachas aig roghainnean làimhe CPU/GPU.</string>
+    <string name="adaptive_trial_generic">A’ dèanamh deuchainn air aon cheum tricead ris a bheil taic.</string>
+    <string name="adaptive_gpu_missing">A’ feitheamh ri leughaidhean feumail de luchd agus teòthachd GPU.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU 負載</string>
+    <string name="adaptive_gpu_temperature">GPU 溫度</string>
+    <string name="adaptive_frames_title">影格流暢度</string>
+    <string name="adaptive_frames_jank">延遲或遺失的影格</string>
+    <string name="adaptive_frames_dropped">遺失的影格</string>
+    <string name="adaptive_frames_count">已觀測 %1$d 個影格</string>
+    <string name="adaptive_frames_timing">目標：%1$.0f FPS · 螢幕：%2$.0f Hz</string>
+    <string name="adaptive_frames_p95">影格時間（第 95 百分位數）</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">測量使用中應用程式的近期影格。取樣僅涵蓋部分影格，不會測量網路或輸入延遲。</string>
+    <string name="adaptive_frames_waiting">正在等待足夠且可比較的影格測量資料，再提出變更建議。</string>
+    <string name="adaptive_frames_changed">應用程式、繪製表面或影格時序已變更，需要重新測量。</string>
+    <string name="adaptive_frames_improved">在試驗限制內，測得的延遲或遺失影格較少。</string>
+    <string name="adaptive_frames_regressed">試驗未達到影格流暢度目標。</string>
+    <string name="adaptive_frames_lower">影格輸出穩定且負載偏低，建議嘗試降低最高頻率。</string>
+    <string name="adaptive_frames_raise">在高負載下偵測到延遲或遺失的影格，建議嘗試提高最高頻率。</string>
+    <string name="adaptive_gpu_boundaries">僅能調整處於自動控制模式的 GPU。手動 CPU/GPU 設定優先。</string>
+    <string name="adaptive_trial_generic">正在測試一個支援的頻率級距。</string>
+    <string name="adaptive_gpu_missing">正在等待可用的 GPU 負載與溫度讀數。</string>
+</resources>

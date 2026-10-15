@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Load ng GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatura ng GPU</string>
+    <string name="adaptive_frames_title">Pagiging maayos ng mga frame</string>
+    <string name="adaptive_frames_jank">Mga nahuli o nalaktawang frame</string>
+    <string name="adaptive_frames_dropped">Mga nalaktawang frame</string>
+    <string name="adaptive_frames_count">%1$d frame ang naobserbahan</string>
+    <string name="adaptive_frames_timing">Layunin: %1$.0f FPS · Display: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Tagal ng frame (ika-95 percentile)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Sinusukat ang mga kamakailang frame ng app na ginagamit. Bahagi lang ng mga frame ang kinukuhanan ng sample. Hindi sinusukat ang pagkaantala ng network at input.</string>
+    <string name="adaptive_frames_waiting">Naghihintay ng sapat na maihahambing na sukat ng mga frame bago magmungkahi ng pagbabago.</string>
+    <string name="adaptive_frames_changed">Nagbago ang app, ang surface na nirender, o ang timing ng mga frame. Kailangan ng mga bagong pagsukat.</string>
+    <string name="adaptive_frames_improved">Mas kaunting nahuli o nalaktawang frame ang nasukat sa loob ng mga limitasyon ng pagsubok.</string>
+    <string name="adaptive_frames_regressed">Hindi naabot ng pagsubok ang target na pagiging maayos ng mga frame.</string>
+    <string name="adaptive_frames_lower">Matatag ang pagpapakita ng mga frame at mababa ang load. Subukan ang mas mababang maximum na frequency.</string>
+    <string name="adaptive_frames_raise">May nakitang nahuli o nalaktawang frame habang mataas ang load. Subukan ang mas mataas na maximum na frequency.</string>
+    <string name="adaptive_gpu_boundaries">Maaari lang isaayos ang GPU kapag awtomatiko ang kontrol. Mas inuuna ang mga manwal na setting ng CPU/GPU.</string>
+    <string name="adaptive_trial_generic">Sinusubukan ang isang suportadong hakbang ng frequency.</string>
+    <string name="adaptive_gpu_missing">Naghihintay ng magagamit na mga sukat ng load at temperatura ng GPU.</string>
+</resources>

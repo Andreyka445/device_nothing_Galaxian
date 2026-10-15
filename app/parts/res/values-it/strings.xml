@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="parts_title">Galaxian Parts</string>
+    <string name="parts_summary">CPU, controllo adattivo, temperature, RAM e batteria</string>
+    <string name="parts_cpu_title">Controllo CPU</string>
+    <string name="parts_cpu_summary">Frequenze, core attivi e throttling termico</string>
+    <string name="parts_memory_title">Gestione RAM</string>
+    <string name="parts_memory_summary">Utilizzo della memoria e app in background</string>
+    <string name="parts_battery_title">Stato batteria</string>
+    <string name="parts_battery_summary">Livello di carica, temperatura e informazioni sulla batteria</string>
+    <string name="parts_owner_only">Questi controlli sono disponibili al proprietario del dispositivo.</string>
+    <string name="navigate_up">Torna indietro</string>
+    <string name="parts_performance">Prestazioni</string>
+    <string name="parts_device_status">Stato del dispositivo</string>
+    <string name="parts_device_name">Nothing Phone (3a) Lite</string>
+    <string name="parts_device_chip">Dimensity 7300 · 8 core</string>
+    <string name="parts_adaptive_title">Controllo adattivo</string>
+    <string name="parts_adaptive_summary">Osserva, regola un limite e misura il risultato</string>
+    <string name="parts_temperature_title">Temperature</string>
+    <string name="parts_temperature_summary">Sensori in tempo reale, stato termico e andamento</string>
+</resources>

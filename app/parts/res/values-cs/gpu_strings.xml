@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">ovládání GPU</string>
+    <string name="gpu_home_summary">Frekvence GPU, minimální a maximální limity a automatické řízení.</string>
+    <string name="gpu_current_frequency">Aktuální frekvence</string>
+    <string name="gpu_requested_frequency">Pevné nastavení frekvence</string>
+    <string name="gpu_loading">Čtení stavu GPU…</string>
+    <string name="gpu_unavailable">"Není k dispozici"</string>
+    <string name="gpu_idle">Líný</string>
+    <string name="gpu_control_state">Ovládání frekvence</string>
+    <string name="gpu_mode_automatic">Automatický</string>
+    <string name="gpu_mode_fixed">Pevná frekvence</string>
+    <string name="gpu_mode_unknown">Neznámý</string>
+    <string name="gpu_control_unavailable">Ovládání frekvence není k dispozici. Hodnoty se zobrazí, když je řidič poskytne.</string>
+    <string name="gpu_supported_frequencies">Podporované frekvence</string>
+    <string name="gpu_frequency_count">Frekvenční kroky hlášené zařízením: %1$d</string>
+    <string name="gpu_choose_frequency">Nastavte pevnou frekvenci</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Vyberte frekvenci hlášenou tímto zařízením. Pevná frekvence může zvýšit spotřebu energie a teplotu. Nastavení platí, když je aktivní GPU; GPU se může stále vypnout, když je nečinný. Pevný režim může obejít softwarová teplotní omezení frekvence GPU.</string>
+    <string name="gpu_apply_fixed">Použijte pevnou frekvenci</string>
+    <string name="gpu_restore_automatic">Obnovte automatické ovládání</string>
+    <string name="gpu_restore_summary">Uvolněte ruční frekvenční limity GPU a pevný režim, aby frekvenci opět vybíral systém.</string>
+    <string name="gpu_restore_action">"Obnovit"</string>
+    <string name="gpu_session_title">Ruční nastavení GPU</string>
+    <string name="gpu_session_summary">Restart obnoví automatické řízení GPU. Tyto ovládací prvky nemění nastavení CPU. Požadované a účinné frekvenční limity se zobrazují samostatně; aktuální frekvence pochází z ovladače.</string>
+    <string name="gpu_operation_title">Poslední operace</string>
+    <string name="gpu_applying">Uplatnění a kontrola změny…</string>
+    <string name="gpu_verified">Změna použita a ověřena.</string>
+    <string name="gpu_error_unavailable">Požadovaný ovládací prvek GPU není k dispozici. Znovu otevřete tuto stránku a zkuste to znovu.</string>
+    <string name="gpu_error_unsupported">Tento ovladač GPU nepodporuje požadované ovládání.</string>
+    <string name="gpu_error_frequency">Tuto frekvenci již zařízení nehlásí. Vyberte jednu z aktuálně dostupných hodnot.</string>
+    <string name="gpu_error_write">Řidič GPU změnu odmítl. Aplikace se pokusila obnovit předchozí nastavení.</string>
+    <string name="gpu_error_readback">Požadované nastavení GPU nebylo možné potvrdit. Aplikace se pokusila obnovit předchozí nastavení.</string>
+    <string name="gpu_error_rollback">%1$s Předchozí nastavení GPU nelze obnovit. Obnovte automatické ovládání nebo restartujte telefon.</string>
+    <string name="gpu_minimum_frequency">Minimální frekvence</string>
+    <string name="gpu_maximum_frequency">Maximální frekvence</string>
+    <string name="gpu_requested_range">Požadovaný rozsah frekvencí</string>
+    <string name="gpu_effective_range">Účinný rozsah frekvencí</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Frekvenční limity</string>
+    <string name="gpu_choose_range">Nastavit rozsah frekvencí</string>
+    <string name="gpu_range_summary">Vyberte minimum a maximum z frekvencí hlášených zařízením. GPU může měnit frekvenci v účinném rozsahu a v nečinnosti se vypnout. Vysoké minimum může přebít některé softwarové teplotní limity a zvýšit zahřívání a spotřebu.</string>
+    <string name="gpu_apply_range">Použít rozsah</string>
+    <string name="gpu_error_range">Minimální frekvence nesmí překročit maximální.</string>
+    <string name="gpu_error_conflict">Jiný řadič změnil nastavení GPU. Jeho nastavení zůstalo nezměněno.</string>
+    <string name="gpu_effective_summary">Požadované limity jsou vaše nastavení. Účinné limity představují rozsah, který ovladač právě používá po zkombinování požadavků všech řadičů.</string>
+    <string name="gpu_legacy_fixed_summary">Je aktivní pevná frekvence GPU. Použití rozsahu zruší pevný režim a umožní GPU měnit frekvenci mezi účinnými limity.</string>
+</resources>

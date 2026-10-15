@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-ի բեռնվածություն</string>
+    <string name="adaptive_gpu_temperature">GPU-ի ջերմաստիճան</string>
+    <string name="adaptive_frames_title">Կադրերի սահունություն</string>
+    <string name="adaptive_frames_jank">Ուշացած կամ բաց թողնված կադրեր</string>
+    <string name="adaptive_frames_dropped">Բաց թողնված կադրեր</string>
+    <string name="adaptive_frames_count">Դիտարկվել է %1$d կադր</string>
+    <string name="adaptive_frames_timing">Նպատակ՝ %1$.0f FPS · Էկրան՝ %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Կադրի տևողություն (95-րդ պերսենտիլ)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Չափում է օգտագործվող հավելվածի վերջին կադրերը։ Ընտրանքը մասնակի է։ Ցանցի և մուտքագրման ուշացումները չեն չափվում։</string>
+    <string name="adaptive_frames_waiting">Փոփոխություն առաջարկելուց առաջ սպասում է կադրերի բավարար համադրելի չափումների։</string>
+    <string name="adaptive_frames_changed">Հավելվածը, պատկերման մակերեսը կամ կադրերի ժամանակային բնութագրերը փոխվել են։ Նոր չափումներ են անհրաժեշտ։</string>
+    <string name="adaptive_frames_improved">Փորձի սահմանների պահպանմամբ չափվել են ավելի քիչ ուշացած կամ բաց թողնված կադրեր։</string>
+    <string name="adaptive_frames_regressed">Փորձը չի հասել կադրերի սահունության նպատակին։</string>
+    <string name="adaptive_frames_lower">Կադրերի ցուցադրումը կայուն է, իսկ բեռնվածությունը՝ ցածր։ Փորձեք ավելի ցածր առավելագույն հաճախականություն։</string>
+    <string name="adaptive_frames_raise">Բարձր բեռնվածության դեպքում հայտնաբերվել են ուշացած կամ բաց թողնված կադրեր։ Փորձեք ավելի բարձր առավելագույն հաճախականություն։</string>
+    <string name="adaptive_gpu_boundaries">Կարելի է կարգավորել միայն GPU-ի ավտոմատ կառավարումը։ CPU/GPU-ի ձեռքով սահմանված կարգավորումներն առաջնահերթ են։</string>
+    <string name="adaptive_trial_generic">Փորձարկվում է աջակցվող հաճախականության մեկ աստիճան։</string>
+    <string name="adaptive_gpu_missing">Սպասում է GPU-ի բեռնվածության և ջերմաստիճանի օգտագործելի ցուցմունքների։</string>
+</resources>

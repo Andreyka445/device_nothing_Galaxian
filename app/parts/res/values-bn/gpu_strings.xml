@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU নিয়ন্ত্রণ</string>
+    <string name="gpu_home_summary">GPU ফ্রিকোয়েন্সি, সর্বনিম্ন ও সর্বোচ্চ সীমা এবং স্বয়ংক্রিয় নিয়ন্ত্রণ।</string>
+    <string name="gpu_current_frequency">বর্তমান ফ্রিকোয়েন্সি</string>
+    <string name="gpu_requested_frequency">স্থির ফ্রিকোয়েন্সি সেটিং</string>
+    <string name="gpu_loading">GPU অবস্থা পড়া হচ্ছে...</string>
+    <string name="gpu_unavailable">"অনুপলভ্য"</string>
+    <string name="gpu_idle">নিষ্ক্রিয়</string>
+    <string name="gpu_control_state">ফ্রিকোয়েন্সি নিয়ন্ত্রণ</string>
+    <string name="gpu_mode_automatic">স্বয়ংক্রিয়</string>
+    <string name="gpu_mode_fixed">স্থির ফ্রিকোয়েন্সি</string>
+    <string name="gpu_mode_unknown">অজানা</string>
+    <string name="gpu_control_unavailable">ফ্রিকোয়েন্সি নিয়ন্ত্রণ অনুপলব্ধ. ড্রাইভার যখন তাদের প্রদান করে তখন রিডিং দেখানো হয়।</string>
+    <string name="gpu_supported_frequencies">সমর্থিত ফ্রিকোয়েন্সি</string>
+    <string name="gpu_frequency_count">ডিভাইস দ্বারা রিপোর্ট করা ফ্রিকোয়েন্সি পদক্ষেপ: %1$d</string>
+    <string name="gpu_choose_frequency">একটি নির্দিষ্ট ফ্রিকোয়েন্সি সেট করুন</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">এই ডিভাইস দ্বারা রিপোর্ট করা একটি ফ্রিকোয়েন্সি চয়ন করুন. একটি নির্দিষ্ট ফ্রিকোয়েন্সি শক্তি ব্যবহার এবং তাপমাত্রা বৃদ্ধি করতে পারে। GPU সক্রিয় থাকাকালীন সেটিং প্রযোজ্য; নিষ্ক্রিয় থাকা অবস্থায় GPU এখনও পাওয়ার ডাউন করতে পারে। স্থির মোড সফটওয়্যার দ্বারা আরোপিত GPU-এর তাপজনিত ফ্রিকোয়েন্সি সীমা এড়িয়ে যেতে পারে।</string>
+    <string name="gpu_apply_fixed">স্থির ফ্রিকোয়েন্সি প্রয়োগ করুন</string>
+    <string name="gpu_restore_automatic">স্বয়ংক্রিয় নিয়ন্ত্রণ পুনরুদ্ধার করুন</string>
+    <string name="gpu_restore_summary">GPU ফ্রিকোয়েন্সির ম্যানুয়াল সীমা ও স্থির মোড সরিয়ে দিন, যাতে সিস্টেম আবার ফ্রিকোয়েন্সি বেছে নিতে পারে।</string>
+    <string name="gpu_restore_action">"ফিরিয়ে আনুন"</string>
+    <string name="gpu_session_title">ম্যানুয়াল GPU সেটিংস</string>
+    <string name="gpu_session_summary">রিস্টার্ট করলে GPU-এর স্বয়ংক্রিয় নিয়ন্ত্রণ ফিরে আসে। এই নিয়ন্ত্রণগুলো CPU সেটিংস বদলায় না। অনুরোধ করা ও কার্যকর ফ্রিকোয়েন্সির সীমা আলাদাভাবে দেখানো হয়; বর্তমান ফ্রিকোয়েন্সি ড্রাইভার থেকে পাওয়া যায়।</string>
+    <string name="gpu_operation_title">শেষ অপারেশন</string>
+    <string name="gpu_applying">পরিবর্তনটি প্রয়োগ এবং পরীক্ষা করা হচ্ছে...</string>
+    <string name="gpu_verified">পরিবর্তন প্রয়োগ করা হয়েছে এবং যাচাই করা হয়েছে।</string>
+    <string name="gpu_error_unavailable">অনুরোধ করা GPU নিয়ন্ত্রণ অনুপলব্ধ৷ এই পৃষ্ঠাটি আবার খুলুন এবং আবার চেষ্টা করুন।</string>
+    <string name="gpu_error_unsupported">এই GPU ড্রাইভার অনুরোধ করা নিয়ন্ত্রণ সমর্থন করে না।</string>
+    <string name="gpu_error_frequency">সেই ফ্রিকোয়েন্সি আর ডিভাইস দ্বারা রিপোর্ট করা হয় না। বর্তমানে উপলব্ধ মানগুলির মধ্যে একটি বেছে নিন।</string>
+    <string name="gpu_error_write">GPU ড্রাইভার পরিবর্তনটি প্রত্যাখ্যান করেছে৷ অ্যাপটি আগের সেটিং পুনরুদ্ধার করার চেষ্টা করেছে।</string>
+    <string name="gpu_error_readback">অনুরোধ করা GPU সেটিং নিশ্চিত করা যায়নি। অ্যাপটি আগের সেটিং পুনরুদ্ধার করার চেষ্টা করেছে।</string>
+    <string name="gpu_error_rollback">%1$s আগের GPU সেটিং পুনরুদ্ধার করা যায়নি৷ স্বয়ংক্রিয় নিয়ন্ত্রণ পুনরুদ্ধার করুন বা ফোন পুনরায় চালু করুন।</string>
+    <string name="gpu_requested_range">অনুরোধ করা ফ্রিকোয়েন্সির পরিসর</string>
+    <string name="gpu_effective_range">কার্যকর ফ্রিকোয়েন্সির পরিসর</string>
+    <string name="gpu_mode_range">ফ্রিকোয়েন্সির সীমা</string>
+    <string name="gpu_choose_range">ফ্রিকোয়েন্সির পরিসর নির্ধারণ করুন</string>
+    <string name="gpu_range_summary">ডিভাইসের জানানো ফ্রিকোয়েন্সি থেকে একটি সর্বনিম্ন ও সর্বোচ্চ মান বেছে নিন। GPU কার্যকর পরিসরের মধ্যে ফ্রিকোয়েন্সি বদলাতে এবং নিষ্ক্রিয় অবস্থায় বন্ধ হতে পারে। সর্বনিম্ন মান বেশি হলে তা সফটওয়্যারের কিছু তাপীয় সীমাকে অগ্রাহ্য করে তাপ ও বিদ্যুৎ খরচ বাড়াতে পারে।</string>
+    <string name="gpu_apply_range">পরিসর প্রয়োগ করুন</string>
+    <string name="gpu_error_range">সর্বনিম্ন ফ্রিকোয়েন্সি সর্বোচ্চ ফ্রিকোয়েন্সির বেশি হতে পারে না।</string>
+    <string name="gpu_error_conflict">অন্য একটি নিয়ন্ত্রক GPU সেটিংস বদলেছে। তার সেটিং অপরিবর্তিত রাখা হয়েছে।</string>
+    <string name="gpu_effective_summary">অনুরোধ করা সীমা হলো আপনার সেটিংস। কার্যকর সীমা হলো সব নিয়ন্ত্রকের চাহিদা একত্র করার পর ড্রাইভারের বর্তমানে প্রয়োগ করা পরিসর।</string>
+    <string name="gpu_legacy_fixed_summary">একটি স্থির GPU ফ্রিকোয়েন্সি সক্রিয় আছে। পরিসর প্রয়োগ করলে স্থির মোড বন্ধ হয় এবং GPU কার্যকর সীমার মধ্যে ফ্রিকোয়েন্সি বদলাতে পারে।</string>
+    <string name="gpu_minimum_frequency">ন্যূনতম ফ্রিকোয়েন্সি</string>
+    <string name="gpu_maximum_frequency">সর্বাধিক ফ্রিকোয়েন্সি</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

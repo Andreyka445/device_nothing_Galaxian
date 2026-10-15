@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU کنترل</string>
+    <string name="gpu_home_summary">بسامد GPU، حدود کمینه و بیشینه، و کنترل خودکار.</string>
+    <string name="gpu_current_frequency">فرکانس فعلی</string>
+    <string name="gpu_requested_frequency">تنظیم فرکانس ثابت</string>
+    <string name="gpu_loading">خواندن وضعیت GPU…</string>
+    <string name="gpu_unavailable">"در دسترس نیست"</string>
+    <string name="gpu_idle">بیکار</string>
+    <string name="gpu_control_state">کنترل فرکانس</string>
+    <string name="gpu_mode_automatic">خودکار</string>
+    <string name="gpu_mode_fixed">فرکانس ثابت</string>
+    <string name="gpu_mode_unknown">ناشناس</string>
+    <string name="gpu_control_unavailable">کنترل فرکانس در دسترس نیست. قرائت ها زمانی نشان داده می شوند که راننده آنها را ارائه دهد.</string>
+    <string name="gpu_supported_frequencies">فرکانس های پشتیبانی شده</string>
+    <string name="gpu_frequency_count">مراحل فرکانس گزارش شده توسط دستگاه: %1$d</string>
+    <string name="gpu_choose_frequency">یک فرکانس ثابت تنظیم کنید</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">فرکانس گزارش شده توسط این دستگاه را انتخاب کنید. فرکانس ثابت می تواند مصرف برق و دما را افزایش دهد. این تنظیم زمانی اعمال می شود که GPU فعال است. GPU همچنان می‌تواند در حالت بیکار خاموش شود. حالت ثابت می‌تواند محدودیت‌های حرارتی فرکانس GPU را که نرم‌افزار اعمال می‌کند دور بزند.</string>
+    <string name="gpu_apply_fixed">فرکانس ثابت را اعمال کنید</string>
+    <string name="gpu_restore_automatic">بازیابی کنترل خودکار</string>
+    <string name="gpu_restore_summary">محدودیت‌های دستی بسامد GPU و حالت ثابت را آزاد کنید تا سامانه دوباره بسامد را انتخاب کند.</string>
+    <string name="gpu_restore_action">"بازگرداندن"</string>
+    <string name="gpu_session_title">تنظیمات دستی GPU</string>
+    <string name="gpu_session_summary">راه‌اندازی مجدد، کنترل خودکار GPU را بازمی‌گرداند. این کنترل‌ها تنظیمات CPU را تغییر نمی‌دهند. حدود بسامد درخواستی و مؤثر جداگانه نمایش داده می‌شوند؛ بسامد کنونی از راه‌انداز دریافت می‌شود.</string>
+    <string name="gpu_operation_title">آخرین عملیات</string>
+    <string name="gpu_applying">در حال اعمال و بررسی تغییر…</string>
+    <string name="gpu_verified">تغییر اعمال و تأیید شد.</string>
+    <string name="gpu_error_unavailable">کنترل GPU درخواستی در دسترس نیست. این صفحه را دوباره باز کنید و دوباره امتحان کنید.</string>
+    <string name="gpu_error_unsupported">این درایور GPU از کنترل درخواستی پشتیبانی نمی‌کند.</string>
+    <string name="gpu_error_frequency">آن فرکانس دیگر توسط دستگاه گزارش نمی شود. یکی از مقادیر موجود در حال حاضر را انتخاب کنید.</string>
+    <string name="gpu_error_write">راننده GPU تغییر را رد کرد. برنامه سعی کرد تنظیمات قبلی را بازیابی کند.</string>
+    <string name="gpu_error_readback">تنظیم GPU درخواستی تایید نشد. برنامه سعی کرد تنظیمات قبلی را بازیابی کند.</string>
+    <string name="gpu_error_rollback">%1$s تنظیمات GPU قبلی قابل بازیابی نیست. بازیابی کنترل خودکار یا راه اندازی مجدد تلفن.</string>
+    <string name="gpu_minimum_frequency">بسامد کمینه</string>
+    <string name="gpu_maximum_frequency">بسامد بیشینه</string>
+    <string name="gpu_requested_range">بازهٔ بسامد درخواستی</string>
+    <string name="gpu_effective_range">بازهٔ بسامد مؤثر</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">حدود بازه</string>
+    <string name="gpu_choose_range">تنظیم بازهٔ بسامد</string>
+    <string name="gpu_range_summary">کمینه و بیشینه را از میان بسامدهای گزارش‌شدهٔ این دستگاه انتخاب کنید. GPU می‌تواند بسامد را در بازهٔ مؤثر تغییر دهد و هنگام بیکاری خاموش شود. کمینهٔ بالا ممکن است بر برخی محدودیت‌های حرارتی نرم‌افزاری غلبه کند و گرما و مصرف انرژی را افزایش دهد.</string>
+    <string name="gpu_apply_range">اعمال بازه</string>
+    <string name="gpu_error_range">بسامد کمینه نمی‌تواند از بیشینه بیشتر باشد.</string>
+    <string name="gpu_error_conflict">کنترل‌کنندهٔ دیگری تنظیمات GPU را تغییر داد. تنظیم آن بدون تغییر باقی ماند.</string>
+    <string name="gpu_effective_summary">حدود درخواستی همان تنظیمات شما هستند. حدود مؤثر بازه‌ای هستند که راه‌انداز پس از ترکیب درخواست‌های همهٔ کنترل‌کننده‌ها اکنون اعمال می‌کند.</string>
+    <string name="gpu_legacy_fixed_summary">بسامد ثابت GPU فعال است. اعمال بازه، حالت ثابت را آزاد می‌کند و به GPU اجازه می‌دهد بسامد را میان حدود مؤثر تغییر دهد.</string>
+</resources>

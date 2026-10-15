@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Φορτίο GPU</string>
+    <string name="adaptive_gpu_temperature">Θερμοκρασία GPU</string>
+    <string name="adaptive_frames_title">Ομαλότητα καρέ</string>
+    <string name="adaptive_frames_jank">Καθυστερημένα ή χαμένα καρέ</string>
+    <string name="adaptive_frames_dropped">Χαμένα καρέ</string>
+    <string name="adaptive_frames_count">Παρατηρήθηκαν %1$d καρέ</string>
+    <string name="adaptive_frames_timing">Στόχος: %1$.0f FPS · Οθόνη: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Χρόνος καρέ (95ο εκατοστημόριο)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Μετρά τα πρόσφατα καρέ της εφαρμογής που χρησιμοποιείται. Η δειγματοληψία είναι μερική. Δεν μετρά την καθυστέρηση δικτύου ή εισόδου.</string>
+    <string name="adaptive_frames_waiting">Αναμονή για αρκετές συγκρίσιμες μετρήσεις καρέ πριν προταθεί μια αλλαγή.</string>
+    <string name="adaptive_frames_changed">Άλλαξε η εφαρμογή, η επιφάνεια απόδοσης ή ο χρονισμός των καρέ. Χρειάζονται νέες μετρήσεις.</string>
+    <string name="adaptive_frames_improved">Μετρήθηκαν λιγότερα καθυστερημένα ή χαμένα καρέ εντός των ορίων της δοκιμής.</string>
+    <string name="adaptive_frames_regressed">Η δοκιμή δεν πέτυχε τον στόχο ομαλότητας καρέ.</string>
+    <string name="adaptive_frames_lower">Η προβολή των καρέ είναι σταθερή και το φορτίο χαμηλό. Δοκιμάστε χαμηλότερη μέγιστη συχνότητα.</string>
+    <string name="adaptive_frames_raise">Εντοπίστηκαν καθυστερημένα ή χαμένα καρέ υπό υψηλό φορτίο. Δοκιμάστε υψηλότερη μέγιστη συχνότητα.</string>
+    <string name="adaptive_gpu_boundaries">Η GPU μπορεί να ρυθμιστεί μόνο όταν ελέγχεται αυτόματα. Οι χειροκίνητες ρυθμίσεις CPU/GPU έχουν προτεραιότητα.</string>
+    <string name="adaptive_trial_generic">Δοκιμάζεται ένα μόνο υποστηριζόμενο βήμα συχνότητας.</string>
+    <string name="adaptive_gpu_missing">Αναμονή για αξιοποιήσιμες ενδείξεις φορτίου και θερμοκρασίας GPU.</string>
+</resources>

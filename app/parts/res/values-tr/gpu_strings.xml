@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU denetimi</string>
+    <string name="gpu_home_summary">GPU frekansı, minimum ve maksimum sınırlar ve otomatik denetim.</string>
+    <string name="gpu_current_frequency">Mevcut frekans</string>
+    <string name="gpu_requested_frequency">Sabit frekans ayarı</string>
+    <string name="gpu_loading">GPU durumu okunuyor…</string>
+    <string name="gpu_unavailable">"Kullanılamıyor"</string>
+    <string name="gpu_idle">Boşta</string>
+    <string name="gpu_control_state">Frekans denetimi</string>
+    <string name="gpu_mode_automatic">Otomatik</string>
+    <string name="gpu_mode_fixed">Sabit frekans</string>
+    <string name="gpu_mode_unknown">Bilinmiyor</string>
+    <string name="gpu_control_unavailable">Frekans denetimi kullanılamıyor. Sürücü sağladığında ölçümler gösterilir.</string>
+    <string name="gpu_supported_frequencies">Desteklenen frekanslar</string>
+    <string name="gpu_frequency_count">Cihazın bildirdiği frekans kademesi sayısı: %1$d</string>
+    <string name="gpu_choose_frequency">Sabit bir frekans ayarlayın</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Bu cihazın bildirdiği bir frekansı seçin. Sabit mod, GPU için yazılımla uygulanan sıcaklığa bağlı frekans sınırlarını atlayabilir. Sabit bir frekans güç tüketimini ve sıcaklığı artırabilir. Ayar, GPU etkinken uygulanır; GPU boştayken yine de kapanabilir.</string>
+    <string name="gpu_apply_fixed">Sabit frekansı uygula</string>
+    <string name="gpu_restore_automatic">Otomatik denetimi geri yükle</string>
+    <string name="gpu_restore_summary">Manuel GPU frekans sınırlarını ve sabit modu kaldırarak frekansı yeniden sistemin seçmesini sağlayın.</string>
+    <string name="gpu_restore_action">"Geri yükle"</string>
+    <string name="gpu_session_title">Manuel GPU ayarları</string>
+    <string name="gpu_session_summary">Yeniden başlatma, otomatik GPU denetimini geri getirir. Bu denetimler CPU ayarlarını değiştirmez. İstenen ve etkin frekans sınırları ayrı gösterilir; mevcut frekans sürücüden alınır.</string>
+    <string name="gpu_operation_title">Son işlem</string>
+    <string name="gpu_applying">Değişiklik uygulanıyor ve kontrol ediliyor…</string>
+    <string name="gpu_verified">Değişiklik uygulandı ve doğrulandı.</string>
+    <string name="gpu_error_unavailable">İstenen GPU denetimi kullanılamıyor. Bu sayfayı yeniden açıp tekrar deneyin.</string>
+    <string name="gpu_error_unsupported">Bu GPU sürücüsü istenen denetimi desteklemiyor.</string>
+    <string name="gpu_error_frequency">Cihaz artık bu frekansı bildirmiyor. Şu anda kullanılabilen değerlerden birini seçin.</string>
+    <string name="gpu_error_write">GPU sürücüsü değişikliği reddetti. Uygulama önceki ayarı geri yüklemeyi denedi.</string>
+    <string name="gpu_error_readback">İstenen GPU ayarı doğrulanamadı. Uygulama önceki ayarı geri yüklemeyi denedi.</string>
+    <string name="gpu_error_rollback">%1$s Önceki GPU ayarı geri yüklenemedi. Otomatik denetimi geri yükleyin veya telefonu yeniden başlatın.</string>
+    <string name="gpu_requested_range">İstenen frekans aralığı</string>
+    <string name="gpu_effective_range">Etkin frekans aralığı</string>
+    <string name="gpu_mode_range">Frekans sınırları</string>
+    <string name="gpu_choose_range">Frekans aralığını ayarla</string>
+    <string name="gpu_range_summary">Bu cihazın bildirdiği frekanslardan bir minimum ve maksimum seçin. GPU etkin aralıkta frekansını değiştirebilir ve boşta kapanabilir. Yüksek bir minimum, bazı yazılımsal termal sınırları geçersiz kılarak ısıyı ve güç tüketimini artırabilir.</string>
+    <string name="gpu_apply_range">Aralığı uygula</string>
+    <string name="gpu_error_range">Minimum frekans maksimumu aşamaz.</string>
+    <string name="gpu_error_conflict">Başka bir denetleyici GPU ayarlarını değiştirdi. Onun ayarı değiştirilmeden bırakıldı.</string>
+    <string name="gpu_effective_summary">İstenen sınırlar sizin ayarlarınızdır. Etkin sınırlar, tüm denetleyicilerin istekleri birleştirildikten sonra sürücünün uyguladığı aralıktır.</string>
+    <string name="gpu_legacy_fixed_summary">Sabit GPU frekansı etkin. Bir aralık uygulamak sabit modu kaldırır ve GPU frekansının etkin sınırlar arasında değişmesini sağlar.</string>
+    <string name="gpu_minimum_frequency">Minimum frekans</string>
+    <string name="gpu_maximum_frequency">Maksimum frekans</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

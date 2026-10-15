@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="temperature_title">Temperature</string>
+    <string name="temperature_system_status">Stato termico di Android</string>
+    <string name="temperature_live">Temperature attuali</string>
+    <string name="temperature_cpu_max">Massima CPU</string>
+    <string name="temperature_gpu_max">Massima GPU</string>
+    <string name="temperature_battery">Batteria</string>
+    <string name="temperature_skin_max">Massima scocca</string>
+    <string name="temperature_loading">Lettura dei sensori di temperatura disponibili…</string>
+    <string name="temperature_no_sensors">Nessuna temperatura disponibile. I sensori mancanti non vengono indicati come zero.</string>
+    <string name="temperature_framework">Sensori termici di Android</string>
+    <string name="temperature_hardware">Zone termiche del kernel</string>
+    <string name="temperature_broadcast">Misurazione batteria di Android</string>
+    <string name="temperature_sources_title">Informazioni sulle letture</string>
+    <string name="temperature_sources_summary">I nomi dei sensori provengono da Android e dal kernel. La HAL di Galaxian riporta la stessa massima del SoC come CPU, GPU, NPU, TPU e SoC: non sono misurazioni distinte. Le schede CPU e GPU preferiscono le zone del kernel identificate, se disponibili. Lo stato termico di Android è quello riportato dal sistema, non una verifica di sicurezza indipendente, e potrebbe non riflettere le modifiche ai controlli termici.</string>
+    <string name="temperature_sensor_summary">%1$s · %2$s</string>
+    <string name="temperature_history_title">Temperature recenti di CPU e batteria</string>
+    <string name="temperature_history_range">Intervallo rilevato: %1$.1f–%2$.1f °C</string>
+    <string name="temperature_history_waiting">In attesa di misurazioni.</string>
+    <string name="temperature_history_summary">Fino a due minuti, con una lettura ogni due secondi mentre questa pagina è visibile. La scala segue i valori misurati; le interruzioni indicano letture mancanti o una pausa.</string>
+    <string name="temperature_celsius">%1$.1f °C</string>
+    <string name="temperature_unavailable">Non disponibile</string>
+    <string name="temperature_severity_none">Nessun throttling segnalato</string>
+    <string name="temperature_severity_light">Throttling termico lieve</string>
+    <string name="temperature_severity_moderate">Throttling termico moderato</string>
+    <string name="temperature_severity_severe">Throttling termico intenso</string>
+    <string name="temperature_severity_critical">Stato termico critico</string>
+    <string name="temperature_severity_emergency">Emergenza termica</string>
+    <string name="temperature_severity_shutdown">Stato di spegnimento termico</string>
+    <string name="temperature_type_cpu">CPU</string>
+    <string name="temperature_type_gpu">GPU</string>
+    <string name="temperature_type_skin">Scocca</string>
+    <string name="temperature_type_usb">Porta USB</string>
+    <string name="temperature_type_radio">Amplificatore radio</string>
+    <string name="temperature_type_npu">NPU</string>
+    <string name="temperature_type_tpu">TPU</string>
+    <string name="temperature_type_display">Display</string>
+    <string name="temperature_type_modem">Modem</string>
+    <string name="temperature_type_soc">SoC</string>
+    <string name="temperature_type_wifi">Wi-Fi</string>
+    <string name="temperature_type_camera">Fotocamera</string>
+    <string name="temperature_type_flash">Flash</string>
+    <string name="temperature_type_speaker">Altoparlante</string>
+    <string name="temperature_type_ambient">Ambiente</string>
+    <string name="temperature_type_pogo">Connettore accessori</string>
+    <string name="temperature_type_unknown">Zona termica non classificata</string>
+</resources>

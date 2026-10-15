@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">Ngarkesa e GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatura e GPU</string>
+    <string name="adaptive_frames_title">Rrjedhshmëria e kuadrove</string>
+    <string name="adaptive_frames_jank">Kuadro të vonuara ose të humbura</string>
+    <string name="adaptive_frames_dropped">Kuadro të humbura</string>
+    <string name="adaptive_frames_count">%1$d kuadro të vëzhguara</string>
+    <string name="adaptive_frames_timing">Objektivi: %1$.0f FPS · Ekrani: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Koha e kuadrit (percentili 95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mat kuadrot e fundit të aplikacionit në përdorim. Marrja e mostrave është e pjesshme. Vonesat e rrjetit dhe të hyrjes nuk maten.</string>
+    <string name="adaptive_frames_waiting">Në pritje të matjeve të mjaftueshme e të krahasueshme të kuadrove përpara se të propozohet një ndryshim.</string>
+    <string name="adaptive_frames_changed">Aplikacioni, sipërfaqja e vizatimit ose kohëzimi i kuadrove ndryshoi. Nevojiten matje të reja.</string>
+    <string name="adaptive_frames_improved">U matën më pak kuadro të vonuara ose të humbura brenda kufijve të provës.</string>
+    <string name="adaptive_frames_regressed">Prova nuk arriti objektivin e rrjedhshmërisë së kuadrove.</string>
+    <string name="adaptive_frames_lower">Paraqitja e kuadrove është e qëndrueshme dhe ngarkesa është e ulët. Provoni një frekuencë maksimale më të ulët.</string>
+    <string name="adaptive_frames_raise">U zbuluan kuadro të vonuara ose të humbura nën ngarkesë të lartë. Provoni një frekuencë maksimale më të lartë.</string>
+    <string name="adaptive_gpu_boundaries">Mund të rregullohet vetëm kontrolli automatik i GPU. Cilësimet manuale të CPU/GPU kanë përparësi.</string>
+    <string name="adaptive_trial_generic">Po provohet një nivel i vetëm i frekuencës së mbështetur.</string>
+    <string name="adaptive_gpu_missing">Në pritje të matjeve të përdorshme të ngarkesës dhe temperaturës së GPU.</string>
+</resources>

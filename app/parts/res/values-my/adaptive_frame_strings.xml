@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU ဝန်အား</string>
+    <string name="adaptive_gpu_temperature">GPU အပူချိန်</string>
+    <string name="adaptive_frames_title">ဖရိမ် ချောမွေ့မှု</string>
+    <string name="adaptive_frames_jank">နောက်ကျသော သို့မဟုတ် ပျောက်ဆုံးသော ဖရိမ်များ</string>
+    <string name="adaptive_frames_dropped">ပျောက်ဆုံးသော ဖရိမ်များ</string>
+    <string name="adaptive_frames_count">ဖရိမ် %1$d ခုကို လေ့လာထားသည်</string>
+    <string name="adaptive_frames_timing">ပစ်မှတ်: %1$.0f FPS · မျက်နှာပြင်: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">ဖရိမ်ကြာချိန် (ဖရိမ် 95 ရာခိုင်နှုန်း မကျော်သောတန်ဖိုး)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">အသုံးပြုနေသော အက်ပ်၏ မကြာသေးမီက ဖရိမ်များကို တိုင်းတာသည်။ နမူနာယူမှုသည် တစ်စိတ်တစ်ပိုင်းသာ ဖြစ်သည်။ ကွန်ရက်နှင့် ထည့်သွင်းမှု နှောင့်နှေးခြင်းကို မတိုင်းတာပါ။</string>
+    <string name="adaptive_frames_waiting">ပြောင်းလဲမှု မအဆိုပြုမီ လုံလောက်ပြီး နှိုင်းယှဉ်နိုင်သော ဖရိမ်တိုင်းတာချက်များကို စောင့်နေသည်။</string>
+    <string name="adaptive_frames_changed">အက်ပ်၊ ပုံဖော်သည့်မျက်နှာပြင် သို့မဟုတ် ဖရိမ်အချိန်သတ်မှတ်မှု ပြောင်းလဲသွားသည်။ တိုင်းတာချက်အသစ်များ လိုအပ်သည်။</string>
+    <string name="adaptive_frames_improved">စမ်းသပ်မှု ကန့်သတ်ချက်များအတွင်း နောက်ကျသော သို့မဟုတ် ပျောက်ဆုံးသော ဖရိမ်များ ပိုနည်းလာကြောင်း တိုင်းတာရရှိသည်။</string>
+    <string name="adaptive_frames_regressed">စမ်းသပ်မှုသည် ဖရိမ်ချောမွေ့မှု ပစ်မှတ်ကို မပြည့်မီပါ။</string>
+    <string name="adaptive_frames_lower">ဖရိမ်ပြသမှု တည်ငြိမ်ပြီး ဝန်အားနည်းသည်။ အမြင့်ဆုံးကြိမ်နှုန်းကို လျှော့၍ စမ်းကြည့်ပါ။</string>
+    <string name="adaptive_frames_raise">ဝန်အားများချိန်တွင် နောက်ကျသော သို့မဟုတ် ပျောက်ဆုံးသော ဖရိမ်များ တွေ့ရှိသည်။ အမြင့်ဆုံးကြိမ်နှုန်းကို မြှင့်၍ စမ်းကြည့်ပါ။</string>
+    <string name="adaptive_gpu_boundaries">အလိုအလျောက် GPU ထိန်းချုပ်မှုကိုသာ ချိန်ညှိနိုင်သည်။ ကိုယ်တိုင်သတ်မှတ်ထားသော CPU/GPU ဆက်တင်များကို ဦးစားပေးသည်။</string>
+    <string name="adaptive_trial_generic">ပံ့ပိုးထားသော ကြိမ်နှုန်းအဆင့်တစ်ဆင့်ကို စမ်းသပ်နေသည်။</string>
+    <string name="adaptive_gpu_missing">အသုံးပြုနိုင်သော GPU ဝန်အားနှင့် အပူချိန်ဖတ်ရှုချက်များကို စောင့်နေသည်။</string>
+</resources>

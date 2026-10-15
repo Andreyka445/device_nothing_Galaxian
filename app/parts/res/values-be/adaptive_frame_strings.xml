@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- AI-assisted translation; native-language review remains welcome. -->
+<resources>
+    <string name="adaptive_gpu_load">Нагрузка на GPU</string>
+    <string name="adaptive_gpu_temperature">Тэмпература GPU</string>
+    <string name="adaptive_frames_title">Плаўнасць кадраў</string>
+    <string name="adaptive_frames_jank">Запозненыя або прапушчаныя кадры</string>
+    <string name="adaptive_frames_dropped">Прапушчаныя кадры</string>
+    <string name="adaptive_frames_count">Назіраных кадраў: %1$d</string>
+    <string name="adaptive_frames_timing">Мэта: %1$.0f FPS · Дысплей: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Час кадра (95-ы працэнтыль)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Вымярае нядаўнія кадры праграмы, якая выкарыстоўваецца. Выбарка частковая. Затрымкі сеткі і ўводу не вымяраюцца.</string>
+    <string name="adaptive_frames_waiting">Чаканне дастатковай колькасці параўнальных вымярэнняў кадраў перад прапановай змянення.</string>
+    <string name="adaptive_frames_changed">Праграма, паверхня рэндэрынгу або часавыя параметры кадраў змяніліся. Патрэбны новыя вымярэнні.</string>
+    <string name="adaptive_frames_improved">У межах выпрабавання вымерана менш запозненых або прапушчаных кадраў.</string>
+    <string name="adaptive_frames_regressed">Выпрабаванне не дасягнула мэты па плаўнасці кадраў.</string>
+    <string name="adaptive_frames_lower">Вывад кадраў стабільны, а нагрузка нізкая. Паспрабуйце ніжэйшую максімальную частату.</string>
+    <string name="adaptive_frames_raise">Пры высокай нагрузцы выяўлены запозненыя або прапушчаныя кадры. Паспрабуйце вышэйшую максімальную частату.</string>
+    <string name="adaptive_gpu_boundaries">Можна рэгуляваць толькі аўтаматычнае кіраванне GPU. Ручныя налады CPU/GPU маюць прыярытэт.</string>
+    <string name="adaptive_trial_generic">Выпрабоўваецца адзін падтрыманы ўзровень частаты.</string>
+    <string name="adaptive_gpu_missing">Чаканне прыдатных паказанняў нагрузкі і тэмпературы GPU.</string>
+</resources>

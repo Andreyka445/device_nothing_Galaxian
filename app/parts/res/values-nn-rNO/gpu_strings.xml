@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original AI-assisted translation; Android placeholders and units retained. -->
+<resources>
+    <string name="gpu_settings_title">GPU-styring</string>
+    <string name="gpu_home_summary">GPU-frekvens, nedre og øvre grenser og automatisk styring.</string>
+    <string name="gpu_current_frequency">Gjeldande frekvens</string>
+    <string name="gpu_requested_frequency">Fast frekvensinnstilling</string>
+    <string name="gpu_loading">Les GPU-status…</string>
+    <string name="gpu_unavailable">Ikkje tilgjengeleg</string>
+    <string name="gpu_idle">I kvile</string>
+    <string name="gpu_control_state">Frekvensstyring</string>
+    <string name="gpu_mode_automatic">Automatisk</string>
+    <string name="gpu_mode_fixed">Fast frekvens</string>
+    <string name="gpu_mode_unknown">Ukjend</string>
+    <string name="gpu_control_unavailable">Frekvensstyring er ikkje tilgjengeleg. Målingar vert viste når drivaren tilbyr dei.</string>
+    <string name="gpu_supported_frequencies">Støtta frekvensar</string>
+    <string name="gpu_frequency_count">Frekvenssteg melde av eininga: %1$d</string>
+    <string name="gpu_choose_frequency">Vel ein fast frekvens</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Vel ein frekvens som denne eininga melder. Fast modus kan omgå termiske frekvensgrenser for GPU-en i programvara. Ein fast frekvens kan auke straumbruken og temperaturen. Innstillinga gjeld medan GPU-en er aktiv; GPU-en kan framleis slå seg av når han er i kvile.</string>
+    <string name="gpu_apply_fixed">Bruk fast frekvens</string>
+    <string name="gpu_restore_automatic">Gjenopprett automatisk styring</string>
+    <string name="gpu_restore_summary">Opphev dei manuelle GPU-frekvensgrensene og fast modus, og lat systemet velje frekvensen att.</string>
+    <string name="gpu_restore_action">Gjenopprett</string>
+    <string name="gpu_session_title">Manuelle GPU-innstillingar</string>
+    <string name="gpu_session_summary">Ein omstart gjenopprettar automatisk GPU-styring. Desse kontrollane endrar ikkje CPU-innstillingane. Ønskte og faktiske frekvensgrenser vert viste kvar for seg; gjeldande frekvens kjem frå drivaren.</string>
+    <string name="gpu_operation_title">Siste handling</string>
+    <string name="gpu_applying">Brukar og kontrollerer endringa…</string>
+    <string name="gpu_verified">Endringa er brukt og stadfesta.</string>
+    <string name="gpu_error_unavailable">Den valde GPU-kontrollen er ikkje tilgjengeleg. Opne denne sida på nytt og prøv igjen.</string>
+    <string name="gpu_error_unsupported">Denne GPU-drivaren støttar ikkje den valde kontrollen.</string>
+    <string name="gpu_error_frequency">Eininga melder ikkje lenger denne frekvensen. Vel ein av verdiane som er tilgjengelege no.</string>
+    <string name="gpu_error_write">GPU-drivaren avviste endringa. Appen prøvde å gjenopprette den førre innstillinga.</string>
+    <string name="gpu_error_readback">Den valde GPU-innstillinga kunne ikkje stadfestast. Appen prøvde å gjenopprette den førre innstillinga.</string>
+    <string name="gpu_error_rollback">%1$s Den førre GPU-innstillinga kunne ikkje gjenopprettast. Gjenopprett automatisk styring eller start telefonen på nytt.</string>
+    <string name="gpu_requested_range">Ønskt frekvensområde</string>
+    <string name="gpu_effective_range">Faktisk frekvensområde</string>
+    <string name="gpu_mode_range">Frekvensgrenser</string>
+    <string name="gpu_choose_range">Still inn frekvensområdet</string>
+    <string name="gpu_range_summary">Vel ein minste- og størsteverdi blant frekvensane eininga rapporterer. GPU kan variere frekvensen innanfor det faktiske området og slå seg av når han er inaktiv. Ein høg minsteverdi kan overstyre nokre programvarebaserte temperaturgrenser og auke varmeutviklinga og straumbruken.</string>
+    <string name="gpu_apply_range">Bruk området</string>
+    <string name="gpu_error_range">Minstefrekvensen kan ikkje vere høgare enn maksimumsfrekvensen.</string>
+    <string name="gpu_error_conflict">Ei anna styring endra GPU-innstillingane. Innstillinga derfrå vart halden uendra.</string>
+    <string name="gpu_effective_summary">Ønskte grenser er innstillingane dine. Faktiske grenser er området drivaren nyttar etter å ha kombinert krava frå alle styringane.</string>
+    <string name="gpu_legacy_fixed_summary">Ein fast GPU-frekvens er aktiv. Når du tek i bruk eit område, vert fast modus oppheva, og GPU kan variere frekvensen mellom dei faktiske grensene.</string>
+    <string name="gpu_minimum_frequency">Lågaste frekvens</string>
+    <string name="gpu_maximum_frequency">Høgaste frekvens</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

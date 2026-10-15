@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-ის დატვირთვა</string>
+    <string name="adaptive_gpu_temperature">GPU-ის ტემპერატურა</string>
+    <string name="adaptive_frames_title">კადრების სიგლუვე</string>
+    <string name="adaptive_frames_jank">დაგვიანებული ან გამოტოვებული კადრები</string>
+    <string name="adaptive_frames_dropped">გამოტოვებული კადრები</string>
+    <string name="adaptive_frames_count">დაკვირვებულია %1$d კადრი</string>
+    <string name="adaptive_frames_timing">სამიზნე: %1$.0f FPS · ეკრანი: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">კადრის დრო (95-ე პერცენტილი)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">ზომავს გამოყენებული აპის ბოლო კადრებს. შერჩევა ნაწილობრივია. ქსელისა და შეყვანის დაყოვნება არ იზომება.</string>
+    <string name="adaptive_frames_waiting">ცვლილების შეთავაზებამდე ელოდება კადრების საკმარის, შესადარებელ გაზომვებს.</string>
+    <string name="adaptive_frames_changed">აპი, რენდერის ზედაპირი ან კადრების დრო შეიცვალა. საჭიროა ახალი გაზომვები.</string>
+    <string name="adaptive_frames_improved">ცდის ფარგლებში ნაკლები დაგვიანებული ან გამოტოვებული კადრი დაფიქსირდა.</string>
+    <string name="adaptive_frames_regressed">ცდამ კადრების სიგლუვის მიზანს ვერ მიაღწია.</string>
+    <string name="adaptive_frames_lower">კადრების ჩვენება სტაბილურია და დატვირთვა დაბალია. სცადეთ უფრო დაბალი მაქსიმალური სიხშირე.</string>
+    <string name="adaptive_frames_raise">მაღალი დატვირთვისას დაფიქსირდა დაგვიანებული ან გამოტოვებული კადრები. სცადეთ უფრო მაღალი მაქსიმალური სიხშირე.</string>
+    <string name="adaptive_gpu_boundaries">GPU-ის რეგულირება მხოლოდ ავტომატური მართვისას შეიძლება. CPU/GPU-ის ხელით დაყენებულ პარამეტრებს უპირატესობა ენიჭება.</string>
+    <string name="adaptive_trial_generic">მიმდინარეობს მხარდაჭერილი სიხშირის ერთი საფეხურის გამოცდა.</string>
+    <string name="adaptive_gpu_missing">ელოდება GPU-ის დატვირთვისა და ტემპერატურის გამოსადეგ მაჩვენებლებს.</string>
+</resources>

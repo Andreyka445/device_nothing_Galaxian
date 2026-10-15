@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU control</string>
+    <string name="gpu_home_summary">Freqüència de la GPU, límits mínim i màxim i control automàtic.</string>
+    <string name="gpu_current_frequency">Freqüència actual</string>
+    <string name="gpu_requested_frequency">Configuració de freqüència fixa</string>
+    <string name="gpu_loading">Llegint GPU estat...</string>
+    <string name="gpu_unavailable">"No disponible"</string>
+    <string name="gpu_idle">Inactiu</string>
+    <string name="gpu_control_state">Control de freqüència</string>
+    <string name="gpu_mode_automatic">Automàtic</string>
+    <string name="gpu_mode_fixed">Freqüència fixa</string>
+    <string name="gpu_mode_unknown">Desconegut</string>
+    <string name="gpu_control_unavailable">El control de freqüència no està disponible. Les lectures es mostren quan el conductor les proporciona.</string>
+    <string name="gpu_supported_frequencies">Freqüències suportades</string>
+    <string name="gpu_frequency_count">Passos de freqüència informats pel dispositiu: %1$d</string>
+    <string name="gpu_choose_frequency">Estableix una freqüència fixa</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Trieu una freqüència que informa aquest dispositiu. Una freqüència fixa pot augmentar el consum d\'energia i la temperatura. La configuració s\'aplica mentre el GPU està actiu; el GPU encara es pot apagar quan està inactiu. El mode fix pot ometre els límits tèrmics de freqüència de la GPU imposats pel programari.</string>
+    <string name="gpu_apply_fixed">Aplicar una freqüència fixa</string>
+    <string name="gpu_restore_automatic">Restaura el control automàtic</string>
+    <string name="gpu_restore_summary">Elimineu els límits manuals de freqüència de la GPU i el mode fix, i deixeu que el sistema torni a triar la freqüència.</string>
+    <string name="gpu_restore_action">"Restaura"</string>
+    <string name="gpu_session_title">Configuració manual GPU</string>
+    <string name="gpu_session_summary">Un reinici restaura el control automàtic de la GPU. Aquests controls no canvien la configuració de la CPU. Els límits de freqüència sol·licitats i efectius es mostren per separat; la freqüència actual prové del controlador del dispositiu.</string>
+    <string name="gpu_operation_title">Última operació</string>
+    <string name="gpu_applying">S\'està aplicant i comprovant el canvi...</string>
+    <string name="gpu_verified">Canvi aplicat i verificat.</string>
+    <string name="gpu_error_unavailable">El control GPU sol·licitat no està disponible. Torna a obrir aquesta pàgina i torna-ho a provar.</string>
+    <string name="gpu_error_unsupported">Aquest controlador GPU no admet el control sol·licitat.</string>
+    <string name="gpu_error_frequency">El dispositiu ja no informa d\'aquesta freqüència. Trieu un dels valors disponibles actualment.</string>
+    <string name="gpu_error_write">El conductor GPU va rebutjar el canvi. L\'aplicació ha intentat restaurar la configuració anterior.</string>
+    <string name="gpu_error_readback">La configuració sol·licitada GPU no s\'ha pogut confirmar. L\'aplicació ha intentat restaurar la configuració anterior.</string>
+    <string name="gpu_error_rollback">%1$s La configuració anterior GPU no s\'ha pogut restaurar. Restaura el control automàtic o reinicia el telèfon.</string>
+    <string name="gpu_requested_range">Interval de freqüències sol·licitat</string>
+    <string name="gpu_effective_range">Interval de freqüències efectiu</string>
+    <string name="gpu_mode_range">Límits de freqüència</string>
+    <string name="gpu_choose_range">Defineix l’interval de freqüències</string>
+    <string name="gpu_range_summary">Trieu un mínim i un màxim entre les freqüències indicades pel dispositiu. La GPU pot variar la freqüència dins de l’interval efectiu i apagar-se quan està inactiva. Un mínim alt pot prevaler sobre alguns límits tèrmics del programari i augmentar la calor i el consum d’energia.</string>
+    <string name="gpu_apply_range">Aplica l’interval</string>
+    <string name="gpu_error_range">La freqüència mínima no pot superar la màxima.</string>
+    <string name="gpu_error_conflict">Un altre controlador ha canviat la configuració de la GPU. S’ha mantingut la seva configuració sense canvis.</string>
+    <string name="gpu_effective_summary">Els límits sol·licitats són els que heu configurat. Els límits efectius són l’interval que aplica actualment el controlador del dispositiu després de combinar les peticions de tots els controladors.</string>
+    <string name="gpu_legacy_fixed_summary">Hi ha una freqüència fixa de la GPU activa. Aplicar un interval desactiva el mode fix i permet que la GPU variï la freqüència entre els límits efectius.</string>
+    <string name="gpu_minimum_frequency">Freqüència mínima</string>
+    <string name="gpu_maximum_frequency">Freqüència màxima</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

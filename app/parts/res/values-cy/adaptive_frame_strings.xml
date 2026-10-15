@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Llwyth GPU</string>
+    <string name="adaptive_gpu_temperature">Tymheredd GPU</string>
+    <string name="adaptive_frames_title">Llyfnder fframiau</string>
+    <string name="adaptive_frames_jank">Fframiau hwyr neu wedi’u gollwng</string>
+    <string name="adaptive_frames_dropped">Fframiau wedi’u gollwng</string>
+    <string name="adaptive_frames_count">Arsylwyd %1$d o fframiau</string>
+    <string name="adaptive_frames_timing">Targed: %1$.0f FPS · Sgrin: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Amser ffrâm (95ain canradd)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Yn mesur fframiau diweddar yr ap sy’n cael ei ddefnyddio. Samplu rhannol yw hwn. Nid yw’n mesur oedi rhwydwaith na mewnbwn.</string>
+    <string name="adaptive_frames_waiting">Yn aros am ddigon o fesuriadau fframiau cymaradwy cyn cynnig newid.</string>
+    <string name="adaptive_frames_changed">Mae’r ap, yr arwyneb rendro neu amseriad y fframiau wedi newid. Mae angen mesuriadau newydd.</string>
+    <string name="adaptive_frames_improved">Mesurwyd llai o fframiau hwyr neu wedi’u gollwng o fewn terfynau’r prawf.</string>
+    <string name="adaptive_frames_regressed">Ni chyrhaeddodd y prawf y targed llyfnder fframiau.</string>
+    <string name="adaptive_frames_lower">Mae cyflwyno fframiau’n sefydlog ac mae’r llwyth yn isel. Rhowch gynnig ar amledd uchaf is.</string>
+    <string name="adaptive_frames_raise">Canfuwyd fframiau hwyr neu wedi’u gollwng dan lwyth uchel. Rhowch gynnig ar amledd uchaf uwch.</string>
+    <string name="adaptive_gpu_boundaries">Dim ond wrth reoli’r GPU yn awtomatig y gellir ei addasu. Mae gosodiadau CPU/GPU â llaw yn cael blaenoriaeth.</string>
+    <string name="adaptive_trial_generic">Yn profi un cam amledd a gefnogir.</string>
+    <string name="adaptive_gpu_missing">Yn aros am ddarlleniadau defnyddiadwy o lwyth a thymheredd y GPU.</string>
+</resources>

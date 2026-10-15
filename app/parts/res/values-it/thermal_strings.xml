@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="thermal_title">Disattiva throttling termico</string>
+    <string name="thermal_confirmation">Applicare il profilo MediaTek che disattiva i limiti termici software alle prestazioni? Il telefono può scaldarsi molto di più, consumare più energia e subire danni. La protezione hardware di emergenza resta attiva. La modifica si annulla al riavvio.</string>
+    <string name="thermal_disable">Disattiva throttling</string>
+    <string name="thermal_restore">Ripristina profilo termico</string>
+    <string name="thermal_enabled_summary">I limiti termici alle prestazioni sono attivi. Le modifiche si annullano al riavvio.</string>
+    <string name="thermal_disabled_summary">Throttling MediaTek disattivato. La protezione hardware di emergenza resta attiva.</string>
+    <string name="thermal_changing">Applicazione e verifica del profilo termico…</string>
+    <string name="thermal_error">Impossibile verificare il profilo attivo. Tocca per ripristinare il profilo termico precedente.</string>
+    <string name="thermal_unavailable">Il servizio di controllo termico non è disponibile.</string>
+    <string name="thermal_timeout">Il servizio non ha confermato la modifica. Esci da questa pagina e riaprila per verificare lo stato effettivo.</string>
+    <string name="thermal_request_failed">Impossibile cambiare il profilo termico.</string>
+    <string name="thermal_section">Controllo termico</string>
+    <string name="thermal_restore_summary">Riapplica il profilo precedente e i suoi limiti termici.</string>
+    <string name="thermal_active_profile">Profilo attivo</string>
+    <string name="thermal_last_result">Ultima operazione termica</string>
+    <string name="thermal_no_ack">Il servizio non ha confermato la richiesta. Puoi riprovare o ripristinare il profilo precedente.</string>
+    <string name="thermal_unknown_retry">Il profilo attivo non è noto. Riprova a disattivare il throttling oppure ripristina il profilo precedente qui sotto.</string>
+    <string name="thermal_problem_permission">Android ha negato l’accesso al controllo termico. Il profilo richiesto non è stato confermato.</string>
+    <string name="thermal_problem_busy">Il servizio termico sta aggiornando il profilo. Riprova tra poco.</string>
+    <string name="thermal_problem_service">Il servizio termico MediaTek non è disponibile o non ha terminato l’avvio.</string>
+    <string name="thermal_problem_status">Il servizio termico ha restituito uno stato del profilo non riconosciuto.</string>
+    <string name="thermal_problem_profile">Il profilo per disattivare il throttling manca o non è compatibile con il dispositivo.</string>
+    <string name="thermal_problem_backup">Impossibile salvare il profilo termico attuale per il ripristino.</string>
+    <string name="thermal_problem_socket">Il servizio termico non ha potuto ricevere la modifica richiesta.</string>
+    <string name="thermal_problem_apply">Il servizio termico non ha confermato il profilo selezionato.</string>
+    <string name="thermal_problem_restore">Impossibile ripristinare il profilo termico precedente.</string>
+    <string name="thermal_diagnostic_code">Codice diagnostico: %1$s</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU ನಿಯಂತ್ರಣ</string>
+    <string name="gpu_home_summary">GPU ಆವರ್ತನ, ಕನಿಷ್ಠ ಮತ್ತು ಗರಿಷ್ಠ ಮಿತಿಗಳು ಹಾಗೂ ಸ್ವಯಂಚಾಲಿತ ನಿಯಂತ್ರಣ.</string>
+    <string name="gpu_current_frequency">ಪ್ರಸ್ತುತ ಆವರ್ತನ</string>
+    <string name="gpu_requested_frequency">ಸ್ಥಿರ ಆವರ್ತನ ಸೆಟ್ಟಿಂಗ್</string>
+    <string name="gpu_loading">GPU ಸ್ಥಿತಿಯನ್ನು ಓದಲಾಗುತ್ತಿದೆ...</string>
+    <string name="gpu_unavailable">"ಲಭ್ಯವಿಲ್ಲ"</string>
+    <string name="gpu_idle">ಐಡಲ್</string>
+    <string name="gpu_control_state">ಆವರ್ತನ ನಿಯಂತ್ರಣ</string>
+    <string name="gpu_mode_automatic">ಸ್ವಯಂಚಾಲಿತ</string>
+    <string name="gpu_mode_fixed">ಸ್ಥಿರ ಆವರ್ತನ</string>
+    <string name="gpu_mode_unknown">ಅಜ್ಞಾತ</string>
+    <string name="gpu_control_unavailable">ಆವರ್ತನ ನಿಯಂತ್ರಣ ಲಭ್ಯವಿಲ್ಲ. ಚಾಲಕ ಅವುಗಳನ್ನು ಒದಗಿಸಿದಾಗ ವಾಚನಗೋಷ್ಠಿಯನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="gpu_supported_frequencies">ಬೆಂಬಲಿತ ಆವರ್ತನಗಳು</string>
+    <string name="gpu_frequency_count">ಸಾಧನದಿಂದ ವರದಿ ಮಾಡಲಾದ ಆವರ್ತನ ಹಂತಗಳು: %1$d</string>
+    <string name="gpu_choose_frequency">ಸ್ಥಿರ ಆವರ್ತನವನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">ಈ ಸಾಧನದಿಂದ ವರದಿ ಮಾಡಲಾದ ಆವರ್ತನವನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಸ್ಥಿರ ಆವರ್ತನವು ವಿದ್ಯುತ್ ಬಳಕೆ ಮತ್ತು ತಾಪಮಾನವನ್ನು ಹೆಚ್ಚಿಸಬಹುದು. GPU ಸಕ್ರಿಯವಾಗಿರುವಾಗ ಸೆಟ್ಟಿಂಗ್ ಅನ್ವಯಿಸುತ್ತದೆ; ನಿಷ್ಕ್ರಿಯವಾಗಿರುವಾಗಲೂ GPU ಪವರ್ ಡೌನ್ ಆಗಬಹುದು. ಸ್ಥಿರ ಮೋಡ್ GPU ಆವರ್ತನಕ್ಕೆ ಸಾಫ್ಟ್‌ವೇರ್ ವಿಧಿಸಿದ ಉಷ್ಣತಾ ಮಿತಿಗಳನ್ನು ಮೀರಿ ಕಾರ್ಯನಿರ್ವಹಿಸಬಹುದು.</string>
+    <string name="gpu_apply_fixed">ಸ್ಥಿರ ಆವರ್ತನವನ್ನು ಅನ್ವಯಿಸಿ</string>
+    <string name="gpu_restore_automatic">ಸ್ವಯಂಚಾಲಿತ ನಿಯಂತ್ರಣವನ್ನು ಮರುಸ್ಥಾಪಿಸಿ</string>
+    <string name="gpu_restore_summary">GPU ಆವರ್ತನದ ಹಸ್ತಚಾಲಿತ ಮಿತಿಗಳು ಮತ್ತು ಸ್ಥಿರ ಮೋಡ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ, ಆವರ್ತನವನ್ನು ಮತ್ತೆ ಆಯ್ಕೆಮಾಡಲು ವ್ಯವಸ್ಥೆಗೆ ಅವಕಾಶ ನೀಡಿ.</string>
+    <string name="gpu_restore_action">"ಮರುಸ್ಥಾಪಿಸಿ"</string>
+    <string name="gpu_session_title">ಹಸ್ತಚಾಲಿತ GPU ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="gpu_session_summary">ಮರುಪ್ರಾರಂಭವು ಸ್ವಯಂಚಾಲಿತ GPU ನಿಯಂತ್ರಣವನ್ನು ಮರುಸ್ಥಾಪಿಸುತ್ತದೆ. ಈ ನಿಯಂತ್ರಣಗಳು CPU ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಿಸುವುದಿಲ್ಲ. ವಿನಂತಿಸಿದ ಮತ್ತು ವಾಸ್ತವವಾಗಿ ಅನ್ವಯವಾಗುವ ಆವರ್ತನ ಮಿತಿಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ತೋರಿಸಲಾಗುತ್ತದೆ; ಪ್ರಸ್ತುತ ಆವರ್ತನವು ಚಾಲಕದಿಂದ ಬರುತ್ತದೆ.</string>
+    <string name="gpu_operation_title">ಕೊನೆಯ ಕಾರ್ಯಾಚರಣೆ</string>
+    <string name="gpu_applying">ಬದಲಾವಣೆಯನ್ನು ಅನ್ವಯಿಸಲಾಗುತ್ತಿದೆ ಮತ್ತು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...</string>
+    <string name="gpu_verified">ಬದಲಾವಣೆಯನ್ನು ಅನ್ವಯಿಸಲಾಗಿದೆ ಮತ್ತು ಪರಿಶೀಲಿಸಲಾಗಿದೆ.</string>
+    <string name="gpu_error_unavailable">ವಿನಂತಿಸಿದ GPU ನಿಯಂತ್ರಣವು ಲಭ್ಯವಿಲ್ಲ. ಈ ಪುಟವನ್ನು ಪುನಃ ತೆರೆಯಿರಿ ಹಾಗೂ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="gpu_error_unsupported">ಈ GPU ಚಾಲಕವು ವಿನಂತಿಸಿದ ನಿಯಂತ್ರಣವನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ.</string>
+    <string name="gpu_error_frequency">ಆ ಆವರ್ತನವು ಇನ್ನು ಮುಂದೆ ಸಾಧನದಿಂದ ವರದಿಯಾಗುವುದಿಲ್ಲ. ಪ್ರಸ್ತುತ ಲಭ್ಯವಿರುವ ಮೌಲ್ಯಗಳಲ್ಲಿ ಒಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
+    <string name="gpu_error_write">GPU ಚಾಲಕ ಬದಲಾವಣೆಯನ್ನು ತಿರಸ್ಕರಿಸಿದ್ದಾರೆ. ಹಿಂದಿನ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಅಪ್ಲಿಕೇಶನ್ ಪ್ರಯತ್ನಿಸಿದೆ.</string>
+    <string name="gpu_error_readback">ವಿನಂತಿಸಿದ GPU ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ದೃಢೀಕರಿಸಲಾಗಲಿಲ್ಲ. ಹಿಂದಿನ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಅಪ್ಲಿಕೇಶನ್ ಪ್ರಯತ್ನಿಸಿದೆ.</string>
+    <string name="gpu_error_rollback">%1$s ಹಿಂದಿನ GPU ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಸ್ವಯಂಚಾಲಿತ ನಿಯಂತ್ರಣವನ್ನು ಮರುಸ್ಥಾಪಿಸಿ ಅಥವಾ ಫೋನ್ ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ.</string>
+    <string name="gpu_requested_range">ವಿನಂತಿಸಿದ ಆವರ್ತನ ವ್ಯಾಪ್ತಿ</string>
+    <string name="gpu_effective_range">ವಾಸ್ತವವಾಗಿ ಅನ್ವಯವಾಗುವ ಆವರ್ತನ ವ್ಯಾಪ್ತಿ</string>
+    <string name="gpu_mode_range">ಆವರ್ತನ ಮಿತಿಗಳು</string>
+    <string name="gpu_choose_range">ಆವರ್ತನ ವ್ಯಾಪ್ತಿಯನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="gpu_range_summary">ಈ ಸಾಧನವು ವರದಿ ಮಾಡಿದ ಆವರ್ತನಗಳಿಂದ ಕನಿಷ್ಠ ಮತ್ತು ಗರಿಷ್ಠ ಮೌಲ್ಯಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ. GPU ವಾಸ್ತವವಾಗಿ ಅನ್ವಯವಾಗುವ ವ್ಯಾಪ್ತಿಯಲ್ಲಿ ಆವರ್ತನವನ್ನು ಬದಲಿಸಬಹುದು ಮತ್ತು ನಿಷ್ಕ್ರಿಯವಾಗಿದ್ದಾಗ ಆಫ್ ಆಗಬಹುದು. ಹೆಚ್ಚಿನ ಕನಿಷ್ಠ ಮೌಲ್ಯವು ಕೆಲವು ಸಾಫ್ಟ್‌ವೇರ್ ಉಷ್ಣ ಮಿತಿಗಳನ್ನು ಮೀರಿ, ಶಾಖ ಮತ್ತು ವಿದ್ಯುತ್ ಬಳಕೆಯನ್ನು ಹೆಚ್ಚಿಸಬಹುದು.</string>
+    <string name="gpu_apply_range">ವ್ಯಾಪ್ತಿಯನ್ನು ಅನ್ವಯಿಸಿ</string>
+    <string name="gpu_error_range">ಕನಿಷ್ಠ ಆವರ್ತನವು ಗರಿಷ್ಠ ಆವರ್ತನವನ್ನು ಮೀರಬಾರದು.</string>
+    <string name="gpu_error_conflict">ಮತ್ತೊಂದು ನಿಯಂತ್ರಕವು GPU ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿದೆ. ಅದರ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಬದಲಿಸದೆ ಉಳಿಸಲಾಗಿದೆ.</string>
+    <string name="gpu_effective_summary">ವಿನಂತಿಸಿದ ಮಿತಿಗಳು ನಿಮ್ಮ ಸೆಟ್ಟಿಂಗ್‌ಗಳಾಗಿವೆ. ವಾಸ್ತವವಾಗಿ ಅನ್ವಯವಾಗುವ ಮಿತಿಗಳು ಎಲ್ಲಾ ನಿಯಂತ್ರಕಗಳ ವಿನಂತಿಗಳನ್ನು ಸಂಯೋಜಿಸಿದ ನಂತರ ಚಾಲಕವು ಪ್ರಸ್ತುತ ಅನ್ವಯಿಸುವ ವ್ಯಾಪ್ತಿಯಾಗಿದೆ.</string>
+    <string name="gpu_legacy_fixed_summary">ಸ್ಥಿರ GPU ಆವರ್ತನವು ಸಕ್ರಿಯವಾಗಿದೆ. ವ್ಯಾಪ್ತಿಯನ್ನು ಅನ್ವಯಿಸುವುದು ಸ್ಥಿರ ಮೋಡ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ, GPU ವಾಸ್ತವವಾಗಿ ಅನ್ವಯವಾಗುವ ಮಿತಿಗಳ ನಡುವೆ ಆವರ್ತನವನ್ನು ಬದಲಿಸಲು ಅನುಮತಿಸುತ್ತದೆ.</string>
+    <string name="gpu_minimum_frequency">ಕನಿಷ್ಠ ಆವರ್ತನ</string>
+    <string name="gpu_maximum_frequency">ಗರಿಷ್ಠ ಆವರ್ತನ</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

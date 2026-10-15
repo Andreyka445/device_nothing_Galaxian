@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Оптоварување на GPU</string>
+    <string name="adaptive_gpu_temperature">Температура на GPU</string>
+    <string name="adaptive_frames_title">Мазност на кадрите</string>
+    <string name="adaptive_frames_jank">Задоцнети или испуштени кадри</string>
+    <string name="adaptive_frames_dropped">Испуштени кадри</string>
+    <string name="adaptive_frames_count">Набљудувани се %1$d кадри</string>
+    <string name="adaptive_frames_timing">Цел: %1$.0f FPS · Екран: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Време на кадар (95-ти перцентил)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Ги мери неодамнешните кадри на апликацијата што се користи. Земањето примероци е делумно. Не се мерат мрежното доцнење и доцнењето при внесување.</string>
+    <string name="adaptive_frames_waiting">Се чекаат доволно споредливи мерења на кадри пред да се предложи промена.</string>
+    <string name="adaptive_frames_changed">Апликацијата, површината за исцртување или времето на кадрите се промени. Потребни се нови мерења.</string>
+    <string name="adaptive_frames_improved">Измерени се помалку задоцнети или испуштени кадри во рамките на ограничувањата на пробата.</string>
+    <string name="adaptive_frames_regressed">Пробата не ја постигна целта за мазност на кадрите.</string>
+    <string name="adaptive_frames_lower">Прикажувањето кадри е стабилно и оптоварувањето е мало. Пробајте пониска максимална фреквенција.</string>
+    <string name="adaptive_frames_raise">Откриени се задоцнети или испуштени кадри при големо оптоварување. Пробајте повисока максимална фреквенција.</string>
+    <string name="adaptive_gpu_boundaries">GPU може да се приспособува само при автоматска контрола. Рачните поставки за CPU/GPU имаат предност.</string>
+    <string name="adaptive_trial_generic">Се тестира еден поддржан чекор на фреквенција.</string>
+    <string name="adaptive_gpu_missing">Се чекаат употребливи отчитувања за оптоварувањето и температурата на GPU.</string>
+</resources>

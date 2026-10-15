@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU басқару</string>
+    <string name="gpu_home_summary">GPU жиілігі, ең төменгі және ең жоғарғы шектер және автоматты басқару.</string>
+    <string name="gpu_current_frequency">Ағымдағы жиілік</string>
+    <string name="gpu_requested_frequency">Тұрақты жиілікті орнату</string>
+    <string name="gpu_loading">GPU күйі оқылуда…</string>
+    <string name="gpu_unavailable">"Қолжетімсіз"</string>
+    <string name="gpu_idle">Бос</string>
+    <string name="gpu_control_state">Жиілікті бақылау</string>
+    <string name="gpu_mode_automatic">Автоматты</string>
+    <string name="gpu_mode_fixed">Тұрақты жиілік</string>
+    <string name="gpu_mode_unknown">Белгісіз</string>
+    <string name="gpu_control_unavailable">Жиілікті басқару қолжетімсіз. Оқулар жүргізуші берген кезде көрсетіледі.</string>
+    <string name="gpu_supported_frequencies">Қолдау көрсетілетін жиіліктер</string>
+    <string name="gpu_frequency_count">Құрылғы хабарлаған жиілік қадамдары: %1$d</string>
+    <string name="gpu_choose_frequency">Бекітілген жиілікті орнатыңыз</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Осы құрылғы хабарлаған жиілікті таңдаңыз. Бекітілген жиілік қуатты пайдалануды және температураны арттыруы мүмкін. Параметр GPU белсенді болған кезде қолданылады; GPU жұмыс істемей тұрғанда әлі де қуатты өшіре алады. Бекітілген режим GPU жиілігінің бағдарламалық жылулық шектеулерін айналып өтуі мүмкін.</string>
+    <string name="gpu_apply_fixed">Бекітілген жиілікті қолданыңыз</string>
+    <string name="gpu_restore_automatic">Автоматты басқаруды қалпына келтіріңіз</string>
+    <string name="gpu_restore_summary">GPU жиілігінің қолмен орнатылған шектерін және тұрақты режимді алып тастап, жиілікті жүйенің қайта таңдауына мүмкіндік беріңіз.</string>
+    <string name="gpu_restore_action">"Қалпына келтіру"</string>
+    <string name="gpu_session_title">Қолмен GPU параметрлері</string>
+    <string name="gpu_session_summary">Қайта іске қосу GPU автоматты басқаруын қалпына келтіреді. Бұл басқару құралдары CPU параметрлерін өзгертпейді. Сұралған және нақты жиілік шектері бөлек көрсетіледі; ағымдағы жиілікті драйвер хабарлайды.</string>
+    <string name="gpu_operation_title">Соңғы операция</string>
+    <string name="gpu_applying">Өзгеріс қолданылуда және тексерілуде…</string>
+    <string name="gpu_verified">Өзгеріс қолданылды және расталды.</string>
+    <string name="gpu_error_unavailable">Сұралған GPU басқару элементі қолжетімсіз. Бұл бетті қайта ашып, әрекетті қайталаңыз.</string>
+    <string name="gpu_error_unsupported">Бұл GPU драйвері сұралған басқару элементіне қолдау көрсетпейді.</string>
+    <string name="gpu_error_frequency">Бұл жиілікті құрылғы бұдан былай хабарламайды. Ағымдағы қол жетімді мәндердің бірін таңдаңыз.</string>
+    <string name="gpu_error_write">GPU драйвері өзгерісті қабылдамады. Қолданба алдыңғы параметрді қалпына келтіруге әрекет жасады.</string>
+    <string name="gpu_error_readback">Сұралған GPU параметрін растау мүмкін болмады. Қолданба алдыңғы параметрді қалпына келтіруге әрекет жасады.</string>
+    <string name="gpu_error_rollback">%1$s Алдыңғы GPU параметрін қалпына келтіру мүмкін болмады. Автоматты басқаруды қалпына келтіріңіз немесе телефонды қайта іске қосыңыз.</string>
+    <string name="gpu_requested_range">Сұралған жиілік ауқымы</string>
+    <string name="gpu_effective_range">Нақты жиілік ауқымы</string>
+    <string name="gpu_mode_range">Жиілік шектері</string>
+    <string name="gpu_choose_range">Жиілік ауқымын орнату</string>
+    <string name="gpu_range_summary">Құрылғы хабарлаған жиіліктер арасынан ең төменгі және ең жоғарғы мәнді таңдаңыз. GPU жиілігі нақты ауқым ішінде өзгеріп, бос тұрғанда өшуі мүмкін. Жоғары ең төменгі мән кейбір бағдарламалық жылу шектеулерінен басым болып, қызу мен қуат тұтынуды арттыруы мүмкін.</string>
+    <string name="gpu_apply_range">Ауқымды қолдану</string>
+    <string name="gpu_error_range">Ең төменгі жиілік ең жоғарғы жиіліктен аспауы керек.</string>
+    <string name="gpu_error_conflict">Басқа басқарушы GPU параметрлерін өзгертті. Оның параметрі өзгеріссіз қалдырылды.</string>
+    <string name="gpu_effective_summary">Сұралған шектер — сіздің параметрлеріңіз. Нақты шектер — барлық басқарушылардың талаптары біріктірілгеннен кейін драйвер қолданатын ауқым.</string>
+    <string name="gpu_legacy_fixed_summary">Тұрақты GPU жиілігі белсенді. Ауқымды қолдану тұрақты режимді өшіріп, GPU жиілігінің нақты шектер арасында өзгеруіне мүмкіндік береді.</string>
+    <string name="gpu_minimum_frequency">Ең аз жиілік</string>
+    <string name="gpu_maximum_frequency">Максималды жиілік</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

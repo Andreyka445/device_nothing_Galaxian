@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU:n kuormitus</string>
+    <string name="adaptive_gpu_temperature">GPU:n lämpötila</string>
+    <string name="adaptive_frames_title">Kuvan sulavuus</string>
+    <string name="adaptive_frames_jank">Myöhästyneet tai pudonneet ruudut</string>
+    <string name="adaptive_frames_dropped">Pudonneet ruudut</string>
+    <string name="adaptive_frames_count">%1$d havaittua ruutua</string>
+    <string name="adaptive_frames_timing">Tavoite: %1$.0f FPS · Näyttö: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Ruudun kesto (95. persentiili)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mittaa käytössä olevan sovelluksen viimeaikaisia ruutuja. Otanta on osittainen. Verkon tai syötteen viivettä ei mitata.</string>
+    <string name="adaptive_frames_waiting">Odotetaan riittävästi vertailukelpoisia ruutumittauksia ennen muutoksen ehdottamista.</string>
+    <string name="adaptive_frames_changed">Sovellus, piirtoalue tai ruutujen ajoitus on muuttunut. Tarvitaan uusia mittauksia.</string>
+    <string name="adaptive_frames_improved">Kokeilun rajojen puitteissa mitattiin vähemmän myöhästyneitä tai pudonneita ruutuja.</string>
+    <string name="adaptive_frames_regressed">Kokeilu ei saavuttanut kuvan sulavuudelle asetettua tavoitetta.</string>
+    <string name="adaptive_frames_lower">Ruudut esitetään tasaisesti ja kuormitus on vähäinen. Kokeile pienempää enimmäistaajuutta.</string>
+    <string name="adaptive_frames_raise">Suurella kuormituksella havaittiin myöhästyneitä tai pudonneita ruutuja. Kokeile suurempaa enimmäistaajuutta.</string>
+    <string name="adaptive_gpu_boundaries">GPU:ta voi säätää vain automaattisen ohjauksen aikana. CPU:n ja GPU:n manuaaliset asetukset ovat ensisijaisia.</string>
+    <string name="adaptive_trial_generic">Kokeillaan yhtä tuettua taajuusaskelta.</string>
+    <string name="adaptive_gpu_missing">Odotetaan käyttökelpoisia GPU:n kuormitus- ja lämpötilalukemia.</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU კონტროლი</string>
+    <string name="gpu_home_summary">GPU-ის სიხშირე, მინიმალური და მაქსიმალური ზღვრები და ავტომატური მართვა.</string>
+    <string name="gpu_current_frequency">მიმდინარე სიხშირე</string>
+    <string name="gpu_requested_frequency">ფიქსირებული სიხშირის დაყენება</string>
+    <string name="gpu_loading">კითხვის GPU მდგომარეობა…</string>
+    <string name="gpu_unavailable">"მიუწვდომელი"</string>
+    <string name="gpu_idle">უსაქმური</string>
+    <string name="gpu_control_state">სიხშირის კონტროლი</string>
+    <string name="gpu_mode_automatic">ავტომატური</string>
+    <string name="gpu_mode_fixed">ფიქსირებული სიხშირე</string>
+    <string name="gpu_mode_unknown">უცნობი</string>
+    <string name="gpu_control_unavailable">სიხშირის კონტროლი მიუწვდომელია. წაკითხვები ნაჩვენებია, როდესაც მძღოლი უზრუნველყოფს მათ.</string>
+    <string name="gpu_supported_frequencies">მხარდაჭერილი სიხშირეები</string>
+    <string name="gpu_frequency_count">მოწყობილობის მიერ მოხსენებული ნაბიჯების სიხშირე: %1$d</string>
+    <string name="gpu_choose_frequency">დააყენეთ ფიქსირებული სიხშირე</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">აირჩიეთ ამ მოწყობილობის მიერ მოხსენებული სიხშირე. ფიქსირებულ სიხშირეს შეუძლია გაზარდოს ენერგიის მოხმარება და ტემპერატურა. პარამეტრი მოქმედებს სანამ GPU აქტიურია; GPU ჯერ კიდევ შეუძლია გამორთვა უმოქმედობისას. ფიქსირებულ რეჟიმს შეუძლია გვერდი აუაროს GPU-ის სიხშირის პროგრამულ თერმულ შეზღუდვებს.</string>
+    <string name="gpu_apply_fixed">გამოიყენეთ ფიქსირებული სიხშირე</string>
+    <string name="gpu_restore_automatic">ავტომატური კონტროლის აღდგენა</string>
+    <string name="gpu_restore_summary">მოხსენით GPU-ის სიხშირის ხელით დაყენებული ზღვრები და ფიქსირებული რეჟიმი, რათა სისტემამ კვლავ თავად აირჩიოს სიხშირე.</string>
+    <string name="gpu_restore_action">"აღდგენა"</string>
+    <string name="gpu_session_title">მექანიკური GPU პარამეტრები</string>
+    <string name="gpu_session_summary">გადატვირთვა აღადგენს GPU-ის ავტომატურ მართვას. ეს მართვის ელემენტები CPU-ის პარამეტრებს არ ცვლის. მოთხოვნილი და ფაქტობრივი სიხშირის ზღვრები ცალ-ცალკე ჩანს; მიმდინარე სიხშირე მიიღება დრაივერისგან.</string>
+    <string name="gpu_operation_title">ბოლო ოპერაცია</string>
+    <string name="gpu_applying">მიმდინარეობს ცვლილების გამოყენება და შემოწმება…</string>
+    <string name="gpu_verified">ცვლილება გამოყენებული და დადასტურებულია.</string>
+    <string name="gpu_error_unavailable">მოთხოვნილი GPU კონტროლი მიუწვდომელია. ხელახლა გახსენით ეს გვერდი და სცადეთ ხელახლა.</string>
+    <string name="gpu_error_unsupported">ეს GPU დრაივერი არ უჭერს მხარს მოთხოვნილ კონტროლს.</string>
+    <string name="gpu_error_frequency">ეს სიხშირე აღარ არის მოხსენებული მოწყობილობის მიერ. აირჩიეთ ერთი ამჟამად ხელმისაწვდომი მნიშვნელობა.</string>
+    <string name="gpu_error_write">GPU მძღოლმა უარყო ცვლილება. აპმა სცადა წინა პარამეტრის აღდგენა.</string>
+    <string name="gpu_error_readback">მოთხოვნილი GPU პარამეტრი ვერ დადასტურდა. აპმა სცადა წინა პარამეტრის აღდგენა.</string>
+    <string name="gpu_error_rollback">%1$s წინა GPU პარამეტრის აღდგენა ვერ მოხერხდა. აღადგინეთ ავტომატური კონტროლი ან გადატვირთეთ ტელეფონი.</string>
+    <string name="gpu_requested_range">მოთხოვნილი სიხშირის დიაპაზონი</string>
+    <string name="gpu_effective_range">ფაქტობრივი სიხშირის დიაპაზონი</string>
+    <string name="gpu_mode_range">სიხშირის ზღვრები</string>
+    <string name="gpu_choose_range">სიხშირის დიაპაზონის დაყენება</string>
+    <string name="gpu_range_summary">აირჩიეთ მინიმალური და მაქსიმალური მნიშვნელობები ამ მოწყობილობის მიერ მითითებული სიხშირეებიდან. GPU-ს შეუძლია სიხშირის შეცვლა ფაქტობრივი დიაპაზონის ფარგლებში და გამორთვა უქმობისას. მაღალმა მინიმუმმა შეიძლება გადაფაროს ზოგიერთი პროგრამული თერმული შეზღუდვა და გაზარდოს სითბოს გამოყოფა და ენერგიის მოხმარება.</string>
+    <string name="gpu_apply_range">დიაპაზონის გამოყენება</string>
+    <string name="gpu_error_range">მინიმალური სიხშირე მაქსიმალურზე მეტი ვერ იქნება.</string>
+    <string name="gpu_error_conflict">სხვა კონტროლერმა შეცვალა GPU-ის პარამეტრები. მისი პარამეტრი უცვლელი დარჩა.</string>
+    <string name="gpu_effective_summary">მოთხოვნილი ზღვრები თქვენი პარამეტრებია. ფაქტობრივი ზღვრები არის დიაპაზონი, რომელსაც დრაივერი ამჟამად იყენებს ყველა კონტროლერის მოთხოვნის გაერთიანების შემდეგ.</string>
+    <string name="gpu_legacy_fixed_summary">ჩართულია GPU-ის ფიქსირებული სიხშირე. დიაპაზონის გამოყენება ხსნის ფიქსირებულ რეჟიმს და GPU-ს საშუალებას აძლევს, შეცვალოს სიხშირე ფაქტობრივ ზღვრებს შორის.</string>
+    <string name="gpu_minimum_frequency">მინიმალური სიხშირე</string>
+    <string name="gpu_maximum_frequency">მაქსიმალური სიხშირე</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

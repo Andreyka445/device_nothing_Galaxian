@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Cjame de GPU</string>
+    <string name="adaptive_gpu_temperature">Temperadure de GPU</string>
+    <string name="adaptive_frames_title">Fluiditât dai fotograms</string>
+    <string name="adaptive_frames_jank">Fotograms in ritart o scartâts</string>
+    <string name="adaptive_frames_dropped">Fotograms scartâts</string>
+    <string name="adaptive_frames_count">%1$d fotograms osservâts</string>
+    <string name="adaptive_frames_timing">Obietîf: %1$.0f FPS · Schermi: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Timp dal fotogram (95m percentîl)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Al misure i fotograms resints de aplicazion in ûs. Il campionament al è parziâl. Nol misure i ritarts di rêt o di jentrade.</string>
+    <string name="adaptive_frames_waiting">In spiete di misuris dai fotograms avonde e confrontabilis prime di proponi une modifiche.</string>
+    <string name="adaptive_frames_changed">La aplicazion, la superficie di rendering o i timps dai fotograms a son cambiâts. A coventin gnovis misuris.</string>
+    <string name="adaptive_frames_improved">A son stâts misurâts mancul fotograms in ritart o scartâts, dentri dai limits de prove.</string>
+    <string name="adaptive_frames_regressed">La prove no à rivât al obietîf di fluiditât dai fotograms.</string>
+    <string name="adaptive_frames_lower">La presentazion dai fotograms e je stabile e la cjame e je basse. Prove une frecuence massime plui basse.</string>
+    <string name="adaptive_frames_raise">A son stâts rilevâts fotograms in ritart o scartâts cuntune cjame alte. Prove une frecuence massime plui alte.</string>
+    <string name="adaptive_gpu_boundaries">La GPU si pues regolâ dome se il control al è automatic. Lis impostazions manuâls CPU/GPU a àn la prioritât.</string>
+    <string name="adaptive_trial_generic">Prove di un sôl nivel di frecuence supuartât.</string>
+    <string name="adaptive_gpu_missing">In spiete di leturis utilizabilis de cjame e de temperadure de GPU.</string>
+</resources>

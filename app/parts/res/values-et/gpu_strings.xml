@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Existing translations plus automatically authored text; native review welcome. -->
+<resources>
+    <string name="gpu_settings_title">GPU juhtimine</string>
+    <string name="gpu_home_summary">GPU sagedus, alumine ja ülemine piirang ning automaatne juhtimine.</string>
+    <string name="gpu_current_frequency">Praegune sagedus</string>
+    <string name="gpu_requested_frequency">Fikseeritud sageduse seadistus</string>
+    <string name="gpu_loading">GPU oleku lugemine…</string>
+    <string name="gpu_unavailable">"Pole saadaval"</string>
+    <string name="gpu_idle">Tühikäik</string>
+    <string name="gpu_control_state">Sageduse juhtimine</string>
+    <string name="gpu_mode_automatic">Automaatne</string>
+    <string name="gpu_mode_fixed">Fikseeritud sagedus</string>
+    <string name="gpu_mode_unknown">Tundmatu</string>
+    <string name="gpu_control_unavailable">Sagedusjuhtimine pole saadaval. Näidud kuvatakse siis, kui juht need esitab.</string>
+    <string name="gpu_supported_frequencies">Toetatud sagedused</string>
+    <string name="gpu_frequency_count">Seadme teatatud sagedusastmed: %1$d</string>
+    <string name="gpu_choose_frequency">Määrake fikseeritud sagedus</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Valige selle seadme poolt teatatud sagedus. Fikseeritud sagedus võib suurendada energiatarbimist ja temperatuuri. Seade kehtib, kui GPU on aktiivne; GPU võib jõudeolekus endiselt välja lülitada. Fikseeritud režiim võib eirata tarkvara seatud temperatuurist sõltuvaid GPU sageduse piiranguid.</string>
+    <string name="gpu_apply_fixed">Rakenda fikseeritud sagedust</string>
+    <string name="gpu_restore_automatic">Taasta automaatjuhtimine</string>
+    <string name="gpu_restore_summary">Eemalda GPU sageduse käsitsi määratud piirangud ja fikseeritud režiim ning lase süsteemil jälle sagedus valida.</string>
+    <string name="gpu_restore_action">"Taasta"</string>
+    <string name="gpu_session_title">Käsitsi seadistused GPU</string>
+    <string name="gpu_session_summary">Taaskäivitamine taastab GPU automaatse juhtimise. Need juhtelemendid ei muuda CPU seadeid. Soovitud ja tegelikud sageduspiirangud kuvatakse eraldi; praegune sagedus saadakse draiverilt.</string>
+    <string name="gpu_operation_title">Viimane operatsioon</string>
+    <string name="gpu_applying">Muudatuse rakendamine ja kontrollimine…</string>
+    <string name="gpu_verified">Muudatus on rakendatud ja kinnitatud.</string>
+    <string name="gpu_error_unavailable">Taotletud juhtelement GPU pole saadaval. Avage see leht uuesti ja proovige uuesti.</string>
+    <string name="gpu_error_unsupported">See GPU draiver ei toeta nõutud juhtelementi.</string>
+    <string name="gpu_error_frequency">Seda sagedust seade enam ei teata. Valige üks praegu saadaolevatest väärtustest.</string>
+    <string name="gpu_error_write">GPU juht lükkas muudatuse tagasi. Rakendus üritas eelmist seadet taastada.</string>
+    <string name="gpu_error_readback">Taotletud sätet GPU ei saanud kinnitada. Rakendus üritas eelmist seadet taastada.</string>
+    <string name="gpu_error_rollback">%1$s Eelmist GPU seadet ei saanud taastada. Taastage automaatne juhtimine või taaskäivitage telefon.</string>
+    <string name="gpu_requested_range">Soovitud sagedusvahemik</string>
+    <string name="gpu_effective_range">Tegelik sagedusvahemik</string>
+    <string name="gpu_mode_range">Sageduspiirangud</string>
+    <string name="gpu_choose_range">Määra sagedusvahemik</string>
+    <string name="gpu_range_summary">Vali minimaalne ja maksimaalne sagedus seadme teatatud sageduste hulgast. GPU saab tegelikus vahemikus sagedust muuta ja jõudeolekus välja lülituda. Kõrge miinimum võib mõnest tarkvaralisest temperatuuripiirangust mööda minna ning suurendada kuumenemist ja energiatarvet.</string>
+    <string name="gpu_apply_range">Rakenda vahemik</string>
+    <string name="gpu_error_range">Minimaalne sagedus ei tohi ületada maksimaalset.</string>
+    <string name="gpu_error_conflict">Teine juhtmoodul muutis GPU seadeid. Selle määratud seade jäeti muutmata.</string>
+    <string name="gpu_effective_summary">Soovitud piirangud on sinu määratud seaded. Tegelikud piirangud on vahemik, mida draiver praegu rakendab pärast kõigi juhtmoodulite nõuete ühendamist.</string>
+    <string name="gpu_legacy_fixed_summary">Kasutusel on fikseeritud GPU sagedus. Vahemiku rakendamine lõpetab fikseeritud režiimi ja lubab GPU sagedusel tegelike piirangute vahel muutuda.</string>
+    <string name="gpu_minimum_frequency">Minimaalne sagedus</string>
+    <string name="gpu_maximum_frequency">Maksimaalne sagedus</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+</resources>

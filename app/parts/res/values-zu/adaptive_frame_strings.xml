@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Umthwalo we-GPU</string>
+    <string name="adaptive_gpu_temperature">Izinga lokushisa le-GPU</string>
+    <string name="adaptive_frames_title">Ukushelela kwamafreyimu</string>
+    <string name="adaptive_frames_jank">Amafreyimu aphuzile noma alahliwe</string>
+    <string name="adaptive_frames_dropped">Amafreyimu alahliwe</string>
+    <string name="adaptive_frames_count">Kubhekwe amafreyimu angu-%1$d</string>
+    <string name="adaptive_frames_timing">Okuhlosiwe: %1$.0f FPS · Isikrini: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Isikhathi sefreyimu (iphesenthayili lama-95)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Kukala amafreyimu akamuva ohlelo lokusebenza olusetshenziswayo. Kuthathwa amasampula engxenye kuphela. Ukubambezeleka kwenethiwekhi nokokufaka akukalwa.</string>
+    <string name="adaptive_frames_waiting">Kulindwe izilinganiso ezanele zamafreyimu ezingaqhathaniswa ngaphambi kokuphakamisa ushintsho.</string>
+    <string name="adaptive_frames_changed">Uhlelo lokusebenza, indawo yokudweba noma izikhathi zamafreyimu kushintshile. Kudingeka izilinganiso ezintsha.</string>
+    <string name="adaptive_frames_improved">Kukalwe amafreyimu aphuzile noma alahliwe ambalwa ngaphakathi kwemikhawulo yokuhlola.</string>
+    <string name="adaptive_frames_regressed">Ukuhlola akufinyelelanga emgomweni wokushelela kwamafreyimu.</string>
+    <string name="adaptive_frames_lower">Ukuboniswa kwamafreyimu kuzinzile futhi umthwalo uphansi. Zama ukwehlisa imvamisa ephezulu.</string>
+    <string name="adaptive_frames_raise">Kutholwe amafreyimu aphuzile noma alahliwe ngesikhathi somthwalo ophezulu. Zama ukukhuphula imvamisa ephezulu.</string>
+    <string name="adaptive_gpu_boundaries">I-GPU ingalungiswa kuphela uma ilawulwa ngokuzenzakalelayo. Izilungiselelo ezenziwa ngesandla ze-CPU/GPU ziza kuqala.</string>
+    <string name="adaptive_trial_generic">Kuhlolwa isinyathelo esisodwa semvamisa esisekelwayo.</string>
+    <string name="adaptive_gpu_missing">Kulindwe izilinganiso ezisebenzisekayo zomthwalo nezinga lokushisa le-GPU.</string>
+</resources>

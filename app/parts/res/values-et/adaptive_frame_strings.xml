@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">GPU koormus</string>
+    <string name="adaptive_gpu_temperature">GPU temperatuur</string>
+    <string name="adaptive_frames_title">Kaadrite sujuvus</string>
+    <string name="adaptive_frames_jank">Hilinenud või vahele jäetud kaadrid</string>
+    <string name="adaptive_frames_dropped">Vahele jäetud kaadrid</string>
+    <string name="adaptive_frames_count">Vaadeldud kaadreid: %1$d</string>
+    <string name="adaptive_frames_timing">Siht: %1$.0f FPS · Ekraan: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Kaadri aeg (95. protsentiil)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mõõdab kasutatava rakenduse hiljutisi kaadreid. Valim on osaline. Võrgu- ega sisendiviivitust ei mõõdeta.</string>
+    <string name="adaptive_frames_waiting">Enne muudatuse pakkumist oodatakse piisavalt võrreldavaid kaadrimõõtmisi.</string>
+    <string name="adaptive_frames_changed">Rakendus, renderduspind või kaadrite ajastus on muutunud. Vaja on uusi mõõtmisi.</string>
+    <string name="adaptive_frames_improved">Katse piirides mõõdeti vähem hilinenud või vahele jäetud kaadreid.</string>
+    <string name="adaptive_frames_regressed">Katse ei saavutanud kaadrite sujuvuse sihti.</string>
+    <string name="adaptive_frames_lower">Kaadrite esitamine on stabiilne ja koormus väike. Proovige madalamat maksimumsagedust.</string>
+    <string name="adaptive_frames_raise">Suure koormuse all tuvastati hilinenud või vahele jäetud kaadreid. Proovige kõrgemat maksimumsagedust.</string>
+    <string name="adaptive_gpu_boundaries">GPU-d saab häälestada ainult automaatjuhtimise korral. CPU/GPU käsitsi määratud sätted on ülimuslikud.</string>
+    <string name="adaptive_trial_generic">Katsetatakse üht toetatud sagedussammu.</string>
+    <string name="adaptive_gpu_missing">Oodatakse kasutatavaid GPU koormuse ja temperatuuri näite.</string>
+</resources>

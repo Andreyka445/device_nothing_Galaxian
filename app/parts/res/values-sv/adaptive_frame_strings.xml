@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU-belastning</string>
+    <string name="adaptive_gpu_temperature">GPU-temperatur</string>
+    <string name="adaptive_frames_title">Bildrutornas jämnhet</string>
+    <string name="adaptive_frames_jank">Försenade eller tappade bildrutor</string>
+    <string name="adaptive_frames_dropped">Tappade bildrutor</string>
+    <string name="adaptive_frames_count">%1$d bildrutor observerade</string>
+    <string name="adaptive_frames_timing">Mål: %1$.0f FPS · Skärm: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Bildrutetid (95:e percentilen)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mäter de senaste bildrutorna från appen som används. Endast ett urval samlas in. Nätverks- och inmatningsfördröjning mäts inte.</string>
+    <string name="adaptive_frames_waiting">Väntar på tillräckligt många jämförbara bildrutemätningar innan en ändring föreslås.</string>
+    <string name="adaptive_frames_changed">Appen, renderingsytan eller bildrutornas tidsförlopp har ändrats. Nya mätningar behövs.</string>
+    <string name="adaptive_frames_improved">Färre försenade eller tappade bildrutor uppmättes inom försökets gränser.</string>
+    <string name="adaptive_frames_regressed">Försöket uppnådde inte målet för jämn bildvisning.</string>
+    <string name="adaptive_frames_lower">Bildleveransen är stabil och belastningen låg. Prova en lägre maximal frekvens.</string>
+    <string name="adaptive_frames_raise">Försenade eller tappade bildrutor upptäcktes vid hög belastning. Prova en högre maximal frekvens.</string>
+    <string name="adaptive_gpu_boundaries">Endast automatisk GPU-styrning kan justeras. Manuella CPU/GPU-inställningar har företräde.</string>
+    <string name="adaptive_trial_generic">Testar ett frekvenssteg som stöds.</string>
+    <string name="adaptive_gpu_missing">Väntar på användbara mätvärden för GPU-belastning och temperatur.</string>
+</resources>

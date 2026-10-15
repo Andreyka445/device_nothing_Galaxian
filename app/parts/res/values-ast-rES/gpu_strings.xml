@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original AI-assisted translation; Android placeholders and units retained. -->
+<resources>
+    <string name="gpu_settings_title">Control de la GPU</string>
+    <string name="gpu_home_summary">Frecuencia de la GPU, llendes mínima y máxima y control automáticu.</string>
+    <string name="gpu_current_frequency">Frecuencia actual</string>
+    <string name="gpu_requested_frequency">Axuste de frecuencia fixa</string>
+    <string name="gpu_loading">Lleendo l\'estáu de la GPU…</string>
+    <string name="gpu_unavailable">Nun ta disponible</string>
+    <string name="gpu_idle">En reposu</string>
+    <string name="gpu_control_state">Control de frecuencia</string>
+    <string name="gpu_mode_automatic">Automáticu</string>
+    <string name="gpu_mode_fixed">Frecuencia fixa</string>
+    <string name="gpu_mode_unknown">Desconocíu</string>
+    <string name="gpu_control_unavailable">El control de frecuencia nun ta disponible. Les llectures amuésense cuando\'l controlador les proporciona.</string>
+    <string name="gpu_supported_frequencies">Frecuencies compatibles</string>
+    <string name="gpu_frequency_count">Pasos de frecuencia de los que informa\'l preséu: %1$d</string>
+    <string name="gpu_choose_frequency">Afitar una frecuencia fixa</string>
+    <string name="gpu_frequency_mhz">%1$s MHz</string>
+    <string name="gpu_fixed_summary">Escueyi una frecuencia de la qu\'informe esti preséu. El mou fixu pue saltase les llendes térmiques de frecuencia de la GPU del software. Una frecuencia fixa pue aumentar el consumu d\'enerxía y la temperatura. L\'axuste aplícase mentanto la GPU tea activa; la GPU pue siguir apagándose cuando tea en reposu.</string>
+    <string name="gpu_apply_fixed">Aplicar la frecuencia fixa</string>
+    <string name="gpu_restore_automatic">Restaurar el control automáticu</string>
+    <string name="gpu_restore_summary">Quita les llendes manuales de frecuencia de la GPU y el mou fixu, y dexa que\'l sistema vuelva escoyer la frecuencia.</string>
+    <string name="gpu_restore_action">Restaurar</string>
+    <string name="gpu_session_title">Axustes manuales de la GPU</string>
+    <string name="gpu_session_summary">Al reaniciar restáurase\'l control automáticu de la GPU. Estos controles nun camuden los axustes de la CPU. Les llendes de frecuencia solicitaes y efectives amuésense per separao; la frecuencia actual vien del controlador.</string>
+    <string name="gpu_operation_title">Última operación</string>
+    <string name="gpu_applying">Aplicando y comprobando\'l cambéu…</string>
+    <string name="gpu_verified">El cambéu aplicóse y verificóse.</string>
+    <string name="gpu_error_unavailable">El control de la GPU solicitáu nun ta disponible. Vuelve abrir esta páxina ya inténtalo otra vegada.</string>
+    <string name="gpu_error_unsupported">Esti controlador de la GPU nun ye compatible col control solicitáu.</string>
+    <string name="gpu_error_frequency">El preséu yá nun informa d\'esa frecuencia. Escueyi ún de los valores disponibles agora.</string>
+    <string name="gpu_error_write">El controlador de la GPU refugó\'l cambéu. L\'aplicación intentó restaurar l\'axuste anterior.</string>
+    <string name="gpu_error_readback">Nun se pudo confirmar l\'axuste de la GPU solicitáu. L\'aplicación intentó restaurar l\'axuste anterior.</string>
+    <string name="gpu_error_rollback">%1$s Nun se pudo restaurar l\'axuste anterior de la GPU. Restaura\'l control automáticu o reanicia\'l teléfonu.</string>
+    <string name="gpu_minimum_frequency">Frecuencia mínima</string>
+    <string name="gpu_maximum_frequency">Frecuencia máxima</string>
+    <string name="gpu_requested_range">Intervalu de frecuencies solicitáu</string>
+    <string name="gpu_effective_range">Intervalu de frecuencies efectivu</string>
+    <string name="gpu_range_value">%1$s – %2$s</string>
+    <string name="gpu_mode_range">Llendes de frecuencia</string>
+    <string name="gpu_choose_range">Afitar l\'intervalu de frecuencies</string>
+    <string name="gpu_range_summary">Escueyi un mínimu y un máximu ente les frecuencies de les qu\'informa esti preséu. La GPU pue variar dientro del intervalu efectivu y apagase cuando tea en reposu. Un mínimu altu pue anular dalgunes llendes térmiques del software y aumentar el calor y el consumu d\'enerxía.</string>
+    <string name="gpu_apply_range">Aplicar l\'intervalu</string>
+    <string name="gpu_error_range">La frecuencia mínima nun pue superar la máxima.</string>
+    <string name="gpu_error_conflict">Otru controlador camudó los axustes de la GPU. El so axuste dexóse ensin cambeos.</string>
+    <string name="gpu_effective_summary">Les llendes solicitaes son los tos axustes. Les llendes efectives son l\'intervalu que\'l controlador aplica agora tres combinar les solicitúes de tolos controles.</string>
+    <string name="gpu_legacy_fixed_summary">Hai una frecuencia fixa de la GPU activa. Al aplicar un intervalu quítase\'l mou fixu y déxase que la GPU varíe ente les llendes efectives.</string>
+</resources>

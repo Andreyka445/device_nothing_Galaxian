@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Original AI-authored translations; not reviewed by a native speaker. -->
+<resources>
+    <string name="adaptive_gpu_load">GPU apkrova</string>
+    <string name="adaptive_gpu_temperature">GPU temperatūra</string>
+    <string name="adaptive_frames_title">Kadrų sklandumas</string>
+    <string name="adaptive_frames_jank">Pavėluoti arba praleisti kadrai</string>
+    <string name="adaptive_frames_dropped">Praleisti kadrai</string>
+    <string name="adaptive_frames_count">Stebėtų kadrų: %1$d</string>
+    <string name="adaptive_frames_timing">Tikslas: %1$.0f FPS · Ekranas: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Kadro trukmė (95-asis procentilis)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Matuoja naujausius naudojamos programos kadrus. Imtis dalinė. Tinklo ir įvesties delsa nematuojama.</string>
+    <string name="adaptive_frames_waiting">Prieš siūlant pakeitimą laukiama pakankamai palyginamų kadrų matavimų.</string>
+    <string name="adaptive_frames_changed">Pasikeitė programa, atvaizdavimo paviršius arba kadrų laiko parametrai. Reikia naujų matavimų.</string>
+    <string name="adaptive_frames_improved">Neviršijant bandymo ribų išmatuota mažiau pavėluotų arba praleistų kadrų.</string>
+    <string name="adaptive_frames_regressed">Bandymas nepasiekė kadrų sklandumo tikslo.</string>
+    <string name="adaptive_frames_lower">Kadrų pateikimas stabilus, o apkrova maža. Išbandykite mažesnį didžiausią dažnį.</string>
+    <string name="adaptive_frames_raise">Esant didelei apkrovai aptikta pavėluotų arba praleistų kadrų. Išbandykite didesnį didžiausią dažnį.</string>
+    <string name="adaptive_gpu_boundaries">Galima koreguoti tik automatinį GPU valdymą. Rankinės CPU/GPU nuostatos turi pirmenybę.</string>
+    <string name="adaptive_trial_generic">Bandoma viena palaikomo dažnio pakopa.</string>
+    <string name="adaptive_gpu_missing">Laukiama tinkamų GPU apkrovos ir temperatūros rodmenų.</string>
+</resources>

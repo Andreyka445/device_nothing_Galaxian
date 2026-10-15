@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="adaptive_gpu_load">Obciążenie GPU</string>
+    <string name="adaptive_gpu_temperature">Temperatura GPU</string>
+    <string name="adaptive_frames_title">Płynność klatek</string>
+    <string name="adaptive_frames_jank">Spóźnione lub pominięte klatki</string>
+    <string name="adaptive_frames_dropped">Pominięte klatki</string>
+    <string name="adaptive_frames_count">Zaobserwowane klatki: %1$d</string>
+    <string name="adaptive_frames_timing">Cel: %1$.0f FPS · Ekran: %2$.0f Hz</string>
+    <string name="adaptive_frames_p95">Czas klatki (95. percentyl)</string>
+    <string name="adaptive_milliseconds">%1$.1f ms</string>
+    <string name="adaptive_frames_partial">Mierzy ostatnie klatki używanej aplikacji. Próbkowanie jest częściowe. Opóźnienia sieci i wejścia nie są mierzone.</string>
+    <string name="adaptive_frames_waiting">Oczekiwanie na wystarczającą liczbę porównywalnych pomiarów klatek przed zaproponowaniem zmiany.</string>
+    <string name="adaptive_frames_changed">Aplikacja, powierzchnia renderowania lub czas klatek uległy zmianie. Potrzebne są nowe pomiary.</string>
+    <string name="adaptive_frames_improved">Zmierzono mniej spóźnionych lub pominiętych klatek w granicach próby.</string>
+    <string name="adaptive_frames_regressed">Próba nie osiągnęła docelowej płynności klatek.</string>
+    <string name="adaptive_frames_lower">Wyświetlanie klatek jest stabilne, a obciążenie niskie. Wypróbuj niższą maksymalną częstotliwość.</string>
+    <string name="adaptive_frames_raise">Wykryto spóźnione lub pominięte klatki przy dużym obciążeniu. Wypróbuj wyższą maksymalną częstotliwość.</string>
+    <string name="adaptive_gpu_boundaries">GPU można dostosować tylko przy sterowaniu automatycznym. Ręczne ustawienia CPU/GPU mają pierwszeństwo.</string>
+    <string name="adaptive_trial_generic">Testowanie jednego obsługiwanego stopnia częstotliwości.</string>
+    <string name="adaptive_gpu_missing">Oczekiwanie na użyteczne odczyty obciążenia i temperatury GPU.</string>
+</resources>
