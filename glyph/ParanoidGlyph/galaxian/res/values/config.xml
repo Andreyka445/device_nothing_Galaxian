@@ -25,9 +25,11 @@
          control, so every value the app writes ends up as either 0 or 1
          (see FileUtils.galaxianLedState). The scale below is therefore only
          used internally, and all of these levels light the Glyph light
-         identically. The array still carries several entries because the
-         settings UI indexes it directly and defaults to its third slot on
-         devices without a colour node (see SettingsManager.getGlyphBrightnessSetting).
+         identically, which is why the Brightness preference is hidden on this
+         device (see Constants.isBrightnessSupported). The array still carries
+         several entries because the settings UI indexes it directly and
+         defaults to its third slot on devices without a colour node (see
+         SettingsManager.getGlyphBrightnessSetting).
     -->
     <integer name="glyph_settings_brightness_max" translatable="false">100</integer>
     <integer-array name="glyph_settings_brightness_levels" translatable="false">

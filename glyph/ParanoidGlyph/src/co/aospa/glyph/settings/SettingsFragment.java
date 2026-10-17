@@ -81,6 +81,9 @@ public class SettingsFragment extends SettingsBasePreferenceFragment implements 
         brightnessPreference.setValue(SettingsManager.getGlyphBrightnessSetting());
         brightnessPreference.setUpdatesContinuously(true);
         brightnessPreference.setOnPreferenceChangeListener(this);
+        if (!Constants.isBrightnessSupported()) {
+            brightnessPreference.setVisible(false);
+        }
 
         mNotifsPreference = (PrimarySwitchPreference) findPreference(Constants.GLYPH_NOTIFS_ENABLE);
         mNotifsPreference.setChecked(SettingsManager.isGlyphNotifsEnabled());
