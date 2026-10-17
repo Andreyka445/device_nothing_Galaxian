@@ -992,6 +992,16 @@ system_ext/etc/permissions/gallery-google-lens-permissions.xml
 system_ext/etc/permissions/google-lens-permissions.xml
 system_ext/etc/permissions/com.nothing.feature.xml
 
+# NT performance
+system_ext/etc/init/nt_performance_config.rc
+system_ext/etc/init/nt_performance_init.rc
+system_ext/etc/nt_performance/cmd_table.xml
+vendor/etc/nt_performance/activity_customization.xml
+vendor/etc/nt_performance/nt_named_thread_affinity.xml
+vendor/etc/nt_performance/nt_perf_enhancer.cfg
+vendor/etc/nt_performance/platform_config.xml
+vendor/etc/nt_performance/scene_table.xml
+
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram-service
 vendor/bin/nvram_daemon
