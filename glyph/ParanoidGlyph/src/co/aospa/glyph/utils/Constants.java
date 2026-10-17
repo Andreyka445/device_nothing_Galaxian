@@ -115,4 +115,11 @@ public final class Constants {
         return path != null && !path.isEmpty();
     }
 
+    public static boolean isBrightnessSupported() {
+        // Galaxian's Glyph light is a plain on/off switch: its driver only takes a state
+        // (0, 1 or a breathing period) and the rail that feeds it is fixed at 3.3 V, so no
+        // brightness level can change what the hardware does (see FileUtils.galaxianLedState).
+        return !"galaxian".equals(getDevice());
+    }
+
 }
