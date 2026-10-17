@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Interfață Glyph</string>
+    <string name="glyph_settings_enable">Lumini Glyph</string>
+    <string name="glyph_settings_title">Interfață Glyph</string>
+    <string name="glyph_settings_summary">Opțiuni pentru lumini Glyph</string>
+    <string name="glyph_settings_flip_toggle_title">Flip to Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">Pune pe silențios și afișează Glyphs dacă telefonul este cu fața în jos</string>
+    <string name="glyph_settings_brightness">Luminozitate</string>
+    <string name="glyph_settings_charging_title">Se încarcă</string>
+    <string name="glyph_settings_charging_level_title">Nivel baterie</string>
+    <string name="glyph_settings_charging_level_summary">Arată nivelul bateriei când se încarcă</string>
+    <string name="glyph_settings_charging_powershare_title">Încărcare wireless inversă</string>
+    <string name="glyph_settings_charging_powershare_summary">Afișează o animație atunci când este detectată încărcarea wireless inversă</string>
+    <string name="glyph_settings_call_title">Apeluri</string>
+    <string name="glyph_settings_call_toggle_title">Animație apel</string>
+    <string name="glyph_settings_call_toggle_summary">Blițează cu LED-urile la primirea de apeluri</string>
+    <string name="glyph_settings_call_sub_toggle_title">Activare animaţie apel</string>
+    <string name="glyph_settings_call_sub_animations_title">Model</string>
+    <string name="glyph_settings_notifs_title">Notificări</string>
+    <string name="glyph_settings_notifs_toggle_title">Animație notificare</string>
+    <string name="glyph_settings_notifs_toggle_summary">Blițează cu LED-urile la primirea de noi notificări</string>
+    <string name="glyph_settings_notifs_sub_title">Aplicații permise</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">Activează animația la notificare</string>
+    <string name="glyph_settings_notifs_sub_animations_title">Model</string>
+    <string name="glyph_settings_notifs_sub_essential_title">Notificări Esenţiale</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">Glyph-ul esenţial va fi afişat până când notificările Esenţiale sunt citite sau închise</string>
+    <string name="glyph_settings_notifs_permission_required">Accesul la notificări este necesar pentru a activa notificările Glyph</string>
+    <string name="glyph_settings_volume_title">Volum</string>
+    <string name="glyph_settings_volume_level_toggle_title">Indicator de volum</string>
+    <string name="glyph_settings_volume_level_toggle_summary">Arată nivelul volumului la ajustare</string>
+    <string name="glyph_settings_misc_title">Diverse</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Vizualizator de Muzică</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">Acest lucru va face luminile Glyph să reacționeze la player-ul audio de pe dispozitiv.\nToate celelalte funcții Glyph vor fi dezactivate când aceste lumini sunt utilizate.</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Lanternă Glyph</string>
+    <string name="glyph_accessibility_quick_settings_off">Oprit</string>
+    <string name="glyph_accessibility_quick_settings_on">Pornit</string>
+</resources>

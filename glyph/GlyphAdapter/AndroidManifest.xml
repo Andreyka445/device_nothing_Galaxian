@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nothing.thirdparty"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system">
+
+    <application
+        android:label="GlyphAdapter"
+        android:persistent="true"
+        android:defaultToDeviceProtectedStorage="true"
+        android:enableOnBackInvokedCallback="true"
+        android:directBootAware="true">
+
+        <service
+            android:name=".GlyphService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.nothing.thirdparty.IGlyphService"/>
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".BootCompleteReceiver"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

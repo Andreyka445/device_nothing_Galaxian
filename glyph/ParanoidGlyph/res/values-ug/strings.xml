@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Glyph ئارايۈز</string>
+    <string name="glyph_settings_enable">Glyph چىراغ</string>
+    <string name="glyph_settings_title">Glyph ئارايۈز</string>
+    <string name="glyph_settings_summary">Glyph چىراغ تاللانمىسى</string>
+    <string name="glyph_settings_flip_toggle_title">Glyph قا ئۆرۈ</string>
+    <string name="glyph_settings_flip_toggle_summary">ئەگەر تېلېفون يۈزى تۆۋەنگە قارىتىلسا ئۈنسىز ۋە Glyphs ئۈنۈمىنى كۆرسىتىدۇ</string>
+    <string name="glyph_settings_brightness">يورۇقلۇق</string>
+    <string name="glyph_settings_charging_title">توكلاۋاتىدۇ</string>
+    <string name="glyph_settings_charging_level_title">توكدان دەرىجىسى</string>
+    <string name="glyph_settings_charging_level_summary">چېتىلغاندا توكدان توك مىقدارىنى كۆرسىتىدۇ</string>
+    <string name="glyph_settings_charging_powershare_title">سىمسىز ئەكسىچە توكلاش</string>
+    <string name="glyph_settings_charging_powershare_summary">ئەكسىچە سىمسىز توكلاش بايقالغاندا جانلاندۇرۇمنى كۆرسىتىدۇ</string>
+    <string name="glyph_settings_call_title">چاقىرىش</string>
+    <string name="glyph_settings_call_toggle_title">چاقىرىلىش جانلاندۇرۇمى</string>
+    <string name="glyph_settings_call_toggle_summary">چاقىرىلغاندا چىراغنى چاقنىتىدۇ</string>
+    <string name="glyph_settings_call_sub_toggle_title">چاقىرىلىش جانلاندۇرۇمىنى قوزغىتىدۇ</string>
+    <string name="glyph_settings_call_sub_animations_title">ئەندىزە</string>
+    <string name="glyph_settings_notifs_title">ئۇقتۇرۇش</string>
+    <string name="glyph_settings_notifs_toggle_title">ئۇقتۇرۇش جانلاندۇرۇمى</string>
+    <string name="glyph_settings_notifs_toggle_summary">يېڭى ئۇقتۇرۇش تاپشۇرۇۋالغاندا چىراقنى چاقنىتىدۇ</string>
+    <string name="glyph_settings_notifs_sub_title">يول قويىدىغان ئەپ</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">ئۇقتۇرۇش جانلاندۇرۇمىنى قوزغىتىدۇ</string>
+    <string name="glyph_settings_notifs_sub_animations_title">ئەندىزە</string>
+    <string name="glyph_settings_notifs_sub_essential_title">مۇھىم ئۇقتۇرۇش</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">مۇھىم ئۇقتۇرۇش ئوقۇلمىغۇچە ياكى پەرۋا قىلما چىكىلمىگۈچە مۇھىم Glyph كۆرسىتىلىدۇ</string>
+    <string name="glyph_settings_notifs_permission_required">Glyphs ئۇقتۇرۇشىنى قوزغىتىشتا ئۇقتۇرۇش ئىجازىتى زۆرۈر</string>
+    <string name="glyph_settings_volume_title">ئاۋاز كۈچلۈكلۈكى</string>
+    <string name="glyph_settings_volume_level_toggle_title">ئاۋاز كۈچلۈكلۈك كۆرسەتكۈچى</string>
+    <string name="glyph_settings_volume_level_toggle_summary">ئاۋاز تەڭشىگەندە ئاۋاز كۈچلۈكلۈكىنى كۆرسىتىدۇ</string>
+    <string name="glyph_settings_misc_title">باشقىلار</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">نەغمە ئوبرازلاشتۇرغۇچ</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">Glyph چىراغ ئۈنۈمى ئۈسكۈنىدىكى ئۈن ياڭراتقۇچتا ئىنكاس قايتۇرىدۇ.\nبۇ ئىقتىدارنى ئىشلەتكەندە، باشقا بارلىق Glyph ئىقتىدارى چەكلىنىدۇ.</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Glyph قول چىراغ</string>
+    <string name="glyph_accessibility_quick_settings_off">تاقاق</string>
+    <string name="glyph_accessibility_quick_settings_on">ئوچۇق</string>
+</resources>

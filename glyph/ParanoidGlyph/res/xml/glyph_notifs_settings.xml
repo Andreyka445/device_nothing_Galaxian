@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License"
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/glyph_settings_notifs_toggle_title">
+
+    <co.aospa.glyph.preference.GlyphAnimationPreference
+        android:key="glyph_settings_notifs_sub_preview"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="glyph_settings_notifs_sub_toggle"
+        android:title="@string/glyph_settings_notifs_sub_toggle_title" />
+
+        <ListPreference
+            android:dependency="glyph_settings_notifs_sub_toggle"
+            android:key="glyph_settings_notifs_sub_animations"
+            android:title="@string/glyph_settings_notifs_sub_animations_title"
+            android:defaultValue="@string/glyph_settings_notifs_animations_default"
+            android:layout="@layout/preference"
+            android:summary="%s" />
+
+        <MultiSelectListPreference
+            android:dependency="glyph_settings_notifs_sub_toggle"
+            android:key="glyph_settings_notifs_sub_essential"
+            android:title="@string/glyph_settings_notifs_sub_essential_title"
+            android:dialogTitle="@string/glyph_settings_notifs_sub_essential_title"
+            android:entries="@array/glyph_settings_empty_array_string"
+            android:entryValues="@array/glyph_settings_empty_array_string"
+            android:summary="@string/glyph_settings_notifs_sub_essential_summary"
+            android:defaultValue="@array/glyph_settings_empty_array_string"
+            android:positiveButtonText="@android:string/ok"
+            android:negativeButtonText="@android:string/cancel" />
+
+        <PreferenceCategory
+            android:key="glyph_settings_notifs_sub"
+            android:title="@string/glyph_settings_notifs_sub_title" />
+
+</PreferenceScreen>

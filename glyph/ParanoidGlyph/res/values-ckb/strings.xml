@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">ڕووکاری Glyph</string>
+    <string name="glyph_settings_enable">گڵۆپەکانی Glyph</string>
+    <string name="glyph_settings_title">ڕووکاری Glyph</string>
+    <string name="glyph_settings_summary">هەڵبژاردەکانی گڵۆپەکانی Glyph</string>
+    <string name="glyph_settings_flip_toggle_title">سەرەوژوورکردن بۆ Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">بێدەنگکردن و نیشاندانی Glyph کاتێک مۆبایلەکە بە ڕوو لە خوارەوە دادەنرێت</string>
+    <string name="glyph_settings_brightness">ڕووناکی</string>
+    <string name="glyph_settings_charging_title">بارگاویکردنەوە</string>
+    <string name="glyph_settings_charging_level_title">ئاستی باتری</string>
+    <string name="glyph_settings_charging_level_summary">نیشاندانی ئاستی باتری لە کاتی خستنەسەر بارگاوی</string>
+    <string name="glyph_settings_charging_powershare_title">بارگاویکردنەوەی بێتەلی پێچەوانە</string>
+    <string name="glyph_settings_charging_powershare_summary">نیشاندانی جووڵە کاتێک بارگاویکردنەوەی بێتەلی پێچەوانە دەدۆزرێتەوە</string>
+    <string name="glyph_settings_call_title">پەیوەندییەکان</string>
+    <string name="glyph_settings_call_toggle_title">جووڵەی پەیوەندی</string>
+    <string name="glyph_settings_call_toggle_summary">ترپەی گڵۆپەکان لە کاتی پەیوەندییە هاتووەکاندا</string>
+    <string name="glyph_settings_call_sub_toggle_title">چالاککردنی جووڵەی پەیوەندی</string>
+    <string name="glyph_settings_call_sub_animations_title">شێواز</string>
+    <string name="glyph_settings_notifs_title">ئاگادارییەکان</string>
+    <string name="glyph_settings_notifs_toggle_title">جووڵەی ئاگاداری</string>
+    <string name="glyph_settings_notifs_toggle_summary">ترپەی گڵۆپەکان لە کاتی ئاگادارییە نوێیەکاندا</string>
+    <string name="glyph_settings_notifs_sub_title">بەرنامە ڕێپێدراوەکان</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">چالاککردنی جووڵەی ئاگاداری</string>
+    <string name="glyph_settings_notifs_sub_animations_title">شێواز</string>
+    <string name="glyph_settings_notifs_sub_essential_title">ئاگادارییە سەرەکییەکان</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">گڵۆپی سەرەکیی Glyph نیشان دەدرێت تا کاتێک ئاگادارییە سەرەکییەکان دەخوێنرێنەوە یان لادەبرێن</string>
+    <string name="glyph_settings_notifs_permission_required">دەستگەیشتن بە ئاگادارییەکان پێویستە بۆ چالاککردنی ئاگادارییەکانی Glyph</string>
+    <string name="glyph_settings_volume_title">دەنگ</string>
+    <string name="glyph_settings_volume_level_toggle_title">نیشاندەری دەنگ</string>
+    <string name="glyph_settings_volume_level_toggle_summary">نیشاندانی ئاستی دەنگ لە کاتی دەستکاریکردندا</string>
+    <string name="glyph_settings_misc_title">هەمەجۆر</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">نیشاندەری بینراوی مۆسیقا</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">وادەکات گڵۆپەکانی Glyph کارلێک لەگەڵ لێدەری دەنگی ئامێرەکەدا بکەن.
+هەموو فەرمانەکانی تری Glyph ناچالاک دەبن لە کاتی بەکارهێنانی ئەمەدا.</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">چرای Glyph</string>
+    <string name="glyph_accessibility_quick_settings_off">ناچالاک</string>
+    <string name="glyph_accessibility_quick_settings_on">چالاک</string>
+</resources>

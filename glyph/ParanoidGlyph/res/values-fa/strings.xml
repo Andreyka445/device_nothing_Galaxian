@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">رابط کاربری گلیف</string>
+    <string name="glyph_settings_enable">چراغ های گلیف</string>
+    <string name="glyph_settings_title">رابط کاربری گلیف</string>
+    <string name="glyph_settings_summary">گزینه‌ها برای چراغ های گلیف</string>
+    <string name="glyph_settings_flip_toggle_title">پرش به گلیف</string>
+    <string name="glyph_settings_flip_toggle_summary">صدا را خاموش کنید و نمایش گلیف‌ها را فعال کنید اگر گوشی به پایین قرار گرفته باشد.</string>
+    <string name="glyph_settings_brightness">روشنایی</string>
+    <string name="glyph_settings_charging_title">درحال شارژ</string>
+    <string name="glyph_settings_charging_level_title">سطح باتری</string>
+    <string name="glyph_settings_charging_level_summary">نمایش شارژ باتری هنگامی که به شارژر متصل است</string>
+    <string name="glyph_settings_charging_powershare_title">شارژ معکوس بی‌سیم</string>
+    <string name="glyph_settings_charging_powershare_summary">هنگامی که شارژ بی‌سیم معکوس تشخیص داده شد یک انیمیشن نشان بده</string>
+    <string name="glyph_settings_call_title">تماس‌ها</string>
+    <string name="glyph_settings_call_toggle_title">انیمیشن تماس</string>
+    <string name="glyph_settings_call_toggle_summary">ال‌ای‌دی ها در هنگام تماس چشمک بزنند</string>
+    <string name="glyph_settings_call_sub_toggle_title">فعال‌کردن انیمیشن تماس</string>
+    <string name="glyph_settings_call_sub_animations_title">الگو</string>
+    <string name="glyph_settings_notifs_title">اعلان‌ها</string>
+    <string name="glyph_settings_notifs_toggle_title">انیمیشن اعلان‌ها</string>
+    <string name="glyph_settings_notifs_toggle_summary">هنگام پیام جدید، ال‌ای‌دی را روشن کن</string>
+    <string name="glyph_settings_notifs_sub_title">برنامه های مجاز</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">فعال کردن انیمیشن اعلان‌ها</string>
+    <string name="glyph_settings_notifs_sub_animations_title">الگو</string>
+    <string name="glyph_settings_notifs_sub_essential_title">اعلان‌های ضروری</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">گلیف ضروری تا زمانیکه اعلان‌های ضروری خوانده یا رد نشود نشان داده می‌شود</string>
+    <string name="glyph_settings_notifs_permission_required">برای فعال کردن اعلان‌های گلیف، دسترسی به اعلان‌ها لازم است</string>
+    <string name="glyph_settings_volume_title">میزان صدا</string>
+    <string name="glyph_settings_volume_level_toggle_title">نشانگر میزان صدا</string>
+    <string name="glyph_settings_volume_level_toggle_summary">هنگام تنظیم سطح صدا را نشان دهید</string>
+    <string name="glyph_settings_misc_title">متفرقه</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">رقص‌نور موسیقی</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">این باعث می‌شود چراغهای گلیف به پخش‌کننده صوتی دستگاه واکنش نشان دهند.\nهنگامی که از آن استفاده می‌شود، همه عملکردهای دیگر گلیف غیرفعال می‌شوند.</string>
+    <string name="glyph_accessibility_quick_settings">گلیف</string>
+    <string name="glyph_accessibility_quick_settings_torch">چراغ قوه گلیف</string>
+    <string name="glyph_accessibility_quick_settings_off">خاموش</string>
+    <string name="glyph_accessibility_quick_settings_on">روشن</string>
+</resources>

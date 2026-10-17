@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Interfície Glyph</string>
+    <string name="glyph_settings_enable">Llums Glyph</string>
+    <string name="glyph_settings_title">Interfície Glyph</string>
+    <string name="glyph_settings_summary">Opcions per a les llums Glyph</string>
+    <string name="glyph_settings_flip_toggle_title">Canvia a Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">Silencia i mostra Glyph si el telèfon està cap per avall</string>
+    <string name="glyph_settings_brightness">Brillantor</string>
+    <string name="glyph_settings_charging_title">S\'està carregant</string>
+    <string name="glyph_settings_charging_level_title">Nivell de bateria</string>
+    <string name="glyph_settings_charging_level_summary">Mostra el nivell de bateria en endollar</string>
+    <string name="glyph_settings_charging_powershare_title">Càrrega sense fils inversa</string>
+    <string name="glyph_settings_charging_powershare_summary">Mostra una animació quan es detecti càrrega sense fils inversa</string>
+    <string name="glyph_settings_call_title">Trucades</string>
+    <string name="glyph_settings_call_toggle_title">Animació de la trucada</string>
+    <string name="glyph_settings_call_toggle_summary">Pampalluga els LED per a les trucades entrants</string>
+    <string name="glyph_settings_call_sub_toggle_title">Activa l\'animació de la trucada</string>
+    <string name="glyph_settings_call_sub_animations_title">Patró</string>
+    <string name="glyph_settings_notifs_title">Notificacions</string>
+    <string name="glyph_settings_notifs_toggle_title">Animació de les notificacions</string>
+    <string name="glyph_settings_notifs_toggle_summary">Pampalluga els LED en arribar noves notificacions</string>
+    <string name="glyph_settings_notifs_sub_title">Aplicacions permeses</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">Activa l\'animació de les notificacions</string>
+    <string name="glyph_settings_notifs_sub_animations_title">Patró</string>
+    <string name="glyph_settings_notifs_sub_essential_title">Notificacions essencials</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">Es mostrarà el Glyph essencial fins que les notificacions essencials es llegeixin o es descartin</string>
+    <string name="glyph_settings_notifs_permission_required">Cal accés a les notificacions per habilitar les notificacions del Glyph</string>
+    <string name="glyph_settings_volume_title">Volum</string>
+    <string name="glyph_settings_volume_level_toggle_title">Indicador de volum</string>
+    <string name="glyph_settings_volume_level_toggle_summary">Mostra el nivell de volum en ajustar</string>
+    <string name="glyph_settings_misc_title">Miscel·lània</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Visualitzador de música</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">Això farà que les llums Glyph reaccionin al reproductor d\'àudio del dispositiu.\nLa resta de funcions del Glyph es desactivaran quan s\'utilitzi.</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Torxa Glyph</string>
+    <string name="glyph_accessibility_quick_settings_off">Desactivat</string>
+    <string name="glyph_accessibility_quick_settings_on">Activat</string>
+</resources>
