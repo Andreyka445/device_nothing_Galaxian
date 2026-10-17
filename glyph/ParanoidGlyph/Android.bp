@@ -73,6 +73,20 @@ android_app {
     ],
 }
 
+android_app {
+    name: "ParanoidGlyphGalaxian",
+    defaults: ["glyph_app_defaults"],
+    asset_dirs: ["galaxian/assets"],
+    resource_dirs: ["galaxian/res"],
+    static_libs: [
+        "ParanoidGlyph-core",
+    ],
+    required: [
+        "privapp_whitelist_co.aospa.glyph.xml",
+        "whitelist_co.aospa.glyph.xml",
+    ],
+}
+
 prebuilt_etc {
     name: "privapp_whitelist_co.aospa.glyph.xml",
     src: "permissions/privapp_whitelist_co.aospa.glyph.xml",

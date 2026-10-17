@@ -187,6 +187,10 @@ public class GlyphAnimationPreference extends Preference {
                                     setGlyphsDrawable(animationImgs[9], Integer.parseInt(split[3]));
                                     setGlyphsDrawable(animationImgs[10], Integer.parseInt(split[4]));
                             });
+                        } else if (Constants.getDevice().equals("galaxian") && split.length == 1) { // Galaxian single Glyph light
+                            mActivity.runOnUiThread(() -> {
+                                setGlyphsDrawable(animationImgs[0], Integer.parseInt(split[0]));
+                            });
                         } else if (Constants.getDevice().equals("phone2") && split.length == 33) { // Phone (2) pattern on Phone (2)
                             mActivity.runOnUiThread(() -> {
                                     setGlyphsDrawable(animationImgs[0], Integer.parseInt(split[0]));

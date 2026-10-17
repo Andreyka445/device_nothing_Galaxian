@@ -102,7 +102,8 @@ public final class FileUtils {
     }
 
     public static void writeAllLed(String value) {
-        writeLine(ResourceUtils.getString("glyph_settings_paths_all_absolute"), value);
+        writeLine(ResourceUtils.getString("glyph_settings_paths_all_absolute"),
+                isGalaxian() ? galaxianLedState(value) : value);
     }
 
     public static void writeAllLed(int value) {
@@ -114,7 +115,8 @@ public final class FileUtils {
     }
 
     public static void writeFrameLed(String value) {
-        writeLine(ResourceUtils.getString("glyph_settings_paths_frame_absolute"), value);
+        writeLine(ResourceUtils.getString("glyph_settings_paths_frame_absolute"),
+                isGalaxian() ? galaxianLedState(value) : value);
     }
 
     public static void writeFrameLed(int[] value) {
@@ -130,7 +132,37 @@ public final class FileUtils {
     }
 
     public static void writeSingleLed(String led, String value) {
+        if (isGalaxian()) {
+            // Galaxian's single Glyph light is addressed by state, not by zone.
+            writeLine(ResourceUtils.getString("glyph_settings_paths_single_absolute"),
+                    galaxianLedState(value));
+            return;
+        }
         writeLine(ResourceUtils.getString("glyph_settings_paths_single_absolute"), led + " " + value);
+    }
+
+    private static boolean isGalaxian() {
+        return "galaxian".equals(Constants.getDevice());
+    }
+
+    /**
+     * The Galaxian Glyph light is a plain on/off LED. Its driver reads 0 as off,
+     * 1 as solid on and any higher value as a breathing period in milliseconds,
+     * so it cannot take the per-zone brightness values the other devices use.
+     * Whatever the app hands over, be it a single zone or a whole frame, is
+     * collapsed into the one state this node understands.
+     */
+    private static String galaxianLedState(String value) {
+        for (String part : value.trim().split("[ ,]+")) {
+            try {
+                if (Integer.parseInt(part) > 0) {
+                    return "1";
+                }
+            } catch (NumberFormatException e) {
+                // Not something we can interpret as a brightness, skip it.
+            }
+        }
+        return "0";
     }
 
     public static void writeSingleLed(int led, String value) {
