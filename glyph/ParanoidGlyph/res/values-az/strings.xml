@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Glyph interfeysi</string>
+    <string name="glyph_settings_enable">Glyph işıqları</string>
+    <string name="glyph_settings_title">Glyph interfeysi</string>
+    <string name="glyph_settings_summary">Glyph işıqları üçün seçənəklər</string>
+    <string name="glyph_settings_flip_toggle_title">Glyph-ə çevir</string>
+    <string name="glyph_settings_flip_toggle_summary">Telefon üzü aşağı olarsa, səssizə al və \"Glyph\"ləri göstər</string>
+    <string name="glyph_settings_brightness">Parlaqlıq</string>
+    <string name="glyph_settings_charging_title">Dolur</string>
+    <string name="glyph_settings_charging_level_title">Batareya səviyyəsi</string>
+    <string name="glyph_settings_charging_level_summary">Taxdıqda batareya səviyyəsini göstər</string>
+    <string name="glyph_settings_charging_powershare_title">Tərsinə naqilsiz doldurma</string>
+    <string name="glyph_settings_charging_powershare_summary">Tərsinə naqilsiz doldurma aşkarlandıqda bir animasiya göstər</string>
+    <string name="glyph_settings_call_title">Zənglər</string>
+    <string name="glyph_settings_call_toggle_title">Zəng animasiyası</string>
+    <string name="glyph_settings_call_toggle_summary">Gələn zənglərdə yanıb sönən LED-lər</string>
+    <string name="glyph_settings_call_sub_toggle_title">Zəng animasiyasını fəallaşdır</string>
+    <string name="glyph_settings_call_sub_animations_title">Naxış</string>
+    <string name="glyph_settings_notifs_title">Bildirişlər</string>
+    <string name="glyph_settings_notifs_toggle_title">Bildiriş animasiyası</string>
+    <string name="glyph_settings_notifs_toggle_summary">Yeni bildirişlərdə yanıb sönən LED-lər</string>
+    <string name="glyph_settings_notifs_sub_title">İcazə veriləcək tətbiqlər</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">Bildiriş animasiyası fəallaşdır</string>
+    <string name="glyph_settings_notifs_sub_animations_title">Naxış</string>
+    <string name="glyph_settings_notifs_sub_essential_title">Təməl bildirişlər</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">Təməl Glyph, Təməl bildirişlər oxunana və ya silinənə qədər nümayiş olunacaq</string>
+    <string name="glyph_settings_notifs_permission_required">Glyph bildirişlərini fəallaşdırmaq üçün bildiriş erişimi tələb olunur</string>
+    <string name="glyph_settings_volume_title">Həcm</string>
+    <string name="glyph_settings_volume_level_toggle_title">Həcm göstəricisi</string>
+    <string name="glyph_settings_volume_level_toggle_summary">Ayarlanarkən həcm səviyyəsini göstər</string>
+    <string name="glyph_settings_misc_title">Müxtəlif</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Musiqi Vizuallaşdırıcı</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">Bu, Glyph işıqlarının cihazdakı audio pleyerə reaksiya verməyini təmin edəcək.\nBu istifadə edilən zaman, bütün digər Glyph funksiyaları sıradan çıxarılacaq.</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Glyph fənəri</string>
+    <string name="glyph_accessibility_quick_settings_off">Bağlı</string>
+    <string name="glyph_accessibility_quick_settings_on">Açıq</string>
+</resources>

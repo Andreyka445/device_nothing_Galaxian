@@ -1,0 +1,88 @@
+// Copyright (C) 2022-2024 Paranoid Android
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+java_defaults {
+    name: "glyph_app_defaults",
+
+    certificate: "platform",
+    platform_apis: true,
+    privileged: true,
+    system_ext_specific: true,
+
+    resource_dirs: [],
+}
+
+android_library {
+    name: "ParanoidGlyph-core",
+    platform_apis: true,
+
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt"
+    ],
+
+    static_libs: [
+        "androidx.core_core",
+        "androidx.preference_preference",
+        "com.google.android.material_material",
+        "SettingsLib",
+        "IGlyphService-java",
+    ],
+}
+
+android_app {
+    name: "ParanoidGlyphPhone1",
+
+    defaults: ["glyph_app_defaults"],
+
+    asset_dirs: ["phone1/assets"],
+    resource_dirs: ["phone1/res"],
+
+    static_libs: [
+        "ParanoidGlyph-core",
+    ],
+
+    required: [
+        "privapp_whitelist_co.aospa.glyph.xml",
+        "whitelist_co.aospa.glyph.xml",
+    ],
+}
+
+android_app {
+    name: "ParanoidGlyphPhone2",
+    defaults: ["glyph_app_defaults"],
+    asset_dirs: ["phone2/assets"],
+    resource_dirs: ["phone2/res"],
+    static_libs: [
+        "ParanoidGlyph-core",
+    ],
+    required: [
+        "privapp_whitelist_co.aospa.glyph.xml",
+        "whitelist_co.aospa.glyph.xml",
+    ],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_co.aospa.glyph.xml",
+    src: "permissions/privapp_whitelist_co.aospa.glyph.xml",
+    sub_dir: "permissions",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "whitelist_co.aospa.glyph.xml",
+    src: "permissions/whitelist_co.aospa.glyph.xml",
+    sub_dir: "sysconfig",
+    system_ext_specific: true,
+}

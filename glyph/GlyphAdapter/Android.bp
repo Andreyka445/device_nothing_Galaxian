@@ -1,0 +1,32 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "GlyphAdapter",
+    certificate: "platform",
+    platform_apis: true,
+    privileged: true,
+    system_ext_specific: true,
+
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+    ],
+
+    static_libs: [
+            "IGlyphService-java",
+    ],
+
+}
+
+aidl_interface {
+    name: "IGlyphService",
+    unstable: true,
+    local_include_dir: "aidl",
+    srcs: [
+        "aidl/com/nothing/thirdparty/IGlyphService.aidl",
+    ],
+}

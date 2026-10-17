@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Glyph 界面</string>
+    <string name="glyph_settings_enable">Glyph 灯效</string>
+    <string name="glyph_settings_title">Glyph 界面</string>
+    <string name="glyph_settings_summary">Glyph 灯效选项</string>
+    <string name="glyph_settings_flip_toggle_title">翻转设备来开关 Glyph 灯效</string>
+    <string name="glyph_settings_flip_toggle_summary">屏幕朝下时静音并显示 Glyph 灯效</string>
+    <string name="glyph_settings_brightness">亮度</string>
+    <string name="glyph_settings_charging_title">正在充电</string>
+    <string name="glyph_settings_charging_level_title">电池电量</string>
+    <string name="glyph_settings_charging_level_summary">充电时显示电量</string>
+    <string name="glyph_settings_charging_powershare_title">无线反向充电</string>
+    <string name="glyph_settings_charging_powershare_summary">使用无线反向充电时显示动画</string>
+    <string name="glyph_settings_call_title">来电</string>
+    <string name="glyph_settings_call_toggle_title">来电动画</string>
+    <string name="glyph_settings_call_toggle_summary">有来电时闪烁 LED</string>
+    <string name="glyph_settings_call_sub_toggle_title">启用来电动画</string>
+    <string name="glyph_settings_call_sub_animations_title">图案</string>
+    <string name="glyph_settings_notifs_title">通知</string>
+    <string name="glyph_settings_notifs_toggle_title">通知动画</string>
+    <string name="glyph_settings_notifs_toggle_summary">有新通知时闪烁 LED 灯</string>
+    <string name="glyph_settings_notifs_sub_title">允许的应用</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">启用通知动画</string>
+    <string name="glyph_settings_notifs_sub_animations_title">图案</string>
+    <string name="glyph_settings_notifs_sub_essential_title">重要通知</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">重要的 Glyph 通知将会一直显示，直到重要通知被阅读或关闭。</string>
+    <string name="glyph_settings_notifs_permission_required">需要通知访问权限才能启用 Glyph 通知</string>
+    <string name="glyph_settings_volume_title">音量</string>
+    <string name="glyph_settings_volume_level_toggle_title">音量指示器</string>
+    <string name="glyph_settings_volume_level_toggle_summary">调节音量时显示音量大小</string>
+    <string name="glyph_settings_misc_title">杂项</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">音乐可视化</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">这将使 Glyph 灯效对设备上的音频播放器做出反应。\n使用此功能时，所有其他的 Glyph 功能将被禁用。</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Glyph 手电筒</string>
+    <string name="glyph_accessibility_quick_settings_off">关闭</string>
+    <string name="glyph_accessibility_quick_settings_on">开启</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">Giao diện Glyph</string>
+    <string name="glyph_settings_enable">Đèn Glyph</string>
+    <string name="glyph_settings_title">Giao diện Glyph</string>
+    <string name="glyph_settings_summary">Tùy chọn cho đèn Glyph</string>
+    <string name="glyph_settings_flip_toggle_title">Lật sang Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">Tắt tiếng và hiển thị Glyphs khi úp mặt điện thoại xuống</string>
+    <string name="glyph_settings_brightness">Độ sáng</string>
+    <string name="glyph_settings_charging_title">Đang sạc</string>
+    <string name="glyph_settings_charging_level_title">Mức pin</string>
+    <string name="glyph_settings_charging_level_summary">Hiển thị mức pin khi cắm sạc</string>
+    <string name="glyph_settings_charging_powershare_title">Sạc ngược không dây</string>
+    <string name="glyph_settings_charging_powershare_summary">Hiển thị hoạt ảnh khi phát hiện sạc ngược không dây</string>
+    <string name="glyph_settings_call_title">Cuộc gọi</string>
+    <string name="glyph_settings_call_toggle_title">Hoạt ảnh cuộc gọi</string>
+    <string name="glyph_settings_call_toggle_summary">Nháy đèn LED khi có cuộc gọi đến</string>
+    <string name="glyph_settings_call_sub_toggle_title">Kích hoạt hoạt ảnh cuộc gọi</string>
+    <string name="glyph_settings_call_sub_animations_title">Mẫu</string>
+    <string name="glyph_settings_notifs_title">Thông báo</string>
+    <string name="glyph_settings_notifs_toggle_title">Hoạt ảnh thông báo</string>
+    <string name="glyph_settings_notifs_toggle_summary">Nháy đèn LED khi có thông báo mới</string>
+    <string name="glyph_settings_notifs_sub_title">Ứng dụng để cho phép</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">Kích hoạt hoạt ảnh thông báo</string>
+    <string name="glyph_settings_notifs_sub_animations_title">Mẫu</string>
+    <string name="glyph_settings_notifs_sub_essential_title">Thông báo quan trọng</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">Essential Glyph sẽ được hiển thị cho đến khi thông báo quan trọng được đọc hoặc bị loại bỏ</string>
+    <string name="glyph_settings_notifs_permission_required">Cần có quyền truy cập thông báo để bật thông báo Glyph</string>
+    <string name="glyph_settings_volume_title">Âm lượng</string>
+    <string name="glyph_settings_volume_level_toggle_title">Chỉ báo âm lượng</string>
+    <string name="glyph_settings_volume_level_toggle_summary">Hiển thị mức âm lượng khi điều chỉnh</string>
+    <string name="glyph_settings_misc_title">Cài đặt khác</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">Sóng nhạc</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">Thao tác này sẽ khiến cho đèn Glyph phản ứng với trình phát âm thanh trên thiết bị.\nTất cả các chức năng khác của Glyph sẽ bị vô hiệu hóa kh sử dụng chức năng này.</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">Đèn pin Glyph</string>
+    <string name="glyph_accessibility_quick_settings_off">Tắt</string>
+    <string name="glyph_accessibility_quick_settings_on">Bật</string>
+</resources>

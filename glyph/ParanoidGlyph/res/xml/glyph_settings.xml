@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+                   2018-2019 The LineageOS Project
+                   2020-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License"
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/glyph_settings_title">
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:defaultValue="false"
+        android:key="glyph_enable"
+        android:title="@string/glyph_settings_enable" />
+
+    <SwitchPreferenceCompat
+        android:dependency="glyph_enable"
+        android:key="glyph_settings_flip_toggle"
+        android:defaultValue="true"
+        android:title="@string/glyph_settings_flip_toggle_title"
+        android:summary="@string/glyph_settings_flip_toggle_summary" />
+
+    <SeekBarPreference
+        android:dependency="glyph_enable"
+        android:key="glyph_settings_brightness"
+        android:title="@string/glyph_settings_brightness" />
+
+    <PreferenceCategory
+        android:key="glyph_settings_call"
+        android:title="@string/glyph_settings_call_title" />
+
+        <com.android.settingslib.PrimarySwitchPreference
+            android:dependency="glyph_enable"
+            android:key="glyph_settings_call_toggle"
+            android:defaultValue="true"
+            android:title="@string/glyph_settings_call_toggle_title"
+            android:summary="@string/glyph_settings_call_toggle_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="co.aospa.glyph"
+                 android:targetClass="co.aospa.glyph.settings.CallSettingsActivity"/>
+        </com.android.settingslib.PrimarySwitchPreference>
+
+    <PreferenceCategory
+        android:key="glyph_settings_notifs"
+        android:title="@string/glyph_settings_notifs_title" />
+
+        <com.android.settingslib.PrimarySwitchPreference
+            android:dependency="glyph_enable"
+            android:key="glyph_settings_notifs_toggle"
+            android:defaultValue="true"
+            android:title="@string/glyph_settings_notifs_toggle_title"
+            android:summary="@string/glyph_settings_notifs_toggle_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="co.aospa.glyph"
+                 android:targetClass="co.aospa.glyph.settings.NotifsSettingsActivity"/>
+        </com.android.settingslib.PrimarySwitchPreference>
+
+    <PreferenceCategory
+        android:key="glyph_settings_charging"
+        android:title="@string/glyph_settings_charging_title" />
+
+        <SwitchPreferenceCompat
+            android:dependency="glyph_enable"
+            android:key="glyph_settings_charging_level"
+            android:defaultValue="true"
+            android:title="@string/glyph_settings_charging_level_title"
+            android:summary="@string/glyph_settings_charging_level_summary" />
+
+        <SwitchPreferenceCompat
+            android:dependency="glyph_enable"
+            android:key="glyph_settings_charging_powershare"
+            android:defaultValue="true"
+            android:title="@string/glyph_settings_charging_powershare_title"
+            android:summary="@string/glyph_settings_charging_powershare_summary" />
+
+    <PreferenceCategory
+        android:key="glyph_settings_volume"
+        android:title="@string/glyph_settings_volume_title" />
+
+        <SwitchPreferenceCompat
+            android:dependency="glyph_enable"
+            android:key="glyph_settings_volume_level_toggle"
+            android:defaultValue="true"
+            android:title="@string/glyph_settings_volume_level_toggle_title"
+            android:summary="@string/glyph_settings_volume_level_toggle_summary" />
+
+    <PreferenceCategory
+        android:key="glyph_settings_misc"
+        android:title="@string/glyph_settings_misc_title" />
+
+        <SwitchPreferenceCompat
+            android:dependency="glyph_enable"
+            android:key="glyph_settings_music_visualizer_toggle"
+            android:defaultValue="false"
+            android:title="@string/glyph_settings_music_visualizer_toggle_title"
+            android:summary="@string/glyph_settings_music_visualizer_toggle_summary" />
+
+</PreferenceScreen>

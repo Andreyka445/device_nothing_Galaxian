@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Animations -->
+    <string-array name="glyph_settings_animations_slugs" translatable="false">
+        <item>camera1</item>
+        <item>camera2</item>
+        <item>slant1</item>
+        <item>center1</item>
+        <item>center2</item>
+        <item>center3</item>
+        <item>center4</item>
+        <item>center5</item>
+        <item>center6</item>
+        <item>bar1</item>
+        <item>dot1</item>
+    </string-array>
+    <integer-array name="glyph_settings_animations_supported_pattern_lengths" translatable="false">
+        <item>5</item>
+        <item>33</item>
+    </integer-array>
+
+    <!-- Battery Animations -->
+    <bool name="glyph_settings_battery_dot" translatable="false">true</bool>
+    <integer name="glyph_settings_battery_levels_num" translatable="false">9</integer>
+
+    <!-- Call Animations -->
+    <string name="glyph_settings_call_animations_default" translatable="false">Beetle (Custom)</string>
+
+    <!-- Notification Animations -->
+    <string name="glyph_settings_notifs_animations_default" translatable="false">Beak (Custom)</string>
+    <integer name="glyph_settings_notifs_essential_led" translatable="false">24</integer>
+
+    <!-- Volume Animations -->
+    <integer name="glyph_settings_volume_levels_num" translatable="false">16</integer>
+
+</resources>

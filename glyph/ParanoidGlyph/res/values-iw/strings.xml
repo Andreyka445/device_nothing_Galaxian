@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020-2024 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="glyph_settings_app_name">ממשק Glyph</string>
+    <string name="glyph_settings_enable">תאורת Glyph</string>
+    <string name="glyph_settings_title">ממשק Glyph</string>
+    <string name="glyph_settings_summary">אפשרויות תאורת Glyph</string>
+    <string name="glyph_settings_flip_toggle_title">הפיכה להפעלת Glyph</string>
+    <string name="glyph_settings_flip_toggle_summary">השתקה והצגת Glyph בעת הפיכת הטלפון</string>
+    <string name="glyph_settings_brightness">בהירות</string>
+    <string name="glyph_settings_charging_title">בטעינה</string>
+    <string name="glyph_settings_charging_level_title">רמת סוללה</string>
+    <string name="glyph_settings_charging_level_summary">הצגת רמת הסוללה בעת חיבור לחשמל</string>
+    <string name="glyph_settings_charging_powershare_title">טעינת אלחוטית הפוכה</string>
+    <string name="glyph_settings_charging_powershare_summary">הצג אנימציה כאשר מזוהה טעינה אלחוטית הפוכה</string>
+    <string name="glyph_settings_call_title">שיחות</string>
+    <string name="glyph_settings_call_toggle_title">אנימציית שיחה</string>
+    <string name="glyph_settings_call_toggle_summary">הבהוב נורות לד עבור שיחות נכנסות</string>
+    <string name="glyph_settings_call_sub_toggle_title">הפעלת אנימציית שיחה</string>
+    <string name="glyph_settings_call_sub_animations_title">דפוס</string>
+    <string name="glyph_settings_notifs_title">התראות</string>
+    <string name="glyph_settings_notifs_toggle_title">אנימציית התראות</string>
+    <string name="glyph_settings_notifs_toggle_summary">הבהוב נורות לד עבור התראות חדשות</string>
+    <string name="glyph_settings_notifs_sub_title">יישומים לאישור</string>
+    <string name="glyph_settings_notifs_sub_toggle_title">הפעלת אנימציית התראות</string>
+    <string name="glyph_settings_notifs_sub_animations_title">דפוס</string>
+    <string name="glyph_settings_notifs_sub_essential_title">התראות חיוניות</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">הסמליל החיוני יוצג עד שההתראות החיוניות ייקראו או יוסרו</string>
+    <string name="glyph_settings_notifs_permission_required">נדרשת הרשאת גישה להתראות כדי לאפשר התראות Glyph</string>
+    <string name="glyph_settings_volume_title">עוצמה</string>
+    <string name="glyph_settings_volume_level_toggle_title">מחוון עוצמה</string>
+    <string name="glyph_settings_volume_level_toggle_summary">הצגת עוצמה בעת כוונון</string>
+    <string name="glyph_settings_misc_title">שונות</string>
+    <string name="glyph_settings_music_visualizer_toggle_title">הדמיה מוזיקלית</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">הדבר יגרום לתאורת Glyph להגיב לנגן המדיה במכשיר.\nכל שאר פונקציות ה-Glyph יושבתו בעת השימוש.</string>
+    <string name="glyph_accessibility_quick_settings">Glyph</string>
+    <string name="glyph_accessibility_quick_settings_torch">פנס Glyph</string>
+    <string name="glyph_accessibility_quick_settings_off">כבוי</string>
+    <string name="glyph_accessibility_quick_settings_on">מופעל</string>
+</resources>
