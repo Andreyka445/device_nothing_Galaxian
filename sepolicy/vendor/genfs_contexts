@@ -86,4 +86,13 @@ genfscon proc /gpufreqv2/limit_table u:object_r:vendor_galaxian_gpu_range:s0
 genfscon sysfs /kernel/ged/hal/gpu_utilization u:object_r:vendor_galaxian_gpu_utilization:s0
 
 # Galaxian Glyph: the single noth_leds light and its state node.
-genfscon sysfs /devices/platform/breathing_lights/leds/noth_leds u:object_r:vendor_galaxian_glyph:s0
+#
+# The platform device is not named after its device tree node. The
+# "breathing_lights" node carries "reg = <0x0>" while the root node declares
+# "#address-cells = <2>", so of_device_make_bus_id() reads eight bytes out of
+# the four-byte reg property and the second half lands on the OF_DT_PROP token
+# (0x3) of the property that follows it, yielding "3.breathing_lights". A rule
+# for the bare node name never matches, which leaves the node labelled sysfs and
+# system_app without write access. The device name is re-checkable with:
+#   ls /sys/devices/platform/ | grep breathing
+genfscon sysfs /devices/platform/3.breathing_lights/leds/noth_leds u:object_r:vendor_galaxian_glyph:s0
