@@ -131,8 +131,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.graphics.common-V6-ndk.so','android.hardware.graphics.common-V7-ndk.so'),
     'vendor/lib64/vendor.noth.hardware.camera-service-impl.so' : blob_fixup()
         .add_needed('libui_shim.so'),
-    'vendor/etc/init/vendor.noth.hardware.camera-service.rc': blob_fixup()
-        .regex_replace('NtCamAlgoCapacity', 'CameraServiceCapacity'),
     'vendor/lib64/libntcamskia.so' : blob_fixup()
         .add_needed('libnativewindow.so'),
     'system_ext/priv-app/NTCamera/NTCamera.apk': blob_fixup()

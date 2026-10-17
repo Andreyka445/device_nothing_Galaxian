@@ -25,6 +25,32 @@
           }
         }
       ]
+    },
+    {
+      "Name": "NtCamAlgoCapacity",
+      "Actions": [
+        {
+          "Name": "JoinCgroup",
+          "Params":
+          {
+            "Controller": "cpuset",
+            "Path": "ntcam-algo"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "NtCamAlgoPerformance",
+      "Actions": [
+        {
+          "Name": "JoinCgroup",
+          "Params":
+          {
+            "Controller": "cpu",
+            "Path": "ntcam-algo"
+          }
+        }
+      ]
     }
   ]
 }
