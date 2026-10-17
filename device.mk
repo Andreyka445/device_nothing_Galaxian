@@ -222,6 +222,12 @@ include hardware/mediatek/configs/properties/vendor_logtag.mk
 PRODUCT_PACKAGES += \
     nt-fwk.Galaxian
 
+# Glyph
+PRODUCT_PACKAGES += \
+    GlyphAdapter \
+    ParanoidGlyphGalaxian \
+    init.galaxian_glyph.rc
+
 # Device controls
 PRODUCT_PACKAGES += \
     GalaxianParts
