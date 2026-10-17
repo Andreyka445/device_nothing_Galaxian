@@ -1,0 +1,6 @@
+# The Galaxian Glyph light lives behind the out-of-tree noth_leds driver, which
+# is a vendor_dlkm module. Expose its single "state" node (0 off, 1 solid, >1 a
+# breathing period in ms) to the Glyph app once every vendor module is loaded.
+on property:vendor.all.modules.ready=1
+    chown system system /sys/class/leds/noth_leds/state
+    chmod 0660 /sys/class/leds/noth_leds/state
