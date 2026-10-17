@@ -59,6 +59,8 @@ get_prop(hal_ntcam_default, camera_config_prop)
 get_prop(hal_ntcam_default, vendor_nt_camera_prop)
 set_prop(hal_ntcam_default, vendor_nt_camera_prop)
 get_prop(hal_ntcam_default, vendor_camera_prop)
+# NN/EXIF tunables live in default_prop (MOPR_NN_*, RUNTIME_OVERRIDE_*, SIQ_SDK_*)
+get_prop(hal_ntcam_default, default_prop)
 
 allow hal_ntcam_default proc_ged:file rw_file_perms;
 allowxperm hal_ntcam_default proc_ged:file ioctl { proc_ged_ioctls };
