@@ -8,5 +8,8 @@ binder_call(mtk_hal_camera, hal_ntcam_default)
 get_prop(mtk_hal_camera, vendor_nt_camera_prop)
 set_prop(mtk_hal_camera, vendor_nt_camera_prop)
 get_prop(mtk_hal_camera, vendor_camera_prop)
-# EXIF/model/ICC lookups hit default_prop (denied for Cam@Jpeg otherwise)
-get_prop(mtk_hal_camera, default_prop)
+# EXIF/model/ICC lookups read the build props (ro.product.*, ro.build.*, all typed
+# build_prop). default_prop cannot be used here - it is a system_internal property
+# type and non-coredomain reads of it are a neverallow. build_prop is a
+# system_restricted property type (set-restricted, read-allowed), so this is legal.
+get_prop(mtk_hal_camera, build_prop)

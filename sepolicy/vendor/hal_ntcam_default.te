@@ -59,8 +59,18 @@ get_prop(hal_ntcam_default, camera_config_prop)
 get_prop(hal_ntcam_default, vendor_nt_camera_prop)
 set_prop(hal_ntcam_default, vendor_nt_camera_prop)
 get_prop(hal_ntcam_default, vendor_camera_prop)
-# NN/EXIF tunables live in default_prop (MOPR_NN_*, RUNTIME_OVERRIDE_*, SIQ_SDK_*)
-get_prop(hal_ntcam_default, default_prop)
+# NOTE: the MTK AlgoCore tunables some of our algo libs look up (MODELOPR_*,
+# RUNTIME_OVERRIDE_*, SIQ_SDK_*) are untyped, so they resolve to default_prop.
+# default_prop is a system_internal property type, and the treble sysprop
+# neverallows forbid non-coredomain reads of it:
+#   private/property.te: neverallow { domain -coredomain } {
+#     system_property_type system_internal_property_type
+#     -system_restricted_property_type -system_public_property_type
+#   }:file no_rw_file_perms;
+# so the grant below is a build error (neverallow) and is deliberately omitted.
+# Those props are logging/profiling overrides only - property_get() falls back to
+# its default when the read is denied. A functional tunable would have to be
+# assigned a vendor-owned type in property_contexts first.
 
 allow hal_ntcam_default proc_ged:file rw_file_perms;
 allowxperm hal_ntcam_default proc_ged:file ioctl { proc_ged_ioctls };
