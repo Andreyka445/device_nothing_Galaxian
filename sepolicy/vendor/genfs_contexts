@@ -66,4 +66,4 @@ genfscon sysfs /devices/platform/trusty/wakeup                                  
 genfscon sysfs /devices/virtual/power_supply/mtk-gauge/wakeup                                                                    u:object_r:sysfs_wakeup:s0
 
 # Galaxian Glyph: the single noth_leds light and its state node.
-genfscon sysfs /devices/platform/breathing_lights/leds/noth_leds u:object_r:vendor_galaxian_glyph:s0
+genfscon sysfs /devices/platform/3.breathing_lights/leds/noth_leds u:object_r:vendor_galaxian_glyph:s0
