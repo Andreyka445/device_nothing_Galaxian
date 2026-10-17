@@ -34,7 +34,9 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 import co.aospa.glyph.R;
+import co.aospa.glyph.manager.StatusManager;
 import co.aospa.glyph.utils.Constants;
+import co.aospa.glyph.utils.FileUtils;
 import co.aospa.glyph.utils.ResourceUtils;
 
 public class GlyphAnimationPreference extends Preference {
@@ -50,6 +52,7 @@ public class GlyphAnimationPreference extends Preference {
     private int animationTimeBetween = 0;
     private String[] animationSlugs;
     private ImageView[] animationImgs;
+    private String glyphPreviewFrame;
 
     private View mRootView;
     private final View.OnClickListener mClickListener = v -> performClick(v);
@@ -136,6 +139,62 @@ public class GlyphAnimationPreference extends Preference {
     private void stopAnimation() {
         animationTerminated = true;
         animationThread.interrupt();
+        clearGlyph();
+    }
+
+    /**
+     * The Galaxian Glyph light is a single on/off LED, so the pattern that is
+     * being drawn in the preview can be reproduced on the real light. Every
+     * frame is handed to the same node the event animations use and FileUtils
+     * collapses it onto that node's 0/1 vocabulary.
+     *
+     * Identical frames are skipped because the preview runs at its own frame
+     * rate while a pattern typically holds a state for many frames, and the
+     * node logs each write. A frame that is dropped because an animation owns
+     * the light leaves the tracking unset, so the next free frame is written
+     * again rather than assumed to be on screen.
+     */
+    private void displayFrameOnGlyph(String frame) {
+        if (!isGalaxian()) {
+            return;
+        }
+        if (glyphBusy()) {
+            glyphPreviewFrame = null;
+            return;
+        }
+        if (frame.equals(glyphPreviewFrame)) {
+            return;
+        }
+        glyphPreviewFrame = frame;
+        FileUtils.writeFrameLed(frame);
+    }
+
+    private void clearGlyph() {
+        if (!isGalaxian()) {
+            return;
+        }
+        glyphPreviewFrame = null;
+        if (glyphBusy()) {
+            return;
+        }
+        if (DEBUG) Log.d(TAG, "Clearing Glyph preview");
+        FileUtils.writeFrameLed("0");
+    }
+
+    /**
+     * True while something else owns the light (a call, a notification, the
+     * volume or charging animation, or the all-LED switch). The preview only
+     * mirrors itself when the light is free.
+     */
+    private boolean glyphBusy() {
+        return StatusManager.isAllLedActive()
+                || StatusManager.isAnimationActive()
+                || StatusManager.isCallLedActive()
+                || StatusManager.isVolumeLedActive();
+    }
+
+    private boolean isGalaxian() {
+        return "galaxian".equals(Constants.getDevice());
     }
 
     public void updateAnimation(boolean play) {
@@ -162,7 +221,7 @@ public class GlyphAnimationPreference extends Preference {
                 try (BufferedReader reader = new BufferedReader(new InputStreamReader(
                         ResourceUtils.getAnimation(animationName)))) {
                     String line;
-                    while ((line = reader.readLine()) != null) {
+                    while (!animationTerminated && (line = reader.readLine()) != null) {
                         long start = System.currentTimeMillis();
                         line = line.replace(" ", "");
                         line = line.endsWith(",") ? line.substring(0, line.length() - 1) : line;
@@ -191,6 +250,7 @@ public class GlyphAnimationPreference extends Preference {
                             mActivity.runOnUiThread(() -> {
                                 setGlyphsDrawable(animationImgs[0], Integer.parseInt(split[0]));
                             });
+                            displayFrameOnGlyph(split[0]);
                         } else if (Constants.getDevice().equals("phone2") && split.length == 33) { // Phone (2) pattern on Phone (2)
                             mActivity.runOnUiThread(() -> {
                                     setGlyphsDrawable(animationImgs[0], Integer.parseInt(split[0]));
@@ -223,6 +283,10 @@ public class GlyphAnimationPreference extends Preference {
                                 setGlyphsDrawable(animationImgs[i], 0);
                             }
                         });
+                        clearGlyph();
+                    } else if (animationTerminated) {
+                        if (DEBUG) Log.d(TAG, "Done displaying animation | name: " + animationName);
+                        clearGlyph();
                     }
                 }
             }
