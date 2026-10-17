@@ -208,6 +208,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     nt-fwk.Galaxian
 
+# Glyph
+PRODUCT_PACKAGES += \
+    GlyphAdapter \
+    ParanoidGlyphGalaxian \
+    init.galaxian_glyph.rc
+
 # Media
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/configs/media,$(TARGET_COPY_OUT_VENDOR)/etc)
