@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: Apache-2.0
+
+// The Galaxian Glyph light is a vendor_dlkm module (noth_leds). Its control
+// node only appears once vendor modules are loaded, so the permissions are
+// applied from init after the module has probed.
+prebuilt_etc {
+    name: "init.galaxian_glyph.rc",
+    src: "init.galaxian_glyph.rc",
+    sub_dir: "init",
+    vendor: true,
+}

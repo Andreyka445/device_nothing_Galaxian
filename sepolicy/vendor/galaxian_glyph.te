@@ -1,0 +1,27 @@
+# The Nothing Phone (3a) Lite has a single Glyph light, provided by the
+# out-of-tree noth_leds driver. It registers one LED class device ("noth_leds")
+# on the breathing_lights platform device and exposes a single control node:
+#
+#   /sys/class/leds/noth_leds/state
+#     0  -> off
+#     1  -> solid on
+#     >1 -> breathing period in milliseconds
+#
+# The driver creates it as 0644 root:root and offers no per-zone frame or
+# brightness interface, so it is the only node this label covers.
+type vendor_galaxian_glyph, fs_type, sysfs_type;
+
+# ParanoidGlyph runs as the system uid, so it alone gets the write side. The
+# grant stays on this one node.
+allow system_app vendor_galaxian_glyph:file rw_file_perms;
+allow system_app vendor_galaxian_glyph:dir search;
+
+# The app reaches the node through the /sys/class/leds class symlink, which
+# keeps the platform sysfs_leds label.
+allow system_app sysfs_leds:dir search;
+allow system_app sysfs_leds:lnk_file read;
+
+# The node only appears once the noth_leds vendor_dlkm module has probed, so
+# vendor_init hands it over to system (chown/chmod) after the modules are up.
+# open/read for fchown/fchmod already come from the sysfs_type attribute.
+allow vendor_init vendor_galaxian_glyph:file setattr;
