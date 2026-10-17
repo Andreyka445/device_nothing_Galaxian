@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.apu.permission"
+    coreApp="true">
+    <permission android:name="mediatek.permission.ACCESS_APU_SYS"
+                android:protectionLevel="signature|privileged" />
+    <application android:hasCode="false" />
+</manifest>

@@ -22,6 +22,7 @@ ro.vendor.bt.platform=6878
 
 # Camera
 camera.disable_zsl_mode=1
+persist.sys.fuse.passthrough.enable=true
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
 persist.vendor.camera3.pipeline.bufnum.base.lcso=4
 persist.vendor.camera3.pipeline.bufnum.base.rrzo=4
@@ -36,6 +37,8 @@ persist.vendor.camera3.pipeline.bufnum.min.low_ram.imgo=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.lcso=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.rrzo=6
 persist.vendor.camera3.pipeline.bufnum.min.low_ram.rsso=6
+ro.camera.disableHeicUltraHDR=true
+ro.camera.notify_nfc=1
 ro.vendor.afbc.enable=3
 ro.vendor.camera.directfdyuv.support=1
 ro.vendor.camera.insensorzoom.support=1
@@ -45,6 +48,7 @@ ro.vendor.jpeg_decode_sw_opt=1
 ro.vendor.mtk_cam_security_support=1
 ro.vendor.mtk_camera_app_version=3
 ro.vendor.mtk_mvpu_support=0
+vendor.mtk.camera.app.fd.video=1
 
 # Connectivity
 persist.vendor.connsys.chipid=-1
@@ -274,9 +278,14 @@ ro.netflix.bsp_rev=MT6878-38373-1
 
 # NTF
 ro.vendor.nothing.feature.base=0xe24800001004458438124a040106b4247b97ffL
+ro.vendor.nothing.feature.diff.device.Galaxian=0x211048090ec02cd3813f4d02258c42080L
 ro.vendor.nothing.feature.diff.product.GalagaEEA=0x8000000000000000000000L
 ro.vendor.nothing.feature.diff.product.GalagaIND=0x10000000000000000000000L
 ro.vendor.nothing.feature.diff.product.GalagaJPN=0x120000000000000000000000L
+ro.vendor.nothing.feature.diff.product.GalaxianEEA=0x8000000000000000000000L
+ro.vendor.nothing.feature.diff.product.GalaxianIND=0x10000000000000000000000L
+ro.vendor.nothing.feature.diff.product.GalaxianJPN=0x120000000000000000000000L
+ro.vendor.nothing.feature.diff.product.GalaxianTUR=0x20100000000000000000000000L
 
 # NVRAM
 ro.vendor.mtk_eccci_c2k=1

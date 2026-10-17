@@ -7,3 +7,6 @@ type_transition vendor_ntf device:file vendor_ntf_file;
 
 allow vendor_ntf device:dir w_dir_perms;
 allow vendor_ntf vendor_ntf_file:file create_file_perms;
+
+# ntf-service mirrors ro.vendor.nothing.* into ro.build.nothing.*
+get_prop(vendor_ntf, vendor_nt_camera_prop)

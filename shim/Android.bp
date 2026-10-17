@@ -1,14 +1,3 @@
-cc_library {
-    name: "libcamera_metadata_ntshim",
-    shared_libs: ["libcamera_metadata"],
-    header_libs: [
-        "libcutils_headers",
-        "libsystem_headers",
-    ],
-    srcs: ["camera_metadata.cpp"],
-    vendor: true,
-}
-
 cc_library_shared {
     name: "libaudiotrack_shim",
     srcs: ["AudioTrackShim.cpp"],
