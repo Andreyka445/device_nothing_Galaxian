@@ -1,0 +1,22 @@
+# MTK APUsys (NPU) device node
+#
+# NTCamera's libapu_mdw.so opens /dev/apusys with O_RDWR|O_SYNC from the
+# platform_app_36 domain, i.e. as a subject at level s0:c512,c768, while the
+# node itself is at s0. The platform chr_file MLS constraint
+#
+#   (mlsconstrain (chr_file (write setattr append unlink link rename))
+#     (or (or (or (or (eq t2 app_data_file_type) (eq t2 appdomain_tmpfs))
+#                 (eq l1 l2))
+#             (eq t1 mlstrustedsubject))
+#         (eq t2 mlstrustedobject)))
+#
+# only lets a category-carrying app write to the node when the object type is
+# in mlstrustedobject. The read constraint uses "(dom l1 l2)", which matches
+# (s0:c512,c768 dominates s0), so O_RDONLY is allowed while O_RDWR is not.
+# Without this the open fails with EACCES even though the platform_app_36 type
+# rules allow read/write/open on apusys_device.
+#
+# Stock Galaxian vendor policy lists apusys_device in mlstrustedobject; this
+# ROM's policy omits it (it is the only writable chr_file in the whole policy
+# that is missing from the attribute). Restore parity with stock.
+typeattribute apusys_device mlstrustedobject;
