@@ -19,4 +19,10 @@
 # Stock Galaxian vendor policy lists apusys_device in mlstrustedobject; this
 # ROM's policy omits it (it is the only writable chr_file in the whole policy
 # that is missing from the attribute). Restore parity with stock.
+#
+# NOTE: the apusys_device type is declared by device/mediatek/sepolicy_vndr,
+# and checkpolicy requires a type to be declared before a typeattribute
+# statement referencing it (unlike allow rules, which are resolved later).
+# That is why this file lives in sepolicy/vendor-post, which BoardConfig.mk
+# appends after the MTK include.
 typeattribute apusys_device mlstrustedobject;
