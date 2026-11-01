@@ -64,7 +64,7 @@ $(call inherit-product, hardware/dolby/dolby.mk)
 
 # LunarisDolby
 PRODUCT_PACKAGES += \
-    LunarisDolby
+    DolbyAtmos
 
 # Fenrir
 $(call soong_config_set_bool,fastbootd,bypass_lock_state,true)
