@@ -20,13 +20,13 @@ Local manifest | https://github.com/Andreyka445/local_manifest
 
 Required repos💫:
 
-Vendor tree: https://github.com/Andreyka445/vendor_nothing_galaxian
+Vendor tree: Regenerate it via yourself im lazy to push
 
 kernel tree: https://github.com/Andreyka445/android_device_nothing_Galaxian-kernel
 
-hw/mtk: https://github.com/LineageOS/android_hardware_mediatek
+hw/mtk: https://github.com/Nothing-Phone-3a-Lite/hardware_mediatek
 
-sepolicy: https://github.com/Andreyka445/device_mediatek_sepolicy_vndr
+sepolicy: 
 
 Dolby: https://github.com/samakshkambxj/hardware_dolby
 
