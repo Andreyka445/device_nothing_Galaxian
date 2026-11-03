@@ -354,8 +354,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel/pixelstats \
     hardware/google/pixel/usb \
     hardware/google/pixel/power-libperfmgr \
-    hardware/google/pixel/thermal
-    hardware/mediatek/libion_mtk \
+    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/google/pixel/thermal \
+    hardware/mediatek/libion_mtk
 
 
 # Thermal
