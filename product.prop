@@ -16,6 +16,11 @@ bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 
+# Camera
+ro.com.google.lens.oem_camera_package=com.nothing.camera
+ro.camerax.extensions.enabled=true
+vendor.camera.aux.packagelist=com.mediatek.camera,com.nothing.ois.cal,com.nothing.camera,com.tools.cit
+
 # RKPD
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
 remote_provisioning.tee.rkp_only=1

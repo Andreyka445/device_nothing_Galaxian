@@ -164,6 +164,10 @@ TARGET_USERIMAGES_USE_F2FS := true
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+# Must be appended after the MTK include: checkpolicy needs a type to be
+# declared before any "typeattribute <type> ..." statement that names it, and
+# the MTK vendor policy is what declares apusys_device/vpu_device/mdla_device.
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor-post
 
 # Verified boot
 BOARD_AVB_ENABLE := true

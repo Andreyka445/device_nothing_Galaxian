@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+import os
+import shutil
+
 from extract_utils.fixups_blob import (
     blob_fixup,
     blob_fixups_user_type,
@@ -30,6 +33,17 @@ lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
     'vendor.mediatek.hardware.videotelephony-v1-ndk': lib_fixup_vendor_suffix,
 }
+
+def nt_gallery_prebuilt_impl(ctx, file, file_path, *args, **kwargs):
+    # The stock NTGallery is replaced wholesale by a merged build of Nothing's
+    # newer, split-APK release. The APK is pinned in proprietary-files.txt via
+    # its source hash and its post-fixup hash, so re-running extraction either
+    # keeps this exact file or regenerates it and verifies both hashes.
+    prebuilt = os.path.join(
+        ctx.module_dir, 'blob-patches/ntgallery/NTGallery.apk'
+    )
+    shutil.copy(prebuilt, file_path)
+
 
 blob_fixups: blob_fixups_user_type = {
     (
@@ -119,6 +133,35 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libsilkybrightnesscore.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'system_ext/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so': blob_fixup()
+        .replace_needed('android.hardware.graphics.common-V6-ndk.so','android.hardware.graphics.common-V7-ndk.so'),
+    'vendor/lib64/vendor.noth.hardware.camera-service-impl.so': blob_fixup()
+        .add_needed('libui_shim.so'),
+    'vendor/lib64/libntcamskia.so': blob_fixup()
+        .add_needed('libnativewindow.so'),
+    'system_ext/priv-app/NTCamera/NTCamera.apk': blob_fixup()
+        .apktool_patch('blob-patches/ntcam-patches'),
+    'system_ext/priv-app/NTGallery/NTGallery.apk': blob_fixup()
+        .call(nt_gallery_prebuilt_impl),
+    'system_ext/lib64/libofflineproc_jni_aidl.so': blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
+    (
+        'vendor/lib64/libAncHumanBeauty.so',
+        'vendor/lib64/libwa_rtdof.so',
+    ): blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_allocate')
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_release')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
+    'vendor/lib64/libmorpho_RapidEffect.so': blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_allocate')
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lockPlanes')
+        .clear_symbol_version('AHardwareBuffer_release')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

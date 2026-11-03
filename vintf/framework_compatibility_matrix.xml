@@ -58,4 +58,12 @@
             <instance>mtk_mnl2jam</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.noth.hardware.camera</name>
+        <interface>
+            <name>INtCamService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>
+
