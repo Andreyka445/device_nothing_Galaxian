@@ -2,6 +2,9 @@
 vendor_restricted_prop(vendor_fingerprint_prop)
 vendor_public_prop(vendor_nothing_property)
 
+# TEE
+vendor_restricted_prop(vendor_trustonic_prop)
+
 vendor_public_prop(vendor_camera_prop)
 vendor_public_prop(vendor_nt_camera_prop)
 
