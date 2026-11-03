@@ -159,7 +159,6 @@ ro.lmk.thrashing_limit_decay=10
 persist.log.tag.surfaceflinger=S
 persist.log.tag.C2PSPerfCtrl=S
 
-
 # Media
 debug.stagefright.c2inputsurface=-1
 media.c2.dmabuf.padding=3072
