@@ -1583,4 +1583,3 @@ system_ext/priv-app/NTGallery/NTGallery.apk
 system_ext/priv-app/NothingExperience/NothingExperience.apk
 vendor/lib64/libvpu.so
 vendor/lib64/libvpu5.so
->>>>>>> d674921 (Galaxian: Initial port of NTCamera)
