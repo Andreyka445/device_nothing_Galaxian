@@ -76,10 +76,6 @@ on boot
     chmod 0664 /dev/cpuset/surfaceflinger/tasks
     chmod 0664 /dev/cpuset/surfaceflinger/cgroup.procs
 
-    # NTCamera algo cpuset/cpuctl/stune groups are created by the stock
-    # nt_performance_init.rc (system_ext/etc/init), which owns
-    # /dev/cpuset/ntcam-algo as system:camera so the app can tune it.
-
 on property:sys.boot_completed=1
     # end boot time fs tune
     write /sys/block/mmcblk0/queue/nr_requests 64

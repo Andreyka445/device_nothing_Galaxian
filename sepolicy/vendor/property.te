@@ -6,6 +6,5 @@ vendor_public_prop(vendor_nothing_property)
 vendor_restricted_prop(vendor_trustonic_prop)
 
 vendor_public_prop(vendor_camera_prop)
-vendor_public_prop(vendor_nt_camera_prop)
 
 get_prop(priv_app, vendor_camera_prop)
