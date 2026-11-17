@@ -66,9 +66,6 @@ $(call inherit-product, hardware/dolby/dolby.mk)
 PRODUCT_PACKAGES += \
     DolbyAtmos
 
-# Fenrir
-$(call soong_config_set_bool,fastbootd,bypass_lock_state,true)
-
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio@7.1-impl \
